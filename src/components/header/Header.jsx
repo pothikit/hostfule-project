@@ -19,11 +19,11 @@ export const Header = () => {
                     </ul>
                 </div>
             </div>
-            <nav className='border-b border-primary'>
+            <nav className='border-b border-primary border-opacity-20 py-2'>
                 <div className="container mx-auto">
                     <div className="navigation-menu flex justify-between items-center py-2">
                         <div className="logo">
-                            <img src={logo} alt="Logo" />
+                            <Link to="/"><img src={logo} alt="Logo" /></Link>
                         </div>
                         <Navbar></Navbar>
                     </div>
