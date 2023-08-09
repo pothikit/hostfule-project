@@ -9,14 +9,13 @@ export const Navbar = () => {
                 <li className='flex items-center gap-1 font-bold text-base group relative'><Link>Web Hosting</Link><BiSolidDownArrow className='group-hover:rotate-180 duration-200' />
                     {/* web-hosting dropdown */}
                     <div className="drop-down absolute cursor-pointer hidden group-hover:block pt-8 top-0">
-                        <ul className=' bg-gradient-to-tr from-primary to-secondary text-white p-6 flex-col flex shadow-xl shadow-gray-400 gap-5 rounded'>
-                            <li className='hover:opacity-70'><Link className='whitespace-nowrap'>Shared Hosting</Link></li>
-                            <li className='hover:opacity-70'><Link className='whitespace-nowrap'>VPS</Link></li>
+                        <ul className=' bg-gradient-to-tr from-primary to-secondary text-white p-6 flex shadow-xl shadow-gray-400 items-center rounded'>
+                            <li className='hover:opacity-70'><Link className='whitespace-nowrap border-r-2'>Shared Hosting</Link></li>
                             <li className='hover:opacity-70'><Link className='whitespace-nowrap'>Email Hosting</Link></li>
                         </ul>
                     </div>
                 </li>
-                <li className='flex items-center gap-1 font-bold text-base group relative'><Link>Cloud Server</Link><BiSolidDownArrow className='group-hover:rotate-180 duration-200' />
+                <li className='flex items-center gap-1 font-bold text-base group relative'><Link>Dedicated Servers</Link><BiSolidDownArrow className='group-hover:rotate-180 duration-200' />
                     {/* web-hosting dropdown */}
                     <div className="drop-down absolute cursor-pointer hidden group-hover:block pt-8 top-0">
                         <ul className=' bg-gradient-to-tr from-primary to-secondary text-white p-6 flex-col flex shadow-xl shadow-gray-400 gap-5 rounded'>
