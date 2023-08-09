@@ -3,7 +3,7 @@ import logo from "../../hostflu-logo.png"
 import "./header.css"
 import { FaEnvelope, FaWhatsappSquare } from "react-icons/fa";
 import { RxAvatar } from "react-icons/rx";
-import { MdContactPage } from "react-icons/md";
+import { } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import { Navbar } from "./Navbar";
 
@@ -15,7 +15,6 @@ export const Header = () => {
                     <ul className='flex justify-end items-center gap-12 text-white text-lg'>
                         <li className=''><a href="https://wa.me/+8801719375526" className='flex items-center gap-4'><span className="rotate-[270deg]"><FaWhatsappSquare /></span>+880 1719-375526</a></li>
                         <li className=''><a href="mailto:hostflu@gmail.com" className='flex items-center gap-4'><FaEnvelope />Contact us</a></li>
-                        <li className=''><Link className="flex items-center gap-4" to="login"><MdContactPage />Contact Us</Link></li>
                         <li className=''><Link className="flex items-center gap-4" to="login"><RxAvatar />login / Registration</Link></li>
                     </ul>
                 </div>
