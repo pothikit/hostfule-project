@@ -46,9 +46,9 @@ export const Navbar = () => {
                     {/* webhosting */}
                     <Link>Dedicated Servers</Link><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' />
                     {/* web-hosting dropdown */}
-                    <div className="drop-down absolute hidden group-hover:block pt-5 top-7 -translate-x-[40%] p-4">
+                    <div className="drop-down absolute hidden group-hover:block pt-7 top-6 -translate-x-[40%] p-4">
                         <ul className='flex shadow-sm shadow-gray-400 items-start rounded bg-[#ffffffda]'>
-                            <li className='space-y-7'>
+                            <li className='space-y-5'>
                                 {/* By Region */}
                                 <h4 className='text-bold text-xl text-left px-10'>By Region</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
@@ -60,7 +60,7 @@ export const Navbar = () => {
                                 </ul>
                             </li>
                             {/* Reseller hosting */}
-                            <li className='space-y-7'>
+                            <li className='space-y-5'>
                                 {/*   By Options */}
                                 <h4 className='text-bold text-xl text-left px-10'>By Options</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10 '>
@@ -71,9 +71,9 @@ export const Navbar = () => {
                                     <li className='font-normal'><Link className='hover:text-primary'>IPv6</Link></li>
                                 </ul>
                             </li>
-                            <li className='space-y-7  mb-3'>
+                            <li className='space-y-5 mb-3'>
                                 {/*    Popular Locations */}
-                                <h4 className='text-bold text-xl text-center px-10'>Popular Locations</h4>
+                                <h4 className='text-bold text-xl text-left px-10'>Popular Locations</h4>
                                 <ul className='flex gap-5 whitespace-nowrap drop-mega px-10'>
                                     <ul className='space-y-2 px-10'>
                                         <li className='font-normal'><Link className='hover:text-primary'>Paris</Link></li>
