@@ -46,11 +46,11 @@ export const Navbar = () => {
                     {/* webhosting */}
                     <Link>Dedicated Servers</Link><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' />
                     {/* web-hosting dropdown */}
-                    <div className="drop-down absolute hidden group-hover:block pt-7 top-6 -translate-x-[40%] p-4">
-                        <ul className='flex shadow-sm shadow-gray-400 items-start rounded bg-[#ffffffda]'>
+                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
+                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda]'>
                             <li className='space-y-5'>
                                 {/* By Region */}
-                                <h4 className='text-bold text-xl text-left px-10'>By Region</h4>
+                                <h4 className='text-bold text-xl text-left px-10 text-primary'>By Region</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>North America</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>Europe</Link></li>
@@ -62,7 +62,7 @@ export const Navbar = () => {
                             {/* Reseller hosting */}
                             <li className='space-y-5'>
                                 {/*   By Options */}
-                                <h4 className='text-bold text-xl text-left px-10'>By Options</h4>
+                                <h4 className='text-bold text-xl text-left px-10 text-primary'>By Options</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>1 Gbps Bandwidth</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>Unmetered Bandwidth</Link></li>
@@ -73,7 +73,7 @@ export const Navbar = () => {
                             </li>
                             <li className='space-y-5 mb-3'>
                                 {/*    Popular Locations */}
-                                <h4 className='text-bold text-xl text-left px-10'>Popular Locations</h4>
+                                <h4 className='text-bold text-xl text-left px-10 text-primary'>Popular Locations</h4>
                                 <ul className='flex gap-5 whitespace-nowrap drop-mega'>
                                     <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                         <li className='font-normal'><Link className='hover:text-primary'>Paris</Link></li>
