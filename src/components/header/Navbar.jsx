@@ -46,11 +46,11 @@ export const Navbar = () => {
                     {/* webhosting */}
                     <Link>Dedicated Servers</Link><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' />
                     {/* web-hosting dropdown */}
-                    <div className="drop-down absolute hidden group-hover:block pt-12 top-5 -translate-x-[40%] p-4">
-                        <ul className='flex shadow-sm shadow-gray-400 items-start p-10 rounded bg-[#ffffffda]'>
+                    <div className="drop-down absolute hidden group-hover:block pt-8 top-5 -translate-x-[40%] p-4">
+                        <ul className='flex shadow-sm shadow-gray-400 items-start p-2 rounded bg-[#ffffffda]'>
                             <li className='flex flex-col items-center justify-center gap-5 border-r px-10 p-3'>
                                 {/* By Region */}
-                                <ul className='flex flex-col gap-5 whitespace-nowrap drop-mega'>
+                                <ul className='flex flex-col gap-3 whitespace-nowrap drop-mega'>
                                     <li className='text-bold text-xl'>By Region</li>
                                     <li className='font-normal'><Link className='hover:text-primary'>North America</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>Europe</Link></li>
@@ -60,7 +60,7 @@ export const Navbar = () => {
                                 </ul>
                             </li>
                             {/* Reseller hosting */}
-                            <li className='flex flex-col items-center justify-center gap-5 border-r px-10 p-3'>
+                            <li className='flex flex-col items-center justify-center gap-3 border-r px-10 p-3'>
                                 {/*   By Options */}
                                 <ul className='flex flex-col gap-5 whitespace-nowrap drop-mega'>
                                     <li className='text-bold text-xl'>By Options</li>
@@ -74,7 +74,7 @@ export const Navbar = () => {
                             <li className='flex flex-col items-center justify-center gap-5 px-10 p-3'>
                                 {/*    Popular Locations */}
                                 <ul className='flex gap-5 whitespace-nowrap drop-mega'>
-                                    <ul className='border-r pr-10'>
+                                    <ul className='space-y-2'>
                                         <li className='text-bold text-xl'>Popular Locations</li>
                                         <li className='font-normal'><Link className='hover:text-primary'>Paris</Link></li>
                                         <li className='font-normal'><Link className='hover:text-primary'>France</Link></li>
@@ -83,7 +83,7 @@ export const Navbar = () => {
                                         <li className='font-normal'><Link className='hover:text-primary'>Montreal</Link></li>
                                         <li className='font-normal'><Link className='hover:text-primary'>Canada</Link></li>
                                     </ul>
-                                    <ul>
+                                    <ul className='mt-7 space-y-2'>
                                         <li className='font-normal'><Link className='hover:text-primary'>Los Angeles</Link></li>
                                         <li className='font-normal'><Link className='hover:text-primary'>United-States</Link></li>
                                         <li className='font-normal'><Link className='hover:text-primary'>London</Link></li>
