@@ -158,32 +158,18 @@ export const Navbar = () => {
                     {/* about us */}
                     <Link className='group-hover:text-primary'>About us</Link><span className='text-[10px]'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* about us */}
-                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 p-4 -right-40">
+                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 p-4 -translate-x-[30%]">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda] p-4 pt-0'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>Our Company</h4>
-                                {/* <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>domain registration</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>domain Search</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Privacy Protection</Link></li>
-                                </ul> */}
+                                {/* <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'></h4> */}
+                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
+                                    <li className='font-normal'><Link className='hover:text-primary'>Our Company</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary'>About Our Services</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary'>Payment Method</Link></li>
+                                </ul>
                             </li>
-                            {/* Reseller hosting */}
-                            <li className='space-y-5'>
-                                {/*   Reseller Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>About Our Services</h4>
-                                {/* <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Domain Transfer</Link></li>
-                                </ul> */}
-                            </li>
-                            <li className='space-y-5'>
-                                {/*   Reseller Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>Payment Method </h4>
-                                {/* <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Domain Reselle</Link></li>
-                                </ul> */}
-                            </li>
+
                         </ul>
                     </div>
                 </li>
