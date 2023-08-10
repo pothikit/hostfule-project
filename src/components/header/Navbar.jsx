@@ -143,18 +143,13 @@ export const Navbar = () => {
                             {/* Reseller hosting */}
                             <li className='space-y-5'>
                                 {/*   Reseller Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>Transfer</h4>
+                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>Domain Service</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>Domain Transfer</Link></li>
-                                </ul>
-                            </li>
-                            <li className='space-y-5'>
-                                {/*   Reseller Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>Reseller</h4>
-                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>Domain Reselle</Link></li>
                                 </ul>
                             </li>
+
                         </ul>
                     </div>
                 </li>

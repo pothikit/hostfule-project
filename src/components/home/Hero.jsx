@@ -12,9 +12,13 @@ function Hero() {
                                 <span className='block'>Faster Web hosting</span>
                                 <span>to Help Your Succeed !</span>
                             </h1>
-                            <p className='text-base text-black '>From our easy-to-use tools, to our free website migration, to our
+                            <p className='text-base text-black my-6 max-w-xl'>From our easy-to-use tools, to our free website migration, to our<br />
                                 unmatched Guru Crew Support, we provide everything you
                                 need to create a successful website.</p>
+                            {/* list item hero */}
+                            <ul>
+                                <li></li>
+                            </ul>
                         </div>
                     </div>
                     <div className=''>
