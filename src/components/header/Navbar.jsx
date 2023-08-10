@@ -20,7 +20,7 @@ export const Navbar = () => {
                                 <span className='w-20 h-20 flex items-center justify-center bg-blue-50 text-primary text-4xl rounded-full'><RiServerFill /></span>
                                 <div className='text-center'>
                                     <Link className='whitespace-nowrap mb-2 block'>Shared Hosting</Link>
-                                    <h5>From $50</h5>
+                                    <h5 className='text-sm text-black'>From $50</h5>
                                 </div>
                             </li>
                             {/* Reseller hosting */}
@@ -28,14 +28,14 @@ export const Navbar = () => {
                                 <span className='w-20 h-20 flex items-center justify-center bg-blue-50 text-primary text-4xl rounded-full'><FaServer /></span>
                                 <div className='text-center'>
                                     <Link className='whitespace-nowrap mb-2 block'>Reseller Hosting</Link>
-                                    <h5>From $50</h5>
+                                    <h5 className='text-sm text-black'>From $50</h5>
                                 </div>
                             </li>
                             <li className='flex flex-col items-center justify-center gap-5 px-10 hover:bg-gradient-to-tr from-primary to-secondary p-3 hover:text-white'>
                                 <span className='w-20 h-20 flex items-center justify-center bg-blue-50 text-primary text-4xl rounded-full'><MdMarkEmailRead /></span>
                                 <div className='text-center'>
                                     <Link className='whitespace-nowrap mb-2 block'>E-mail Hosting</Link>
-                                    <h5>From $50</h5>
+                                    <h5 className='text-sm text-black'>From $50</h5>
                                 </div>
                             </li>
                         </ul>
