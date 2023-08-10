@@ -63,7 +63,7 @@ export const Navbar = () => {
                             <li className='space-y-5'>
                                 {/*   By Options */}
                                 <h4 className='text-bold text-xl text-left px-10'>By Options</h4>
-                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10 '>
+                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>1 Gbps Bandwidth</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>Unmetered Bandwidth</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>10Gbps Bandwidth</Link></li>
@@ -74,8 +74,8 @@ export const Navbar = () => {
                             <li className='space-y-5 mb-3'>
                                 {/*    Popular Locations */}
                                 <h4 className='text-bold text-xl text-left px-10'>Popular Locations</h4>
-                                <ul className='flex gap-5 whitespace-nowrap drop-mega px-10'>
-                                    <ul className='space-y-2 px-10'>
+                                <ul className='flex gap-5 whitespace-nowrap drop-mega'>
+                                    <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                         <li className='font-normal'><Link className='hover:text-primary'>Paris</Link></li>
                                         <li className='font-normal'><Link className='hover:text-primary'>France</Link></li>
                                         <li className='font-normal'><Link className='hover:text-primary'>Amsterdam</Link></li>
@@ -83,7 +83,7 @@ export const Navbar = () => {
                                         <li className='font-normal'><Link className='hover:text-primary'>Montreal</Link></li>
                                         <li className='font-normal'><Link className='hover:text-primary'>Canada</Link></li>
                                     </ul>
-                                    <ul className='space-y-2 px-10'>
+                                    <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                         <li className='font-normal'><Link className='hover:text-primary'>Los Angeles</Link></li>
                                         <li className='font-normal'><Link className='hover:text-primary'>United-States</Link></li>
                                         <li className='font-normal'><Link className='hover:text-primary'>London</Link></li>
