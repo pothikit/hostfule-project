@@ -7,7 +7,7 @@ import { BiSolidDownArrow } from "react-icons/bi";
 
 export const Navbar = () => {
     return (
-        <div className='text-black'>
+        <div className=''>
             <ul className='flex gap-14 items-center'>
                 {/* webhosting with dorpdown */}
                 <li className='flex items-center gap-2 font-bold text-base group relative'>
@@ -31,19 +31,19 @@ export const Navbar = () => {
                                 {/*   Reseller Hosting */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>Reseller Hosting</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-1</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-2</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-3</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>RSP -1</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>RSP -2</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>RSP -3</Link></li>
                                 </ul>
                             </li>
                             <li className='space-y-5'>
                                 {/*   Reseller Hosting */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>E-mail Hosting</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-1</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-2</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-3</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-4</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>StartUp</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Micro Team</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Team Plus</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>CloudMail Express</Link></li>
                                 </ul>
                             </li>
 
@@ -127,6 +127,7 @@ export const Navbar = () => {
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Transfer</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Reselle</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain priceing</Link></li>
                                 </ul>
                             </li>
 

@@ -9,17 +9,21 @@ import { Navbar } from "./Navbar";
 
 export const Header = () => {
     return (
-        <header className=''>
-            <div className="top-header py-2">
-                <div className="container mx-auto">
-                    <ul className='flex justify-end items-center gap-12 text-white text-lg'>
-                        <li className=''><a href="https://wa.me/+8801719375526" className='flex items-center gap-4'><span className="rotate-[270deg]"><FaWhatsappSquare /></span>+8801719375526</a></li>
-                        <li className=''><a href="mailto:hostflu@gmail.com" className='flex items-center gap-4'><FaEnvelope />Contact us</a></li>
-                        <button className="p-2 border border-black border-opacity-40 hover:text-black hover:border-white duration-500 px-4 text-white rounded-md text-base">CLIENT PORTAL</button>
-                    </ul>
+        <>
+            <header className=''>
+                <div className="top-header py-2">
+                    <div className="container mx-auto">
+                        <ul className='flex justify-end items-center gap-12 text-white text-lg'>
+                            <li className=''><a href="https://wa.me/+8801719375526" className='flex items-center gap-4'><span className="rotate-[270deg]"><FaWhatsappSquare /></span>+8801719375526</a></li>
+                            <li className=''><a href="mailto:hostflu@gmail.com" className='flex items-center gap-4'><FaEnvelope />Contact us</a></li>
+                            <button className="p-2 border border-black border-opacity-40 hover:text-black hover:border-white duration-500 px-4 text-white rounded-md text-base">CLIENT PORTAL</button>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <nav className='border-b border-primary border-opacity-20 py-3'>
+
+            </header>
+            {/* navbar */}
+            <nav className='border-b border-primary border-opacity-20 py-3 sticky top-0 bg-white'>
                 <div className="container mx-auto">
                     <div className="navigation-menu flex justify-between items-center py-2">
                         <div className="logo">
@@ -29,6 +33,6 @@ export const Header = () => {
                     </div>
                 </div>
             </nav>
-        </header>
+        </>
     )
 }
