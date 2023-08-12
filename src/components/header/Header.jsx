@@ -23,7 +23,7 @@ export const Header = () => {
                 <div className="container mx-auto">
                     <div className="navigation-menu flex justify-between items-center py-2">
                         <div className="logo">
-                            <Link to="/"><img src={logo} alt="Logo" /></Link>
+                            <Link to="/"><img src={logo} alt="Logo" width='150' /></Link>
                         </div>
                         <Navbar></Navbar>
                     </div>

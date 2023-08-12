@@ -10,15 +10,15 @@ export const Navbar = () => {
         <div className='text-black'>
             <ul className='flex gap-14 items-center'>
                 {/* webhosting with dorpdown */}
-                <li className='flex items-center gap-1 font-bold text-base group relative'>
+                <li className='flex items-center gap-2 font-bold text-base group relative'>
                     {/* webhosting */}
-                    <Link className='group-hover:text-primary'>Web Hosting</Link><span className='text-[10px]'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                    <Link className='group-hover:text-primary text-lg font-normal flex items-center'>Web Hosting</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda] p-4 pt-0'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>Shared Hosting</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Shared Hosting</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                     <li className='font-normal'><Link to="https://my.hostflu.com/index.php?rp=/store/shared-hosting/mini" className='hover:text-primary'>Mini</Link></li>
                                     <li className='font-normal'><Link to="https://my.hostflu.com/index.php?rp=/store/shared-hosting/starter" className='hover:text-primary'>Starter</Link></li>
@@ -29,7 +29,7 @@ export const Navbar = () => {
                             {/* Reseller hosting */}
                             <li className='space-y-5'>
                                 {/*   Reseller Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>Reseller Hosting</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Reseller Hosting</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>Packge-1</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>Packge-2</Link></li>
@@ -38,7 +38,7 @@ export const Navbar = () => {
                             </li>
                             <li className='space-y-5'>
                                 {/*   Reseller Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>E-mail Hosting</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>E-mail Hosting</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>Packge-1</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>Packge-2</Link></li>
@@ -52,15 +52,15 @@ export const Navbar = () => {
                     </div>
                 </li>
                 {/* dedicated server with dorpdown */}
-                <li className='flex items-center gap-1 font-bold text-base group relative'>
+                <li className='flex items-center gap-2 font-bold text-base group relative'>
                     {/* Dedicated */}
-                    <Link className='group-hover:text-primary'>Dedicated Servers</Link><span className='text-[10px]'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                    <Link className='group-hover:text-primary text-lg font-normal'>Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda] p-4 pt-0'>
                             <li className='space-y-5'>
                                 {/* By Region */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary'>By Region</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>By Region</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>North America</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>Europe</Link></li>
@@ -72,7 +72,7 @@ export const Navbar = () => {
                             {/* Reseller hosting */}
                             <li className='space-y-5'>
                                 {/*   By Options */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary'>By Options</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>By Options</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>1 Gbps Bandwidth</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>Unmetered Bandwidth</Link></li>
@@ -83,7 +83,7 @@ export const Navbar = () => {
                             </li>
                             <li className='space-y-5 mb-3'>
                                 {/*    Popular Locations */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary'>Popular Locations</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Popular Locations</h4>
                                 <ul className='flex gap-5 whitespace-nowrap drop-mega'>
                                     <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                         <li className='font-normal'><Link className='hover:text-primary'>Paris</Link></li>
@@ -106,34 +106,16 @@ export const Navbar = () => {
                         </ul>
                     </div>
                 </li>
-                {/* VPS menu */}
-                <li className='flex items-center gap-1 font-bold text-base group relative'>
-                    {/* vps */}
-                    <Link className='group-hover:text-primary'>VPS</Link><span className='text-[10px]'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
-                    {/* web-hosting dropdown */}
-                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
-                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda] p-4 pt-0'>
-                            <li className='space-y-5'>
-                                {/* Shared Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'> Managed VPS</h4>
-                            </li>
-                            {/* Reseller hosting */}
-                            <li className='space-y-5'>
-                                {/*   Reseller Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'> Managed VPS</h4>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li className='flex items-center gap-1 font-bold text-base group relative'>
+                {/* Other Services */}
+                <li className='flex items-center gap-2 font-bold text-base group relative'>
                     {/* Domain */}
-                    <Link className='group-hover:text-primary'>Domain</Link><span className='text-[10px]'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                    <Link className='group-hover:text-primary text-lg font-normal'>Domain</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda] p-4 pt-0'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>Registration</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Registration</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>domain registration</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>domain Search</Link></li>
@@ -143,7 +125,7 @@ export const Navbar = () => {
                             {/* Reseller hosting */}
                             <li className='space-y-5'>
                                 {/*   Reseller Hosting */}
-                                <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'>Domain Service</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Domain Service</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>Domain Transfer</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>Domain Reselle</Link></li>
@@ -153,16 +135,33 @@ export const Navbar = () => {
                         </ul>
                     </div>
                 </li>
-
-                <li className='flex items-center gap-1 font-bold text-base group relative'>
+                <li className='flex items-center gap-2 font-bold text-base group relative'>
+                    {/* Other Services */}
+                    <Link className='group-hover:text-primary text-lg font-normal'>Other Services</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                    {/* web-hosting dropdown */}
+                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
+                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda] p-4 pt-0'>
+                            <li className='space-y-5'>
+                                {/* Shared Hosting */}
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'> Managed VPS</h4>
+                            </li>
+                            {/* Reseller hosting */}
+                            <li className='space-y-5'>
+                                {/*   Reseller Hosting */}
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'> Managed VPS</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li className='flex items-center gap-2 font-bold text-base group relative'>
                     {/* about us */}
-                    <Link className='group-hover:text-primary'>About us</Link><span className='text-[10px]'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                    <Link className='group-hover:text-primary text-lg font-normal'>About us</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* about us */}
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 p-4 -translate-x-[30%]">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda] p-4 pt-0'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
-                                {/* <h4 className='text-bold text-xl text-left px-10 text-primary whitespace-nowrap'></h4> */}
+                                {/* <h4 className='text-base text-left px-10 whitespace-nowrap'></h4> */}
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary'>Our Company</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary'>About Our Services</Link></li>
