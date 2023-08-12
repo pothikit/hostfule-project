@@ -31,19 +31,19 @@ export const Navbar = () => {
                                 {/*   Reseller Hosting */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>Reseller Hosting</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Packge-1</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Packge-2</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Packge-3</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-1</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-2</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-3</Link></li>
                                 </ul>
                             </li>
                             <li className='space-y-5'>
                                 {/*   Reseller Hosting */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>E-mail Hosting</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Packge-1</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Packge-2</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Packge-3</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Packge-4</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-1</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-2</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-3</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Packge-4</Link></li>
                                 </ul>
                             </li>
 
@@ -62,11 +62,11 @@ export const Navbar = () => {
                                 {/* By Region */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>By Region</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>North America</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Europe</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>South America</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Asia</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Africa</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>North America</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Europe</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>South America</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Asia</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Africa</Link></li>
                                 </ul>
                             </li>
                             {/* Reseller hosting */}
@@ -74,11 +74,11 @@ export const Navbar = () => {
                                 {/*   By Options */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>By Options</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>1 Gbps Bandwidth</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Unmetered Bandwidth</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>10Gbps Bandwidth</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Dedicated GPU</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>IPv6</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>1 Gbps Bandwidth</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Unmetered Bandwidth</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>10Gbps Bandwidth</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Dedicated GPU</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>IPv6</Link></li>
                                 </ul>
                             </li>
                             <li className='space-y-5 mb-3'>
@@ -86,27 +86,25 @@ export const Navbar = () => {
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>Popular Locations</h4>
                                 <ul className='flex gap-5 whitespace-nowrap drop-mega'>
                                     <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
-                                        <li className='font-normal'><Link className='hover:text-primary'>Paris</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>France</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>Amsterdam</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>Netherlands</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>Montreal</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>Canada</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>Paris</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>France</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>Netherlands</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>Montreal</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>Canada</Link></li>
                                     </ul>
                                     <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
-                                        <li className='font-normal'><Link className='hover:text-primary'>Los Angeles</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>United-States</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>London</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>United Kingdom</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>Dusseldorf</Link></li>
-                                        <li className='font-normal'><Link className='hover:text-primary'>Germany</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>Los Angeles</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>United-States</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>London</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>United Kingdom</Link></li>
+                                        <li className='font-normal'><Link className='hover:text-primary capitalize'>Germany</Link></li>
                                     </ul>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                 </li>
-                {/* Other Services */}
+                {/* Domain */}
                 <li className='flex items-center gap-2 font-bold text-base group relative'>
                     {/* Domain */}
                     <Link className='group-hover:text-primary text-lg font-normal'>Domain</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
@@ -117,9 +115,9 @@ export const Navbar = () => {
                                 {/* Shared Hosting */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>Registration</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>domain registration</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>domain Search</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Privacy Protection</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>domain registration</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>domain Search</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Privacy Protection</Link></li>
                                 </ul>
                             </li>
                             {/* Reseller hosting */}
@@ -127,8 +125,8 @@ export const Navbar = () => {
                                 {/*   Reseller Hosting */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>Domain Service</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Domain Transfer</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Domain Reselle</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Transfer</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Reselle</Link></li>
                                 </ul>
                             </li>
 
@@ -143,12 +141,12 @@ export const Navbar = () => {
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda] p-4 pt-0'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
-                                <h4 className='text-base text-left px-10 whitespace-nowrap'> Managed VPS</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Managed VPS</h4>
                             </li>
                             {/* Reseller hosting */}
                             <li className='space-y-5'>
                                 {/*   Reseller Hosting */}
-                                <h4 className='text-base text-left px-10 whitespace-nowrap'> Managed VPS</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Managed VPS</h4>
                             </li>
                         </ul>
                     </div>
@@ -163,9 +161,9 @@ export const Navbar = () => {
                                 {/* Shared Hosting */}
                                 {/* <h4 className='text-base text-left px-10 whitespace-nowrap'></h4> */}
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Our Company</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>About Our Services</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary'>Payment Method</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Our Company</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>About Our Services</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Payment Method</Link></li>
                                 </ul>
                             </li>
 
