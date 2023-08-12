@@ -141,12 +141,29 @@ export const Navbar = () => {
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#ffffffda] p-4 pt-0'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
-                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Managed VPS</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>VPS</h4>
+                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Managed VPS</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Unmanaged VPS</Link></li>
+                                </ul>
                             </li>
                             {/* Reseller hosting */}
                             <li className='space-y-5'>
                                 {/*   Reseller Hosting */}
-                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Managed VPS</h4>
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Wordpress</h4>
+                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>wordpress customization</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>wordpress migration</Link></li>
+                                </ul>
+                            </li>
+                            <li className='space-y-5'>
+                                {/*   Reseller Hosting */}
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Exclusive Services</h4>
+                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>SSL Certificate</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Remote assistant</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Bulk SMS</Link></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
