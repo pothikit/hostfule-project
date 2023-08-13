@@ -16,7 +16,7 @@ function DomainSeach() {
                                 <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold' />
                                 <div className='px-5 space-x-5'>
                                     <select name="" id="" className='outline-0 text-lg px-4 text-gray-500 font-semibold cursor-pointer'>
-                                        <option value="All" selected>All</option>
+                                        <option value="All" defaultValue>All</option>
                                         {alldomain.map((domain) => (
                                             <option key={domain.id} className='text-lg' value={domain.extension}>{domain.extension}</option>
                                         ))}

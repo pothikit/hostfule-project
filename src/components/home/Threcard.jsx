@@ -30,20 +30,20 @@ function Threcard() {
                                 </g>
                                 <defs>
                                     <linearGradient id="paint0_linear_734_305" x1="67.2986" y1="45.2303" x2="14.7894" y2="45.2303" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FF4444" />
-                                        <stop offset="1" stop-color="#FFA301" />
+                                        <stop stopColor="#FF4444" />
+                                        <stop offset="1" stopColor="#FFA301" />
                                     </linearGradient>
                                     <linearGradient id="paint1_linear_734_305" x1="63.7996" y1="56.4455" x2="68.5469" y2="61.1927" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FFA301" />
-                                        <stop offset="1" stop-color="#FF4444" />
+                                        <stop stopColor="#FFA301" />
+                                        <stop offset="1" stopColor="#FF4444" />
                                     </linearGradient>
                                     <linearGradient id="paint2_linear_734_305" x1="42.7518" y1="45.2303" x2="5.95164" y2="45.2303" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FFA301" />
-                                        <stop offset="1" stop-color="#FF4444" />
+                                        <stop stopColor="#FFA301" />
+                                        <stop offset="1" stopColor="#FF4444" />
                                     </linearGradient>
                                     <linearGradient id="paint3_linear_734_305" x1="66.9747" y1="54.4734" x2="64.1778" y2="51.6764" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FFA301" />
-                                        <stop offset="1" stop-color="#FF4444" />
+                                        <stop stopColor="#FFA301" />
+                                        <stop offset="1" stopColor="#FF4444" />
                                     </linearGradient>
                                 </defs>
                             </svg>
@@ -72,16 +72,16 @@ function Threcard() {
                                 </g>
                                 <defs>
                                     <linearGradient id="paint0_linear_734_345" x1="32.5308" y1="52.762" x2="75.2584" y2="52.762" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FFA301" />
-                                        <stop offset="1" stop-color="#FF4444" />
+                                        <stop stopColor="#FFA301" />
+                                        <stop offset="1" stopColor="#FF4444" />
                                     </linearGradient>
                                     <linearGradient id="paint1_linear_734_345" x1="40.3" y1="65.7025" x2="60.3684" y2="65.7025" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FF4444" />
-                                        <stop offset="1" stop-color="#FFA301" />
+                                        <stop stopColor="#FF4444" />
+                                        <stop offset="1" stopColor="#FFA301" />
                                     </linearGradient>
                                     <linearGradient id="paint2_linear_734_345" x1="32.5309" y1="42.4124" x2="40.3" y2="42.4124" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FF4444" />
-                                        <stop offset="1" stop-color="#FFA301" />
+                                        <stop stopColor="#FF4444" />
+                                        <stop offset="1" stopColor="#FFA301" />
                                     </linearGradient>
                                 </defs>
                             </svg>
@@ -108,28 +108,28 @@ function Threcard() {
                                 <path d="M74.048 36.2593C73.6649 36.2593 73.2909 36.1467 72.9731 35.9343L66.5278 31.6368C65.9977 31.2828 65.375 31.0939 64.7377 31.0939H49.5159C47.0249 31.0939 44.9969 29.0678 44.9969 26.575V14.9553C44.9969 12.4643 47.0231 10.4363 49.5159 10.4363H71.4644C73.9554 10.4363 75.9834 12.4625 75.9834 14.9553V34.322C75.9834 35.3914 75.1155 36.2593 74.0462 36.2593H74.048ZM49.5177 14.3107C49.1618 14.3107 48.8713 14.5994 48.8713 14.9571V26.5768C48.8713 26.9326 49.16 27.2231 49.5177 27.2231H64.7395C66.1466 27.2231 67.5083 27.6371 68.6775 28.416L72.1126 30.7072V14.9589C72.1126 14.603 71.8239 14.3125 71.4662 14.3125H49.5177V14.3107ZM15.9494 41.4228C14.8801 41.4228 14.0122 40.5549 14.0122 39.4856V20.1188C14.0122 17.6278 16.0384 15.5998 18.5312 15.5998H37.898V19.4724H18.5312C18.1771 19.476 17.8903 19.7629 17.8848 20.1188V35.8744L21.3326 33.5831C22.4946 32.7933 23.8672 32.3757 25.2706 32.383H45.6432V36.2556H25.2706C24.6333 36.2556 24.0052 36.4463 23.4968 36.793L17.0188 41.0978C16.7029 41.3084 16.3307 41.421 15.9494 41.421V41.4228ZM28.2155 56.9151C23.9452 56.9151 20.4684 53.4401 20.4684 49.168C20.4684 44.896 23.9434 41.421 28.2155 41.421C32.4875 41.421 35.9626 44.896 35.9626 49.168C35.9626 53.4401 32.4875 56.9151 28.2155 56.9151ZM28.2155 45.2954C26.0804 45.2954 24.3429 47.0329 24.3429 49.168C24.3429 51.3032 26.0804 53.0407 28.2155 53.0407C30.3506 53.0407 32.0881 51.3032 32.0881 49.168C32.0881 47.0329 30.3506 45.2954 28.2155 45.2954ZM42.4169 70.472H38.5443V66.5994C38.5443 64.8201 37.0955 63.3713 35.3162 63.3713H21.1148C19.3355 63.3713 17.8867 64.8201 17.8867 66.5994V70.472H14.014V66.5994C14.0177 62.6796 17.1949 59.5005 21.1148 59.4987H35.3162C39.2361 59.5023 42.4151 62.6796 42.4169 66.5994V70.472ZM61.7837 56.9151C57.5135 56.9151 54.0367 53.4401 54.0367 49.168C54.0367 44.896 57.5117 41.421 61.7837 41.421C66.0558 41.421 69.5308 44.896 69.5308 49.168C69.5308 53.4401 66.0558 56.9151 61.7837 56.9151ZM61.7837 45.2954C59.6486 45.2954 57.9111 47.0329 57.9111 49.168C57.9111 51.3032 59.6486 53.0407 61.7837 53.0407C63.9189 53.0407 65.6564 51.3032 65.6564 49.168C65.6564 47.0329 63.9189 45.2954 61.7837 45.2954ZM75.9852 70.472H72.1126V66.5994C72.1126 64.8201 70.6637 63.3713 68.8845 63.3713H54.683C52.9037 63.3713 51.4549 64.8201 51.4549 66.5994V70.472H47.5823V66.5994C47.5859 62.6796 50.7632 59.5005 54.683 59.4987H68.8845C72.8043 59.5023 75.9834 62.6796 75.9852 66.5994V70.472Z" fill="black" />
                                 <defs>
                                     <linearGradient id="paint0_linear_734_327" x1="15.9495" y1="65.953" x2="40.4816" y2="65.953" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FFA301" />
-                                        <stop offset="1" stop-color="#FF4444" />
+                                        <stop stopColor="#FFA301" />
+                                        <stop offset="1" stopColor="#FF4444" />
                                     </linearGradient>
                                     <linearGradient id="paint1_linear_734_327" x1="49.5179" y1="0.857184" x2="74.0482" y2="0.857184" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FFA301" />
-                                        <stop offset="1" stop-color="#FF4444" />
+                                        <stop stopColor="#FFA301" />
+                                        <stop offset="1" stopColor="#FF4444" />
                                     </linearGradient>
                                     <linearGradient id="paint2_linear_734_327" x1="0.0285398" y1="28.5119" x2="48.2267" y2="28.5119" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FFA301" />
-                                        <stop offset="1" stop-color="#FF4444" />
+                                        <stop stopColor="#FFA301" />
+                                        <stop offset="1" stopColor="#FF4444" />
                                     </linearGradient>
                                     <linearGradient id="paint3_linear_734_327" x1="15.9494" y1="28.5119" x2="23.6964" y2="28.5119" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FF4444" />
-                                        <stop offset="1" stop-color="#FFA301" />
+                                        <stop stopColor="#FF4444" />
+                                        <stop offset="1" stopColor="#FFA301" />
                                     </linearGradient>
                                     <linearGradient id="paint4_linear_734_327" x1="0.0285401" y1="65.9531" x2="26.2782" y2="65.9531" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FF4444" />
-                                        <stop offset="1" stop-color="#FFA301" />
+                                        <stop stopColor="#FF4444" />
+                                        <stop offset="1" stopColor="#FFA301" />
                                     </linearGradient>
                                     <linearGradient id="paint5_linear_734_327" x1="49.5177" y1="65.9531" x2="59.8465" y2="65.9531" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#FF4444" />
-                                        <stop offset="1" stop-color="#FFA301" />
+                                        <stop stopColor="#FF4444" />
+                                        <stop offset="1" stopColor="#FFA301" />
                                     </linearGradient>
                                 </defs>
                             </svg>

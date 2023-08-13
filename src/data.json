@@ -1,0 +1,54 @@
+{
+    "domainExtention": [
+        {
+            "id": 1,
+            "extension": ".com",
+            "price": "$14.99"
+        },
+        {
+            "id": 2,
+            "extension": ".net",
+            "price": "$14.99"
+        },
+        {
+            "id": 3,
+            "extension": ".info",
+            "price": "$14.99"
+        },
+        {
+            "id": 4,
+            "extension": ".org",
+            "price": "$14.99"
+        },
+        {
+            "id": 5,
+            "extension": ".co",
+            "price": "$14.99"
+        },
+        {
+            "id": 6,
+            "extension": ".me",
+            "price": "$14.99"
+        },
+        {
+            "id": 7,
+            "extension": ".io",
+            "price": "$14.99"
+        },
+        {
+            "id": 8,
+            "extension": ".gov",
+            "price": "$14.99"
+        },
+        {
+            "id": 9,
+            "extension": ".biz",
+            "price": "$14.99"
+        },
+        {
+            "id": 10,
+            "extension": ".edu",
+            "price": "$14.99"
+        }
+    ]
+}
