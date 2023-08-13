@@ -1,16 +1,31 @@
-import React, { useState } from 'react'
+import React, { } from 'react'
 import data from '../../data.json'
 
 function DomainSeach() {
     let alldomain = data.domainExtention
     let extensions = data.domainExtention.slice(0, 6);
-    const handleInput = (e) => {
-        // let doaminName = e.targent.value
+    // const [input, setInput] = useState('');
 
-    }
-    const handeSelect = (e) => {
-        console.log(e.target.value)
-    }
+
+
+
+    // const handleInput = (e) => {
+    //     e.preventDefault();
+    //     let domainName = e.target.domainName.value;
+    //     let extension = e.target.extension.value
+    //     console.log(extension, domainName)
+    //     return ({ domainName, extension })
+    //     // let doaminName = e.targent.value
+    //     // let query = domainName + extension
+    //     // return query;
+    // }
+    // let totalValue = ""
+    // const handleSubmit = () => {
+    //     let domainInput = document.getElementById("domainName").value;
+    //     let extensionSelect = document.getElementById("extensionSelect").value;
+    //     totalValue = domainInput + extensionSelect;
+    // }
+
     return (
         <section className='py-20'>
             <div className="container mx-auto">
@@ -18,15 +33,18 @@ function DomainSeach() {
                     <div className='p-20 px-40'>
                         <h2 className='text-center text-white mb-4'>Do Your Want Your Premium Domain?</h2>
                         <div className='search-bar flex flex-col'>
-                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center p-4 rounded-xl'>
-                                <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold' name="query" onChange={handleInput} />
+                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center px-3 py-2 rounded-xl'>
+
+                                <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold' name="query" id='domainName' />
+
+
                                 <div className='px-5 space-x-5'>
-                                    <select name="" id="" className='outline-0 text-lg px-4 text-gray-500 font-semibold cursor-pointer' onChange={handeSelect}>
+                                    {/* <select name="extension" id="extensionSelect" className='outline-0 text-lg px-4 text-gray-500 font-semibold cursor-pointer'>
                                         <option value="All" defaultValue>All</option>
                                         {alldomain.map((domain) => (
                                             <option key={domain.id} className='text-lg' value={domain.extension}>{domain.extension}</option>
                                         ))}
-                                    </select>
+                                    </select> */}
                                     <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-5 bg-primary rounded-xl text-white px-10' />
                                 </div>
                             </form>
@@ -44,7 +62,7 @@ function DomainSeach() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 
