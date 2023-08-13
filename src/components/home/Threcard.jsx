@@ -138,9 +138,13 @@ function Threcard() {
                         </div>
                     </div>
                     {/* card */}
-
                 </div>
             </div>
+            {/* container */}
+            <section className='three-card-bottom'>
+                <div className="container mx-auto"></div>
+            </section>
+            {/* three-card-bottom */}
         </section>
     )
 }
