@@ -1,4 +1,6 @@
 import React from 'react'
+import './home.css'
+import bgImg from '../../asstes/Group75.png'
 
 function Threcard() {
     return (
@@ -141,8 +143,16 @@ function Threcard() {
                 </div>
             </div>
             {/* container */}
-            <section className='three-card-bottom'>
-                <div className="container mx-auto"></div>
+            <section className='three-card-bottom mt-40'>
+                <div class="bg-gradient-to-r from-primary to-secondary relative bg-card-bottom md:py-24 md:px-40 text-center -z-10">
+                    <img src={bgImg} alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-25 z-0" />
+                    <div className='content z-10 text-white container mx-auto'>
+                        <p className=''>Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our customers' specific needs in mind.
+                            Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our cuific needs in mind.Fluresta
+                            has a hosting plan for everyone. Whether you are a beginner or an expert, ourh our customers' specific needs in mind.</p>
+                        <h1 className='font-semibold text-4xl mt-10'>Which Type of Hosting is Right for You?</h1>
+                    </div>
+                </div>
             </section>
             {/* three-card-bottom */}
         </section>

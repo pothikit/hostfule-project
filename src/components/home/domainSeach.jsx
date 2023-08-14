@@ -43,9 +43,7 @@ function DomainSeach() {
                     </div>
                 </div>
             </div>
-            <section>
 
-            </section>
         </section >
     )
 }
