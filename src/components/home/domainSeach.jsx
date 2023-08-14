@@ -2,29 +2,9 @@ import React, { } from 'react'
 import data from '../../data.json'
 
 function DomainSeach() {
-    let alldomain = data.domainExtention
+    let alldomain = data.domainExtention;
     let extensions = data.domainExtention.slice(0, 6);
-    // const [input, setInput] = useState('');
 
-
-
-
-    // const handleInput = (e) => {
-    //     e.preventDefault();
-    //     let domainName = e.target.domainName.value;
-    //     let extension = e.target.extension.value
-    //     console.log(extension, domainName)
-    //     return ({ domainName, extension })
-    //     // let doaminName = e.targent.value
-    //     // let query = domainName + extension
-    //     // return query;
-    // }
-    // let totalValue = ""
-    // const handleSubmit = () => {
-    //     let domainInput = document.getElementById("domainName").value;
-    //     let extensionSelect = document.getElementById("extensionSelect").value;
-    //     totalValue = domainInput + extensionSelect;
-    // }
 
     return (
         <section className='py-20'>
@@ -39,12 +19,12 @@ function DomainSeach() {
 
 
                                 <div className='px-5 space-x-5'>
-                                    {/* <select name="extension" id="extensionSelect" className='outline-0 text-lg px-4 text-gray-500 font-semibold cursor-pointer'>
+                                    <select name="extension" id="extensionSelect" className='outline-0 text-lg px-4 text-gray-500 font-semibold cursor-pointer'>
                                         <option value="All" defaultValue>All</option>
                                         {alldomain.map((domain) => (
                                             <option key={domain.id} className='text-lg' value={domain.extension}>{domain.extension}</option>
                                         ))}
-                                    </select> */}
+                                    </select>
                                     <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-5 bg-primary rounded-xl text-white px-10' />
                                 </div>
                             </form>
@@ -58,10 +38,14 @@ function DomainSeach() {
                                 </ul>
                             </div>
                         </div>
-                        <div></div>
+                        <div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <section>
+
+            </section>
         </section >
     )
 }
