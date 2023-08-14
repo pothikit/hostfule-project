@@ -146,7 +146,7 @@ function Threcard() {
             <section className='three-card-bottom mt-40'>
                 <div class="bg-gradient-to-r from-primary to-secondary relative bg-card-bottom md:py-24 md:px-40 text-center -z-10">
                     <img src={bgImg} alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-25 z-0" />
-                    <div className='content z-10 text-white container mx-auto'>
+                    <div className='content z-10 text-white container mx-auto md:px-20'>
                         <p className=''>Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our customers' specific needs in mind.
                             Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our cuific needs in mind.Fluresta
                             has a hosting plan for everyone. Whether you are a beginner or an expert, ourh our customers' specific needs in mind.</p>
