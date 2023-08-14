@@ -13,12 +13,11 @@ function DomainSeach() {
                     <div className='p-20 px-40'>
                         <h2 className='text-center text-white mb-4'>Do Your Want Your Premium Domain?</h2>
                         <div className='search-bar flex flex-col'>
-                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center px-3 py-2 rounded-xl'>
+                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center px-3 py-2 rounded-xl md:mx-52'>
 
-                                <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold' name="query" id='domainName' />
+                                <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold' name="query" id='domainName' required />
 
-
-                                <div className='px-5 space-x-5'>
+                                <div className='px-2 space-x-3'>
                                     <select name="extension" id="extensionSelect" className='outline-0 text-lg px-4 text-gray-500 font-semibold cursor-pointer'>
                                         <option value="All" defaultValue>All</option>
                                         {alldomain.map((domain) => (
@@ -28,8 +27,8 @@ function DomainSeach() {
                                     <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-5 bg-primary rounded-xl text-white px-10' />
                                 </div>
                             </form>
-                            <div className="extensions mt-7">
-                                <ul className='flex justify-evenly'>
+                            <div className="extensions mt-8">
+                                <ul className='flex justify-center gap-5'>
                                     {
                                         extensions.map((exetension) => (
                                             <li key={exetension.id} className='text-lg font-semibold gap-4 items-start flex'><span>{exetension.extension}</span><span className='text-xs font-semibold text-white'>{exetension.price}</span></li>
