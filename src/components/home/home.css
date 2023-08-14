@@ -1,0 +1,7 @@
+/* paricing card */
+.card-service-name{
+    background:linear-gradient(225deg, #FFA301 0%, #F44 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

@@ -58,7 +58,7 @@
             "price": "$26.59/yr",
             "discount": "Save 75% with 12/mo term",
             "serviceName": "SHARED HOSTING",
-            "service-description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
+            "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
                 "20 GB SSD",
                 "3 Websites",
@@ -72,7 +72,7 @@
             "price": "$26.59/yr",
             "discount": "Save 75% with 12/mo term",
             "serviceName": "SHARED HOSTING",
-            "service-description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
+            "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
                 "40 GB SSD",
                 "30 Websites",
@@ -86,7 +86,7 @@
             "price": "$26.59/yr",
             "discount": "Save 10% with 12/mo term",
             "serviceName": "SHARED HOSTING",
-            "service-description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
+            "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
                 "35 GB SSD",
                 "25 Websites",
@@ -100,7 +100,7 @@
             "price": "$26.59/yr",
             "discount": "Save 69% with 12/mo term",
             "serviceName": "SHARED HOSTING",
-            "service-description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
+            "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
                 "31 GB SSD",
                 "68 Websites",
@@ -114,7 +114,7 @@
             "price": "$26.59/yr",
             "discount": "Save 42% with 12/mo term",
             "serviceName": "HOSTING SHARED",
-            "service-description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
+            "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
                 "68 GB SSD",
                 "13 Websites",
@@ -128,7 +128,7 @@
             "price": "$26.59/yr",
             "discount": "Save 30% with 12/mo term",
             "serviceName": "HOSTING SHARED",
-            "service-description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
+            "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
                 "102 GB SSD",
                 "68 Websites",
@@ -142,7 +142,7 @@
             "price": "$26.59/yr",
             "discount": "Save 50% with 12/mo term",
             "serviceName": "HOSTING SHARED",
-            "service-description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
+            "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
                 "02 GB SSD",
                 "64 Websites",
@@ -156,7 +156,7 @@
             "price": "$26.59/yr",
             "discount": "Save 25% with 12/mo term",
             "serviceName": "HOSTING SHARED",
-            "service-description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
+            "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
                 "16 GB SSD",
                 "69 Websites",
@@ -170,7 +170,7 @@
             "price": "$26.59/yr",
             "discount": "Save 96% with 12/mo term",
             "serviceName": "HOSTING SHARED",
-            "service-description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
+            "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
                 "49 GB SSD",
                 "43 Websites",
