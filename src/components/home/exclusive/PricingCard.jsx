@@ -20,7 +20,7 @@ function PricingCard({ cardData }) {
                         <p className='text-sm'>{cardData.description}</p>
                         <ul className='max-w-fit mx-auto space-y-4 mt-5'>
                             {
-                                cardData.features.map((feature) => <li className='flex items-center gap-3'><span className='text-lg'><BsFillCheckSquareFill className='text-primary' /></span><span>{feature}</span></li>)
+                                cardData.features.map((feature) => <li className='flex items-center gap-3' key={feature}><span className='text-lg'><BsFillCheckSquareFill className='text-primary' /></span><span>{feature}</span></li>)
                             }
                         </ul>
                     </div>
