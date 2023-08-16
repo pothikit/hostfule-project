@@ -3,6 +3,7 @@ import Hero from './Hero'
 import DomainSeach from './domainSeach'
 import Threcard from './Threcard'
 import Exclusive from './exclusive/Exclusive'
+import WhyChoseUs from './WhyChoseUs'
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <DomainSeach></DomainSeach>
             <Threcard></Threcard>
             <Exclusive></Exclusive>
+            <WhyChoseUs></WhyChoseUs>
         </main>
     )
 }

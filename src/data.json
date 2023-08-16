@@ -182,45 +182,57 @@
     "choseService": [
         {
             "id": 1,
-            "icon": "/src/asstes/serviceLogo/User.png",
+            "icon": "../../asstes/serviceLogo/User.png",
             "title": "User Panel",
             "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
         },
         {
             "id": 2,
-            "icon": "/src/asstes/serviceLogo/moneyback.png",
+            "icon": "../../asstes/serviceLogo/moneyback.png",
             "title": "Money Back Guarantee",
             "description": "We work when work. Whenever that happens to be."
         },
         {
             "id": 3,
-            "icon": "/src/asstes/serviceLogo/ssl.png",
+            "icon": "../../asstes/serviceLogo/ssl.png",
             "title": "Free SSL",
             "description": "If you're not happy, we'll refund your hosting fees in the first"
         },
         {
             "id": 4,
-            "icon": "/src/asstes/serviceLogo/migration.png",
+            "icon": "../../asstes/serviceLogo/migration.png",
             "title": "Free Migration",
             "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
         },
         {
             "id": 5,
-            "icon": "/src/asstes/serviceLogo/update.png",
+            "icon": "../../asstes/serviceLogo/update.png",
             "title": "99.99% Update",
             "description": "We work when work. Whenever that happens to be."
         },
         {
             "id": 6,
-            "icon": "/src/asstes/serviceLogo/affordable.png",
+            "icon": "../../asstes/serviceLogo/affordable.png",
             "title": "Affordable Price",
             "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
         },
         {
             "id": 7,
-            "icon": "/src/asstes/serviceLogo/cloud.png",
+            "icon": "../../asstes/serviceLogo/cloud.png",
             "title": "Cloud Backup",
             "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
+        },
+        {
+            "id": 8,
+            "icon": "../../asstes/serviceLogo/serverSecurity.png",
+            "title": "Server Security",
+            "description": "We work when work. Whenever that happens to be."
+        },
+        {
+            "id": 9,
+            "icon": "../../asstes/serviceLogo/support.png",
+            "title": "24/7/365 Support",
+            "description": "We work when work. Whenever that happens to be."
         }
     ]
 }
