@@ -33,7 +33,7 @@ function DomainSeach() {
                                 <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold' name="" id='domainName' required onChange={handleDoaminInput} />
 
                                 <div className='px-2 space-x-3'>
-                                    <select name="extension" id="extensionSelect" className='outline-0 text-lg px-4 text-gray-500 font-semibold cursor-pointer' onChange={handleSelect}>
+                                    <select name="extension" id="extensionSelect" className='outline-0 text-lg px-4 text-gray-500 font-semibold cursor-pointer bg-transparent' onChange={handleSelect}>
                                         <option value="All" defaultValue>All</option>
                                         {alldomain.map((domain) => (
                                             <option key={domain.id} className='text-lg' value={domain.extension}>{domain.extension}</option>
