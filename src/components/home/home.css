@@ -6,8 +6,9 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 .tab-btn{
-    background: linear-gradient(225deg, #ffa201 0%, rgba(255, 68, 68, 0.967) 60%);
+    background: linear-gradient(to left bottom, #ffa201 0%, rgba(255, 68, 68, 0.967) 100%);
 }
 .card-head{
     background: url("../../asstes/pricingshap.png") no-repeat left bottom, linear-gradient(180deg, #FFA301 0%, #F44 100%);
+    background-size: 100%;
 }

@@ -55,7 +55,7 @@
         {
             "id": 1,
             "type": "Stellar",
-            "price": "$26.59/yr",
+            "price": "$34.59/yr",
             "discount": "Save 75% with 12/mo term",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
@@ -69,7 +69,7 @@
         {
             "id": 2,
             "type": "Reseller Hosting",
-            "price": "$26.59/yr",
+            "price": "$23.59/yr",
             "discount": "Save 75% with 12/mo term",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
@@ -83,7 +83,7 @@
         {
             "id": 3,
             "type": "Hosting Hosting",
-            "price": "$26.59/yr",
+            "price": "$26.43/yr",
             "discount": "Save 10% with 12/mo term",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
@@ -97,7 +97,7 @@
         {
             "id": 4,
             "type": "Stellar Hosting",
-            "price": "$26.59/yr",
+            "price": "$43.23/yr",
             "discount": "Save 69% with 12/mo term",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
@@ -111,7 +111,7 @@
         {
             "id": 5,
             "type": "Hosting Stellar",
-            "price": "$26.59/yr",
+            "price": "$32.59/yr",
             "discount": "Save 42% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
@@ -125,7 +125,7 @@
         {
             "id": 6,
             "type": "Virtual Servers",
-            "price": "$26.59/yr",
+            "price": "$25.59/yr",
             "discount": "Save 30% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
@@ -139,7 +139,7 @@
         {
             "id": 7,
             "type": "Dedicated Servers",
-            "price": "$26.59/yr",
+            "price": "$65.59/yr",
             "discount": "Save 50% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
@@ -153,7 +153,7 @@
         {
             "id": 8,
             "type": "Web Hosting",
-            "price": "$26.59/yr",
+            "price": "$75.59/yr",
             "discount": "Save 25% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
@@ -167,7 +167,7 @@
         {
             "id": 9,
             "type": "Stellar",
-            "price": "$26.59/yr",
+            "price": "$74.59/yr",
             "discount": "Save 96% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
@@ -177,6 +177,32 @@
                 "Not Free CDN BETA",
                 "TLDs On Offer"
             ]
+        }
+    ],
+    "choseService": [
+        {
+            "id": 1,
+            "icon": "/src/asstes/serviceLogo/User.png",
+            "title": "User Panel",
+            "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
+        },
+        {
+            "id": 2,
+            "icon": "/src/asstes/serviceLogo/moneyback.png",
+            "title": "Money Back Guarantee",
+            "description": "We work when work. Whenever that happens to be."
+        },
+        {
+            "id": 3,
+            "icon": "/src/asstes/serviceLogo/ssl.png",
+            "title": "Free SSL",
+            "description": "If you're not happy, we'll refund your hosting fees in the first"
+        },
+        {
+            "id": 4,
+            "icon": "/src/asstes/serviceLogo/migration.png",
+            "title": "Free Migration",
+            "description": "If you're not happy, we'll refund your hosting fees in the first"
         }
     ]
 }
