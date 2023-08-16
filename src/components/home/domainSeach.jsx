@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import data from '../../data.json'
+import { BiSolidDownArrow } from "react-icons/bi"
 
 function DomainSeach() {
     let alldomain = data.domainExtention;
@@ -28,18 +29,20 @@ function DomainSeach() {
                     <div className='p-20 px-40'>
                         <h2 className='text-center text-white mb-4'>Do Your Want Your Premium Domain?</h2>
                         <div className='search-bar flex flex-col'>
-                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center px-3 py-2 rounded-xl md:mx-52'>
+                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center pl-3 py-2 rounded-xl md:mx-52'>
                                 <input type="text" defaultValue={DomainNameWithExtension} className='text-black hidden' name='query' />
-                                <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold' name="" id='domainName' required onChange={handleDoaminInput} />
+                                <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold focus:border rounded-lg' name="" id='domainName' required onChange={handleDoaminInput} />
 
-                                <div className='px-2 space-x-3'>
-                                    <select name="extension" id="extensionSelect" className='outline-0 text-lg px-4 text-gray-500 font-semibold cursor-pointer bg-transparent appearance-none' onChange={handleSelect}>
-                                        <option value="All" defaultValue>All</option>
-                                        {alldomain.map((domain) => (
-                                            <option key={domain.id} className='text-lg' value={domain.extension}>{domain.extension}</option>
-                                        ))}
-                                    </select>
-                                    <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-5 bg-primary rounded-xl text-white px-10' />
+                                <div className='px-2 space-x-3 flex items-center'>
+                                    <div className='cursor-pointer flex items-center mr-4'>
+                                        <select name="extension" id="extensionSelect" className='outline-0 text-lg px-5 text-gray-500 font-semibold cursor-pointer bg-transparent appearance-none' onChange={handleSelect}>
+                                            <option value="All" defaultValue>All</option>
+                                            {alldomain.map((domain) => (
+                                                <option key={domain.id} className='text-lg' value={domain.extension}>{domain.extension}</option>
+                                            ))}
+                                        </select><span className='text-gray-400 cursor-pointer text-sm -ml-5 pointer-events-none'><BiSolidDownArrow /></span>
+                                    </div>
+                                    <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-5 bg-gradient-to-r from-primary to-secondary to-100% rounded-xl text-white px-10' />
                                 </div>
                             </form>
                             <div className="extensions mt-8">

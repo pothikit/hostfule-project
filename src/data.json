@@ -202,7 +202,25 @@
             "id": 4,
             "icon": "/src/asstes/serviceLogo/migration.png",
             "title": "Free Migration",
-            "description": "If you're not happy, we'll refund your hosting fees in the first"
+            "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
+        },
+        {
+            "id": 5,
+            "icon": "/src/asstes/serviceLogo/update.png",
+            "title": "99.99% Update",
+            "description": "We work when work. Whenever that happens to be."
+        },
+        {
+            "id": 6,
+            "icon": "/src/asstes/serviceLogo/affordable.png",
+            "title": "Affordable Price",
+            "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
+        },
+        {
+            "id": 7,
+            "icon": "/src/asstes/serviceLogo/cloud.png",
+            "title": "Cloud Backup",
+            "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
         }
     ]
 }
