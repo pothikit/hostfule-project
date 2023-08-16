@@ -21,7 +21,7 @@ function Exclusive() {
                             <button onClick={(() => handleclck(3))} className={`px-6 text-white py-4 tab-btn w-60 rounded-xl rounded-b-none ${tab === 3 ? "opacity-70" : "opacity-100"}`}>Email Hosting</button>
                         </div>
                     </div>
-                    <div className="tab-content flex mt-14 justify-between">
+                    <div className="tab-content grid grid-cols-1 md:grid-cols-3 mt-14 gap-32">
                         {
                             firstThreeData.map((cardItem) => (
                                 <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>

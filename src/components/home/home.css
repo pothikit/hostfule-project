@@ -10,4 +10,5 @@ background-clip: text;
 }
 .card-head{
     background: url("../../asstes/pricingshap.png") no-repeat left bottom, linear-gradient(180deg, #FFA301 0%, #F44 100%);
+    
 }
