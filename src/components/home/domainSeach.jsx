@@ -4,18 +4,22 @@ import data from '../../data.json'
 function DomainSeach() {
     let alldomain = data.domainExtention;
     let extensions = data.domainExtention.slice(0, 6);
-
     const [domainInput, setDomainInput] = useState("")
     const [select, setSelect] = useState("")
     const handleDoaminInput = (e) => {
         e.preventDefault();
         setDomainInput(e.target.value)
-
     }
     const handleSelect = (e) => {
         e.preventDefault(); setSelect(e.target.value)
     }
-    let DomainNameWithExtension = domainInput + select;
+    // console.log(typeof domainInput)
+    let DomainNameWithExtension
+    if (domainInput.includes(".")) {
+        alert("You Should Select Domain Extension")
+    } else {
+        DomainNameWithExtension = domainInput + select;
+    }
 
     return (
         <section className='py-20'>
@@ -26,7 +30,6 @@ function DomainSeach() {
                         <div className='search-bar flex flex-col'>
                             <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center px-3 py-2 rounded-xl md:mx-52'>
                                 <input type="text" defaultValue={DomainNameWithExtension} className='text-black hidden' name='query' />
-
                                 <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold' name="" id='domainName' required onChange={handleDoaminInput} />
 
                                 <div className='px-2 space-x-3'>

@@ -2,8 +2,6 @@ import React from 'react'
 import '../home.css'
 import { BsFillCheckSquareFill } from 'react-icons/bs'
 function PricingCard({ cardData }) {
-
-
     return (
         <>
             {
