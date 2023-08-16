@@ -2,11 +2,13 @@ import React from 'react'
 import '../home.css'
 import { BsFillCheckSquareFill } from 'react-icons/bs'
 function PricingCard({ cardData }) {
+
+
     return (
         <>
             {
-                <div className="card shadow-xl pb-16 rounded-xl text-center" key={cardData.id}>
-                    <div className="card-head bg-gradient-to-t from-primary to-secondary text-center p-6 rounded-t-xl rounded-b-[40px] shadow-xl ">
+                <div className="card shadow-xl w-[346px] pb-16 rounded-xl text-center" key={cardData.id}>
+                    <div className="card-head p-6 rounded-t-xl rounded-b-[40px] shadow-xl ">
                         <div className='text-white'>
                             <span className="type text-xl uppercase">{cardData.type}</span>
                             <h2 className='text-4xl font-semibold my-4'>{cardData.price}</h2>
