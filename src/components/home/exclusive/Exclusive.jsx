@@ -5,7 +5,9 @@ import '../home.css';
 function Exclusive() {
     const cardData = data.exclusive;
     const firstThreeData = cardData.slice(0, 3);
-    const [tab, setTab] = useState();
+    const secondthree = cardData.slice(3, 6);
+    const thirdThree = cardData.slice(6, 9);
+    const [tab, setTab] = useState(1);
     const handleclck = (tabNo) => {
         setTab(tabNo)
     }
@@ -21,9 +23,23 @@ function Exclusive() {
                             <button onClick={(() => handleclck(3))} className={`px-6 text-white py-4 tab-btn w-60 rounded-xl rounded-b-none ${tab === 3 ? "opacity-70" : "opacity-100"}`}>Email Hosting</button>
                         </div>
                     </div>
-                    <div className="tab-content grid grid-cols-1 md:grid-cols-3 mt-14 gap-32">
+                    <div className={`tab-content grid grid-cols-1 md:grid-cols-3 mt-14 gap-32  ${tab === 1 ? "block" : "hidden"}`}>
                         {
                             firstThreeData.map((cardItem) => (
+                                <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>
+                            ))
+                        }
+                    </div>
+                    <div className={`tab-content grid grid-cols-1 md:grid-cols-3 mt-14 gap-32  ${tab === 2 ? "block" : "hidden"}`}>
+                        {
+                            secondthree.map((cardItem) => (
+                                <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>
+                            ))
+                        }
+                    </div>
+                    <div className={`tab-content grid grid-cols-1 md:grid-cols-3 mt-14 gap-32  ${tab === 3 ? "block" : "hidden"}`}>
+                        {
+                            thirdThree.map((cardItem) => (
                                 <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>
                             ))
                         }
