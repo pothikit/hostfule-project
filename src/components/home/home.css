@@ -23,4 +23,10 @@ background-clip: text;
 }
 .serviceBox:hover{
     background: url("../../asstes/servicebghover.png") no-repeat top left ,linear-gradient(#ffa201df,#ff4444ec);
-    color: white;}
+    color: white;
+}
+    /* support */
+.support-bg{
+    background: rgb(255,68,68);
+    background: linear-gradient(50deg, rgba(255,68,68,1) 13%, #FF7D1B  60%, rgba(255,255,255,1) 80%, #FF7D1B  100%);
+    }
