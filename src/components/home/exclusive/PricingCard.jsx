@@ -3,7 +3,6 @@ import '../home.css'
 import { BsFillCheckSquareFill } from 'react-icons/bs'
 function PricingCard({ cardData }) {
 
-
     return (
         <>
             {
