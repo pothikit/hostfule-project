@@ -4,6 +4,7 @@ import DomainSeach from './domainSeach'
 import Threcard from './Threcard'
 import Exclusive from './exclusive/Exclusive'
 import WhyChoseUsSupport from './WhyChoseUsSupport'
+import Testimonial from './Testimonial'
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             <Threcard></Threcard>
             <Exclusive></Exclusive>
             <WhyChoseUsSupport></WhyChoseUsSupport>
+            <Testimonial></Testimonial>
         </main>
     )
 }
