@@ -19,4 +19,8 @@ background-clip: text;
 /*  service box */
 .serviceBox{
     background: url("../../asstes/servicebg.png") no-repeat bottom right #F0F0F0;
+    transition: all .3s;
 }
+.serviceBox:hover{
+    background: url("../../asstes/servicebghover.png") no-repeat top left ,linear-gradient(#ffa201df,#ff4444ec);
+    color: white;}

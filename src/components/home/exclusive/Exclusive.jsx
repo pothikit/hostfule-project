@@ -23,14 +23,14 @@ function Exclusive() {
                             <button onClick={(() => handleclck(3))} className={`px-6 text-white py-4 tab-btn w-60 rounded-lg rounded-b-none ${tab === 3 ? "opacity-90" : "opacity-100"}`}>Email Hosting</button>
                         </div>
                     </div>
-                    <div className={`tab-content grid grid-cols-1 md:grid-cols-3 mt-14 gap-32  ${tab === 1 ? "block" : "hidden"}`}>
+                    <div className={`tab-content grid grid-cols-1 md:grid-cols-3 mt-14 gap-24 max-w-[90%] mx-auto ${tab === 1 ? "block" : "hidden"}`}>
                         {
                             firstThreeData.map((cardItem) => (
                                 <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>
                             ))
                         }
                     </div>
-                    <div className={`tab-content grid grid-cols-1 md:grid-cols-3 mt-14 gap-32  ${tab === 2 ? "block" : "hidden"}`}>
+                    <div className={`tab-content grid grid-cols-1 md:grid-cols-3 mt-14 gap-24 max-w-[90%] mx-auto ${tab === 2 ? "block" : "hidden"}`}>
                         {
                             secondthree.map((cardItem) => (
                                 <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>
