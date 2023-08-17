@@ -24,7 +24,7 @@ function PricingCard({ cardData }) {
                             }
                         </ul>
                     </div>
-                    <button className='px-10 py-3 bg-gradient-to-t from-primary to-secondary rounded-xl shadow-lg mt-5 text-white'>Buy Now</button>
+                    <button className='px-10 py-3 bg-gradient-to-t from-primary to-secondary rounded-lg shadow-lg mt-5 text-white'>Buy Now</button>
                 </div>
             }
         </>

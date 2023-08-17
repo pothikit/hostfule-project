@@ -12,3 +12,7 @@ background-clip: text;
     background: url("../../asstes/pricingshap.png") no-repeat left bottom, linear-gradient(180deg, #FFA301 0%, #F44 100%);
     background-size: 100%;
 }
+/* tabs-main border */
+.tabs-main{
+    border-image: linear-gradient(to right , hsla(0, 100%, 63%, 0.553), #ffa2014f) 30;
+}

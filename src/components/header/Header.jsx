@@ -23,7 +23,7 @@ export const Header = () => {
 
             </header>
             {/* navbar */}
-            <nav className='border-b border-primary border-opacity-20 py-3 sticky top-0 bg-white'>
+            <nav className='border-b border-primary border-opacity-20 py-3 sticky top-0 bg-white z-50'>
                 <div className="container mx-auto">
                     <div className="navigation-menu flex justify-between items-center py-2">
                         <div className="logo">
