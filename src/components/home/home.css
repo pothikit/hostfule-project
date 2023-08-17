@@ -16,3 +16,7 @@ background-clip: text;
 .tabs-main{
     border-image: linear-gradient(to right , hsla(0, 100%, 63%, 0.553), #ffa2014f) 30;
 }
+/*  service box */
+.serviceBox{
+    background: url("../../asstes/servicebg.png") no-repeat bottom right #F0F0F0;
+}
