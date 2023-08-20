@@ -12,7 +12,7 @@ function UserOriented() {
                     <h1 className='text-2xl md:text-[2.5rem] font-semibold text-center text-primary mb-9'>User Oriented Control Panel</h1>
                     <p>Intuitive and easy to use, cPanel help you to manage a web hosting account with maximum efficiency.</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-20'>
                     {
                         UserOriData.map((item) => (
                             <div className='flex gap-5' key={item.id}>
@@ -27,9 +27,9 @@ function UserOriented() {
                         ))
                     }
                 </div>
-                <div className="twoImg grid grid-cols-1 md:grid-cols-2 py-10 gap-20">
-                    <div className='flex justify-end py-20 items-start'><img src={whmcs} className='w-9/12 h-[130%]' alt="WhmCS" /></div>
-                    <div className='flex justify-start py-20 items-start'><img src={cpanel} className='w-9/12 h-[130%]' alt="cpanel" /></div>
+                <div className="twoImg grid grid-cols-1 md:grid-cols-2 py-20 gap-10">
+                    <div className='flex justify-center lg:justify-end lg:py-20 items-start'><img src={whmcs} className='md:w-9/12 h-full md:h-[130%]' alt="WhmCS" /></div>
+                    <div className='flex lg:justify-start justify-center lg:py-20 items-start'><img src={cpanel} className='md:w-9/12 h-full md:h-[130%]' alt="cpanel" /></div>
                 </div>
             </div>
         </section>

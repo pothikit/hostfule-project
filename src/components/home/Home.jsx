@@ -6,6 +6,7 @@ import Exclusive from './exclusive/Exclusive'
 import WhyChoseUsSupport from './WhyChoseUsSupport'
 import Testimonial from './Testimonial'
 import UserOriented from './UserOriented'
+import MapGlobal from './MapGlobal'
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
             <Exclusive></Exclusive>
             <WhyChoseUsSupport></WhyChoseUsSupport>
             <UserOriented></UserOriented>
+            <MapGlobal></MapGlobal>
             <Testimonial></Testimonial>
         </main>
     )
