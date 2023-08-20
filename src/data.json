@@ -234,5 +234,43 @@
             "title": "24/7/365 Support",
             "description": "We work when work. Whenever that happens to be."
         }
+    ],
+    "UserOriented": [
+        {
+            "id": 1,
+            "url": "../../asstes/userOrientedicon/migrate.png",
+            "title": "Migrate new customers with ease",
+            "description": "Transfer cPanel accounts from remote servers with no hassle. Migrations are simple  our in house technical support team will navigate the process for you."
+        },
+        {
+            "id": 2,
+            "url": "../../asstes/userOrientedicon/customize.png",
+            "title": "Customize and brand your service",
+            "description": "Invite your customers to use a dashboard that's perfectly fitted to your brand. Customize styling and notifications to deliver the power of cPanel with the feel of your company."
+        },
+        {
+            "id": 3,
+            "url": "../../asstes/userOrientedicon/view.png",
+            "title": "View, analyze, & diagnose server stats",
+            "description": "Understand everything that is going on with your machine with our advanced server monitor tools. View how resources are being utilized and get actionable insights on potential issues happening on your network."
+        },
+        {
+            "id": 4,
+            "url": "../../asstes/userOrientedicon/cpanel.png",
+            "title": "Create cPanel accounts & hosting packages",
+            "description": "Launch cPanel user accounts and create custom hosting packages for your customers. Choose the services you want to provide, create pricing tiers, and scale your hosting business."
+        },
+        {
+            "id": 5,
+            "url": "../../asstes/userOrientedicon/secure.png",
+            "title": "Secure your system at various levels",
+            "description": "Protect your machines and your customers with all of the security tools baked into cPanel."
+        },
+        {
+            "id": 6,
+            "url": "../../asstes/userOrientedicon/publish.png",
+            "title": "Publish a website",
+            "description": "Allow your customers to choose from the most popular site builders to launch their web presence or give them the resources to build and monitor their own websites from the ground up."
+        }
     ]
 }

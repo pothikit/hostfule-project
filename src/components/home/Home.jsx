@@ -5,6 +5,7 @@ import Threcard from './Threcard'
 import Exclusive from './exclusive/Exclusive'
 import WhyChoseUsSupport from './WhyChoseUsSupport'
 import Testimonial from './Testimonial'
+import UserOriented from './UserOriented'
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <Threcard></Threcard>
             <Exclusive></Exclusive>
             <WhyChoseUsSupport></WhyChoseUsSupport>
+            <UserOriented></UserOriented>
             <Testimonial></Testimonial>
         </main>
     )
