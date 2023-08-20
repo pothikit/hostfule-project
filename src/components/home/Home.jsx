@@ -7,6 +7,7 @@ import WhyChoseUsSupport from './WhyChoseUsSupport'
 import Testimonial from './Testimonial'
 import UserOriented from './UserOriented'
 import MapGlobal from './MapGlobal'
+import Faq from './Faq'
 
 function Home() {
     return (
@@ -18,6 +19,7 @@ function Home() {
             <WhyChoseUsSupport></WhyChoseUsSupport>
             <UserOriented></UserOriented>
             <MapGlobal></MapGlobal>
+            <Faq></Faq>
             <Testimonial></Testimonial>
         </main>
     )

@@ -30,3 +30,19 @@ background-clip: text;
     background: rgb(255,68,68);
     background: linear-gradient(50deg, rgba(255,68,68,1) 13%, #FF7D1B  60%, rgba(255,255,255,1) 80%, #FF7D1B  100%);
     }
+    .answer{
+        overflow: hidden;
+        transition: all .2s;
+    }
+    
+    .faq-top{
+        background: linear-gradient(225deg, #FFA301 0%, #F44 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .slick-list{
+        height: 300px !important;
+        padding: 10px 0;
+    }
+ 
