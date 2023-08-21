@@ -41,8 +41,30 @@ background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    .slick-list{
-        height: 300px !important;
-        padding: 10px 0;
-    }
- 
+    
+ /* testimonial carousel */
+ .slick-slide{
+    margin: 40px 0 !important;
+ }
+ .carousel-div{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);  
+ }
+ /* .slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 48%;
+    display: block;
+    padding: 25px !important;
+    transform: translate(0, -50%);
+    color: black !important;
+    background: gray !important;
+} */
+.slick-next:before, .slick-prev:before {
+    content: '→';
+    color: black !important;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.108);
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+}
