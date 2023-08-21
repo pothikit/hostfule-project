@@ -38,6 +38,10 @@ export default function Testimonial() {
     return (
         <section className="py-20">
             <div className="container mx-auto text-center">
+                <div className="section-top">
+                    <h1 className="text-center faq-top text-3xl md:text-[40px] mb-10 font-semibold">What Customers Say About Us</h1>
+                    <p>What our customers have to say about our service, check below!</p>
+                </div>
                 <Slider {...settings}>
                     <div>
                         <div className="mx-10 py-16 px-5 rounded-2xl shadow-2xl carousel-div">

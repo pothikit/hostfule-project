@@ -31,8 +31,13 @@ background-clip: text;
     background: linear-gradient(50deg, rgba(255,68,68,1) 13%, #FF7D1B  60%, rgba(255,255,255,1) 80%, #FF7D1B  100%);
     }
     .answer{
+        max-height: 0;
+        transition: all 1s cubic-bezier(0,1,0,1);
         overflow: hidden;
-        transition: all .2s;
+    }
+    .activeFaq{
+        max-height: 1000px;
+        transition: all 1s cubic-bezier(0,1,0,1);
     }
     
     .faq-top{
@@ -76,11 +81,3 @@ background-clip: text;
     box-shadow: 0 -20px 20px #cccccc60;
     position: relative;
 }
-
-/* .slider-imgDiv::before{
-    content: "";
-    background-color: red;
-    position: absolute;
-    border: 20px solid red;
-    z-index: 555;
-} */

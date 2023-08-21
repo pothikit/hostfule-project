@@ -4,11 +4,14 @@ import { IoIosArrowDown } from 'react-icons/io'
 import "./home.css"
 
 function Faq() {
-    const [activeFaq, setActiveFaq] = useState()
+    const [activeFaq, setActiveFaq] = useState(null)
     const faqData = data.faq.slice(0, 5);
     const second5 = data.faq.slice(5, 10);
     const handleClick = (id) => {
-        setActiveFaq(id);
+        if (activeFaq !== id) {
+            setActiveFaq(id)
+        }
+        else { setActiveFaq(null) }
     }
     return (
 
@@ -24,8 +27,8 @@ function Faq() {
                                         <button className='text-xl py-1 font-medium'>{faq.question}</button>
                                         <span className=''><IoIosArrowDown /></span>
                                     </div>
-                                    <div className={`mt-3 answer my-5 px-2 ${activeFaq === faq.id ? "max-h-full" : "max-h-0"}`}>
-                                        <p className='answer'>{faq.answer}</p>
+                                    <div className={`mt-3 answer my-5 px-2 answer ${activeFaq === faq.id ? "max-h-full" : "max-h-0"}`}>
+                                        {faq.answer}
                                     </div>
                                 </div>
                             ))
@@ -40,8 +43,8 @@ function Faq() {
                                         <button className='text-xl py-1 font-medium'>{faq.question}</button>
                                         <span className={`${activeFaq === faq.id ? "rotate-180" : "rotate-0"} text-2xl duration-200 text-primary`}><IoIosArrowDown /></span>
                                     </div>
-                                    <div className={`mt-3 answer my-5 px-2 ${activeFaq === faq.id ? "max-h-full" : "max-h-0"}`}>
-                                        <p>{faq.answer}</p>
+                                    <div className={`mt-3 answer my-5 px-2 answer ${activeFaq === faq.id ? "max-h-full" : "max-h-0"}`}>
+                                        {faq.answer}
                                     </div>
                                 </div>
                             ))
