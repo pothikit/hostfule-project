@@ -44,27 +44,43 @@ background-clip: text;
     
  /* testimonial carousel */
  .slick-slide{
-    margin: 40px 0 !important;
+    margin: 80px 0 !important;
  }
  .carousel-div{
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);  
  }
- /* .slick-prev, .slick-next {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: 48%;
-    display: block;
-    padding: 25px !important;
-    transform: translate(0, -50%);
+.slick-next:before {
+    content: '' !important;
     color: black !important;
-    background: gray !important;
-} */
-.slick-next:before, .slick-prev:before {
-    content: '→';
-    color: black !important;
-    padding: 10px;
-    background-color: rgba(128, 128, 128, 0.108);
+    padding: 20px !important;
+    background: url("../../asstes/arrow-right.png") white;
+    background-repeat: no-repeat;
+    background-size: contain;font-size: 0 !important;
+    opacity: 1 !important;
     border-radius: 50%;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 20px gray;
 }
+.slick-prev:before{
+    content: '' !important;
+    color: black !important;
+    padding: 20px !important;
+    background: url("../../asstes/arrow-left.png") white;
+    background-repeat: no-repeat;
+    background-size: contain;font-size: 0 !important;
+    opacity: 1 !important;
+    border-radius: 50%;
+    box-shadow: 0 0 20px gray;
+    margin-left: -15px;
+}
+.slider-imgDiv{
+    box-shadow: 0 -20px 20px #cccccc60;
+    position: relative;
+}
+
+/* .slider-imgDiv::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    border: 20px solid red;
+    z-index: 555;
+} */
