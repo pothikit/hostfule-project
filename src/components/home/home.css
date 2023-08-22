@@ -30,13 +30,16 @@ background-clip: text;
     background: rgb(255,68,68);
     background: linear-gradient(50deg, rgba(255,68,68,1) 13%, #FF7D1B  60%, rgba(255,255,255,1) 80%, #FF7D1B  100%);
     }
-    .answer{
+    .inactive{
         max-height: 0;
         transition: all .8s cubic-bezier(0,1,0,1);
         overflow: hidden;
     }
     .activeFaq{
         max-height: 10000px;
+        overflow: auto !important;
+        transition: all .8s cubic-bezier(0,1,0,1) !important;
+
     }
     
     .faq-top{
