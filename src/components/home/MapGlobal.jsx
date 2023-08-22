@@ -13,14 +13,14 @@ function MapGlobal() {
                 </div>
                 <div className='flex items-center mt-24 gap-x-10 justify-between'>
                     <div className="w-4/12 flex flex-col items-center">
-                        <ul className='flex flex-col gap-9'>
-                            <li className='w-16 h-16 flex items-center justify-center text-3xl text-gray-600 bg-white rounded-lg'><BiHomeAlt2 /></li>
-                            <li className='w-16 h-16 flex items-center justify-center text-3xl text-gray-600 bg-white rounded-lg'><AiOutlinePlus /></li>
-                            <li className='w-16 h-16 flex items-center justify-center text-3xl text-gray-600 bg-white rounded-lg'><AiOutlineMinus /></li>
+                        <ul className='flex flex-col gap-5'>
+                            <li className='w-12 h-12 flex items-center justify-center text-3xl text-gray-600 bg-white rounded-lg'><BiHomeAlt2 /></li>
+                            <li className='w-12 h-12 flex items-center justify-center text-3xl text-gray-600 bg-white rounded-lg'><AiOutlinePlus /></li>
+                            <li className='w-12 h-12 flex items-center justify-center text-3xl text-gray-600 bg-white rounded-lg'><AiOutlineMinus /></li>
                         </ul>
                     </div>
                     <div className='w-8/12'>
-                        <img src={map} alt="map" className='mx-auto pr-0 md:pr-10' />
+                        <img src={map} alt="map" className='mx-auto pr-0 w-[80%] md:pr-10' />
                     </div>
                 </div>
             </div>
