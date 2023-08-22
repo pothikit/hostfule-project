@@ -141,24 +141,7 @@ export const Navbar = () => {
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
-                                {/* Shared Hosting */}
-                                <h4 className='text-base text-left px-10 whitespace-nowrap'>VPS</h4>
-                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Managed VPS</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Unmanaged VPS</Link></li>
-                                </ul>
-                            </li>
-                            {/* Reseller hosting */}
-                            <li className='space-y-5'>
-                                {/*   Reseller Hosting */}
-                                <h4 className='text-base text-left px-10 whitespace-nowrap'>Wordpress</h4>
-                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>wordpress customization</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>wordpress migration</Link></li>
-                                </ul>
-                            </li>
-                            <li className='space-y-5'>
-                                {/*   Reseller Hosting */}
+                                {/*   Exclusive Services */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>Exclusive Services</h4>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>SSL Certificate</Link></li>
@@ -166,6 +149,19 @@ export const Navbar = () => {
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>Bulk SMS</Link></li>
                                 </ul>
                             </li>
+                            {/* Reseller hosting */}
+                            <li className='space-y-5'>
+                                {/*   Wordpress */}
+                                <h4 className='text-base text-left px-10 whitespace-nowrap'>VPS & Wordpress</h4>
+                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
+
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Managed VPS</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Unmanaged VPS</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>wordpress customization</Link></li>
+                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>wordpress migration</Link></li>
+                                </ul>
+                            </li>
+
                         </ul>
                     </div>
                 </li>
