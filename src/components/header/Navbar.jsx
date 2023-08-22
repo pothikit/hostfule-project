@@ -15,7 +15,7 @@ export const Navbar = () => {
                     <Link className='group-hover:text-primary text-lg font-normal flex items-center'>Web Hosting</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
-                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#fffffff4] p-4 pt-2'>
+                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>Shared Hosting</h4>
@@ -57,7 +57,7 @@ export const Navbar = () => {
                     <Link className='group-hover:text-primary text-lg font-normal'>Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
-                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#fffffff4] p-4 pt-2'>
+                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/* By Region */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>By Region</h4>
@@ -110,7 +110,7 @@ export const Navbar = () => {
                     <Link className='group-hover:text-primary text-lg font-normal'>Domain</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
-                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#fffffff4] p-4 pt-2'>
+                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>Registration</h4>
@@ -139,7 +139,7 @@ export const Navbar = () => {
                     <Link className='group-hover:text-primary text-lg font-normal'>Other Services</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
-                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#fffffff4] p-4 pt-2'>
+                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
                                 <h4 className='text-base text-left px-10 whitespace-nowrap'>VPS</h4>
@@ -174,7 +174,7 @@ export const Navbar = () => {
                     <Link className='group-hover:text-primary text-lg font-normal'>About us</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* about us */}
                     <div className="drop-down absolute hidden group-hover:block pt-10 top-6 p-4 -translate-x-[30%]">
-                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-[#fffffff4] p-4 pt-2'>
+                        <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
                                 {/* <h4 className='text-base text-left px-10 whitespace-nowrap'></h4> */}
