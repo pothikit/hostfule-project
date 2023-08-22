@@ -82,11 +82,11 @@ function Footer() {
                                 <span className='text-xl rotate-45'><MdNetworkWifi /></span>
                                 <h3>Follow Our Social Media</h3>
                             </div>
-                            <ul className='flex items-center gap-5'>
-                                <li className='text-3xl text-primary rounded-xl bg-white p-4 mr-2'><FaFacebookF /></li>
-                                <li className='text-3xl text-primary rounded-xl bg-white p-4 mr-2'><AiFillInstagram /></li>
-                                <li className='text-3xl text-primary rounded-xl bg-white p-4 mr-2'><TbWorld /></li>
-                                <li className='text-3xl text-primary rounded-xl bg-white p-4 mr-2'><AiFillYoutube /></li>
+                            <ul className='flex items-center gap-5 flex-wrap'>
+                                <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2'><FaFacebookF /></li>
+                                <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2'><AiFillInstagram /></li>
+                                <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2'><TbWorld /></li>
+                                <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2'><AiFillYoutube /></li>
                             </ul>
                         </div>
                     </div>

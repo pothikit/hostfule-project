@@ -5,8 +5,8 @@ function Hero() {
     return (
         <section className='py-16'>
             <div className='container mx-auto'>
-                <div className="hero grid grid-cols-3 gap-4 items-center">
-                    <div className='col-span-2'>
+                <div className="hero grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+                    <div className='lg:col-span-2'>
                         <div className="hero-title">
                             <h1 className='text-8xl flex flex-col gap-5 font-bold'>
                                 <span className='block text-primary'>Up To 20X</span>
