@@ -1,6 +1,6 @@
 /* paricing card */
 .card-service-name{
-    background:linear-gradient(225deg, #FFA301 0%, #F44 100%);
+background:linear-gradient(225deg, #FFA301 0%, #F44 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -32,12 +32,11 @@ background-clip: text;
     }
     .answer{
         max-height: 0;
-        transition: all 1s cubic-bezier(0,1,0,1);
+        transition: all .8s cubic-bezier(0,1,0,1);
         overflow: hidden;
     }
     .activeFaq{
-        max-height: 1000px;
-        transition: all 1s cubic-bezier(0,1,0,1);
+        max-height: 10000px;
     }
     
     .faq-top{
