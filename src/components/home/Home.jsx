@@ -7,7 +7,7 @@ import WhyChoseUsSupport from './WhyChoseUsSupport'
 import Testimonial from './Testimonial'
 import UserOriented from './UserOriented'
 import MapGlobal from './MapGlobal'
-import Faq from './Faq'
+import Faq from './faqAccordion/Faq'
 
 function Home() {
     return (

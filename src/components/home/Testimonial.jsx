@@ -39,7 +39,7 @@ export default function Testimonial() {
         <section className="py-20">
             <div className="container mx-auto text-center">
                 <div className="section-top">
-                    <h1 className="text-center faq-top text-3xl md:text-[40px] mb-10 font-semibold">What Customers Say About Us</h1>
+                    <h1 className="text-center text-primary text-3xl md:text-[40px] mb-10 font-semibold">What Customers Say About Us</h1>
                     <p>What our customers have to say about our service, check below!</p>
                 </div>
                 <Slider {...settings}>

@@ -118,13 +118,13 @@ function Footer() {
             {/* container */}
             <div className="copyright py-4 text-white bg-primary">
                 <div className="container mx-auto">
-                    <flex className="flex items-center justify-between">
+                    <div className="flex items-center justify-between">
                         <span>Copyright © HostFlu 2023</span>
                         <ul className='flex items-center'>
                             <li className='border-r border-gray-300 px-3'>Terms of Service</li>
                             <li className='px-4'>Privacy Policy</li>
                         </ul>
-                    </flex>
+                    </div>
                 </div>
             </div>
         </footer>

@@ -30,25 +30,10 @@ background-clip: text;
     background: rgb(255,68,68);
     background: linear-gradient(50deg, rgba(255,68,68,1) 13%, #FF7D1B  60%, rgba(255,255,255,1) 80%, #FF7D1B  100%);
     }
-    .inactive{
-        max-height: 0;
-        transition: all .8s cubic-bezier(0,1,0,1);
-        overflow: hidden;
-    }
-    .activeFaq{
-        max-height: 10000px;
-        overflow: auto !important;
-        transition: all .8s cubic-bezier(0,1,0,1) !important;
-
-    }
-    
-    .faq-top{
-        background: linear-gradient(225deg, #FFA301 0%, #F44 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    
+    /* faq accordion */
+    .ReactCollapse--collapse {
+        transition: height 500ms;
+      }
  /* testimonial carousel */
  .slick-slide{
     margin: 80px 0 !important;
@@ -83,3 +68,4 @@ background-clip: text;
     box-shadow: 0 -20px 20px #cccccc60;
     position: relative;
 }
+
