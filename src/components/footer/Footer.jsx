@@ -4,7 +4,16 @@ import "./footer.css"
 import { MdNetworkWifi } from "react-icons/md"
 import { FaFacebookF, } from "react-icons/fa"
 import { AiFillInstagram, AiFillYoutube } from "react-icons/ai"
+import { MdOutlineVerifiedUser } from "react-icons/md"
 import { TbWorld } from "react-icons/tb"
+import bkash from "../../asstes/bkash.png"
+import nagad from "../../asstes/nagad.png"
+import rocket from "../../asstes/rocket.png"
+import wise from "../../asstes/wise.png"
+import brac from "../../asstes/brac.png"
+import dutch from "../../asstes/dutch.png"
+import city from "../../asstes/city.png"
+import estern from "../../asstes/estern.png"
 
 function Footer() {
     return (
@@ -66,8 +75,21 @@ function Footer() {
                 </div>
                 <div className="footer-bottom py-20">
                     <div className="grid gird-cols-1 grid-cols-3 gap-20">
-                        <div className="bg-gray-700 opacity-20 payment-gatway">
-                            payment
+                        <div className="payment-gatway">
+                            <div className='s-title text-white flex items-center gap-3 mb-5'>
+                                <span className='text-xl'><MdOutlineVerifiedUser /></span>
+                                <h3 className='font-semibold'>Follow Our Social Media</h3>
+                            </div>
+                            <div className='payment-option grid grid-cols-2 md:grid-cols-4 gap-3'>
+                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={bkash} alt="bkash" /></div>
+                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={nagad} alt="nagad" /></div>
+                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={rocket} alt="rocket" /></div>
+                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={wise} alt="wise" /></div>
+                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={brac} alt="brac" /></div>
+                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={dutch} alt="dutch" /></div>
+                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={city} alt="city" /></div>
+                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={estern} alt="estern" /></div>
+                            </div>
                         </div>
                         <div className="newsletter">
                             <h2 className='text-white text-xl font-semibold'>Subscribe Our Newsletter</h2>
@@ -103,7 +125,6 @@ function Footer() {
                             <li className='px-4'>Privacy Policy</li>
                         </ul>
                     </flex>
-
                 </div>
             </div>
         </footer>
