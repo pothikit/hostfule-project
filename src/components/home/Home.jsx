@@ -11,7 +11,7 @@ import Faq from './faqAccordion/Faq'
 
 function Home() {
     return (
-        <main>
+        <main className=''>
             <Hero></Hero>
             <DomainSeach></DomainSeach>
             <Threcard></Threcard>

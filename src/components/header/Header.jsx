@@ -11,6 +11,7 @@ import { RxCross1 } from "react-icons/rx";
 import { useState } from 'react';
 
 export const Header = () => {
+    const [bar, setBar] = useState(false)
     return (
         <>
             <header className=''>
@@ -33,7 +34,10 @@ export const Header = () => {
                             <div className="logo">
                                 <Link to="/"><img src={logo} alt="Logo" width='150' /></Link>
                             </div>
-                            <Navbar></Navbar>
+                            <div className={`absolute md:static top-full bg-white md:w-auto p-10 md:p-0 duration-500 ${bar ? "left-0" : "left-[2000px]"}`}>
+                                <Navbar></Navbar>
+                            </div>
+                            <span className='block md:hidden text-3xl cursor-pointer' onClick={() => setBar(!bar)}>{bar ? <RxCross1 /> : <HiMiniBars3CenterLeft />}</span>
                         </div>
                     </div>
                 </div>
