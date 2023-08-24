@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { BiSolidDownArrow } from "react-icons/bi";
 
 export const Navbar = () => {
-    const handleNav = (e) => e.stopPropagation()
+    const [dropdown, setDropdown] = useState(false)
+    const handleNav = (e) => {
+        e.stopPropagation();
+        setDropdown(!dropdown)
+    };
+
     return (
         <ul className='flex flex-col md:flex-row gap-1 lg:gap-14 md:items-center space-y-5 md:space-y-0'>
             {/* webhosting with dorpdown */}
             <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={handleNav}>
                 {/* webhosting */}
                 <div className="flex items-center gap-2 cursor-pointer">
-                    <Link className='group-hover:text-primary text-lg font-normal'>Web Hosting</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                    <Link className='md:group-hover:text-primary text-lg font-normal'>Web Hosting</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
-                <div className="drop-down static md:absolute hidden group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4">
+                <div className={`drop-down static md:absolute md:group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown ? "block" : "hidden"}`}>
                     <ul className='flex flex-col sm:flex-row shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/* Shared Hosting */}

@@ -46,10 +46,10 @@ function DomainSeach() {
                                 </div>
                             </form>
                             <div className="extensions mt-8">
-                                <ul className='flex justify-center gap-5'>
+                                <ul className='grid grid-cols-3 md:grid-cols-6 gap-5'>
                                     {
                                         extensions.map((exetension) => (
-                                            <li key={exetension.id} className='text-lg font-semibold gap-4 items-start flex'><span>{exetension.extension}</span><span className='text-xs font-semibold text-white'>{exetension.price}</span></li>
+                                            <li key={exetension.id} className='text-lg font-semibold gap-4 items-start flex justify-center'><span>{exetension.extension}</span><span className='text-xs font-semibold text-white'>{exetension.price}</span></li>
                                         ))
                                     }
                                 </ul>
