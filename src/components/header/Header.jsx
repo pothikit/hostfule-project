@@ -6,6 +6,9 @@ import { FaEnvelope, FaWhatsappSquare } from "react-icons/fa";
 import { } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import { Navbar } from "./Navbar";
+import { HiMiniBars3CenterLeft } from "react-icons/hi2";
+import { RxCross1 } from "react-icons/rx";
+import { useState } from 'react';
 
 export const Header = () => {
     return (
@@ -23,13 +26,15 @@ export const Header = () => {
 
             </header>
             {/* navbar */}
-            <nav className='border-b border-primary border-opacity-20 py-3 sticky top-0 bg-white z-50'>
-                <div className="container mx-auto">
-                    <div className="navigation-menu flex justify-between items-center py-1">
-                        <div className="logo">
-                            <Link to="/"><img src={logo} alt="Logo" width='150' /></Link>
+            <nav className='border-b border-primary border-opacity-20 py-3 sticky top-[-2px] bg-white z-50'>
+                <div className="relative">
+                    <div className="container mx-auto">
+                        <div className="navigation-menu flex justify-between items-center py-1">
+                            <div className="logo">
+                                <Link to="/"><img src={logo} alt="Logo" width='150' /></Link>
+                            </div>
+                            <Navbar></Navbar>
                         </div>
-                        <Navbar></Navbar>
                     </div>
                 </div>
             </nav>

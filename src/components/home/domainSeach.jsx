@@ -26,10 +26,10 @@ function DomainSeach() {
         <section className='py-20'>
             <div className="container mx-auto">
                 <div className="domain bg-gradient-to-tr from-primary to-secondary rounded-lg">
-                    <div className='p-20 px-40'>
+                    <div className='py-20 xl:max-w-[80%] mx-auto'>
                         <h2 className='text-center text-white mb-4'>Do Your Want Your Premium Domain?</h2>
                         <div className='search-bar flex flex-col'>
-                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center pl-3 py-2 rounded-xl md:mx-52'>
+                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex lg:justify-between items-center pl-3 py-2 rounded-xl mx-0 lg:mx-52'>
                                 <input type="text" defaultValue={DomainNameWithExtension} className='text-black hidden' name='query' />
                                 <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold focus:border rounded-lg' name="" id='domainName' required onChange={handleDoaminInput} />
 

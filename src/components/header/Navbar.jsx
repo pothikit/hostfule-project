@@ -14,7 +14,7 @@ export const Navbar = () => {
                     {/* webhosting */}
                     <Link className='group-hover:text-primary text-lg font-normal flex items-center'>Web Hosting</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
-                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
+                    <div className="drop-down absolute hidden group-hover:block pt-6 top-6 -translate-x-[40%] p-4">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
@@ -56,7 +56,7 @@ export const Navbar = () => {
                     {/* Dedicated */}
                     <Link className='group-hover:text-primary text-lg font-normal'>Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
-                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
+                    <div className="drop-down absolute hidden group-hover:block pt-6 top-6 -translate-x-[40%] p-4">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/* By Region */}
@@ -109,7 +109,7 @@ export const Navbar = () => {
                     {/* Domain */}
                     <Link className='group-hover:text-primary text-lg font-normal'>Domain</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
-                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
+                    <div className="drop-down absolute hidden group-hover:block pt-6 top-6 -translate-x-[40%] p-4">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
@@ -138,7 +138,7 @@ export const Navbar = () => {
                     {/* Other Services */}
                     <Link className='group-hover:text-primary text-lg font-normal'>Other Services</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* web-hosting dropdown */}
-                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 -translate-x-[40%] p-4">
+                    <div className="drop-down absolute hidden group-hover:block pt-6 top-6 -translate-x-[40%] p-4">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/*   Exclusive Services */}
@@ -169,7 +169,7 @@ export const Navbar = () => {
                     {/* about us */}
                     <Link className='group-hover:text-primary text-lg font-normal'>About us</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                     {/* about us */}
-                    <div className="drop-down absolute hidden group-hover:block pt-10 top-6 p-4 -translate-x-[30%]">
+                    <div className="drop-down absolute hidden group-hover:block pt-6 top-6 p-4 -translate-x-[30%]">
                         <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                             <li className='space-y-5'>
                                 {/* Shared Hosting */}
