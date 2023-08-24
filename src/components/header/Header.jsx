@@ -12,6 +12,15 @@ import { useState } from 'react';
 
 export const Header = () => {
     const [bar, setBar] = useState(false)
+    document.addEventListener("click", () => {
+        if (bar) {
+            setBar(false)
+        }
+    });
+    const handleClick = (e) => {
+        e.stopPropagation()
+        setBar(!bar)
+    }
     return (
         <>
             <header className=''>
@@ -34,10 +43,10 @@ export const Header = () => {
                             <div className="logo">
                                 <Link to="/"><img src={logo} alt="Logo" width='150' /></Link>
                             </div>
-                            <div className={`absolute md:static top-full bg-white md:w-auto p-10 md:p-0 duration-500 ${bar ? "left-0" : "left-[2000px]"}`}>
+                            <div className={`absolute md:static top-full md:w-auto p-10 md:p-0 duration-500 bg-white w-full ${bar ? "left-0" : "-left-[3000px]"}`}>
                                 <Navbar></Navbar>
                             </div>
-                            <span className='block md:hidden text-3xl cursor-pointer' onClick={() => setBar(!bar)}>{bar ? <RxCross1 /> : <HiMiniBars3CenterLeft />}</span>
+                            <span className='block md:hidden text-3xl cursor-pointer' onClick={handleClick}>{bar ? <RxCross1 /> : <HiMiniBars3CenterLeft />}</span>
                         </div>
                     </div>
                 </div>

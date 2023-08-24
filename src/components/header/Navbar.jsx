@@ -3,19 +3,22 @@ import { Link } from 'react-router-dom';
 import { BiSolidDownArrow } from "react-icons/bi";
 
 export const Navbar = () => {
+    const handleNav = (e) => e.stopPropagation()
     return (
         <ul className='flex flex-col md:flex-row gap-1 lg:gap-14 md:items-center space-y-5 md:space-y-0'>
             {/* webhosting with dorpdown */}
-            <li className='flex items-center gap-2 font-bold text-base group relative'>
+            <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={handleNav}>
                 {/* webhosting */}
-                <Link className='group-hover:text-primary text-lg font-normal flex items-center'>Web Hosting</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                <div className="flex items-center gap-2 cursor-pointer">
+                    <Link className='group-hover:text-primary text-lg font-normal'>Web Hosting</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                </div>
                 {/* web-hosting dropdown */}
-                <div className="drop-down absolute hidden group-hover:block pt-6 top-6 -translate-x-[40%] p-4">
-                    <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
+                <div className="drop-down static md:absolute hidden group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4">
+                    <ul className='flex flex-col sm:flex-row shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>Shared Hosting</h4>
-                            <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
+                            <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
                                 <li className='font-normal'><Link to="https://my.hostflu.com/index.php?rp=/store/shared-hosting/mini" className='hover:text-primary'>Mini</Link></li>
                                 <li className='font-normal'><Link to="https://my.hostflu.com/index.php?rp=/store/shared-hosting/starter" className='hover:text-primary'>Starter</Link></li>
                                 <li className='font-normal'><Link to="https://my.hostflu.com/index.php?rp=/store/shared-hosting/professional" className='hover:text-primary'>Professional</Link></li>
@@ -26,7 +29,7 @@ export const Navbar = () => {
                         <li className='space-y-5'>
                             {/*   Reseller Hosting */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>Reseller Hosting</h4>
-                            <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
+                            <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>RSP -1</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>RSP -2</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>RSP -3</Link></li>
@@ -48,9 +51,11 @@ export const Navbar = () => {
                 </div>
             </li>
             {/* dedicated server with dorpdown */}
-            <li className='flex items-center gap-2 font-bold text-base group relative'>
+            <li className='flex items-center gap-2 font-bold text-base group relative' onClick={handleNav}>
                 {/* Dedicated */}
-                <Link className='group-hover:text-primary text-lg font-normal'>Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                <div className="flex items-center gap-2 cursor-pointer">
+                    <Link className='group-hover:text-primary text-lg font-normal'>Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                </div>
                 {/* web-hosting dropdown */}
                 <div className="drop-down absolute hidden group-hover:block pt-6 top-6 -translate-x-[40%] p-4">
                     <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
@@ -101,9 +106,11 @@ export const Navbar = () => {
                 </div>
             </li>
             {/* Domain */}
-            <li className='flex items-center gap-2 font-bold text-base group relative'>
+            <li className='flex items-center gap-2 font-bold text-base group relative' onClick={handleNav}>
                 {/* Domain */}
-                <Link className='group-hover:text-primary text-lg font-normal'>Domain</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                <div className="flex items-center gap-2 cursor-pointer">
+                    <Link className='group-hover:text-primary text-lg font-normal'>Domain</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                </div>
                 {/* web-hosting dropdown */}
                 <div className="drop-down absolute hidden group-hover:block pt-6 top-6 -translate-x-[40%] p-4">
                     <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
@@ -130,9 +137,11 @@ export const Navbar = () => {
                     </ul>
                 </div>
             </li>
-            <li className='flex items-center gap-2 font-bold text-base group relative'>
+            <li className='flex items-center gap-2 font-bold text-base group relative' onClick={handleNav}>
                 {/* Other Services */}
-                <Link className='group-hover:text-primary text-lg font-normal'>Other Services</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                <div className="flex items-center gap-2 cursor-pointer">
+                    <Link className='group-hover:text-primary text-lg font-normal'>Other Services</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                </div>
                 {/* web-hosting dropdown */}
                 <div className="drop-down absolute hidden group-hover:block pt-6 top-6 -translate-x-[40%] p-4">
                     <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
@@ -161,9 +170,11 @@ export const Navbar = () => {
                     </ul>
                 </div>
             </li>
-            <li className='flex items-center gap-2 font-bold text-base group relative'>
+            <li className='flex items-center gap-2 font-bold text-base group relative' onClick={handleNav}>
                 {/* about us */}
-                <Link className='group-hover:text-primary text-lg font-normal'>About us</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                <div className="flex items-center gap-2 cursor-pointer">
+                    <Link className='group-hover:text-primary text-lg font-normal'>About us</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                </div>
                 {/* about us */}
                 <div className="drop-down absolute hidden group-hover:block pt-6 top-6 p-4 -translate-x-[30%]">
                     <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
