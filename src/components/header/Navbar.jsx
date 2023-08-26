@@ -56,15 +56,15 @@ export const Navbar = () => {
                 </div>
             </li>
             {/* dedicated server with dorpdown */}
-            <li className='flex items-center gap-2 font-bold text-base group relative' onClick={handleNav}>
+            <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={handleNav}>
                 {/* Dedicated */}
                 <div className="flex items-center gap-2 cursor-pointer">
                     <Link className='group-hover:text-primary text-lg font-normal'>Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
-                <div className="drop-down absolute hidden group-hover:block pt-6 top-6 -translate-x-[40%] p-4">
-                    <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
-                        <li className='space-y-5'>
+                <div className={`drop-down static md:absolute md:group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown ? "block" : "hidden"}`}>
+                    <ul className='flex shadow-sm flex-wrap md:flex-nowrap shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
+                        <li className='space-y-5 sm:w-1/2 md:w-auto w-full'>
                             {/* By Region */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>By Region</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
@@ -76,7 +76,7 @@ export const Navbar = () => {
                             </ul>
                         </li>
                         {/* Reseller hosting */}
-                        <li className='space-y-5'>
+                        <li className='space-y-5 sm:w-1/2 md:w-auto w-full'>
                             {/*   By Options */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>By Options</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
@@ -87,18 +87,18 @@ export const Navbar = () => {
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>IPv6</Link></li>
                             </ul>
                         </li>
-                        <li className='space-y-5 mb-3'>
+                        <li className='space-y-5 mb-3 sm:w-full md:w-auto w-full'>
                             {/*    Popular Locations */}
-                            <h4 className='text-base text-left px-10 whitespace-nowrap'>Popular Locations</h4>
+                            <h4 className='text-base text-left px-10 whitespace-nowrap sm:mt-10 md:mt-0'>Popular Locations</h4>
                             <ul className='flex gap-5 whitespace-nowrap drop-mega'>
-                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10'>
+                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10 sm:flex-1 lg:flex-auto'>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>Paris</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>France</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>Netherlands</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>Montreal</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>Canada</Link></li>
                                 </ul>
-                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
+                                <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10 sm:flex-1 lg:flex-auto'>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>Los Angeles</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>United-States</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>London</Link></li>
