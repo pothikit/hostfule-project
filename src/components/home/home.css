@@ -35,6 +35,7 @@ background-clip: text;
  /* faq accordion */
  .ReactCollapse--collapse {
         transition: height 500ms;
+        font-size: 15px;
       }
  /* testimonial carousel */
  .slick-slide{
