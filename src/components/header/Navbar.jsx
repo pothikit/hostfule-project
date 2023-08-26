@@ -94,7 +94,7 @@ export const Navbar = () => {
                         <li className='space-y-5 mb-3 sm:w-full md:w-auto w-full'>
                             {/*    Popular Locations */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap sm:mt-10 md:mt-0'>Popular Locations</h4>
-                            <ul className='flex gap-5 whitespace-nowrap drop-mega'>
+                            <ul className='flex gap-5 sm:flex-nowrap flex-wrap whitespace-nowrap drop-mega'>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10 flex-1 lg:flex-auto'>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>Paris</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>France</Link></li>

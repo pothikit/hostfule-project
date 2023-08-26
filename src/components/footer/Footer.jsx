@@ -81,14 +81,14 @@ function Footer() {
                                 <h3 className='font-semibold'>Follow Our Social Media</h3>
                             </div>
                             <div className='payment-option grid grid-cols-2 md:grid-cols-4 gap-3'>
-                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={bkash} alt="bkash" /></div>
-                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={nagad} alt="nagad" /></div>
-                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={rocket} alt="rocket" /></div>
-                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={wise} alt="wise" /></div>
-                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={brac} alt="brac" /></div>
-                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={dutch} alt="dutch" /></div>
-                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={city} alt="city" /></div>
-                                <div className="gatway bg-white flex border border-red-600 items-center justify-center py-2 px-4 rounded-lg"><img src={estern} alt="estern" /></div>
+                                <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={bkash} alt="bkash" /></div>
+                                <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={nagad} alt="nagad" /></div>
+                                <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={rocket} alt="rocket" /></div>
+                                <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={wise} alt="wise" /></div>
+                                <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={brac} alt="brac" /></div>
+                                <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={dutch} alt="dutch" /></div>
+                                <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={city} alt="city" /></div>
+                                <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={estern} alt="estern" /></div>
                             </div>
                         </div>
                         <div className="newsletter">
