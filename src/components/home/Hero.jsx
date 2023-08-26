@@ -5,10 +5,10 @@ function Hero() {
     return (
         <section className='py-16'>
             <div className='container mx-auto'>
-                <div className="hero grid grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+                <div className="hero grid grid-cols-1 lg:grid-cols-3 gap-4 items-center px-3 md:px-0">
                     <div className='lg:col-span-2'>
                         <div className="hero-title">
-                            <h1 className='text-8xl flex flex-col gap-5 font-bold'>
+                            <h1 className='text-3xl sm:text-5xl lg:text-8xl flex flex-col gap-5 font-bold'>
                                 <span className='block text-primary'>Up To 20X</span>
                                 <span className='block'>Faster Web hosting</span>
                                 <span>to Help Your Succeed !</span>
@@ -38,7 +38,7 @@ function Hero() {
                         </div>
                     </div>
                     <div>
-                        <img src={heroImg} alt="" />
+                        <img src={heroImg} alt="" className='w-full' />
                     </div>
                 </div>
             </div>

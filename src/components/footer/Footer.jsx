@@ -96,7 +96,7 @@ function Footer() {
                             <p className='text-white leading-7 w-[70%] my-5'>By subscribing with your mail, you will accept our privacy policy.</p>
                             <form action="" className='flex bg-white p-2 justify-between items-center rounded-lg'>
                                 <input required type="text" className='flex-1 text-gray-400 outline-none p-2' placeholder='Enter Your Email Address' />
-                                <input type="submit" value="SUBSCRIBE" className='px-4 py-2 bg-gradient-to-r from-primary to-secondary hover:bg-primary ml-4 rounded-lg text-white cursor-pointer' />
+                                <input type="submit" value="SUBSCRIBE" className='md:px-4 py-2 bg-gradient-to-r from-primary to-secondary hover:bg-primary md:ml-4 rounded-lg text-white cursor-pointer' />
                             </form>
                         </div>
                         <div className="social space-y-5">

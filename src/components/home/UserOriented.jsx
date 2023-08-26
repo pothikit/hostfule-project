@@ -7,7 +7,7 @@ function UserOriented() {
     let UserOriData = data.UserOriented;
     return (
         <section className='py-20'>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-2">
                 <div className="section-top text-center mb-20">
                     <h1 className='text-2xl md:text-[2.5rem] font-semibold text-center text-primary mb-9'>User Oriented Control Panel</h1>
                     <p>Intuitive and easy to use, cPanel help you to manage a web hosting account with maximum efficiency.</p>

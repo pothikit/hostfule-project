@@ -26,10 +26,10 @@ export const Header = () => {
             <header className=''>
                 <div className="top-header py-[1px]">
                     <div className="container mx-auto">
-                        <ul className='flex justify-end items-center gap-12 text-white text-lg'>
-                            <li className=''><a href="https://wa.me/+8801719375526" className='flex items-center gap-4'><span className="rotate-[270deg]"><FaWhatsappSquare /></span>+8801719375526</a></li>
-                            <li className=''><a href="mailto:hostflu@gmail.com" className='flex items-center gap-4'><FaEnvelope />Contact us</a></li>
-                            <Link to="https://my.hostflu.com/register.php" target="_blank" className="border border-black border-opacity-40 hover:text-black hover:border-white duration-500 px-4 text-white rounded-md text-base">CLIENT PORTAL</Link>
+                        <ul className='flex justify-center md:justify-end items-center gap-5 md:gap-12 text-white text-sm md:text-lg'>
+                            <li className=''><a href="https://wa.me/+8801719375526" className='flex items-center gap-2 md:gap-4'><span className="rotate-[270deg]"><FaWhatsappSquare /></span>+8801719375526</a></li>
+                            <li className=''><a href="mailto:hostflu@gmail.com" className='flex items-center gap-2 md:gap-4'><FaEnvelope />Contact us</a></li>
+                            <Link to="https://my.hostflu.com/register.php" target="_blank" className="border border-black border-opacity-40 hover:text-black hover:border-white duration-500 px-2 text-sm md:px-4 text-white rounded-md md:text-base">CLIENT PORTAL</Link>
                         </ul>
                     </div>
                 </div>

@@ -23,30 +23,31 @@ function DomainSeach() {
     }
 
     return (
-        <section className='py-20'>
+        <section className='py-20 bg-gradient-to-tr from-primary to-secondary md:bg-none'>
             <div className="container mx-auto">
-                <div className="domain bg-gradient-to-tr from-primary to-secondary rounded-lg">
-                    <div className='py-20 xl:max-w-[80%] mx-auto'>
+                <div className="domain md:bg-gradient-to-tr from-primary to-secondary rounded-lg px-1">
+                    <div className='md:py-20 xl:max-w-[80%] mx-auto'>
                         <h2 className='text-center text-white mb-4'>Do Your Want Your Premium Domain?</h2>
-                        <div className='search-bar flex flex-col'>
-                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex lg:justify-between items-center pl-3 py-2 rounded-xl mx-0 lg:mx-52'>
+                        <div className='search-bar flex flex-col px-3 sm:px-0'>
+                            <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center pl-1 md:pl-3 md:py-2 rounded-xl mx-0 lg:mx-52'>
                                 <input type="text" defaultValue={DomainNameWithExtension} className='text-black hidden' name='query' />
-                                <input type="text" placeholder='Type your domain adreaddress' className='p-4 flex-1 outline-none font-semibold focus:border rounded-lg' name="" id='domainName' required onChange={handleDoaminInput} />
+                                <input type="text" placeholder='Type your domain adreaddress' className='p-4 sm:flex-1 w-1/2 sm:w-auto text-sm sm:text-base outline-none font-semibold focus:border rounded-lg' name="" id='domainName' required onChange={handleDoaminInput} />
 
                                 <div className='px-2 space-x-3 flex items-center'>
                                     <div className='cursor-pointer flex items-center mr-4'>
-                                        <select name="extension" id="extensionSelect" className='outline-0 text-lg px-5 text-gray-500 font-semibold cursor-pointer bg-transparent appearance-none' onChange={handleSelect}>
+                                        <select name="extension" id="extensionSelect" className='outline-0 md:text-lg px-2 md:px-5 text-gray-500 font-semibold cursor-pointer bg-transparent appearance-none' onChange={handleSelect}>
                                             <option value="All" defaultValue>All</option>
                                             {alldomain.map((domain) => (
                                                 <option key={domain.id} className='text-lg' value={domain.extension}>{domain.extension}</option>
                                             ))}
                                         </select><span className='text-gray-400 cursor-pointer text-sm -ml-5 pointer-events-none'><BiSolidDownArrow /></span>
                                     </div>
-                                    <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-5 bg-gradient-to-r from-primary to-secondary to-100% rounded-xl text-white px-10' />
+                                    <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-2 md:py-5 bg-gradient-to-r from-primary to-secondary to-100% rounded-lg text-white px-2 md:px-10 text-sm md:text-base' />
+
                                 </div>
                             </form>
-                            <div className="extensions mt-8">
-                                <ul className='grid grid-cols-3 md:grid-cols-6 gap-5'>
+                            <div className="extensions mt-8 md:max-w-[80%] mx-auto">
+                                <ul className='grid grid-cols-3 sm:grid-cols-6 gap-4'>
                                     {
                                         extensions.map((exetension) => (
                                             <li key={exetension.id} className='text-lg font-semibold gap-4 items-start flex justify-center'><span>{exetension.extension}</span><span className='text-xs font-semibold text-white'>{exetension.price}</span></li>

@@ -5,8 +5,8 @@ import bgImg from '../../asstes/Group75.png'
 function Threcard() {
     return (
         <section className='my-5'>
-            <div className='container mx-auto'>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
+            <div className='container mx-auto px-2'>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-5 lg:gap-20">
                     <div className="card bg-[#F6F6F6] p-8 rounded-xl">
                         <div className="card-header">
                             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
@@ -144,13 +144,15 @@ function Threcard() {
             </div>
             {/* container */}
             <section className='three-card-bottom mt-40'>
-                <div className="bg-gradient-to-r from-primary to-secondary relative bg-card-bottom md:py-24 md:px-40 text-center -z-10">
-                    <img src={bgImg} alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-25 z-0" />
-                    <div className='content z-10 text-white container mx-auto md:px-20'>
-                        <p className=''>Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our customers' specific needs in mind.
-                            Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our cuific needs in mind.Fluresta
-                            has a hosting plan for everyone. Whether you are a beginner or an expert, ourh our customers' specific needs in mind.</p>
-                        <h1 className='font-semibold text-4xl mt-10'>Which Type of Hosting is Right for You?</h1>
+                <div className="bg-gradient-to-r from-primary to-secondary relative bg-card-bottom py-24 lg:px-40 text-center -z-10">
+                    <div className="container mx-auto px-2">
+                        <img src={bgImg} alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-25 z-0" />
+                        <div className='content z-10 text-white container mx-auto md:px-20'>
+                            <p className=''>Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our customers' specific needs in mind.
+                                Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our cuific needs in mind.Fluresta
+                                has a hosting plan for everyone. Whether you are a beginner or an expert, ourh our customers' specific needs in mind.</p>
+                            <h1 className='font-semibold text-4xl mt-10'>Which Type of Hosting is Right for You?</h1>
+                        </div>
                     </div>
                 </div>
             </section>
