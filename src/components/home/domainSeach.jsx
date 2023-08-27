@@ -11,12 +11,13 @@ function DomainSeach() {
     const handleDoaminInput = (e) => {
         e.preventDefault();
         setDomainInput(e.target.value);
-        if (domainInput.includes(".")) {
-            setIsSelectDisable(!isSelectDisable)
-        }
+        if (domainInput.indexOf(".") !== -1) {
+            setIsSelectDisable(true)
+        } else setIsSelectDisable(false)
     }
     const handleSelect = (e) => {
-        e.preventDefault(); setSelect(e.target.value)
+        e.preventDefault();
+        setSelect(e.target.value)
     }
     let DomainNameWithExtension = domainInput + select;
 
