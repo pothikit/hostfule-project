@@ -5,22 +5,20 @@ import { BiSolidDownArrow } from "react-icons/bi"
 function DomainSeach() {
     let alldomain = data.domainExtention;
     let extensions = data.domainExtention.slice(0, 6);
-    const [domainInput, setDomainInput] = useState("")
-    const [select, setSelect] = useState("")
+    const [domainInput, setDomainInput] = useState("");
+    const [isSelectDisable, setIsSelectDisable] = useState(false)
+    const [select, setSelect] = useState("");
     const handleDoaminInput = (e) => {
         e.preventDefault();
-        setDomainInput(e.target.value)
+        setDomainInput(e.target.value);
+        if (domainInput.includes(".")) {
+            setIsSelectDisable(!isSelectDisable)
+        }
     }
     const handleSelect = (e) => {
         e.preventDefault(); setSelect(e.target.value)
     }
-    // console.log(typeof domainInput)
-    let DomainNameWithExtension
-    if (domainInput.includes(".")) {
-        alert("You Should Select Domain Extension")
-    } else {
-        DomainNameWithExtension = domainInput + select;
-    }
+    let DomainNameWithExtension = domainInput + select;
 
     return (
         <section className='py-20 bg-gradient-to-tr from-primary to-secondary md:bg-none'>
@@ -35,7 +33,7 @@ function DomainSeach() {
 
                                 <div className='px-2 space-x-3 flex items-center'>
                                     <div className='cursor-pointer flex items-center mr-4'>
-                                        <select name="extension" id="extensionSelect" className='outline-0 md:text-lg px-2 md:px-5 text-gray-500 font-semibold cursor-pointer bg-transparent appearance-none' onChange={handleSelect}>
+                                        <select name="extension" id="extensionSelect" className='outline-0 md:text-lg px-2 md:px-5 text-gray-500 font-semibold cursor-pointer bg-transparent appearance-none' disabled={isSelectDisable} onChange={handleSelect}>
                                             <option value="All" defaultValue>All</option>
                                             {alldomain.map((domain) => (
                                                 <option key={domain.id} className='text-lg' value={domain.extension}>{domain.extension}</option>
@@ -60,7 +58,7 @@ function DomainSeach() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
 
         </section >
     )
