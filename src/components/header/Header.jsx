@@ -38,7 +38,7 @@ export const Header = () => {
             {/* navbar */}
             <nav className='border-b border-primary border-opacity-20 py-3 sticky top-[-2px] bg-white z-50'>
                 <div className="relative">
-                    <div className="container mx-auto">
+                    <div className="container mx-auto px-2">
                         <div className="navigation-menu flex justify-between items-center py-1">
                             <div className="logo">
                                 <Link to="/"><img src={logo} alt="Logo" width='150' /></Link>
