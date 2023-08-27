@@ -18,8 +18,8 @@ import estern from "../../asstes/estern.png"
 function Footer() {
     return (
         <footer className='pt-20'>
-            <div className="container mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-20 gap-32">
+            <div className="container mx-auto px-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-20 gap-20 lg:gap-32">
                     {/* col maind div */}
                     <div>
                         <div className="col-title mb-8">
@@ -74,13 +74,13 @@ function Footer() {
                     {/* col main div end */}
                 </div>
                 <div className="footer-bottom py-20">
-                    <div className="grid gird-cols-1 grid-cols-3 gap-20">
+                    <div className="grid gird-cols-1 md:grid-cols-3 gap-20">
                         <div className="payment-gatway">
                             <div className='s-title text-white flex items-center gap-3 mb-5'>
                                 <span className='text-xl'><MdOutlineVerifiedUser /></span>
                                 <h3 className='font-semibold'>Follow Our Social Media</h3>
                             </div>
-                            <div className='payment-option grid grid-cols-2 md:grid-cols-4 gap-3'>
+                            <div className='payment-option grid grid-cols-4 gap-3'>
                                 <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={bkash} alt="bkash" /></div>
                                 <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={nagad} alt="nagad" /></div>
                                 <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={rocket} alt="rocket" /></div>
@@ -96,7 +96,7 @@ function Footer() {
                             <p className='text-white leading-7 w-[70%] my-5'>By subscribing with your mail, you will accept our privacy policy.</p>
                             <form action="" className='flex bg-white p-2 justify-between items-center rounded-lg'>
                                 <input required type="text" className='flex-1 text-gray-400 outline-none p-2' placeholder='Enter Your Email Address' />
-                                <input type="submit" value="SUBSCRIBE" className='md:px-4 py-2 bg-gradient-to-r from-primary to-secondary hover:bg-primary md:ml-4 rounded-lg text-white cursor-pointer' />
+                                <input type="submit" value="SUBSCRIBE" className='px-4 py-2 bg-gradient-to-r from-primary to-secondary hover:bg-primary md:ml-4 rounded-lg text-white cursor-pointer' />
                             </form>
                         </div>
                         <div className="social space-y-5">
