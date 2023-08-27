@@ -37,48 +37,48 @@ export default function Testimonial() {
     };
     return (
         <section className="py-20">
-            <div className="container mx-auto text-center px-14 sm:px-8">
+            <div className="container mx-auto text-center px-12 sm:px-8">
                 <div className="section-top">
                     <h1 className="text-center text-primary text-2xl md:text-[40px] mb-10 font-semibold">What Customers Say About Us</h1>
                     <p>What our customers have to say about our service, check below!</p>
                 </div>
                 <Slider {...settings}>
                     <div>
-                        <div className="mx-3 sm:mx-5 py-16 px-5 rounded-2xl shadow-2xl carousel-div">
+                        <div className="mx-3 sm:mx-5 py-10 sm:py-16 px-5 rounded-2xl shadow-2xl carousel-div">
                             <div className="-mt-28 slider-imgDiv bg-white w-24 h-24 flex items-center mx-auto rounded-full">
                                 <img src={sliderImg} alt="" className="mx-auto w-16 h-16 z-10 shadow-2xl rounded-full" />
                             </div>
-                            <h3 className="text-2xl mt-10 font-medium">Mr Jorce</h3>
+                            <h3 className="text-xl md:text-2xl mt-10 font-medium">Mr Jorce</h3>
                             <span className="block mt-2 text-gray-500">Retail Company</span>
                             <p className="text-sm md:text-xl mt-4 text-gray-600">“thank you for realizing the idea and highly recommend it for those of you who want to create a system”</p>
                         </div>
                     </div>
                     <div>
-                        <div className="mx-3 sm:mx-5 py-16 px-5 rounded-2xl shadow-2xl carousel-div">
+                        <div className="mx-3 sm:mx-5 py-10 sm:py-16 px-5 rounded-2xl shadow-2xl carousel-div">
                             <div className="-mt-28 slider-imgDiv bg-white w-24 h-24 flex items-center mx-auto rounded-full">
                                 <img src={sliderImg} alt="" className="mx-auto w-16 h-16 z-10 shadow-2xl rounded-full" />
                             </div>
-                            <h3 className="text-2xl mt-10 font-medium">Mr Jorce</h3>
+                            <h3 className="text-xl md:text-2xl mt-10 font-medium">Mr Jorce</h3>
                             <span className="block mt-2 text-gray-500">Retail Company</span>
                             <p className="text-sm md:text-xl mt-4 text-gray-600">“thank you for realizing the idea and highly recommend it for those of you who want to create a system”</p>
                         </div>
                     </div>
                     <div>
-                        <div className="mx-3 sm:mx-5 py-16 px-5 rounded-2xl shadow-2xl carousel-div">
+                        <div className="mx-3 sm:mx-5 py-10 sm:py-16 px-5 rounded-2xl shadow-2xl carousel-div">
                             <div className="-mt-28 slider-imgDiv bg-white w-24 h-24 flex items-center mx-auto rounded-full">
                                 <img src={sliderImg} alt="" className="mx-auto w-16 h-16 z-10 shadow-2xl rounded-full" />
                             </div>
-                            <h3 className="text-2xl mt-10 font-medium">Mr Jorce</h3>
+                            <h3 className="text-xl md:text-2xl mt-10 font-medium">Mr Jorce</h3>
                             <span className="block mt-2 text-gray-500">Retail Company</span>
                             <p className="text-sm md:text-xl mt-4 text-gray-600">“thank you for realizing the idea and highly recommend it for those of you who want to create a system”</p>
                         </div>
                     </div>
                     <div>
-                        <div className="mx-3 sm:mx-5 py-16 px-5 rounded-2xl shadow-2xl carousel-div">
+                        <div className="mx-3 sm:mx-5 py-10 sm:py-16 px-5 rounded-2xl shadow-2xl carousel-div">
                             <div className="-mt-28 slider-imgDiv bg-white w-24 h-24 flex items-center mx-auto rounded-full">
                                 <img src={sliderImg} alt="" className="mx-auto w-16 h-16 z-10 shadow-2xl rounded-full" />
                             </div>
-                            <h3 className="text-2xl mt-10 font-medium">Mr Jorce</h3>
+                            <h3 className="text-xl md:text-2xl mt-10 font-medium">Mr Jorce</h3>
                             <span className="block mt-2 text-gray-500">Retail Company</span>
                             <p className="text-sm md:text-xl mt-4 text-gray-600">“thank you for realizing the idea and highly recommend it for those of you who want to create a system”</p>
                         </div>
