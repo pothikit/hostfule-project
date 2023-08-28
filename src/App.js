@@ -6,6 +6,7 @@ import PageNotFound from "./components/PageNotFound";
 import Home from './components/home/Home';
 import { Header } from "./components/header/Header";
 import Footer from './components/footer/Footer';
+import SharedHosting from "./components/sharedHosting/SharedHosting";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         {/* login page       */}
         <Route path="/" element={<Home />} />
         <Route path="login" element={<Login />} />
+        <Route path="/shared-hosting" element={<SharedHosting />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer></Footer>
