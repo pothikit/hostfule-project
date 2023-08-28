@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PricingCard from './PricingCard';
-import data from '../../../data.json'
+import data from '../../../data.json';
 import '../home.css';
 function Exclusive() {
     const cardData = data.exclusive;
