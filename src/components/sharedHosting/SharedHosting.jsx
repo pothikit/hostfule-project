@@ -4,6 +4,13 @@ import director from "../../asstes/direction.png";
 import data from '../../data.json';
 import PricingCard from '../home/exclusive/PricingCard';
 import { useState } from 'react';
+import architect from "../../asstes/architect.png"
+import IndividualServices from './IndividualServices';
+import cpanel from "../../asstes/shared-Cpanel.png"
+import linux from "../../asstes/linux.png"
+import ssl from "../../asstes/freeSSL.png"
+import wordpresskit from "../../asstes/WordpressKit.png"
+import freeMigration from "../../asstes/free-migration.png"
 function SharedHosting() {
     const cardData = data.exclusive;
     const firstThreeData = cardData.slice(0, 3);
@@ -56,6 +63,23 @@ function SharedHosting() {
                     </div>
                 </div>
                 {/* container */}
+            </section>
+            <section className='bg-[#F6F6F6] py-20'>
+                <div className="container mx-auto px-2">
+                    <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 md:gap-10 items-center">
+                        <div className='lg:col-span-3'>
+                            <p className='text-base sm:text-xl text-justify leading-9'>Experience seamless web hosting with our cutting-edge shared hosting service. At HostFlu we prioritize your online presence. Our robust infrastructure ensures lightning-fast loading times, guaranteeing an uninterrupted browsing experience for your visitors. Enjoy the simplicity of shared resources, making hosting affordable without compromising quality. With 24/7 expert support, your technical concerns are ours to handle, leaving you to focus on your core business. Benefit from one-click installations, automatic updates, and top-notch security features, safeguarding your data and customers' trust. Elevate your website's performance and reliability with our shared hosting – the smart choice for businesses aiming for digital success.</p>
+                        </div>
+                        <div className='lg:col-span-2'>
+                            <img src={architect} alt="architect" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="container mx-auto px-2">
+                    <IndividualServices></IndividualServices>
+                </div>
             </section>
         </main>
     )
