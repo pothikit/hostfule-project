@@ -79,12 +79,12 @@ function SharedHosting() {
                 </div>
             </section>
             <section className='py-32'>
-                <div className="container mx-auto px-2">
+                <div className="container mx-auto px-1">
                     <div className='flex gap-4 imtes-center justify-center'>
-                        <div className='flex items-center w-4/12'>
+                        <div className='flex items-center w-6/12'>
                             <img src={cloudimg} className='' alt="Shared Hosting" />
                         </div>
-                        <div className='space-y-10 w-8/12'>
+                        <div className='space-y-10 w-6/12'>
                             <IndividualServices image={cpanel} title="C Panel" desc="cPanel is a powerful and versatile web hosting control panel that provides users with a wide range of tools and features to manage their websites. With its user-friendly interface, robust security measures, and extensive customization options, cPanel has become the go-to choice for web developers"></IndividualServices>
 
                             <IndividualServices image={linux} title="Cloud Linux" desc="CloudLinux is a lightweight operating system based on the Linux kernel and targeted at servers, with focus on scalability, security.It provides a stable and secure platform for running applications in the cloud. CloudLinux is a popular choice for cloud providers, including Amazon Web Services, Microsoft Azure, and Google Cloud Platform."></IndividualServices>
