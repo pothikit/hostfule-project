@@ -6,11 +6,12 @@ import PricingCard from '../home/exclusive/PricingCard';
 import { useState } from 'react';
 import architect from "../../asstes/architect.png"
 import IndividualServices from './IndividualServices';
-import cpanel from "../../asstes/shared-Cpanel.png"
-import linux from "../../asstes/linux.png"
-import ssl from "../../asstes/freeSSL.png"
-import wordpresskit from "../../asstes/WordpressKit.png"
-import freeMigration from "../../asstes/free-migration.png"
+import cpanel from "../../asstes/shared-Cpanel.png";
+import linux from "../../asstes/linux.png";
+import ssl from "../../asstes/freeSSL.png";
+import wordpresskit from "../../asstes/WordpressKit.png";
+import freeMigration from "../../asstes/free-migration.png";
+
 function SharedHosting() {
     const cardData = data.exclusive;
     const firstThreeData = cardData.slice(0, 3);
@@ -79,15 +80,21 @@ function SharedHosting() {
             <section className='py-32'>
                 <div className="container mx-auto px-2">
                     <div className='grid grid-cols gap-20'>
-                        <IndividualServices image={cpanel} title="C Panel" desc="cPanel is a powerful and versatile web hosting control panel that provides users with a wide range of tools and features to manage their websites. With its user-friendly interface, robust security measures, and extensive customization options, cPanel has become the go-to choice for web developers"></IndividualServices>
+                        <div>
+                            <img src="" alt="Shared Hosting" />
+                            <div>
+                            </div>
+                            <IndividualServices image={cpanel} title="C Panel" desc="cPanel is a powerful and versatile web hosting control panel that provides users with a wide range of tools and features to manage their websites. With its user-friendly interface, robust security measures, and extensive customization options, cPanel has become the go-to choice for web developers"></IndividualServices>
 
-                        <IndividualServices image={linux} title="Cloud Linux" desc="CloudLinux is a lightweight operating system based on the Linux kernel and targeted at servers, with focus on scalability, security.It provides a stable and secure platform for running applications in the cloud. CloudLinux is a popular choice for cloud providers, including Amazon Web Services, Microsoft Azure, and Google Cloud Platform."></IndividualServices>
+                            <IndividualServices image={linux} title="Cloud Linux" desc="CloudLinux is a lightweight operating system based on the Linux kernel and targeted at servers, with focus on scalability, security.It provides a stable and secure platform for running applications in the cloud. CloudLinux is a popular choice for cloud providers, including Amazon Web Services, Microsoft Azure, and Google Cloud Platform."></IndividualServices>
 
-                        <IndividualServices image={ssl} title="Free SSL" desc="SSL stands for secure Socket Layer. It is a protocol that allows encrypted communication over a public network. SSL is also used to authenticate websites and users, and protects data from unauthorized access. It is widely used to secure online transactions and other sensitive information."></IndividualServices>
+                            <IndividualServices image={ssl} title="Free SSL" desc="SSL stands for secure Socket Layer. It is a protocol that allows encrypted communication over a public network. SSL is also used to authenticate websites and users, and protects data from unauthorized access. It is widely used to secure online transactions and other sensitive information."></IndividualServices>
 
-                        <IndividualServices image={wordpresskit} title="WordPresskit" desc="WordPresskit is a company that offers plugins for website creation using WordPress. Their products are designed to make it easier to manage your WordPress website, like installing themes and plugins. They also offer tutorials and support to help you along the way."></IndividualServices>
+                            <IndividualServices image={wordpresskit} title="WordPresskit" desc="WordPresskit is a company that offers plugins for website creation using WordPress. Their products are designed to make it easier to manage your WordPress website, like installing themes and plugins. They also offer tutorials and support to help you along the way."></IndividualServices>
 
-                        <IndividualServices image={freeMigration} title="Free Migration" desc="We offer a free website migration service, which allows you to transfer your website from another hosting provider to HostFlu. We offer this migration service to ensure that your website is up and running smoothly on HostFlu."></IndividualServices>
+                            <IndividualServices image={freeMigration} title="Free Migration" desc="We offer a free website migration service, which allows you to transfer your website from another hosting provider to HostFlu. We offer this migration service to ensure that your website is up and running smoothly on HostFlu."></IndividualServices>
+
+                        </div>
                     </div>
                 </div>
             </section>
