@@ -5,11 +5,16 @@ import { BiSolidDownArrow } from "react-icons/bi";
 import { FaEnvelope } from "react-icons/fa";
 
 export const Navbar = () => {
-    const [dropdown, setDropdown] = useState(null)
-    const handleNav = (e, action) => {
+    const [dropdown, setDropdown] = useState(null);
+    const screen = window.innerWidth;
+
+    const handleNav = (e, navNo) => {
         e.stopPropagation();
-        if (dropdown !== action) {
-            setDropdown(action)
+        if (screen > 768) {
+            setDropdown(null)
+        }
+        else if (dropdown !== navNo) {
+            setDropdown(navNo)
         }
         else {
             setDropdown(!dropdown)
