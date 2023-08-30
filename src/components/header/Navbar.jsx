@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import { BiSolidDownArrow } from "react-icons/bi";
 
 import { FaEnvelope } from "react-icons/fa";
+import ScrollToTop from '../ScrollToTop';
 
 export const Navbar = () => {
     const [dropdown, setDropdown] = useState(null);
+    const [mini, setMini] = useState(null)
     const screen = window.innerWidth;
-
     const handleNav = (e, navNo) => {
         e.stopPropagation();
         if (screen > 768) {
@@ -20,8 +21,12 @@ export const Navbar = () => {
             setDropdown(!dropdown)
         }
     };
+    const handleClikSubMenu = (e) => {
+        setMini(900)
+    }
     return (
         <ul className='flex flex-col md:flex-row gap-1 lg:gap-14 md:items-center space-y-5 md:space-y-0'>
+            < ScrollToTop top={mini} />
             {/* webhosting with dorpdown */}
             <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={(e) => handleNav(e, 1)}>
                 {/* webhosting */}
@@ -35,10 +40,10 @@ export const Navbar = () => {
                             {/* Shared Hosting */}
                             <Link to="/shared-hosting" onClick={(e) => e.stopPropagation()} className='hover:text-primary'><h4 className='text-base text-left px-10 whitespace-nowrap'>Shared Hosting</h4></Link>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
-                                <li className='font-normal'><Link to="https://my.hostflu.com/index.php?rp=/store/shared-hosting/mini" className='hover:text-primary'>Mini</Link></li>
-                                <li className='font-normal'><Link to="https://my.hostflu.com/index.php?rp=/store/shared-hosting/starter" className='hover:text-primary'>Starter</Link></li>
-                                <li className='font-normal'><Link to="https://my.hostflu.com/index.php?rp=/store/shared-hosting/professional" className='hover:text-primary'>Professional</Link></li>
-                                <li className='font-normal'><Link to='https://my.hostflu.com/index.php?rp=/store/shared-hosting/business' className='hover:text-primary'>Business</Link></li>
+                                <li className='font-normal'><Link to="/shared-hosting" onClick={handleClikSubMenu} className='hover:text-primary'>Mini</Link></li>
+                                <li className='font-normal'><Link to="" className='hover:text-primary'>Starter</Link></li>
+                                <li className='font-normal'><Link to="" className='hover:text-primary'>Professional</Link></li>
+                                <li className='font-normal'><Link to="" className='hover:text-primary'>Business</Link></li>
                             </ul>
                         </li>
                         {/* Reseller hosting */}

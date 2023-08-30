@@ -31,7 +31,7 @@ function SharedHosting() {
 
                 </div>
             </section>
-            <section className='py-28 bg-white'>
+            <section className='py-28 bg-white' id='packeg'>
                 <div className="container mx-auto px-2">
                     <div className="text-center">
                         <h2 className='text-xl md:text-2xl'>Discover the Perfect Hosting Plan for Your Business</h2>
