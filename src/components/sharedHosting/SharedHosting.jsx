@@ -11,7 +11,8 @@ import linux from "../../asstes/linux.png";
 import ssl from "../../asstes/freeSSL.png";
 import wordpresskit from "../../asstes/WordpressKit.png";
 import freeMigration from "../../asstes/free-migration.png";
-import cloudimg from "../../asstes/cloud.jpg"
+import cloudimg from "../../asstes/cloudServer.jpg";
+import litespeed from "../../asstes/litespeed.jpg"
 
 function SharedHosting() {
     const cardData = data.exclusive;
@@ -89,7 +90,7 @@ function SharedHosting() {
                             <img src={cloudimg} className='' alt="Shared Hosting" />
                         </div>
                         <div className='space-y-10 w-6/12'>
-                            <IndividualServices image={cpanel} title="C Panel" desc="cPanel is a powerful and versatile web hosting control panel that provides users with a wide range of tools and features to manage their websites. With its user-friendly interface, robust security measures, and extensive customization options, cPanel has become the go-to choice for web developers"></IndividualServices>
+                            <IndividualServices image={cpanel} title="CPanel" desc="cPanel is a powerful and versatile web hosting control panel that provides users with a wide range of tools and features to manage their websites. With its user-friendly interface, robust security measures, and extensive customization options, cPanel has become the go-to choice for web developers"></IndividualServices>
 
                             <IndividualServices image={linux} title="Cloud Linux" desc="CloudLinux is a lightweight operating system based on the Linux kernel and targeted at servers, with focus on scalability, security.It provides a stable and secure platform for running applications in the cloud. CloudLinux is a popular choice for cloud providers, including Amazon Web Services, Microsoft Azure, and Google Cloud Platform."></IndividualServices>
 
@@ -97,9 +98,15 @@ function SharedHosting() {
 
                             <IndividualServices image={wordpresskit} title="WordPresskit" desc="WordPresskit is a company that offers plugins for website creation using WordPress. Their products are designed to make it easier to manage your WordPress website, like installing themes and plugins. They also offer tutorials and support to help you along the way."></IndividualServices>
 
-                            <IndividualServices image={freeMigration} title="Free Migration" desc="We offer a free website migration service, which allows you to transfer your website from another hosting provider to HostFlu. We offer this migration service to ensure that your website is up and running smoothly on HostFlu."></IndividualServices>
 
                         </div>
+                    </div>
+                    <div className='mt-10 space-y-10'>
+                        <IndividualServices image={freeMigration} title="Free Migration" desc="We offer a free website migration service, which allows you to transfer your website from another hosting provider to HostFlu. We offer this migration service to ensure that your website is up and running smoothly on HostFlu."></IndividualServices>
+                        <IndividualServices image={litespeed} title="LiteSpeed Web Server" desc="A high-performance, efficient, and secure web server that turbocharges websites, delivering lightning-fast page load speeds and top-notch security for an unbeatable online experience."></IndividualServices>
+                        <IndividualServices image={litespeed} title="LiteSpeed Web Server" desc="A high-performance, efficient, and secure web server that turbocharges websites, delivering lightning-fast page load speeds and top-notch security for an unbeatable online experience."></IndividualServices>
+                        <IndividualServices image={litespeed} title="LiteSpeed Web Server" desc="A high-performance, efficient, and secure web server that turbocharges websites, delivering lightning-fast page load speeds and top-notch security for an unbeatable online experience."></IndividualServices>
+
                     </div>
                 </div>
             </section>

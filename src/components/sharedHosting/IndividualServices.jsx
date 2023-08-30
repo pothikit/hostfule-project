@@ -3,7 +3,7 @@ import React from 'react'
 function IndividualServices(props) {
     const { image, title, desc } = props;
     return (
-        <div className='ietms-center flex justify-center gap-3 gap-y-10'>
+        <div className='ietms-center flex justify-center gap-5 gap-y-10'>
             <div className='flex items-center'>
                 <img src={image} className='w-20' alt={title} />
             </div>
