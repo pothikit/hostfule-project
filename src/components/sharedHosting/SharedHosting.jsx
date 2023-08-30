@@ -80,7 +80,11 @@ function SharedHosting() {
             </section>
             <section className='py-32'>
                 <div className="container mx-auto px-1">
-                    <div className='flex gap-4 imtes-center justify-center'>
+                    <div className='mb-20'>
+                        <h2 className='text-2xl md:text-4xl capitalize text-center font-semibold'>Exclusive Shared hosting</h2>
+                        <p className='text-base sm:text-xl text-center mt-5'>Shared Hosting: Where Websites Share Success Together!</p>
+                    </div>
+                    <div className='flex gap-8 imtes-center justify-center'>
                         <div className='flex items-center w-6/12'>
                             <img src={cloudimg} className='' alt="Shared Hosting" />
                         </div>
