@@ -20,8 +20,8 @@ import { RxAvatar } from "react-icons/rx"
 function Footer() {
     return (
         <>
-            <div className="container mx-auto -mt-52">
-                <div className='bg-white z-10 relative bottom-[-250px] p-10 rounded-xl'>
+            <div className="container mx-auto -mt-20">
+                <div className='bg-white z-10 relative bottom-[-120px] p-10 rounded-xl border border-[#ccccccad]'>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20 items-center">
                         <div className='flex items-center justify-center'>
                             <img src={supportImg} alt="Our Support" className='w-full mx-auto' />
@@ -39,7 +39,7 @@ function Footer() {
                 </div>
             </div>
             {/* footer top our support section */}
-            <footer className='pt-72'>
+            <footer className='pt-52'>
                 <div className="container mx-auto px-2">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-20 gap-20 lg:gap-32">
                         {/* col maind div */}
