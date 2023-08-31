@@ -29,13 +29,15 @@ function Footer() {
                         <div className='md:col-span-2'>
                             <h2 className='text-2xl md:text-4xl font-medium mb-8 capitalize'>We are here to help you </h2>
                             <p className='text-justify text-base md:text-xl'>Thank you for your interest in our hosting company support. We are committed to providing our customers with the highest quality service and support. Our team of experienced professionals is here to answer any questions you may have and assist you with setting up your hosting account. Our team is available 24 hours a day, seven days a week, to provide you with the best possible experience. We strive to make sure your hosting experience is stress-free and hassle-free. We understand that sometimes hosting can be a bit complicated, so we offer a variety of tutorials and resources to help you get up and running quickly. We also have a knowledgeable support staff that is here to help you when you need it. We know that your time is valuable, so we strive to</p>
+                            <div className="butttons flex gap-5 md:gap-16 mt-10">
+                                <button className='text-base md:text-xl flex items-center gap-3 p-2 bg-[#FFA301] text-white rounded-xl hover:bg-gradient-to-tr from-primary to-secondary duration-300 group'><span className='group-hover:text-primary text-white p-2 rounded-full group-hover:bg-white bg-primary text-2xl'><RxAvatar /></span><span>Dashboard Login</span></button>
+                                <button className='text-base md:text-xl flex items-center gap-3 p-2 bg-[#FFA301] text-white rounded-xl hover:bg-gradient-to-tr from-primary to-secondary duration-300 group'><span className='group-hover:text-primary text-white p-2 rounded-full group-hover:bg-white bg-primary text-2xl'><RxAvatar /></span><span>Dashboard Login</span></button>
+                                <button className='text-base md:text-xl flex items-center gap-3 p-2 bg-[#FFA301] text-white rounded-xl hover:bg-gradient-to-tr from-primary to-secondary duration-300 group'><span className='group-hover:text-primary text-white p-2 rounded-full group-hover:bg-white bg-primary text-2xl'><RxAvatar /></span><span>Dashboard Login</span></button>
+                            </div>
                         </div>
+
                     </div>
-                    <div className="butttons flex justify-center gap-5 md:gap-16 mt-10">
-                        <button className='text-base md:text-xl flex items-center gap-3 p-2 bg-[#FFA301] text-white rounded-xl hover:bg-gradient-to-tr from-primary to-secondary duration-300 group'><span className='group-hover:text-primary text-white p-2 rounded-full group-hover:bg-white bg-primary text-2xl'><RxAvatar /></span><span>Dashboard Login</span></button>
-                        <button className='text-base md:text-xl flex items-center gap-3 p-2 bg-[#FFA301] text-white rounded-xl hover:bg-gradient-to-tr from-primary to-secondary duration-300 group'><span className='group-hover:text-primary text-white p-2 rounded-full group-hover:bg-white bg-primary text-2xl'><RxAvatar /></span><span>Dashboard Login</span></button>
-                        <button className='text-base md:text-xl flex items-center gap-3 p-2 bg-[#FFA301] text-white rounded-xl hover:bg-gradient-to-tr from-primary to-secondary duration-300 group'><span className='group-hover:text-primary text-white p-2 rounded-full group-hover:bg-white bg-primary text-2xl'><RxAvatar /></span><span>Dashboard Login</span></button>
-                    </div>
+
                 </div>
             </div>
             {/* footer top our support section */}
