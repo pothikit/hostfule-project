@@ -5,19 +5,19 @@ import { FaEnvelope } from "react-icons/fa";
 
 export const Navbar = () => {
     const [dropdown, setDropdown] = useState(null);
-    const [higlight, setHiglight] = useState("")
+    // const [higlight, setHiglight] = useState("")
     const handleNav = (e) => {
         e.stopPropagation();
         setDropdown(!dropdown)
     };
-    const handlePackage = (pack) => {
-        setTimeout(() => {
-            const anchor = document.querySelector('#mini-package')
-            anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 500)
-        // highlight packges
-        setHiglight(pack);
-    }
+    // const handlePackage = (pack) => {
+    //     setTimeout(() => {
+    //         const anchor = document.querySelector('#mini-package')
+    //         anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    //     }, 500)
+    //     // highlight packges
+    //     setHiglight(pack);
+    // }
 
 
     return (
@@ -35,9 +35,9 @@ export const Navbar = () => {
                             {/* Shared Hosting */}
                             <Link to="/shared-hosting" onClick={(e) => e.stopPropagation()} className='hover:text-primary'><h4 className='text-base text-left px-10 whitespace-nowrap'>Shared Hosting</h4></Link>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
-                                <li className='font-normal'><Link to="/shared-hosting" className='hover:text-primary' onClick={() => handlePackage("mini")}>Mini</Link></li>
-                                <li className='font-normal'><Link to="" className='hover:text-primary' onClick={() => handlePackage("Starter")}>Starter</Link></li>
-                                <li className='font-normal'><Link to="" className='hover:text-primary' onClick={() => handlePackage("Professional")}>Professional</Link></li>
+                                <li className='font-normal'><Link to="/shared-hosting" className='hover:text-primary'>Mini</Link></li>
+                                <li className='font-normal'><Link to="" className='hover:text-primary'>Starter</Link></li>
+                                <li className='font-normal'><Link to="" className='hover:text-primary'>Professional</Link></li>
                                 <li className='font-normal'><Link to="" className='hover:text-primary'>Business</Link></li>
                             </ul>
                         </li>
