@@ -10,14 +10,16 @@ function DomainSeach() {
     const [select, setSelect] = useState("");
     const handleDoaminInput = (e) => {
         e.preventDefault();
-        setDomainInput(e.target.value);
-        if (domainInput.indexOf(".") !== -1) {
+        if (e.target.value.includes(".")) {
             setIsSelectDisable(true)
         } else setIsSelectDisable(false)
+        setDomainInput(e.target.value);
+
     }
     const handleSelect = (e) => {
         e.preventDefault();
         setSelect(e.target.value)
+
     }
     let DomainNameWithExtension = domainInput + select;
 
@@ -34,7 +36,7 @@ function DomainSeach() {
 
                                 <div className='px-2 space-x-3 flex items-center'>
                                     <div className='cursor-pointer flex items-center mr-4'>
-                                        <select name="extension" id="extensionSelect" className='outline-0 md:text-lg px-2 md:px-5 text-gray-500 font-semibold cursor-pointer bg-transparent appearance-none' disabled={isSelectDisable} onChange={handleSelect}>
+                                        <select name="extension" id="extensionSelect" className='outline-0 md:text-lg px-2 md:px-5 text-gray-600 font-semibold cursor-pointer bg-transparent appearance-none' disabled={isSelectDisable} onChange={handleSelect}>
                                             <option value="All" defaultValue>All</option>
                                             {alldomain.map((domain) => (
                                                 <option key={domain.id} className='text-lg' value={domain.extension}>{domain.extension}</option>
