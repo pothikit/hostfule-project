@@ -14,20 +14,20 @@ import brac from "../../asstes/brac.png"
 import dutch from "../../asstes/dutch.png"
 import city from "../../asstes/city.png"
 import estern from "../../asstes/estern.png";
-import supportImg from "../../asstes/our-support.png";
+import supportImg from "../../asstes/our-support.jpg";
 import { RxAvatar } from "react-icons/rx"
 
 function Footer() {
     return (
         <>
             <div className="container mx-auto -mt-20">
-                <div className='bg-white z-10 relative bottom-[-120px] p-10 rounded-xl border border-[#ccccccad]'>
+                <div className='bg-white z-10 relative bottom-[-120px] p-10 rounded-3xl border border-[#cccccc61]'>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20 items-center">
                         <div className='flex items-center justify-center'>
                             <img src={supportImg} alt="Our Support" className='w-full mx-auto' />
                         </div>
                         <div className='md:col-span-2'>
-                            <h2 className='text-2xl md:text-4xl font-medium my-8'>We are here to help you </h2>
+                            <h2 className='text-2xl md:text-4xl font-medium mb-8'>We are here to help you </h2>
                             <p className='text-justify text-base md:text-xl'>Thank you for your interest in our hosting company support. We are committed to providing our customers with the highest quality service and support. Our team of experienced professionals is here to answer any questions you may have and assist you with setting up your hosting account. Our team is available 24 hours a day, seven days a week, to provide you with the best possible experience. We strive to make sure your hosting experience is stress-free and hassle-free. We understand that sometimes hosting can be a bit complicated, so we offer a variety of tutorials and resources to help you get up and running quickly. We also have a knowledgeable support staff that is here to help you when you need it. We know that your time is valuable, so we strive to</p>
                         </div>
                     </div>
