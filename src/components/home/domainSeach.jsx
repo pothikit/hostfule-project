@@ -7,22 +7,32 @@ function DomainSeach() {
     let extensions = data.domainExtention.slice(0, 6);
     const [domainInput, setDomainInput] = useState("");
     const [isSelectDisable, setIsSelectDisable] = useState(false)
+    // const [extension, setExtansion] = useState(false)
     const [select, setSelect] = useState("");
     const handleDoaminInput = (e) => {
         e.preventDefault();
+        // const pattern = /^[a-zA-Z0-9.]+$/;
         if (e.target.value.includes(".")) {
             setIsSelectDisable(true)
-        } else setIsSelectDisable(false)
+        }
+        else setIsSelectDisable(false)
         setDomainInput(e.target.value);
-
     }
     const handleSelect = (e) => {
         e.preventDefault();
         setSelect(e.target.value)
-
     }
     let DomainNameWithExtension = domainInput + select;
-
+    // handlesubmit 
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     if (DomainNameWithExtension.indexOf(".") === -1) {
+    //         setExtansion(true)
+    //     }
+    //     else {
+    //         setExtansion(false)
+    //     }
+    // }
     return (
         <section className='py-20 bg-gradient-to-tr from-primary to-secondary md:bg-none'>
             <div className="container mx-auto">
@@ -33,6 +43,7 @@ function DomainSeach() {
                             <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center pl-1 md:pl-3 md:py-2 rounded-xl mx-0 lg:mx-52'>
                                 <input type="text" defaultValue={DomainNameWithExtension} className='text-black hidden' name='query' />
                                 <input type="text" placeholder='Type your domain adreaddress' className='p-4 sm:flex-1 w-1/2 sm:w-auto text-sm sm:text-base outline-none font-semibold focus:border rounded-lg' name="" id='domainName' required onChange={handleDoaminInput} />
+
 
                                 <div className='px-2 space-x-3 flex items-center'>
                                     <div className='cursor-pointer flex items-center mr-4'>
@@ -46,7 +57,11 @@ function DomainSeach() {
                                     <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-2 md:py-5 bg-gradient-to-r from-primary to-secondary to-100% rounded-lg text-white px-2 md:px-10 text-sm md:text-base' />
 
                                 </div>
+
                             </form>
+                            {
+                                // extension ? <span className='text-xl text-black text-center mt-10'>You should provide a valid extansion</span> : <span></span>
+                            }
                             <div className="extensions mt-8 md:max-w-[80%] mx-auto">
                                 <ul className='grid grid-cols-3 sm:grid-cols-6 gap-4'>
                                     {

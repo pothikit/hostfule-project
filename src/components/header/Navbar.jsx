@@ -10,10 +10,10 @@ export const Navbar = () => {
         e.stopPropagation();
         setDropdown(!dropdown)
     };
-    const handlePackage = () => {
-        const anchor = document.querySelector('#mini-package')
-        anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
-    }
+    // const handlePackage = () => {
+    //     const anchor = document.querySelector('#mini-package')
+    //     anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    // }
 
     return (
         <ul className='flex flex-col md:flex-row gap-1 lg:gap-14 md:items-center space-y-5 md:space-y-0'>
@@ -30,7 +30,7 @@ export const Navbar = () => {
                             {/* Shared Hosting */}
                             <Link to="/shared-hosting" onClick={(e) => e.stopPropagation()} className='hover:text-primary'><h4 className='text-base text-left px-10 whitespace-nowrap'>Shared Hosting</h4></Link>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
-                                <li className='font-normal'><Link to="/shared-hosting" onClick={handlePackage} className='hover:text-primary'>Mini</Link></li>
+                                <li className='font-normal'><Link to="/shared-hosting" className='hover:text-primary'>Mini</Link></li>
                                 <li className='font-normal'><Link to="" className='hover:text-primary'>Starter</Link></li>
                                 <li className='font-normal'><Link to="" className='hover:text-primary'>Professional</Link></li>
                                 <li className='font-normal'><Link to="" className='hover:text-primary'>Business</Link></li>
