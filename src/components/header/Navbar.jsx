@@ -6,10 +6,19 @@ import { FaEnvelope } from "react-icons/fa";
 export const Navbar = () => {
     const [dropdown, setDropdown] = useState(null);
     // const [higlight, setHiglight] = useState("")
-    const handleNav = (e) => {
+    const handleNav = (e, navNo) => {
         e.stopPropagation();
-        setDropdown(!dropdown)
-    };
+        if (dropdown === navNo) {
+            setDropdown(null);
+        }
+        else {
+            setDropdown(navNo)
+        }
+
+        if (window.innerWidth > 768) {
+            setDropdown(null)
+        };
+    }
     // const handlePackage = (pack) => {
     //     setTimeout(() => {
     //         const anchor = document.querySelector('#mini-package')
@@ -18,8 +27,6 @@ export const Navbar = () => {
     //     // highlight packges
     //     setHiglight(pack);
     // }
-
-
     return (
         <ul className='flex flex-col md:flex-row gap-1 lg:gap-14 md:items-center space-y-5 md:space-y-0'>
             {/* webhosting with dorpdown */}

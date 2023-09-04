@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import data from '../../data.json'
 import { BiSolidDownArrow } from "react-icons/bi"
-
 function DomainSeach() {
     let alldomain = data.domainExtention;
     let extensions = data.domainExtention.slice(0, 6);
@@ -11,7 +10,6 @@ function DomainSeach() {
     const [select, setSelect] = useState("");
     const handleDoaminInput = (e) => {
         e.preventDefault();
-        // const pattern = /^[a-zA-Z0-9.]+$/;
         if (e.target.value.includes(".")) {
             setIsSelectDisable(true)
         }

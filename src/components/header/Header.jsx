@@ -33,7 +33,6 @@ export const Header = () => {
                         </ul>
                     </div>
                 </div>
-
             </header>
             {/* navbar */}
             <nav className='border-b border-primary border-opacity-20 py-3 sticky top-[-2px] bg-white z-50'>

@@ -41,9 +41,7 @@ function Footer() {
                                 </button>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
             {/* footer top our support section */}
