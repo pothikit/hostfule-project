@@ -5,7 +5,7 @@ function IndividualServices(props) {
     return (
         <div className='ietms-center flex justify-center gap-5 gap-y-10'>
             <div className='flex items-center'>
-                <img src={image} className='w-20' alt={title} />
+                <img src={image} className='w-16' alt={title} />
             </div>
             <div className='flex-1'>
                 <h2 className='text-2xl md:4xl mb-1 font-semibold'>{title}</h2>
