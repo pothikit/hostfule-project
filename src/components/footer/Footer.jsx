@@ -16,14 +16,14 @@ import city from "../../asstes/city.png"
 import estern from "../../asstes/estern.png";
 import supportImg from "../../asstes/our-support.jpg";
 import { RxAvatar } from "react-icons/rx"
-import mouthSpech from "../../asstes/mouthspech.png"
+// import mouthSpech from "../../asstes/mouthspech.png"
 
 function Footer() {
     return (
         <>
-            <div className="container mx-auto -mt-20 hidden md:block">
-                <div className='bg-white z-10 relative bottom-[-120px] p-10 rounded-3xl border border-[#cccccc61]'>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20 items-center">
+            <div className="container mx-auto -mt-20">
+                <div className='bg-white z-10 relative bottom-[-120px] p-6 rounded-2xl border border-[#cccccc61]'>
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20 items-center">
                         <div className='flex items-center justify-center'>
                             <img src={supportImg} alt="Our Support" className='w-full mx-auto' />
                         </div>
@@ -32,13 +32,13 @@ function Footer() {
                             <p className='text-justify text-base md:text-xl'>Thank you for your interest in our hosting company support. We are committed to providing our customers with the highest quality service and support. Our team of experienced professionals is here to answer any questions you may have and assist you with setting up your hosting account. Our team is available 24 hours a day, seven days a week, to provide you with the best possible experience. We strive to make sure your hosting experience is stress-free and hassle-free. We understand that sometimes hosting can be a bit complicated, so we offer a variety of tutorials and resources to help you get up and running quickly. We also have a knowledgeable support staff that is here to help you when you need it. We know that your time is valuable, so we strive to</p>
                             <div className="butttons flex md:gap-5 lg:gap-16 mt-10">
                                 <button className='flex items-center gap-3 p-2 border rounded-md hover:bg-gray-200 duration-300 group'>
-                                    <span className='text-primary p-1 rounded-full bg-white text-2xl'><RxAvatar /></span><span>Dashboard Login</span>
+                                    <span className='text-gray-600 p-1 rounded-full bg-white text-2xl'><RxAvatar /></span><span>Dashboard Login</span>
                                 </button>
                                 <button className='flex items-center gap-3 p-2 border rounded-md hover:bg-gray-200 duration-300 group'>
-                                    <span className='text-primary bg-white p-1 rounded-full group-hover:bg-white text-2xl'><RxAvatar /></span><span>Dashboard Login</span>
+                                    <span className='text-gray-600 bg-white p-1 rounded-full group-hover:bg-white text-2xl'><RxAvatar /></span><span>Dashboard Login</span>
                                 </button>
                                 <button className='flex items-center gap-3 p-2 border rounded-md hover:bg-gray-200 duration-300 group'>
-                                    <span className='text-primary p-1 rounded-full group-hover:bg-white bg-white text-2xl'><RxAvatar /></span><span>Dashboard Login</span>
+                                    <span className='text-gray-600 p-1 rounded-full group-hover:bg-white bg-white text-2xl'><RxAvatar /></span><span>Dashboard Login</span>
                                 </button>
                             </div>
                         </div>
@@ -46,12 +46,12 @@ function Footer() {
                 </div>
             </div>
             {/* tab and mobile device */}
-            <div className='font-bold text-2xl flex justify-evenly md:hidden bg-black text-white py-10 items-center'>
+            {/* <div className='font-bold text-2xl flex justify-evenly md:hidden bg-black text-white py-10 items-center'>
                 <div className='flex gap-3'>
                     <p>We are Here to Help you :</p> <strong className='text-primary'>01719-375526</strong>
                 </div>
                 <img src={mouthSpech} className='w-16' alt="Mouth speech" />
-            </div>
+            </div> */}
 
             {/* footer top our support section */}
             <footer className='pt-52'>
