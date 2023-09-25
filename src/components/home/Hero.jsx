@@ -8,7 +8,7 @@ function Hero() {
                 <div className="hero grid grid-cols-1 lg:grid-cols-3 gap-4 items-center px-3 md:px-0">
                     <div className='lg:col-span-2'>
                         <div className="hero-title">
-                            <h1 className='text-3xl sm:text-5xl lg:text-8xl flex flex-col gap-5 font-bold'>
+                            <h1 className='text-2xl sm:text-4xl lg:text-7xl flex flex-col gap-5 font-bold'>
                                 <span className='block text-primary'>Up To 20X</span>
                                 <span className='block'>Faster Web hosting</span>
                                 <span>to Help Your Succeed !</span>

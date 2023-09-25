@@ -14,5 +14,4 @@ function IndividualServices(props) {
         </div>
     )
 }
-
 export default IndividualServices
