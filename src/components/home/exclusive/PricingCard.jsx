@@ -6,7 +6,7 @@ function PricingCard({ cardData }) {
     return (
         <>
             {
-                <div className="card shadow-lg pb-16 rounded-xl text-center hover:shadow-xl duration-300" id='mini' key={cardData.id}>
+                <div className="card shadow-lg pb-16 rounded-xl text-center hover:shadow-xl duration-300" id='mini'>
                     <div className="card-head p-7 rounded-t-xl rounded-b-[40px] shadow-xl ">
                         <div className='text-white'>
                             <span className="type text-xl uppercase">{cardData.type}</span>
