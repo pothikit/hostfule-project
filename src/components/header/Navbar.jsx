@@ -77,7 +77,7 @@ export const Navbar = () => {
             <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={(e) => handleNav(e, 2)}>
                 {/* Dedicated */}
                 <div className="flex items-center gap-2 cursor-pointer">
-                    <Link className='group-hover:text-primary text-lg font-normal'>Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                    <Link className='group-hover:text-primary text-lg font-normal' to="/dedicated-server">Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
                 <div className={`drop-down static md:absolute md:group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 2 ? "block" : "hidden"}`}>

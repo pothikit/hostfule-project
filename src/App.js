@@ -8,6 +8,7 @@ import { Header } from "./components/header/Header";
 import Footer from './components/footer/Footer';
 import SharedHosting from "./components/sharedHosting/SharedHosting";
 import ScrollToTop from "./components/ScrollToTop";
+import DedicatedServer from "./components/dedicatedServer/DedicatedServer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="login" element={<Login />} />
         <Route path="/shared-hosting" element={<SharedHosting />} />
+        <Route path="/dedicated-server" element={<DedicatedServer />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer></Footer>

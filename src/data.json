@@ -334,5 +334,61 @@
             "question": "What is the uptime guarantee for your hosting service?",
             "answer": "- We provide a 99.9% uptime guarantee, ensuring that your website remains accessible to users around the clock. In the rare event of downtime, we work diligently to resolve issues quickly."
         }
+    ],
+    "dedicatedLocation": [
+        {
+            "id": 1,
+            "flagImg": "../../asstes/flag.png",
+            "country": "Bangladesh",
+            "capital": "Dhaka"
+        },
+        {
+            "id": 2,
+            "flagImg": "../../asstes/flag.png",
+            "country": "United States",
+            "capital": "Washington, D.C."
+        },
+        {
+            "id": 3,
+            "flagImg": "../../asstes/flag.png",
+            "country": "Austria",
+            "capital": "Vienna"
+        },
+        {
+            "id": 4,
+            "flagImg": "../../asstes/flag.png",
+            "country": "Canada",
+            "capital": "Ottawa"
+        },
+        {
+            "id": 5,
+            "flagImg": "../../asstes/flag.png",
+            "country": "Germany",
+            "capital": "Berlin"
+        },
+        {
+            "id": 6,
+            "flagImg": "../../asstes/flag.png",
+            "country": "France",
+            "capital": "Paris"
+        },
+        {
+            "id": 7,
+            "flagImg": "../../asstes/flag.png",
+            "country": "Italy",
+            "capital": "Rome"
+        },
+        {
+            "id": 8,
+            "flagImg": "../../asstes/flag.png",
+            "country": "Japan",
+            "capital": "Tokyo"
+        },
+        {
+            "id": 9,
+            "flagImg": "../../asstes/flag.png",
+            "country": "United Kingdom",
+            "capital": "London"
+        }
     ]
 }
