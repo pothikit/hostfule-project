@@ -17,7 +17,6 @@ function WhyChoseUsSupport() {
                                     <p>{data.description}</p>
                                 </div>
                             ))
-
                         }
                     </div>
                 </div>

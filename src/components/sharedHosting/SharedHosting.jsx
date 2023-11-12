@@ -13,6 +13,8 @@ import wordpresskit from "../../asstes/WordpressKit.png";
 import freeMigration from "../../asstes/free-migration.png";
 import cloudimg from "../../asstes/cloudServer.jpg";
 import litespeed from "../../asstes/litespeed.jpg"
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import serverMain from "../../asstes/server-main.json"
 
 function SharedHosting() {
     const cardData = data.exclusive;
@@ -27,8 +29,18 @@ function SharedHosting() {
     return (
         <main className=''>
             <section className='bg-gray-100 py-10'>
-                <div className="banner py-10 md:py-20 h-[40vh] md:h-[60vh]">
-                    {/* banner section */}
+                {/* <div className="banner py-10 md:py-20 h-[40vh] md:h-[60vh]">
+                </div> */}
+                <div className="container mx-auto">
+                    <div className='md:max-w-[600px] ml-auto'>
+                        <Player
+                            autoplay
+                            loop
+                            src={serverMain}
+                        >
+                            <Controls buttons={['play', 'repeat', 'debug']} />
+                        </Player>
+                    </div>
                 </div>
             </section>
             <section className='py-28 bg-white' id='packeg'>

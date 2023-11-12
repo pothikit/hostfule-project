@@ -14,9 +14,11 @@ import brac from "../../asstes/brac.png"
 import dutch from "../../asstes/dutch.png"
 import city from "../../asstes/city.png"
 import estern from "../../asstes/estern.png";
-import supportImg from "../../asstes/our-support.jpg";
+// import supportImg from "../../asstes/our-support.jpg";
 import { RxAvatar } from "react-icons/rx"
+import { Controls, Player } from '@lottiefiles/react-lottie-player'
 // import mouthSpech from "../../asstes/mouthspech.png"
+import supportAnimation from "../../asstes/support.json"
 
 function Footer() {
     return (
@@ -25,7 +27,14 @@ function Footer() {
                 <div className='bg-white z-10 relative bottom-[-120px] p-6 rounded-2xl border border-[#cccccc61]'>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20 items-center">
                         <div className='flex items-center justify-center'>
-                            <img src={supportImg} alt="Our Support" className='w-full mx-auto' />
+                            {/* <img src={supportImg} alt="Our Support" className='w-full mx-auto' /> */}
+                            <Player
+                                autoplay
+                                loop
+                                src={supportAnimation}
+                            >
+                                <Controls visible={true} buttons={['play', 'repeat', 'frame', 'debug']} />
+                            </Player>
                         </div>
                         <div className='md:col-span-2'>
                             <h2 className='text-2xl md:text-4xl font-medium mb-8 capitalize'>We are here to help you </h2>
