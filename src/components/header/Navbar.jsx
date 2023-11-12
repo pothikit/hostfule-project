@@ -58,15 +58,7 @@ export const Navbar = () => {
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>RSP -3</Link></li>
                             </ul>
                         </li>
-                        <li className='space-y-5'>
-                            <h4 className='text-base text-left px-10 whitespace-nowrap'>E-mail Hosting</h4>
-                            <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>StartUp</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Micro Team</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Team Plus</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>CloudMail Express</Link></li>
-                            </ul>
-                        </li> */}
+                       */}
                     </ul>
                 </div>
             </li>
@@ -136,23 +128,24 @@ export const Navbar = () => {
                     <ul className='flex flex-wrap sm:flex-nowrap shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
-                            <h4 className='text-base text-left px-10 whitespace-nowrap'>Registration</h4>
-                            <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
+                            {/* <h4 className='text-base text-left px-5 py-2 whitespace-nowrap'>Registration</h4> */}
+                            <ul className='flex flex-col space-y-3 whitespace-nowrap drop-mega px-5'>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>domain registration</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>domain Search</Link></li>
+                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Pricing</Link></li>
+                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Transfer</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Privacy Protection</Link></li>
                             </ul>
                         </li>
                         {/* domain service hosting */}
-                        <li className='space-y-5'>
-                            {/*   domain Hosting */}
+                        {/* <li className='space-y-5'>
+                            {/*   domain Hosting 
                             <h4 className='text-base text-left px-10 whitespace-nowrap mt-10 sm:mt-0'>Domain Service</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Transfer</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Reselle</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain priceing</Link></li>
                             </ul>
-                        </li>
+                        </li> */}
 
                     </ul>
                 </div>
@@ -167,16 +160,17 @@ export const Navbar = () => {
                     <ul className='flex flex-wrap sm:flex-nowrap shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/*   Exclusive Services */}
-                            <h4 className='text-base text-left px-10 whitespace-nowrap'>Exclusive Services</h4>
-                            <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
+                            {/* <h4 className='text-base text-left px-10 whitespace-nowrap'>Exclusive Services</h4> */}
+                            <ul className='flex flex-col space-y-3 py-2 whitespace-nowrap drop-mega px-5'>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>SSL Certificate</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Remote assistant</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Bulk SMS</Link></li>
+                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Wordpress Customization</Link></li>
+                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Wordpress migration</Link></li>
                             </ul>
                         </li>
                         {/* Reseller hosting */}
-                        <li className='space-y-5'>
-                            {/*   Wordpress */}
+                        {/* <li className='space-y-5'>
+                            {/*   Wordpress 
                             <h4 className='text-base text-left px-10 whitespace-nowrap mt-10 sm:mt-0'>VPS & Wordpress</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
 
@@ -185,7 +179,7 @@ export const Navbar = () => {
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>wordpress customization</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>wordpress migration</Link></li>
                             </ul>
-                        </li>
+                        </li> */}
 
                     </ul>
                 </div>
@@ -201,11 +195,11 @@ export const Navbar = () => {
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
                             {/* <h4 className='text-base text-left px-10 whitespace-nowrap'></h4> */}
-                            <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
+                            <ul className='flex flex-col space-y-3 whitespace-nowrap drop-mega px-5 py-2'>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Our Company</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>About Our Services</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Payment Method</Link></li>
-                                <li className=''><a href="mailto:hostflu@gmail.com" className='flex sm:hidden items-center gap-2 md:gap-4'><FaEnvelope />Contact us</a></li>
+                                <li className=''><a href="mailto:hostflu@gmail.com" className='flex sm:hidden items-center gap-2 md:gap-4'><FaEnvelope />Event Gallery</a></li>
                             </ul>
                         </li>
 
