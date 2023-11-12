@@ -41,7 +41,7 @@ export const Navbar = () => {
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
 
-                            <ul className='flex flex-col whitespace-nowrap drop-mega px-10 py-2 space-y-3'>
+                            <ul className='flex flex-col whitespace-nowrap drop-mega px-5 py-2 space-y-3'>
                                 <li className='font-normal'><Link to="/shared-hosting" onClick={(e) => e.stopPropagation()} className='whitespace-nowrap hover:text-primary'>Shared Hosting</Link></li>
                                 <li className='font-normal'><Link to="/shared-hosting" className='hover:text-primary'>Managed VPS</Link></li>
                                 <li className='font-normal'><Link to="" className='hover:text-primary'>Unmanaged VPS</Link></li>
