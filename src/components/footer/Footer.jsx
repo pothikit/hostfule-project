@@ -33,7 +33,7 @@ function Footer() {
                                 loop
                                 src={supportAnimation}
                             >
-                                <Controls visible={true} buttons={['play', 'repeat', 'frame', 'debug']} />
+                                <Controls buttons={['play', 'repeat', 'frame', 'debug']} />
                             </Player>
                         </div>
                         <div className='md:col-span-2'>
