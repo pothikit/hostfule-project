@@ -40,18 +40,18 @@ export const Navbar = () => {
                     <ul className='flex flex-col sm:flex-row shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
-                            <Link to="/shared-hosting" onClick={(e) => e.stopPropagation()} className='hover:text-primary'><h4 className='text-base text-left px-10 whitespace-nowrap'>Shared Hosting</h4></Link>
-                            <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
-                                <li className='font-normal'><Link to="/shared-hosting" className='hover:text-primary'>Mini</Link></li>
-                                <li className='font-normal'><Link to="" className='hover:text-primary'>Starter</Link></li>
-                                <li className='font-normal'><Link to="" className='hover:text-primary'>Professional</Link></li>
-                                <li className='font-normal'><Link to="" className='hover:text-primary'>Business</Link></li>
+
+                            <ul className='flex flex-col whitespace-nowrap drop-mega px-10 py-5 space-y-3'>
+                                <li className='font-normal'><Link to="/shared-hosting" onClick={(e) => e.stopPropagation()} className='whitespace-nowrap hover:text-primary'>Shared Hosting</Link></li>
+                                <li className='font-normal'><Link to="/shared-hosting" className='hover:text-primary'>Managed VPS</Link></li>
+                                <li className='font-normal'><Link to="" className='hover:text-primary'>Unmanaged VPS</Link></li>
+                                <li className='font-normal'><Link to="" className='hover:text-primary'>E-mail Hosting</Link></li>
+                                {/* <li className='font-normal'><Link to="" className='hover:text-primary'>Business</Link></li> */}
                             </ul>
                         </li>
                         {/* Reseller hosting */}
-                        <li className='space-y-5'>
-                            {/*   Reseller Hosting */}
-                            <h4 className='text-base text-left px-10 whitespace-nowrap'>Reseller Hosting</h4>
+                        {/* <li className='space-y-5'>
+                            <Link to="/reseller-hosting" onClick={(e) => e.stopPropagation()} className='hover:text-primary'><h4 className='text-base text-left px-10 whitespace-nowrap'>Reseller Hosting</h4></Link>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>RSP -1</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>RSP -2</Link></li>
@@ -59,7 +59,6 @@ export const Navbar = () => {
                             </ul>
                         </li>
                         <li className='space-y-5'>
-                            {/*   Reseller Hosting */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>E-mail Hosting</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>StartUp</Link></li>
@@ -67,9 +66,7 @@ export const Navbar = () => {
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Team Plus</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>CloudMail Express</Link></li>
                             </ul>
-                        </li>
-
-
+                        </li> */}
                     </ul>
                 </div>
             </li>
@@ -93,7 +90,7 @@ export const Navbar = () => {
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Africa</Link></li>
                             </ul>
                         </li>
-                        {/* Reseller hosting */}
+                        {/* by option hosting */}
                         <li className='space-y-5 sm:w-1/2 md:w-auto w-full'>
                             {/*   By Options */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>By Options</h4>
@@ -146,9 +143,9 @@ export const Navbar = () => {
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Privacy Protection</Link></li>
                             </ul>
                         </li>
-                        {/* Reseller hosting */}
+                        {/* domain service hosting */}
                         <li className='space-y-5'>
-                            {/*   Reseller Hosting */}
+                            {/*   domain Hosting */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap mt-10 sm:mt-0'>Domain Service</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10'>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Transfer</Link></li>
