@@ -10,8 +10,17 @@ import SharedHosting from "./components/sharedHosting/SharedHosting";
 import ScrollToTop from "./components/ScrollToTop";
 import DedicatedServer from "./components/dedicatedServer/DedicatedServer";
 import ResellerHosting from "./components/sharedHosting/ResellerHosting";
+import UnmanagedServer from "./components/unmanagedServer/UnmanagedServer";
+import ManagedServer from "./components/managedServer/ManagedVps";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import EmailHosting from "./components/emailHosting/EmailHosting";
 
 function App() {
+  // for aos animation
+  React.useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -23,6 +32,9 @@ function App() {
         <Route path="/shared-hosting" element={<SharedHosting />} />
         <Route path="/dedicated-server" element={<DedicatedServer />} />
         <Route path="/reseller-hosting" element={<ResellerHosting />} />
+        <Route path="/unmanaged-vps" element={<UnmanagedServer />} />
+        <Route path="/managed-vps" element={<ManagedServer />} />
+        <Route path="/email-hosting" element={<EmailHosting />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer></Footer>

@@ -13,8 +13,8 @@ import wordpresskit from "../../asstes/WordpressKit.png";
 import freeMigration from "../../asstes/free-migration.png";
 import cloudimg from "../../asstes/cloudServer.jpg";
 import litespeed from "../../asstes/litespeed.jpg"
-import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import sharedHostingAnimation from "../../asstes/sharedAnimation"
+import PageBanner from '../shared/pageBanner/PageBanner';
 
 function SharedHosting() {
     const cardData = data.exclusive;
@@ -28,21 +28,9 @@ function SharedHosting() {
 
     return (
         <main className=''>
-            <section className='bg-gray-100'>
-                {/* <div className="banner py-10 md:py-20 h-[40vh] md:h-[60vh]">
-                </div> */}
-                <div className="container mx-auto">
-                    <div className='md:max-w-[550px] ml-auto'>
-                        <Player
-                            autoplay
-                            loop
-                            src={sharedHostingAnimation}
-                        >
-                            <Controls buttons={['play', 'repeat', 'debug']} />
-                        </Player>
-                    </div>
-                </div>
-            </section>
+            <PageBanner animationfile={sharedHostingAnimation} pageTitle={["Shared", <span className='text-primary'> H</span>, "osting With Premium Speed"]}></PageBanner>
+
+            {/* next section */}
             <section className='py-28 bg-white' id='packeg'>
                 <div className="container mx-auto px-2">
                     <div className="text-center">
