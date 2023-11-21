@@ -14,7 +14,7 @@ import freeMigration from "../../asstes/free-migration.png";
 import cloudimg from "../../asstes/cloudServer.jpg";
 import litespeed from "../../asstes/litespeed.jpg"
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
-import serverMain from "../../asstes/server-main.json"
+import sharedHostingAnimation from "../../asstes/sharedAnimation"
 
 function SharedHosting() {
     const cardData = data.exclusive;
@@ -28,15 +28,15 @@ function SharedHosting() {
 
     return (
         <main className=''>
-            <section className='bg-gray-100 py-10'>
+            <section className='bg-gray-100'>
                 {/* <div className="banner py-10 md:py-20 h-[40vh] md:h-[60vh]">
                 </div> */}
                 <div className="container mx-auto">
-                    <div className='md:max-w-[600px] ml-auto'>
+                    <div className='md:max-w-[550px] ml-auto'>
                         <Player
                             autoplay
                             loop
-                            src={serverMain}
+                            src={sharedHostingAnimation}
                         >
                             <Controls buttons={['play', 'repeat', 'debug']} />
                         </Player>
@@ -94,8 +94,8 @@ function SharedHosting() {
             <section className='py-32'>
                 <div className="container mx-auto px-1">
                     <div className='mb-20'>
-                        <h2 className='text-2xl md:text-4xl capitalize text-center font-semibold'>Exclusive Shared hosting</h2>
-                        <p className='text-base sm:text-xl text-center mt-5'>Shared Hosting: Where Websites Share Success Together!</p>
+                        <h2 className='text-2xl md:text-4xl capitalize text-primary text-center font-semibold'>Our Features</h2>
+                        <p className='text-base sm:text-xl text-center mt-5'>Cloud Host Providing you with a hesitate free web hosting service we take words look the believable</p>
                     </div>
                     <div className='flex gap-8 imtes-center justify-center'>
                         <div className='flex items-center w-6/12'>
