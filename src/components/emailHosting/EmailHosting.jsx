@@ -1,4 +1,3 @@
-import { Controls, Player } from '@lottiefiles/react-lottie-player';
 import React from 'react';
 import emailHostingAnimation from "../../asstes/emailAnimation.json"
 import PageBanner from '../shared/pageBanner/PageBanner';
