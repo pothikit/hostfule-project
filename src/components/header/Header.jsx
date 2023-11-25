@@ -43,7 +43,7 @@ export const Header = () => {
                                 <Link to="/"><img src={logo} alt="Logo" width='150' /></Link>
                             </div>
                             <div className={`absolute md:static top-full md:w-auto p-10 md:p-0 duration-500 bg-white w-full ${bar ? "left-0" : "-left-[3000px]"}`}>
-                                <Navbar></Navbar>
+                                <Navbar setBar={setBar} bar={bar}></Navbar>
                             </div>
                             <span className='block md:hidden text-3xl cursor-pointer' onClick={handleClick}>{bar ? <RxCross1 /> : <HiMiniBars3CenterLeft />}</span>
                         </div>

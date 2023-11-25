@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { BiSolidDownArrow } from "react-icons/bi";
 import { FaEnvelope } from "react-icons/fa";
 
-export const Navbar = () => {
+export const Navbar = ({ setBar, bar }) => {
     const [dropdown, setDropdown] = useState(null);
     // const [higlight, setHiglight] = useState("")
     const handleNav = (e, navNo) => {
@@ -18,6 +18,10 @@ export const Navbar = () => {
         if (window.innerWidth > 768) {
             setDropdown(null)
         };
+    }
+    // hide bar afte clicking menu items
+    const handleHideDrpdown = () => {
+        setBar(!bar)
     }
     // const handlePackage = (pack) => {
     //     setTimeout(() => {
@@ -36,16 +40,16 @@ export const Navbar = () => {
                     <Link className='md:group-hover:text-primary text-lg font-normal'>Web Hosting</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
-                <div className={`drop-down static md:absolute md:group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 1 ? "block" : "hidden"}`}>
+                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 1 ? "block" : "hidden"}`}>
                     <ul className='flex flex-col sm:flex-row shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
 
                             <ul className='flex flex-col whitespace-nowrap drop-mega px-5 py-2 space-y-3'>
-                                <li className='font-normal'><Link to="/shared-hosting" onClick={(e) => e.stopPropagation()} className='whitespace-nowrap hover:text-primary'>Shared Hosting</Link></li>
-                                <li className='font-normal'><Link to="/managed-vps" className='hover:text-primary'>Managed VPS</Link></li>
-                                <li className='font-normal'><Link to="/unmanaged-vps" className='hover:text-primary'>Unmanaged VPS</Link></li>
-                                <li className='font-normal'><Link to="/email-hosting" className='hover:text-primary'>E-mail Hosting</Link></li>
+                                <li className='font-normal'><Link to="/shared-hosting" onClick={handleHideDrpdown} className='whitespace-nowrap hover:text-primary'>Shared Hosting</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/managed-vps" className='hover:text-primary'>Managed VPS</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/unmanaged-vps" className='hover:text-primary'>Unmanaged VPS</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/email-hosting" className='hover:text-primary'>E-mail Hosting</Link></li>
                                 {/* <li className='font-normal'><Link to="" className='hover:text-primary'>Business</Link></li> */}
                             </ul>
                         </li>
@@ -69,7 +73,7 @@ export const Navbar = () => {
                     <Link className='group-hover:text-primary text-lg font-normal' to="/dedicated-server">Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
-                <div className={`drop-down static md:absolute md:group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 2 ? "block" : "hidden"}`}>
+                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 2 ? "block" : "hidden"}`}>
                     <ul className='flex shadow-sm flex-wrap md:flex-nowrap shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5 sm:w-1/2 md:w-auto w-full'>
                             {/* By Region */}
@@ -124,16 +128,16 @@ export const Navbar = () => {
                     <Link className='group-hover:text-primary text-lg font-normal'>Domain</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
-                <div className={`drop-down static md:absolute md:group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 3 ? "block" : "hidden"}`}>
+                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 3 ? "block" : "hidden"}`}>
                     <ul className='flex flex-wrap sm:flex-nowrap shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
                             {/* <h4 className='text-base text-left px-5 py-2 whitespace-nowrap'>Registration</h4> */}
                             <ul className='flex flex-col space-y-3 whitespace-nowrap drop-mega px-5'>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>domain registration</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Pricing</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Domain Transfer</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Privacy Protection</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>domain registration</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Domain Pricing</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Domain Transfer</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Privacy Protection</Link></li>
                             </ul>
                         </li>
                         {/* domain service hosting */}
@@ -156,16 +160,16 @@ export const Navbar = () => {
                     <Link className='group-hover:text-primary text-lg font-normal'>Other Services</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
-                <div className={`drop-down static md:absolute md:group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 4 ? "block" : "hidden"}`}>
+                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 4 ? "block" : "hidden"}`}>
                     <ul className='flex flex-wrap sm:flex-nowrap shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/*   Exclusive Services */}
                             {/* <h4 className='text-base text-left px-10 whitespace-nowrap'>Exclusive Services</h4> */}
                             <ul className='flex flex-col space-y-3 py-2 whitespace-nowrap drop-mega px-5'>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>SSL Certificate</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Remote assistant</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Wordpress Customization</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Wordpress migration</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>SSL Certificate</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Remote assistant</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Wordpress Customization</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Wordpress migration</Link></li>
                             </ul>
                         </li>
                         {/* Reseller hosting */}
@@ -190,16 +194,16 @@ export const Navbar = () => {
                     <Link className='group-hover:text-primary text-lg font-normal'>About us</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* about us */}
-                <div className={`drop-down static md:absolute md:group-hover:block pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 5 ? "block" : "hidden"}`}>
+                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 5 ? "block" : "hidden"}`}>
                     <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
                             {/* <h4 className='text-base text-left px-10 whitespace-nowrap'></h4> */}
                             <ul className='flex flex-col space-y-3 whitespace-nowrap drop-mega px-5 py-2'>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Our Company</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>About Our Services</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Payment Method</Link></li>
-                                <li className=''><a href="mailto:hostflu@gmail.com" className='flex sm:hidden items-center gap-2 md:gap-4'><FaEnvelope />Event Gallery</a></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Our Company</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>About Our Services</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Payment Method</Link></li>
+                                <li onClick={handleHideDrpdown} className=''><a href="mailto:hostflu@gmail.com" className='flex sm:hidden items-center gap-2 md:gap-4'><FaEnvelope />Event Gallery</a></li>
                             </ul>
                         </li>
 
