@@ -1,5 +1,4 @@
 import React from 'react'
-import "./sharedHosting.css"
 import director from "../../asstes/direction.png";
 import data from '../../data.json';
 import PricingCard from '../home/exclusive/PricingCard';
@@ -14,7 +13,7 @@ import freeMigration from "../../asstes/free-migration.png";
 import litespeed from "../../asstes/litespeed.jpg"
 import sharedHostingAnimation from "../../asstes/sharedAnimation"
 import PageBanner from '../shared/pageBanner/PageBanner';
-
+import "./shared.css"
 function SharedHosting() {
     const cardData = data.exclusive;
     const firstThreeData = cardData.slice(0, 3);
@@ -78,20 +77,20 @@ function SharedHosting() {
                     </div>
                 </div>
             </section>
-            <section className='py-32'>
+            <section className='py-32 featured'>
                 <div className="container mx-auto px-1">
                     <div className='mb-20'>
                         <h2 className='text-2xl md:text-4xl capitalize text-primary text-center font-semibold'>Our Features</h2>
                         <p className='text-base sm:text-xl text-center mt-5'>Cloud Host Providing you with a hesitate free web hosting service we take words look the believable</p>
                     </div>
                     <div className='flex gap-8 imtes-center justify-center'>
-
                         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20 p-3'>
                             <IndividualServices image={cpanel} title="CPanel" desc="cPanel is a powerful and versatile web hosting control panel that provides users with a wide range of tools and features to manage their websites. With its user-friendly interface, robust security measures, and extensive customization options, cPanel has become the go-to choice for web developers"></IndividualServices>
                             <IndividualServices image={linux} title="Cloud Linux" desc="CloudLinux is a lightweight operating system based on the Linux kernel and targeted at servers, with focus on scalability, security.It provides a stable and secure platform for running applications in the cloud. CloudLinux is a popular choice for cloud providers, including Amazon Web Services, Microsoft Azure, and Google Cloud Platform."></IndividualServices>
                             <IndividualServices image={ssl} title="Free SSL" desc="SSL stands for secure Socket Layer. It is a protocol that allows encrypted communication over a public network. SSL is also used to authenticate websites and users, and protects data from unauthorized access. It is widely used to secure online transactions and other sensitive information."></IndividualServices>
                             <IndividualServices image={wordpresskit} title="WordPresskit" desc="WordPresskit is a company that offers plugins for website creation using WordPress. Their products are designed to make it easier to manage your WordPress website, like installing themes and plugins. They also offer tutorials and support to help you along the way."></IndividualServices>
                             <IndividualServices image={freeMigration} title="Free Migration" desc="We offer a free website migration service, which allows you to transfer your website from another hosting provider to HostFlu. We offer this migration service to ensure that your website is up and running smoothly on HostFlu."></IndividualServices>
+                            <IndividualServices image={litespeed} title="LiteSpeed Web Server" desc="A high-performance, efficient, and secure web server that turbocharges websites, delivering lightning-fast page load speeds and top-notch security for an unbeatable online experience."></IndividualServices>
                             <IndividualServices image={litespeed} title="LiteSpeed Web Server" desc="A high-performance, efficient, and secure web server that turbocharges websites, delivering lightning-fast page load speeds and top-notch security for an unbeatable online experience."></IndividualServices>
                             <IndividualServices image={litespeed} title="LiteSpeed Web Server" desc="A high-performance, efficient, and secure web server that turbocharges websites, delivering lightning-fast page load speeds and top-notch security for an unbeatable online experience."></IndividualServices>
                             <IndividualServices image={litespeed} title="LiteSpeed Web Server" desc="A high-performance, efficient, and secure web server that turbocharges websites, delivering lightning-fast page load speeds and top-notch security for an unbeatable online experience."></IndividualServices>
