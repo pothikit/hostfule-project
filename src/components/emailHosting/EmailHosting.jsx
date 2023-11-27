@@ -5,7 +5,7 @@ import PageBanner from '../shared/pageBanner/PageBanner';
 const EmailHosting = () => {
     return (
         <main>
-            <PageBanner animationfile={emailHostingAnimation} pageTitle={["Secure, Reliable Email", <span className='text-primary'> H</span>, "osting for Business"]}></PageBanner>
+            <PageBanner animationfile={emailHostingAnimation} animationPadding="p-14" pageTitle={["Secure, Reliable Email", <span className='text-primary'> H</span>, "osting for Business"]}></PageBanner>
         </main>
     );
 };

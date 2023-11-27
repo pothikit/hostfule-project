@@ -5,8 +5,8 @@
     background-size: 100% 100%;
 }
 .locationCard{
-    background: url("../../asstes/serverlocation.png");
+    background: url("../../asstes/town.png");
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 80% 90%;
 }

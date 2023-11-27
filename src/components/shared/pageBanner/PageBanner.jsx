@@ -1,7 +1,7 @@
 import { Controls, Player } from '@lottiefiles/react-lottie-player';
 import React from 'react';
 
-const PageBanner = ({ animationfile, pageTitle, className, animationName }) => {
+const PageBanner = ({ animationfile, pageTitle, className, animationName, animationPadding }) => {
 
     return (
         <section className={`bg-gray-100 px-1 md:px-0 py-5 ${className ? className : null}`}>
@@ -11,8 +11,8 @@ const PageBanner = ({ animationfile, pageTitle, className, animationName }) => {
                         <h2 className='text-black text-2xl md:text-4xl lg:text-7xl font-bold lg:leading-snug'>{pageTitle}</h2>
                     </div>
                     <div className="flex-1">
-                        <div className='ml-auto'>
-                            <Player className='md:h-[600px]'
+                        <div className={`ml-auto`}>
+                            <Player className={`md:h-[600px] ${animationPadding ? animationPadding : null}`}
                                 autoplay
                                 loop
                                 src={animationfile}
