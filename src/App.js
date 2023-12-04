@@ -19,7 +19,9 @@ import EmailHosting from "./components/emailHosting/EmailHosting";
 function App() {
   // for aos animation
   React.useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: "2000"
+    });
   }, [])
   return (
     <BrowserRouter>

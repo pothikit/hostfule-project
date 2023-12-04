@@ -50,7 +50,7 @@ function SharedHosting() {
                         </div>
                     </div>
                     {/* pricing cards */}
-                    <div className={`tab-content grid-cols-1 lg:grid-cols-3 mt-14 gap-12 xl:max-w-[80%] mx-auto ${toggle ? "grid" : "hidden"}`} id='mini-package'>
+                    <div className={`tab-content grid-cols-1 lg:grid-cols-3 mt-14 gap-12 xl:max-w-[80%] mx-auto ${toggle ? "grid" : "hidden"}`} id='mini-package' data-aos="fade-up">
                         {
                             firstThreeData.map((cardItem) => (
                                 <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>
@@ -70,10 +70,10 @@ function SharedHosting() {
             <section className='bg-[#F6F6F6] py-20'>
                 <div className="container mx-auto px-2">
                     <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 md:gap-10 items-center">
-                        <div className='lg:col-span-3'>
+                        <div className='lg:col-span-3' data-aos="fade-right">
                             <p className='text-base sm:text-xl text-justify leading-9'>Experience seamless web hosting with our cutting-edge shared hosting service. At HostFlu we prioritize your online presence. Our robust infrastructure ensures lightning-fast loading times, guaranteeing an uninterrupted browsing experience for your visitors. Enjoy the simplicity of shared resources, making hosting affordable without compromising quality. With 24/7 expert support, your technical concerns are ours to handle, leaving you to focus on your core business. Benefit from one-click installations, automatic updates, and top-notch security features, safeguarding your data and customers' trust. Elevate your website's performance and reliability with our shared hosting – the smart choice for businesses aiming for digital success.</p>
                         </div>
-                        <div className='lg:col-span-2'>
+                        <div className='lg:col-span-2' data-aos="fade-left">
                             <img src={architect} alt="architect" />
                         </div>
                     </div>

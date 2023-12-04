@@ -338,20 +338,22 @@
     "dedicatedLocation": [
         {
             "id": 1,
-            "flagImg": "../../asstes/flag.png",
-            "country": "Bangladesh",
-            "capital": "Dhaka"
+            "locationImg": "../../asstes/singapore.jpg",
+            "flagImg": "../../asstes/singaphore.jpeg",
+            "country": "Singapore",
+            "capital": "Singapore"
         },
         {
             "id": 2,
-            "flagImg": "../../asstes/flag.png",
-            "country": "United States",
-            "capital": "Washington, D.C."
+            "locationImg": "../../asstes/usa.jpg",
+            "flagImg": "../../asstes/usa.png",
+            "country": "USA",
+            "capital": "Washington"
         },
         {
             "id": 3,
-            "flagImg": "../../asstes/flag.png",
-            "country": "Austria",
+            "flagImg": "../../asstes/netherlands.png",
+            "country": "Netherland",
             "capital": "Vienna"
         },
         {
