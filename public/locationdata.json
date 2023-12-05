@@ -1,0 +1,37 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "Argentina",
+            "countryFlag": "../../asstes/singapore.jpg",
+            "city": [
+                {
+                    "name": "Cordoba",
+                    "details": [
+                        {
+                            "id": "HF-500",
+                            "brand": "intel",
+                            "cpu": "Xeon E5-2609 v4 1.7 GHz 8c/8t",
+                            "ram": "32 GB DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "network": "1 Gbps 20 TB Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "389"
+                        },
+                        {
+                            "id": "HF-501",
+                            "name": "Cordoba",
+                            "brand": "intel",
+                            "cpu": "Xeon E5-2630 v4 2.2 GHz 10c/20t",
+                            "ram": "32 GB DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "network": "1 Gbps 20 TB Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "459"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

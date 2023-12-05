@@ -13,7 +13,6 @@ const DedicatedServer = () => {
         setSearchData(serverLocation)
     }, [serverLocation])
 
-
     const handleSearch = (e) => {
         e.preventDefault();
 
