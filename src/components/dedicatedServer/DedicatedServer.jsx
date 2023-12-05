@@ -10,14 +10,20 @@ const DedicatedServer = () => {
     useEffect(() => {
         const serverData = data.dedicatedLocation;
         setServerLocation(serverData)
-    }, [])
+        setSearchData(serverLocation)
+    }, [serverLocation])
+
 
     const handleSearch = (e) => {
         e.preventDefault();
-        const filteredData = serverLocation.filter((items) => items.country.toLowerCase().startsWith(e.target.value.toLowerCase()))
-        setSearchData(filteredData)
-    }
 
+        if (e.target.value) {
+            const filtereddata = searchData.filter((items) => items.country.toLowerCase().startsWith(e.target.value.toLowerCase()))
+            setSearchData(filtereddata)
+        } else {
+            setSearchData(serverLocation)
+        }
+    }
 
     return (
         <main>
@@ -31,10 +37,10 @@ const DedicatedServer = () => {
                                 <Controls buttons={['play', 'repeat', 'debug']} />
                             </Player>
                         </div>
-                        <div className='self-end md:mb-20'>
-                            <h2 className='font-bold text-xl md:text-3xl lg:text-5xl mb-10'>Dedicated Servers</h2>
+                        <div className='self-end md:mb-16'>
+                            <h2 className='font-bold text-xl md:text-3xl lg:text-5xl mb-10 text-slate-700'>Dedicated Servers</h2>
                             <form className='text-center'>
-                                <input onChange={handleSearch} type="text" placeholder='Search Server Location' className='text-center border-black border border-opacity-20 w-10/12 mx-auto py-2 rounded-lg px-3 outline-none text-lg' />
+                                <input onChange={handleSearch} type="text" placeholder='Search Server Location' className='text-center border-black placeholder:text-slate-600 border border-opacity-20 w-10/12 mx-auto py-2 rounded-lg px-3 outline-none text-lg' />
                             </form>
                         </div>
                     </div>
