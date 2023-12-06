@@ -2,17 +2,20 @@
     "countries": [
         {
             "id": 1,
-            "name": "Argentina",
-            "countryFlag": "../../asstes/singapore.jpg",
+            "countryName": "argentina",
+            "countryFlag": "../../asstes/location/argentina/argentina.png",
             "city": [
                 {
-                    "name": "Cordoba",
+                    "name": "cordoba",
+                    "cityImg": "../../asstes/location/argentina/cordoba.jpg",
                     "details": [
                         {
                             "id": "HF-500",
-                            "brand": "intel",
-                            "cpu": "Xeon E5-2609 v4 1.7 GHz 8c/8t",
-                            "ram": "32 GB DDR4",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2609 v4",
+                            "ghz": "1.7 GHz 8c/8t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
                             "storage": "2× 500 GB (SSD SATA)",
                             "network": "1 Gbps 20 TB Fair Usage",
                             "oldPrice": "",
@@ -20,14 +23,84 @@
                         },
                         {
                             "id": "HF-501",
-                            "name": "Cordoba",
-                            "brand": "intel",
-                            "cpu": "Xeon E5-2630 v4 2.2 GHz 10c/20t",
-                            "ram": "32 GB DDR4",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2630 v4",
+                            "ghz": "2.2 GHz 10c/20t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
                             "storage": "2× 500 GB (SSD SATA)",
                             "network": "1 Gbps 20 TB Fair Usage",
                             "oldPrice": "",
                             "newPrice": "459"
+                        },
+                        {
+                            "id": "HF-502",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2680 v4",
+                            "ghz": "2.4 GHz 14c/28t",
+                            "ram": "64 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "network": "1 Gbps 20 TB Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "639"
+                        }
+                    ]
+                },
+                {
+                    "name": "azerbaijan",
+                    "cityImg": "../../asstes/location/argentina/cordoba.jpg",
+                    "details": [
+                        {
+                            "id": "HF-500",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2609 v4",
+                            "ghz": "1.7 GHz 8c/8t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "network": "1 Gbps 20 TB Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "389"
+                        }
+                    ]
+                },
+                {
+                    "name": "azerbaijan",
+                    "cityImg": "../../asstes/location/argentina/cordoba.jpg",
+                    "details": [
+                        {
+                            "id": "HF-500",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2609 v4",
+                            "ghz": "1.7 GHz 8c/8t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "20 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "389"
+                        }
+                    ]
+                },
+                {
+                    "name": "azerbaijan",
+                    "cityImg": "../../asstes/location/argentina/cordoba.jpg",
+                    "details": [
+                        {
+                            "id": "HF-500",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2609 v4",
+                            "ghz": "1.7 GHz 8c/8t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "network": "1 Gbps 20 TB Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "389"
                         }
                     ]
                 }

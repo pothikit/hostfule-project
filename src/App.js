@@ -15,6 +15,7 @@ import ManagedServer from "./components/managedServer/ManagedVps";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import EmailHosting from "./components/emailHosting/EmailHosting";
+import LocationDatatabel from "./components/dedicatedServer/locationDatatable/LocationDatatabel";
 
 function App() {
   // for aos animation
@@ -33,6 +34,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="/shared-hosting" element={<SharedHosting />} />
         <Route path="/dedicated-server" element={<DedicatedServer />} />
+        <Route path="/dedicated-servers/:location" element={<LocationDatatabel />} />
         <Route path="/reseller-hosting" element={<ResellerHosting />} />
         <Route path="/unmanaged-vps" element={<UnmanagedServer />} />
         <Route path="/managed-vps" element={<ManagedServer />} />

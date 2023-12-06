@@ -1,18 +1,29 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const ServerLocation = ({ serverLocation }) => {
-    const { flagImg, country, capital, locationImg } = serverLocation;
+    const { countryFlag, countryName, city } = serverLocation;
+    // console.log(serverLocation)
+
     return (
-        <div className='shadow-lg rounded-lg locationCard p-5 sm:py-5 relative'>
-            <div className='md:space-y-1 pt-24'>
-                <img src={flagImg} alt={country} className='w-16 md:w-20' />
-                <p className='text-sm font-semibold'>{country}</p>
-                <h3 className='md:text-xl font-semibold text-slate-500'>{capital}</h3>
-            </div>
-            <div className='absolute top-0 right-0 max-w-[75%] bg-red-100 h-full -z-10 rounded-bl-full'>
-                <img src={locationImg} className='rounded-bl-full w-full h-full' alt="" />
-            </div>
-        </div>
+        <>
+            {
+                city?.map((items, idx) => (
+                    <Link key={idx} to={`/dedicated-servers/${items.name}-${countryName}`}>
+                        <div className='shadow-lg border rounded-lg locationCard px-6 sm:py-2 relative bg-slate-50'>
+                            <div className='pt-32'>
+                                <img src={countryFlag} alt="" className='w-16 md:w-14' />
+                                <p className='text-base text-primary font-bold capitalize pt-5 -pb-5'>{countryName}</p>
+                                <h3 key={idx} className='md:text-xl font-semibold capitalize'>{items.name}</h3>
+                            </div>
+                            <div className='absolute top-0 right-0 max-w-[75%] bg-red-100 h-full z-10 rounded-bl-full'>
+                                <img key={idx} src={items.cityImg} className='rounded-bl-full w-full h-full' alt={items.name} />
+                            </div>
+                        </div>
+                    </Link>
+                ))
+            }
+        </>
+
     );
 };
 
