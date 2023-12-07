@@ -7,7 +7,7 @@
             "city": [
                 {
                     "name": "cordoba",
-                    "cityImg": "../../asstes/location/argentina/cordoba.jpg",
+                    "cityImg": "../../asstes/location/argentina/cordoba.png",
                     "details": [
                         {
                             "id": "HF-500",
@@ -17,9 +17,11 @@
                             "ram": "32 GB",
                             "ddr": "DDR4",
                             "storage": "2× 500 GB (SSD SATA)",
-                            "network": "1 Gbps 20 TB Fair Usage",
-                            "oldPrice": "",
-                            "newPrice": "389"
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "20 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "800",
+                            "newPrice": "439"
                         },
                         {
                             "id": "HF-501",
@@ -29,9 +31,11 @@
                             "ram": "32 GB",
                             "ddr": "DDR4",
                             "storage": "2× 500 GB (SSD SATA)",
-                            "network": "1 Gbps 20 TB Fair Usage",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "20 TB",
+                            "fairUse": "Fair Usage",
                             "oldPrice": "",
-                            "newPrice": "459"
+                            "newPrice": "510"
                         },
                         {
                             "id": "HF-502",
@@ -41,66 +45,59 @@
                             "ram": "64 GB",
                             "ddr": "DDR4",
                             "storage": "2× 500 GB (SSD SATA)",
-                            "network": "1 Gbps 20 TB Fair Usage",
-                            "oldPrice": "",
-                            "newPrice": "639"
-                        }
-                    ]
-                },
-                {
-                    "name": "azerbaijan",
-                    "cityImg": "../../asstes/location/argentina/cordoba.jpg",
-                    "details": [
-                        {
-                            "id": "HF-500",
-                            "brand": "../../asstes/intel.png",
-                            "cpu": "Xeon E5-2609 v4",
-                            "ghz": "1.7 GHz 8c/8t",
-                            "ram": "32 GB",
-                            "ddr": "DDR4",
-                            "storage": "2× 500 GB (SSD SATA)",
-                            "network": "1 Gbps 20 TB Fair Usage",
-                            "oldPrice": "",
-                            "newPrice": "389"
-                        }
-                    ]
-                },
-                {
-                    "name": "azerbaijan",
-                    "cityImg": "../../asstes/location/argentina/cordoba.jpg",
-                    "details": [
-                        {
-                            "id": "HF-500",
-                            "brand": "../../asstes/intel.png",
-                            "cpu": "Xeon E5-2609 v4",
-                            "ghz": "1.7 GHz 8c/8t",
-                            "ram": "32 GB",
-                            "ddr": "DDR4",
-                            "storage": "2× 500 GB (SSD SATA)",
-                            "alternativeStorage": "",
                             "networkSpeed": "1 Gbps",
                             "maximumSpeed": "20 TB",
                             "fairUse": "Fair Usage",
                             "oldPrice": "",
-                            "newPrice": "389"
+                            "newPrice": "739"
                         }
                     ]
                 },
                 {
-                    "name": "azerbaijan",
-                    "cityImg": "../../asstes/location/argentina/cordoba.jpg",
+                    "name": "buenos aires",
+                    "cityImg": "../../asstes/location/argentina/buenos.png",
                     "details": [
                         {
-                            "id": "HF-500",
+                            "id": "HF-503",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Core i9-9900",
+                            "ghz": "3.1 GHz 8c/16t",
+                            "ram": "8 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 1 TB (HDD SATA) or",
+                            "alternativeStorage": "1× 120 GB (SSD SATA)",
+                            "networkSpeed": "10 Mbps",
+                            "maximumSpeed": "Unmetered",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "146"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "countryName": "Azerbaijan",
+            "countryFlag": "../../asstes/location/azerbaijan/Azerbaijan.png",
+            "city": [
+                {
+                    "name": "cordoba",
+                    "cityImg": "../../asstes/location/azerbaijan/Baku.png",
+                    "details": [
+                        {
+                            "id": "HF-504",
                             "brand": "../../asstes/intel.png",
                             "cpu": "Xeon E5-2609 v4",
                             "ghz": "1.7 GHz 8c/8t",
                             "ram": "32 GB",
                             "ddr": "DDR4",
                             "storage": "2× 500 GB (SSD SATA)",
-                            "network": "1 Gbps 20 TB Fair Usage",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "20 TB",
+                            "fairUse": "Fair Usage",
                             "oldPrice": "",
-                            "newPrice": "389"
+                            "newPrice": "439"
                         }
                     ]
                 }
