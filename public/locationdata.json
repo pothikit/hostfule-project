@@ -113,7 +113,7 @@
                     "cityImg": "../../asstes/location/australia/brisbane.png",
                     "details": [
                         {
-                            "id": "HF-500",
+                            "id": "HF-505",
                             "brand": "../../asstes/intel.png",
                             "cpu": "Xeon E5-2609 v4",
                             "ghz": "1.7 GHz 8c/8t",
@@ -121,10 +121,58 @@
                             "ddr": "DDR4",
                             "storage": "2× 500 GB (SSD SATA)",
                             "networkSpeed": "1 Gbps",
-                            "maximumSpeed": "20 TB",
+                            "maximumSpeed": "4 TB",
                             "fairUse": "",
-                            "oldPrice": "800",
-                            "newPrice": "439"
+                            "oldPrice": "",
+                            "newPrice": "229"
+                        },
+                        {
+                            "id": "HF-506",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E-2134",
+                            "ghz": "3.5 GHz 4c/8t",
+                            "ram": "16 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 250 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "4 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "269"
+                        },
+                        {
+                            "id": "HF-507",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E-2236",
+                            "ghz": "3.4 GHz 6c/12t",
+                            "ram": "16 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 250 GB (SSD NVMe)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "4 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "289"
+                        }
+                    ]
+                },
+                {
+                    "name": "sydney",
+                    "cityImg": "../../asstes/location/australia/sydney.png",
+                    "details": [
+                        {
+                            "id": "HF-508",
+                            "brand": "../../asstes/amd.png",
+                            "cpu": "EPYC 7443P (1 vCore)",
+                            "ghz": "2.8 GHz 1c/1t",
+                            "ram": "4 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 75 GB (SSD NVMe)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "Unmetered",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "30",
+                            "newPrice": "17"
                         }
                     ]
                 }
