@@ -175,6 +175,26 @@
                             "newPrice": "17"
                         }
                     ]
+                },
+                {
+                    "name": "sydney",
+                    "cityImg": "../../asstes/location/australia/sydney.png",
+                    "details": [
+                        {
+                            "id": "HF-509",
+                            "brand": "../../asstes/amd.png",
+                            "cpu": "EPYC 7443P (1 vCore)",
+                            "ghz": "2.8 GHz 1c/1t",
+                            "ram": "4 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 75 GB (SSD NVMe)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "Unmetered",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "30",
+                            "newPrice": "17"
+                        }
+                    ]
                 }
             ]
         }
