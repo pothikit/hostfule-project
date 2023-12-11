@@ -122,7 +122,7 @@
                             "storage": "2× 500 GB (SSD SATA)",
                             "networkSpeed": "1 Gbps",
                             "maximumSpeed": "20 TB",
-                            "fairUse": "Fair Usage",
+                            "fairUse": "",
                             "oldPrice": "800",
                             "newPrice": "439"
                         }
