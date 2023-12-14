@@ -561,6 +561,7 @@
                             "oldPrice": "",
                             "newPrice": "629"
                         }
+
                     ]
                 }
             ]
@@ -1788,7 +1789,7 @@
             ]
         },
         {
-            "id": 11,
+            "id": 14,
             "countryName": "canada",
             "countryFlag": "../../asstes/location/canada/canada.png",
             "city": [
@@ -1799,12 +1800,12 @@
                         {
                             "id": "HF-605",
                             "brand": "../../asstes/intel.png",
-                            "cpu": "Xeon E5-2609 v4",
-                            "ghz": "1.7 GHz 8c/8t",
+                            "cpu": "Core i7-4790K",
+                            "ghz": "4 GHz 4c/8t",
                             "ram": "32 GB",
-                            "ddr": "DDR4",
-                            "storage": "2× 500 GB (SSD SATA)",
-                            "alternativeStorage": "1× 120 GB (SSD SATA)",
+                            "ddr": "DDR3",
+                            "storage": "1× 240 GB (SSD SATA)",
+                            "alternativeStorage": "",
                             "networkSpeed": "1 Gbps",
                             "maximumSpeed": "20 TB",
                             "fairUse": "Fair Usage",
