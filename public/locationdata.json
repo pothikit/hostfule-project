@@ -1786,6 +1786,34 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 11,
+            "countryName": "canada",
+            "countryFlag": "../../asstes/location/canada/canada.png",
+            "city": [
+                {
+                    "name": "montreal",
+                    "cityImg": "../../asstes/location/canada/montreal.png",
+                    "details": [
+                        {
+                            "id": "HF-605",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2609 v4",
+                            "ghz": "1.7 GHz 8c/8t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "alternativeStorage": "1× 120 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "20 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "800",
+                            "newPrice": "439"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
