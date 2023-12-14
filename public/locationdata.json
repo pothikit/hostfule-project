@@ -77,7 +77,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 1,
             "countryName": "Azerbaijan",
             "countryFlag": "../../asstes/location/azerbaijan/Azerbaijan.png",
             "city": [
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 2,
             "countryName": "Australia",
             "countryFlag": "../../asstes/location/australia/australia.png",
             "city": [
@@ -561,12 +561,13 @@
                             "oldPrice": "",
                             "newPrice": "629"
                         }
+
                     ]
                 }
             ]
         },
         {
-            "id": 4,
+            "id": 3,
             "countryName": "albania",
             "countryFlag": "../../asstes/location/albania/albania.jpg",
             "city": [
@@ -654,7 +655,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 4,
             "countryName": "austria",
             "countryFlag": "../../asstes/location/austria/austria.png",
             "city": [
@@ -832,7 +833,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 5,
             "countryName": "bangladesh",
             "countryFlag": "../../asstes/location/bangladesh/bangladesh.png",
             "city": [
@@ -905,7 +906,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 6,
             "countryName": "brazil",
             "countryFlag": "../../asstes/location/brazil/brazil.png",
             "city": [
@@ -1155,7 +1156,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 6,
             "countryName": "B&H",
             "countryFlag": "../../asstes/location/B&H/B&H.png",
             "city": [
@@ -1288,7 +1289,7 @@
             ]
         },
         {
-            "id": 9,
+            "id": 7,
             "countryName": "belgium",
             "countryFlag": "../../asstes/location/belgium/belgium.png",
             "city": [
@@ -1451,7 +1452,7 @@
             ]
         },
         {
-            "id": 10,
+            "id": 8,
             "countryName": "bulgaria",
             "countryFlag": "../../asstes/location/bulgaria/bulgaria.png",
             "city": [
@@ -1599,7 +1600,7 @@
             ]
         },
         {
-            "id": 11,
+            "id": 8,
             "countryName": "croatia",
             "countryFlag": "../../asstes/location/croatia/croatia.png",
             "city": [
@@ -1657,7 +1658,7 @@
             ]
         },
         {
-            "id": 12,
+            "id": 9,
             "countryName": "cyprus",
             "countryFlag": "../../asstes/location/cyprus/cyprus.png",
             "city": [
@@ -1715,7 +1716,7 @@
             ]
         },
         {
-            "id": 13,
+            "id": 10,
             "countryName": "chile",
             "countryFlag": "../../asstes/location/chile/chile.png",
             "city": [
@@ -1788,7 +1789,7 @@
             ]
         },
         {
-            "id": 11,
+            "id": 14,
             "countryName": "canada",
             "countryFlag": "../../asstes/location/canada/canada.png",
             "city": [
@@ -1799,12 +1800,12 @@
                         {
                             "id": "HF-605",
                             "brand": "../../asstes/intel.png",
-                            "cpu": "Xeon E5-2609 v4",
-                            "ghz": "1.7 GHz 8c/8t",
+                            "cpu": "Core i7-4790K",
+                            "ghz": "4 GHz 4c/8t",
                             "ram": "32 GB",
-                            "ddr": "DDR4",
-                            "storage": "2× 500 GB (SSD SATA)",
-                            "alternativeStorage": "1× 120 GB (SSD SATA)",
+                            "ddr": "DDR3",
+                            "storage": "1× 240 GB (SSD SATA)",
+                            "alternativeStorage": "",
                             "networkSpeed": "1 Gbps",
                             "maximumSpeed": "20 TB",
                             "fairUse": "Fair Usage",
