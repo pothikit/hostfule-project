@@ -1781,8 +1781,8 @@
                             "networkSpeed": "10 Gbps",
                             "maximumSpeed": "20 TB",
                             "fairUse": "Fair Usage",
-                            "oldPrice": "749.00",
-                            "newPrice": ".00"
+                            "oldPrice": "",
+                            "newPrice": "749.00"
                         }
                     ]
                 }
