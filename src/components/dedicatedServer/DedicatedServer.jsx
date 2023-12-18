@@ -20,6 +20,7 @@ const DedicatedServer = () => {
         totalCity = items.city.length + totalCity
     })
 
+    // console.log(serverLocation)
     const handleSearch = (e) => {
         e.preventDefault();
 
