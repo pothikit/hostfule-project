@@ -5,33 +5,35 @@ import ServerLocation from './ServerLocation';
 import { Controls, Player } from '@lottiefiles/react-lottie-player';
 import bannerImgAnimation from "../../asstes/dedicated-server-banner.json"
 const DedicatedServer = () => {
+    const [loading, setLoading] = useState(true)
     const [serverLocation, setServerLocation] = useState([])
     const [searchData, setSearchData] = useState([])
+    // display search value if data not match
+    const [searchValue, setSearchValue] = useState("")
     useEffect(() => {
         fetch("locationdata.json")
             .then(res => res.json())
             .then(data => {
                 setServerLocation(data.countries)
+                setSearchData(data.countries)
+                data && setLoading(false)
             })
-        setSearchData(searchData)
+        // setSearchData(serverLocation)
     }, [])
-    // for show all button getting all city over here
-    let totalCity = 0
-    serverLocation.forEach(items => {
-        totalCity = items.city.length + totalCity
-    })
 
-    // console.log(serverLocation)
     const handleSearch = (e) => {
+        setSearchValue(e.target.value)
         e.preventDefault();
-        if (e.target.value) {
-            const filtereddata = searchData.filter((items) => items.country.toLowerCase().startsWith(e.target.value.toLowerCase()))
-            setSearchData(filtereddata)
-        } else {
+        setSearchData(serverLocation)
+        const searchCountry = serverLocation.filter((items) => {
+            return items.countryName.toLowerCase().startsWith(e.target.value.toLowerCase())
+        })
+        setSearchData(searchCountry)
+        if (e.target.value === "") {
             setSearchData(serverLocation)
         }
     }
-
+    // console.log(searchData)
     return (
         <main>
             <section className='bg-slate-100 '>
@@ -59,10 +61,12 @@ const DedicatedServer = () => {
                     <div className='py-20'>
                         <h1 className='font-bold text-xl md:text-3xl lg:text-4xl text-center'>Available Location</h1>
                         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-5 xl:gap-6 py-10 md:py-20'>
+
                             {
-                                serverLocation.map((data, idx) => (
-                                    <ServerLocation key={idx} serverLocation={data}></ServerLocation>
-                                ))
+                                searchData.length < 1 ? <h1 className='text-xl md:text-2xl xl:text-3xl font-bold'>No Country With <span className='text-primary'>{searchValue}</span></h1> :
+                                    !loading && searchData.map((data, idx) => (
+                                        <ServerLocation key={idx} serverLocation={data}></ServerLocation>
+                                    ))
                             }
                         </div>
 
