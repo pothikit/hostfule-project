@@ -4800,6 +4800,205 @@
                             "newPrice": "931.50"
                         }
                     ]
+                },
+                {
+                    "name": "rome",
+                    "cityImg": "../../asstes/location/italy/rome.png",
+                    "details": [
+                        {
+                            "id": "HF-788",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E3-1230 v5",
+                            "ghz": "3 GHz 4c/8t",
+                            "ram": "8 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 1 TB (HDD SATA) or",
+                            "alternativeStorage": "1× 120 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "5 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "135.48"
+                        },
+                        {
+                            "id": "HF-789",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E-2234",
+                            "ghz": "3.6 GHz 4c/8t",
+                            "ram": "8 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 1 TB (HDD SATA) or",
+                            "alternativeStorage": "1× 120 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "5 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "151.77"
+                        },
+                        {
+                            "id": "HF-790",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E3-1270 v6",
+                            "ghz": "3.8 GHz 4c/8t",
+                            "ram": "16 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 2 TB (HDD SATA) or",
+                            "alternativeStorage": "1× 240 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "5 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "180.02"
+                        },
+                        {
+                            "id": "HF-791",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E-2276G",
+                            "ghz": "3.8 GHz 6c/12t",
+                            "ram": "16 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 1 TB (HDD SATA) or",
+                            "alternativeStorage": "1× 240 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "5 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "187.00"
+                        },
+                        {
+                            "id": "HF-792",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon E5-2609 v4",
+                            "ghz": "1.7 GHz 8c/8t",
+                            "ram": "16 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 2 TB (HDD SATA) or",
+                            "alternativeStorage": "2× 240 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "5 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "271.43"
+                        },
+                        {
+                            "id": "HF-793",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon E5-2620 v4",
+                            "ghz": "2 GHz 8c/16t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 2 TB (HDD SATA) or",
+                            "alternativeStorage": "2× 240 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "5 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "556.87"
+                        },
+                        {
+                            "id": "HF-794",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon Silver 4210",
+                            "ghz": "2.2 GHz 10c/20t",
+                            "ram": "64 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 4 TB (HDD SATA) or",
+                            "alternativeStorage": "2× 480 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "5 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "602.39"
+                        },
+                        {
+                            "id": "HF-795",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon E5-2630 v4",
+                            "ghz": "2.2 GHz 10c/20t",
+                            "ram": "64 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 3 TB (HDD SATA) or",
+                            "alternativeStorage": "2× 480 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "5 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "745.42"
+                        },
+                        {
+                            "id": "HF-796",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon Gold 5218",
+                            "ghz": "2.3 GHz 16c/32t",
+                            "ram": "64 GB",
+                            "ddr": "DDR4",
+                            "storage": "4× 6 TB (HDD SATA) or",
+                            "alternativeStorage": "4× 960 GB (SSD SATA)",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "5 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "931.50"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "countryName": "japan",
+            "countryFlag": "../../asstes/location/japan/japan.png",
+            "city": [
+                {
+                    "name": "nagano",
+                    "cityImg": "../../asstes/location/japan/nagano.png",
+                    "details": [
+                        {
+                            "id": "HF-797",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Core i3-6100",
+                            "ghz": "3.7 GHz 2c/4t",
+                            "ram": "8 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 1 TB (HDD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "100 Mbps",
+                            "maximumSpeed": "Unmetered",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "209.00",
+                            "newPrice": "174.00"
+                        },
+                        {
+                            "id": "HF-798",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Core i3-6100",
+                            "ghz": "3.7 GHz 2c/4tt",
+                            "ram": "16 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 1 TB (HDD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "100 Mbps",
+                            "maximumSpeed": "Unmetered",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "229.00",
+                            "newPrice": "199.00"
+                        },
+                        {
+                            "id": "HF-799",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E3-1230 v6",
+                            "ghz": "3.5 GHz 4c/8t",
+                            "ram": "16 GB",
+                            "ddr": "DDR4",
+                            "storage": "4× 1 TB (HDD SATA) or",
+                            "alternativeStorage": "4× 480 GB (SSD SATA)",
+                            "networkSpeed": "100 Mbps",
+                            "maximumSpeed": "Unmetered",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "329.00",
+                            "newPrice": "269.00"
+                        }
+                    ]
                 }
             ]
         }
