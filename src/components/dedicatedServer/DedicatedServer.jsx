@@ -38,7 +38,7 @@ const DedicatedServer = () => {
         <main>
             <section className='bg-slate-100 '>
                 <div className="dedicated-banner container mx-auto">
-                    <div className='pb-20 flex items-center flex-row-reverse justify-evenly'>
+                    <div className='pb-10 flex items-center flex-row-reverse justify-evenly'>
                         <div className='ml-auto md:pr-32'>
                             <Player autoplay className={``}
                                 loop
@@ -46,8 +46,8 @@ const DedicatedServer = () => {
                                 <Controls buttons={['play', 'repeat', 'debug']} />
                             </Player>
                         </div>
-                        <div className='self-end md:mb-16'>
-                            <h2 className='font-bold text-xl md:text-3xl lg:text-5xl mb-10 text-slate-700'>Dedicated Servers</h2>
+                        <div className='self-end md:mb-16 xl:ml-64'>
+                            <h2 className='font-bold text-xl md:text-2xl lg:text-4xl mb-6 text-slate-700'>Dedicated Servers</h2>
                             <form className='text-center'>
                                 <input onChange={handleSearch} type="text" placeholder='Search Server Location' className='text-center border-black placeholder:text-slate-600 border border-opacity-20 w-10/12 mx-auto py-2 rounded-lg px-3 outline-none text-lg' />
                             </form>
