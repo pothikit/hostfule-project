@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const ServerLocation = ({ serverLocation }) => {
     const { countryFlag, countryName, city } = serverLocation;
-    // console.log(serverLocation)
+    // console.log(city)
 
     return (
         <>
