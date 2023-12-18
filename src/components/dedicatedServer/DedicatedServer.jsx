@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import "./dedicated.css"
 import ServerLocation from './ServerLocation';
@@ -23,7 +24,6 @@ const DedicatedServer = () => {
     // console.log(serverLocation)
     const handleSearch = (e) => {
         e.preventDefault();
-
         if (e.target.value) {
             const filtereddata = searchData.filter((items) => items.country.toLowerCase().startsWith(e.target.value.toLowerCase()))
             setSearchData(filtereddata)
@@ -65,9 +65,7 @@ const DedicatedServer = () => {
                                 ))
                             }
                         </div>
-                        {
-                            totalCity > 8 && <button className='px-3 py-2 text-white bg-primary'>Show All</button>
-                        }
+
                     </div>
                 </div>
             </section>
