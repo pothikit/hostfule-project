@@ -32,8 +32,8 @@ function Hero() {
                                 </li>
                             </ul>
                             <div className="buttons mt-10 space-x-5">
-                                <button className='hover:bg-gradient-to-r from-primary to-secondary py-3 px-5 rounded-lg border border-primary duration-300 hover:text-white'>Get Serrated</button>
-                                <button className='hover:bg-gradient-to-r from-primary to-secondary py-3 px-5 rounded-lg border border-primary duration-300 hover:text-white'>Help Me Choose</button>
+                                <button className='hover:bg-slate-400 py-3 px-5 rounded-lg border border-slate-400 duration-300 hover:text-white'>Get Serrated</button>
+                                <button className='hover:bg-slate-400 py-3 px-5 rounded-lg border border-slate-400 duration-300 hover:text-white'>Help Me Choose</button>
                             </div>
                         </div>
                     </div>

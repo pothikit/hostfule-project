@@ -40,14 +40,14 @@ function Footer() {
                             <h2 className='text-2xl md:text-4xl font-medium mb-8 capitalize'>We are here to help you </h2>
                             <p className='text-justify text-base md:text-xl'>Thank you for your interest in our hosting company support. We are committed to providing our customers with the highest quality service and support. Our team of experienced professionals is here to answer any questions you may have and assist you with setting up your hosting account. Our team is available 24 hours a day, seven days a week, to provide you with the best possible experience. We strive to make sure your hosting experience is stress-free and hassle-free. We understand that sometimes hosting can be a bit complicated, so we offer a variety of tutorials and resources to help you get up and running quickly. We also have a knowledgeable support staff that is here to help you when you need it. We know that your time is valuable, so we strive to</p>
                             <div className="butttons flex flex-col sm:flex-row gap-3 md:gap-5 lg:gap-12 mt-10">
-                                <button className='flex items-center gap-3 p-2 border rounded-md hover:bg-gray-200 duration-300 group'>
-                                    <span className='text-gray-600 p-1 rounded-full bg-white text-2xl'><RxAvatar /></span><span>Dashboard Login</span>
+                                <button className='flex items-center gap-1 p-2 border rounded-md hover:bg-slate-400 duration-300 group bg-slate-200'>
+                                    <span className='text-gray-600 p-1 rounded-full bg-slate-200 group-hover:bg-slate-400 duration-300 group-hover:text-white text-2xl'><RxAvatar /></span><span className='group-hover:text-white duration-300'>Dashboard Login</span>
                                 </button>
-                                <button className='flex items-center gap-3 p-2 border rounded-md hover:bg-gray-200 duration-300 group'>
-                                    <span className='text-gray-600 bg-white p-1 rounded-full group-hover:bg-white text-2xl'><RxAvatar /></span><span>Dashboard Login</span>
+                                <button className='flex items-center gap-1 p-2 border rounded-md hover:bg-slate-400 duration-300 group bg-slate-200'>
+                                    <span className='text-gray-600 bg-slate-200 p-1 rounded-full group-hover:bg-slate-400 duration-300 group-hover:text-white text-2xl'><RxAvatar /></span><span className='group-hover:text-white duration-300'>Dashboard Login</span>
                                 </button>
-                                <button className='flex items-center gap-3 p-2 border rounded-md hover:bg-gray-200 duration-300 group'>
-                                    <span className='text-gray-600 p-1 rounded-full group-hover:bg-white bg-white text-2xl'><RxAvatar /></span><span>Dashboard Login</span>
+                                <button className='flex items-center gap-1 p-2 border rounded-md hover:bg-slate-400 duration-300 group bg-slate-200'>
+                                    <span className='text-gray-600 p-1 rounded-full group-hover:bg-slate-400 bg-slate-200 duration-300 group-hover:text-white text-2xl'><RxAvatar /></span><span className='group-hover:text-white duration-300'>Dashboard Login</span>
                                 </button>
                             </div>
                         </div>
