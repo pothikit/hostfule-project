@@ -24,7 +24,7 @@ function Footer() {
     return (
         <>
             <div className="container mx-auto -mt-20">
-                <div className='bg-white z-10 relative bottom-[-120px] p-6 rounded-2xl border border-[#cccccc61]'>
+                <div className='bg-slate-50 z-10 relative bottom-[-120px] p-6 rounded-2xl border border-[#cccccc61]'>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-10 items-center">
                         <div className='flex items-center justify-center'>
                             {/* <img src={supportImg} alt="Our Support" className='w-full mx-auto' /> */}
@@ -81,7 +81,7 @@ function Footer() {
                             <div className="col-title mb-8">
                                 <h3 className='text-xl border-b pb-4 text-white'>Web Hosting</h3>
                             </div>
-                            <ul className='list-disc space-y-4 text-white'>
+                            <ul className='list-disc list-inside space-y-4 text-white'>
                                 <li>Web Hosting</li>
                                 <li>Wordpress Hosting</li>
                                 <li>VPS Hosting</li>
@@ -95,7 +95,7 @@ function Footer() {
                             <div className="col-title mb-8">
                                 <h3 className='text-xl border-b pb-4 text-white'>Cloud Server</h3>
                             </div>
-                            <ul className='list-disc space-y-4 text-white'>
+                            <ul className='list-disc list-inside space-y-4 text-white'>
                                 <li>Web Hosting</li>
                                 <li>Wordpress Hosting</li>
                                 <li>VPS Hosting</li>
@@ -109,7 +109,7 @@ function Footer() {
                             <div className="col-title mb-8">
                                 <h3 className='text-xl border-b pb-4 text-white'>Domain</h3>
                             </div>
-                            <ul className='list-disc space-y-4 text-white'>
+                            <ul className='list-disc list-inside space-y-4 text-white'>
                                 <li>Web Hosting</li>
                                 <li>Wordpress Hosting</li>
                                 <li>VPS Hosting</li>
@@ -162,7 +162,7 @@ function Footer() {
 
                 </div>
                 {/* container */}
-                <div className="copyright py-4 text-white bg-primary">
+                <div className="copyright py-2 text-white bg-primary">
                     <div className="container mx-auto px-2">
                         <div className="flex items-center justify-between">
                             <span>Copyright © HostFlu 2023</span>
