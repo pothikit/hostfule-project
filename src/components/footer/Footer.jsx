@@ -151,10 +151,10 @@ function Footer() {
                                     <h3>Follow Our Social Media</h3>
                                 </div>
                                 <ul className='flex items-center gap-5 flex-wrap'>
-                                    <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2'><FaFacebookF /></li>
-                                    <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2'><AiFillInstagram /></li>
-                                    <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2'><TbWorld /></li>
-                                    <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2'><AiFillYoutube /></li>
+                                    <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2 hover:scale-110 cursor-pointer duration-200'><FaFacebookF /></li>
+                                    <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2 hover:scale-110 cursor-pointer duration-200'><AiFillInstagram /></li>
+                                    <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2 hover:scale-110 cursor-pointer duration-200'><TbWorld /></li>
+                                    <li className='text-2xl text-primary rounded-xl bg-white p-3 mr-2 hover:scale-110 cursor-pointer duration-200'><AiFillYoutube /></li>
                                 </ul>
                             </div>
                         </div>
