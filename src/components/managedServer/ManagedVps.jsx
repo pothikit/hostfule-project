@@ -58,6 +58,7 @@ const ManagedServer = () => {
                                 </div>
                             </div>
                         </div>
+                        <div><span>Price</span><span>{rangeData.price}</span></div>
                     </div>
 
                 </div>
