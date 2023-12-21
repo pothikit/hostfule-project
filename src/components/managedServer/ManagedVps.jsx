@@ -31,12 +31,12 @@ const ManagedServer = () => {
                                 <Slider min={1} max={6} step={1} duration={2000} value={rangevalue} onChange={handleChange} className='cursor-pointer' />
 
                                 <div className='flex justify-between items-center font-bold'>
-                                    <h2>Storage 1GB</h2>
-                                    <h2>Storage 2GB</h2>
-                                    <h2>Storage 4GB</h2>
-                                    <h2>Storage 8GB</h2>
-                                    <h2>Storage 16GB</h2>
-                                    <h2>Storage 32GB</h2>
+                                    <h2><span className='hidden md:inline'>Storage</span> 1GB</h2>
+                                    <h2><span className='hidden md:inline'>Storage</span> 2GB</h2>
+                                    <h2><span className='hidden md:inline'>Storage</span> 4GB</h2>
+                                    <h2><span className='hidden md:inline'>Storage</span> 8GB</h2>
+                                    <h2><span className='hidden md:inline'>Storage</span> 16GB</h2>
+                                    <h2><span className='hidden md:inline'>Storage</span> 32GB</h2>
                                 </div>
                             </div>
                         </div>
