@@ -6770,6 +6770,253 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 44,
+            "countryName": "nigeria",
+            "countryFlag": "../../asstes/location/nigeria/nigeria.png",
+            "city": [
+                {
+                    "name": "lagos",
+                    "cityImg": "../../asstes/location/nigeria/lagos.png",
+                    "details": [
+                        {
+                            "id": "HF-907",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E-2246G",
+                            "ghz": "3.6 GHz 6c/12t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 480 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "10 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "259.00"
+                        },
+                        {
+                            "id": "HF-908",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E-2276G",
+                            "ghz": "3.8 GHz 6c/12t",
+                            "ram": "64 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 1 TB (SSD NVMe)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "10 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "329.00"
+                        },
+                        {
+                            "id": "HF-909",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon E5-2660 v3",
+                            "ghz": "2.6 GHz 10c/20t",
+                            "ram": "128 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 480 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "10 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "579.00"
+                        },
+                        {
+                            "id": "HF-910",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon E5-2660 v3",
+                            "ghz": "2.6 GHz 10c/20t",
+                            "ram": "128 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 1 TB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "10 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "619.00"
+                        },
+                        {
+                            "id": "HF-911",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E3-1230 v5",
+                            "ghz": "3 GHz 4c/8t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 480 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "1 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "569.00"
+                        },
+                        {
+                            "id": "HF-912",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E-2234",
+                            "ghz": "3.6 GHz 4c/8t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "5× 480 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "1 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "619.00"
+                        },
+                        {
+                            "id": "HF-913",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon Silver 4110",
+                            "ghz": "2.1 GHz 8c/16t",
+                            "ram": "64 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 960 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "10 Gbps    ",
+                            "maximumSpeed": "1 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "1199.00"
+                        },
+                        {
+                            "id": "HF-914",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon Silver 4314",
+                            "ghz": "2.4 GHz 16c/32t",
+                            "ram": "128 GB",
+                            "ddr": "DDR4",
+                            "storage": "4× 480 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "10 Gbps    ",
+                            "maximumSpeed": "1 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "1299.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "countryName": "norway",
+            "countryFlag": "../../asstes/location/norway/norway.png",
+            "city": [
+                {
+                    "name": "oslo",
+                    "cityImg": "../../asstes/location/norway/oslo.png",
+                    "details": [
+                        {
+                            "id": "HF-915",
+                            "brand": "../../asstes/amd.png",
+                            "cpu": "EPYC 7702P (1 vCore)",
+                            "ghz": "2 GHz 1c/1t",
+                            "ram": "4 GB",
+                            "ddr": "DDR4",
+                            "storage": "1× 75 GB (SSD NVMe)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "Unmetered",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "33.85",
+                            "newPrice": "16.54"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "countryName": "paraguay",
+            "countryFlag": "../../asstes/location/paraguay/paraguay.png",
+            "city": [
+                {
+                    "name": "asuncion",
+                    "cityImg": "../../asstes/location/paraguay/asuncion.png",
+                    "details": [
+                        {
+                            "id": "HF-915",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2609 v4",
+                            "ghz": "1.7 GHz 8c/8t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "30 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "489.00"
+                        },
+                        {
+                            "id": "HF-916",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2630 v4",
+                            "ghz": "2.2 GHz 10c/20t",
+                            "ram": "32 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "30 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "609.00"
+                        },
+                        {
+                            "id": "HF-917",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "Xeon E5-2680 v4",
+                            "ghz": "2.4 GHz 14c/28t",
+                            "ram": "64 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 500 GB (SSD SATA)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "1 Gbps",
+                            "maximumSpeed": "30 TB",
+                            "fairUse": "Fair Usage",
+                            "oldPrice": "",
+                            "newPrice": "839.00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "countryName": "pakistan",
+            "countryFlag": "../../asstes/location/pakistan/pakistan.png",
+            "city": [
+                {
+                    "name": "karachi",
+                    "cityImg": "../../asstes/location/pakistan/karachi.png",
+                    "details": [
+                        {
+                            "id": "HF-918",
+                            "brand": "../../asstes/intel.png",
+                            "cpu": "[Dual] Xeon Silver 4216",
+                            "ghz": "2.1 GHz 16c/32t",
+                            "ram": "192 GB",
+                            "ddr": "DDR4",
+                            "storage": "2× 1.17 TB (HDD SAS)",
+                            "alternativeStorage": "",
+                            "networkSpeed": "10 Gbps",
+                            "maximumSpeed": "21 TB",
+                            "fairUse": "",
+                            "oldPrice": "",
+                            "newPrice": "1549.00"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
