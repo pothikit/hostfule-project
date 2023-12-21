@@ -2,7 +2,7 @@
     {
         "id": 1,
         "cpu_core": 4,
-        "ip_address": "192.168.1.1",
+        "ip_address": "1 Public IP",
         "ram": "8 GB",
         "bandwidth": "1 TB",
         "ssd_space": "256 GB SSD",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "cpu_core": 6,
-        "ip_address": "192.168.1.2",
+        "ip_address": "1 Public IP",
         "ram": "16 GB",
         "bandwidth": "2 TB",
         "ssd_space": "512 GB SSD",
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "cpu_core": 8,
-        "ip_address": "192.168.1.3",
+        "ip_address": "1 Public IP",
         "ram": "32 GB",
         "bandwidth": "3 TB",
         "ssd_space": "1 TB HDD",
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "cpu_core": 12,
-        "ip_address": "192.168.1.4",
+        "ip_address": "1 Public IP",
         "ram": "64 GB",
         "bandwidth": "5 TB",
         "ssd_space": "2 TB SSD",
@@ -42,8 +42,8 @@
     {
         "id": 5,
         "cpu_core": 16,
-        "ip_address": "192.168.1.5",
-        "ram": "128 GB",
+        "ip_address": "1 Public IP",
+        "ram": "128 MB",
         "bandwidth": "10 TB",
         "ssd_space": "4 TB HDD",
         "price": "$350",
@@ -52,7 +52,7 @@
     {
         "id": 6,
         "cpu_core": 24,
-        "ip_address": "192.168.1.6",
+        "ip_address": "1 Public IP",
         "ram": "256 GB",
         "bandwidth": "20 TB",
         "ssd_space": "8 TB SSD",
