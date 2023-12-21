@@ -49,7 +49,7 @@ const LocationDatatabel = () => {
                                                 <span className='font-thin text-xs'>{details?.ghz}</span>
                                             </div>
                                         </div>
-                                        <div className='flex gap-2 xl:flex-col xl:text-center font-thin ml-5 xl:ml-0 xl:pl-6'>
+                                        <div className='flex gap-2 xl:flex-col xl:text-center font-thin ml-5 xl:ml-0 xl:pl-10'>
                                             <span className='font-bold xl:font-thin text-lg xl:text-base'>{details.ram}</span>
                                             <span>{details.ddr}</span>
                                         </div>
@@ -63,8 +63,8 @@ const LocationDatatabel = () => {
                                             <span className='italic'>{details?.fairUse}</span>
                                         </div>
                                         <div className='ml-5 xl:ml-0 xl:pl-6'>
-                                            <h2><del>{details?.oldPrice}</del></h2>
-                                            <h2 className='flex font-bold xl:font-thin text-lg xl:text-base'>${details?.newPrice}</h2>
+                                            <del className='font-thin'>{details?.oldPrice}</del>
+                                            <h2 className='flex font-extrabold text-lg xl:text-base'>${details?.newPrice}</h2>
                                         </div>
                                         <div className='md:ml-7'>
                                             <a target='_blank' rel="noreferrer" href="https://m.me/198137493375467">

@@ -15,6 +15,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-lottie": "^1.2.3",
+    "react-rangeslider": "^2.2.0",
     "react-router-dom": "^6.14.2",
     "react-script": "^2.0.5",
     "react-scripts": "^5.0.1",
