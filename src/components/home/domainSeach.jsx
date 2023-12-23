@@ -32,11 +32,11 @@ function DomainSeach() {
     //     }
     // }
     return (
-        <section className='py-20 bg-slate-200 md:bg-none mb-20'>
+        <section className='py-20 bg-slate-300 md:bg-none mb-20'>
             <div className="container mx-auto">
-                <div className="domain md:bg-slate-200 rounded-lg px-1">
+                <div className="domain md:bg-slate-300 rounded-lg px-1">
                     <div className='md:py-20 xl:max-w-[80%] mx-auto'>
-                        <h2 className='text-center mb-4'>Do Your Want Your Premium Domain?</h2>
+                        <h2 className='text-center mb-6 md:text-xl'>Do Your Want Your Premium Domain ?</h2>
                         <div className='search-bar flex flex-col px-3 sm:px-0'>
                             <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center pl-1 md:pl-3 md:py-2 rounded-xl mx-0 lg:mx-52'>
                                 <input type="text" defaultValue={DomainNameWithExtension} className='text-black hidden' name='query' />
@@ -50,17 +50,17 @@ function DomainSeach() {
                                             ))}
                                         </select><span className='text-gray-400 cursor-pointer text-sm -ml-5 pointer-events-none'><BiSolidDownArrow /></span>
                                     </div>
-                                    <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-2 md:py-5 bg-slate-500 hover:bg-slate-700 border-transparent rounded-lg text-white px-2 md:px-10 text-sm md:text-base' />
+                                    <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-2 md:py-5 bg-slate-400 hover:bg-slate-600 rounded-lg text-white px-2 md:px-10 text-sm md:text-base' />
                                 </div>
                             </form>
                             {
                                 // extension ? <span className='text-xl text-black text-center mt-10'>You should provide a valid extansion</span> : <span></span>
                             }
                             <div className="extensions mt-8 md:max-w-[80%] mx-auto">
-                                <ul className='grid grid-cols-3 sm:grid-cols-6 gap-4'>
+                                <ul className='grid grid-cols-3 sm:grid-cols-6 gap-7'>
                                     {
                                         extensions.map((exetension) => (
-                                            <li key={exetension.id} className='text-lg font-semibold gap-4 items-start flex justify-center'><span>{exetension.extension}</span><span className='text-xs font-semibold'>{exetension.price}</span></li>
+                                            <li key={exetension.id} className='text-lg font-semibold gap-2 items-start flex justify-center'><span>{exetension.extension}</span><span className='text-xs font-semibold text-slate-700'>{exetension.price}</span></li>
                                         ))
                                     }
                                 </ul>
