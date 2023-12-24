@@ -50,12 +50,12 @@ const ManagedServer = () => {
     return (
         <main>
             <section className='bg-slate-200'>
-                <PageBanner animationfile={managedvpsAnimation} pageTitle={["Hassle-Free ", <span className='text-primary' key={1}>M</span>, "anaged VPS Hosting"]} animationName="" animationPadding="p-32"></PageBanner>
+                <PageBanner animationfile={managedvpsAnimation} pageTitle={["Hassle-Free anaged VPS ", <span className='text-primary' key={1}>H</span>, "osting"]} animationName="" animationPadding="p-32"></PageBanner>
             </section>
-            <section className='pb-10 custom-slider'>
+            <section className='pb-10'>
                 <div className="container mx-auto">
-                    <div className='max-w-[1100px] mx-auto bg-white rounded-xl -mt-32'>
-                        <div className='px-8 border pb-24 rounded-md' style={{ boxShadow: "5px 5px 30px 5px #eee" }}>
+                    <div className='max-w-[1100px] mx-auto bg-white rounded-xl sm:-mt-28'>
+                        <div className='px-8 border pb-24 pt-10 rounded-md' style={{ boxShadow: "5px 5px 30px 5px #eee" }}>
                             <div>
                                 <div className='bg-white p-6'>
                                     <Slider min={1} max={6} step={1} duration={2000} value={rangevalue} onChange={handleChange} className='cursor-pointer' />
@@ -106,7 +106,7 @@ const ManagedServer = () => {
                                             <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />Lorem, consectetur adipisicing elit.</li>
                                             <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />Lorem, consectetur adipisicing elit.</li>
                                         </ul>
-                                        <div className='flex justify-end'>
+                                        <div className='flex md:justify-end'>
                                             <ul className='space-y-1'>
                                                 <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />Lorem, consectetur adipisicing elit.</li>
                                                 <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />Lorem, consectetur adipisicing elit.</li>
@@ -117,7 +117,7 @@ const ManagedServer = () => {
                                 <div>
                                     <div className='px-8 py-3 border rounded-md shadow-md bg-white'>
                                         <h3 className='border-b pb-4 mb-4'>Managed</h3>
-                                        <div className='border-b pb-6 md-4 text-center'>
+                                        <div className='border-b md-4 text-center py-8'>
                                             <h1 className='text-xl md:text-2xl lg:text-3xl font-bold'><span className=''>Price</span> <span>{rangeData?.price}</span></h1>
                                             <button className='bg-green-500 hover:bg-green-700 text-white px-3 py-1 md:py-2 text-lg md:px-7 mt-5 rounded-md'>Order Now</button>
                                         </div>
@@ -130,30 +130,32 @@ const ManagedServer = () => {
                             </div>
                         </div>
                         {/* lsit from here */}
-                        <table className='w-full mt-20 bg-even-slate-200'>
-                            <tr className='w-full '>
-                                <th className='border py-2'>Plan Name</th>
-                                <th className='border py-2'>Speed</th>
-                                <th className='border py-2'>Memory</th>
-                                <th className='border py-2'>Disk Space</th>
-                                <td className='border py-2'>Bandwidth</td>
-                                <th className='border py-2'>Price</th>
-                                <th className='border py-2'></th>
-                            </tr>
-                            {
-                                tabelData?.map((items, idx) => (
-                                    <tr key={idx}>
-                                        <td className='text-center border py-2'>{items.plan_name}</td>
-                                        <td className='text-center border py-2'>{items.speed}</td>
-                                        <td className='text-center border py-2'>{items.memory}</td>
-                                        <td className='text-center border py-2'>{items.disk_space}</td>
-                                        <td className='text-center border py-2'>{items.bandwidth}</td>
-                                        <td className='text-center border py-2'>{items.price}</td>
-                                        <td className='text-center border p-2'><button className='bg-green-500 py-2 w-full text-white rounded-md '>Order now</button></td>
-                                    </tr>
-                                ))
-                            }
-                        </table>
+                        <div class="rounded-md min-w-full overflow-x-auto border mt-20">
+                            <table className='w-full bg-even-slate-200 divide-y'>
+                                <tr className='w-full rounded-md'>
+                                    <th className='pl-3 text-start py-2 text-lg'>Plan Name</th>
+                                    <th className='pl-3 text-start border-x py-2 text-lg'>Speed</th>
+                                    <th className='pl-3 text-start border-x py-2 text-lg'>Memory</th>
+                                    <th className='pl-3 text-start border-x py-2 text-lg'>Disk Space</th>
+                                    <th className='pl-3 text-start border-x py-2 text-lg'>Bandwidth</th>
+                                    <th className='pl-3 text-start border-x py-2 text-lg'>Price</th>
+                                    <th className='pl-3 text-start py-2 text-lg'></th>
+                                </tr>
+                                {
+                                    tabelData?.map((items, idx) => (
+                                        <tr key={idx} className='even:bg-slate-200 even:bg-opacity-70'>
+                                            <td className='pl-3 py-2'>{items.plan_name}</td>
+                                            <td className='pl-3 border-x py-2'>{items.speed}</td>
+                                            <td className='pl-3 border-x py-2'>{items.memory}</td>
+                                            <td className='pl-3 border-x py-2'>{items.disk_space}</td>
+                                            <td className='pl-3 border-x py-2'>{items.bandwidth}</td>
+                                            <td className='pl-3 border-x py-2'>{items.price}</td>
+                                            <td className='pl-3 p-2'><button className='bg-green-500 py-2 w-full text-white rounded-md hover:bg-green-700 duration-200'>Order now</button></td>
+                                        </tr>
+                                    ))
+                                }
+                            </table>
+                        </div>
                     </div>
 
                 </div>

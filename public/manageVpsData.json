@@ -110,5 +110,47 @@
             "bandwidth": "Unlimited",
             "price": "$299.99"
         }
+    ],
+    "operating_system": [
+        {
+            "operating_system": "Windows",
+            "operating_system_logo": "../../asstes/operatingSystem/windows.png"
+        },
+        {
+            "operating_system": "macOS",
+            "operating_system_logo": "../../asstes/operatingSystem/mac.png"
+        },
+        {
+            "operating_system": "Linux",
+            "operating_system_logo": "../../asstes/operatingSystem/linux.png"
+        },
+        {
+            "operating_system": "Ubuntu",
+            "operating_system_logo": "../../asstes/operatingSystem/ubuntu.png"
+        },
+        {
+            "operating_system": "Free BSD",
+            "operating_system_logo": "../../asstes/operatingSystem/bsd.png"
+        },
+        {
+            "operating_system": "Ubuntu",
+            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
+        },
+        {
+            "operating_system": "Fedora",
+            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
+        },
+        {
+            "operating_system": "Chrome OS",
+            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
+        },
+        {
+            "operating_system": "FreeBSD",
+            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
+        },
+        {
+            "operating_system": "Solaris",
+            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
+        }
     ]
 }

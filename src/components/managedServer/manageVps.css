@@ -1,12 +1,1 @@
-.custom-slider {
-  width: 80%;
-  margin: 20px auto;
-}
 
-.custom-slider .handle {
-  transition: transform 0.3s ease;
-}
-
-.custom-slider.dragging .handle {
-  transform: scale(1.2);
-}
