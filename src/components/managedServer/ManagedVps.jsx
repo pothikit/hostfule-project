@@ -3,7 +3,6 @@ import managedvpsAnimation from "../../asstes/managedvpsAnimation.json"
 import PageBanner from '../shared/pageBanner/PageBanner';
 import Slider from 'react-rangeslider'
 import 'react-rangeslider/lib/index.css'
-import "./manageVps.css"
 import { PiCpu } from "react-icons/pi";
 import { FaMemory } from "react-icons/fa";
 import { SlSpeedometer } from "react-icons/sl";
@@ -58,6 +57,10 @@ const ManagedServer = () => {
         <main>
             <section className='bg-slate-200'>
                 <PageBanner animationfile={managedvpsAnimation} pageTitle={["Hassle-Free anaged VPS ", <span className='text-primary' key={1}>H</span>, "osting"]} animationName="" animationPadding="p-32"></PageBanner>
+                <div className='py-20'>
+                    <h1 className="mt-20 text-2xl md:text-4xl lg:text-7xl font-bold text-center">Under Construction</h1>
+                    {/* <Construction></Construction> */}
+                </div>
             </section>
             <section className='pb-10'>
                 <div className="container mx-auto">
@@ -218,8 +221,7 @@ const ManagedServer = () => {
                     </div>
 
                 </div>
-            </section>
-        </main>
+            </section>         </main>
     );
 };
 export default ManagedServer;
