@@ -111,46 +111,56 @@
             "price": "$299.99"
         }
     ],
-    "operating_system": [
-        {
-            "operating_system": "Windows",
-            "operating_system_logo": "../../asstes/operatingSystem/windows.png"
-        },
-        {
-            "operating_system": "macOS",
-            "operating_system_logo": "../../asstes/operatingSystem/mac.png"
-        },
-        {
-            "operating_system": "Linux",
-            "operating_system_logo": "../../asstes/operatingSystem/linux.png"
-        },
-        {
-            "operating_system": "Ubuntu",
-            "operating_system_logo": "../../asstes/operatingSystem/ubuntu.png"
-        },
-        {
-            "operating_system": "Free BSD",
-            "operating_system_logo": "../../asstes/operatingSystem/bsd.png"
-        },
-        {
-            "operating_system": "Ubuntu",
-            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
-        },
-        {
-            "operating_system": "Fedora",
-            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
-        },
-        {
-            "operating_system": "Chrome OS",
-            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
-        },
-        {
-            "operating_system": "FreeBSD",
-            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
-        },
-        {
-            "operating_system": "Solaris",
-            "operating_system_logo": "../../asstes/operatingSystem/intel.png"
-        }
-    ]
+    "operating_system": {
+        "sever_distibution": [
+            {
+                "operating_system": "Arch Linux",
+                "operating_system_logo": "../../asstes/operatingSystem/archLinux.png"
+            },
+            {
+                "operating_system": "CentOS",
+                "operating_system_logo": "../../asstes/operatingSystem/CentOS.png"
+            },
+            {
+                "operating_system": "Debian",
+                "operating_system_logo": "../../asstes/operatingSystem/debian.png"
+            },
+            {
+                "operating_system": "Free BSD",
+                "operating_system_logo": "../../asstes/operatingSystem/bsd.png"
+            },
+            {
+                "operating_system": "Rocky",
+                "operating_system_logo": "../../asstes/operatingSystem/rockylinux.png"
+            },
+            {
+                "operating_system": "Ubuntu",
+                "operating_system_logo": "../../asstes/operatingSystem/ubuntu.png"
+            },
+            {
+                "operating_system": "Windows",
+                "operating_system_logo": "../../asstes/operatingSystem/windows.png"
+            }
+        ],
+        "vizualization_distibution": [
+            {
+                "operating_system": "ESXi",
+                "operating_system_logo": "../../asstes/operatingSystem/esxi.png"
+            },
+            {
+                "operating_system": "Proxmox",
+                "operating_system_logo": "../../asstes/operatingSystem/px.png"
+            }
+        ],
+        "desktop_distibution": [
+            {
+                "operating_system": "Lubuntu",
+                "operating_system_logo": "../../asstes/operatingSystem/lubuntu.png"
+            },
+            {
+                "operating_system": "Xubuntu",
+                "operating_system_logo": "../../asstes/operatingSystem/xubuntu.png"
+            }
+        ]
+    }
 }
