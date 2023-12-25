@@ -12,7 +12,7 @@ const PageBanner = ({ animationfile, pageTitle, className, animationName, animat
                     </div>
                     <div className="flex-1" data-aos={animationName ? animationName : "fade-left"} >
                         <div className={`ml-auto`}>
-                            <Player className={`md:h-[600px] ${animationPadding ? animationPadding : null}`}
+                            <Player className={`md:h-[600px] ${animationPadding ? animationPadding : "2"}`}
                                 autoplay
                                 loop
                                 src={animationfile}
