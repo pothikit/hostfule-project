@@ -56,8 +56,7 @@ const UnmanagedServer = () => {
     return (
         <main className=''>
             <section className='bg-slate-200'>
-                <PageBanner animationfile={unManagedAnimation} pageTitle={["Shared", <span className='text-primary'> H</span>, "osting With Premium Speed"]} animationPadding="p-32"></PageBanner>
-
+                <PageBanner animationfile={unManagedAnimation} pageTitle={["Shared", <span className='text-primary'> H</span>, "osting With Premium Speed"]} animationPadding="md:p-32"></PageBanner>
             </section>
             <div className="container mx-auto">
 
@@ -111,14 +110,14 @@ const UnmanagedServer = () => {
                                             </div>
                                         </div>
                                         <div className='py-7 grid grid-cols-1 md:grid-cols-2 gap-4 text-lg text-slate-600'>
-                                            <ul className='space-y-1 text-sm'>
-                                                <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />Lorem, consectetur adipisicing elit.</li>
-                                                <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />Lorem, consectetur adipisicing elit.</li>
+                                            <ul className='space-y-1 text-base'>
+                                                <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} /> root access</li>
+                                                <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />kvm vps</li>
                                             </ul>
-                                            <div className='flex md:justify-end'>
-                                                <ul className='space-y-1 text-sm'>
-                                                    <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />Lorem, consectetur adipisicing elit.</li>
-                                                    <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />Lorem, consectetur adipisicing elit.</li>
+                                            <div className='flex'>
+                                                <ul className='space-y-1 text-base'>
+                                                    <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />99.99% Uptime</li>
+                                                    <li className='flex items-center gap-1'><BiSolidCommentCheck size={20} />24/7 Technical Support</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -142,24 +141,24 @@ const UnmanagedServer = () => {
                             <div class="rounded-md min-w-full overflow-x-auto border mt-20">
                                 <table className='w-full bg-even-slate-200 divide-y'>
                                     <tr className='w-full rounded-md'>
-                                        <th className='pl-3 text-start py-2 text-lg'>Plan Name</th>
-                                        <th className='pl-3 text-start border-x py-2 text-lg'>Speed</th>
-                                        <th className='pl-3 text-start border-x py-2 text-lg'>Memory</th>
-                                        <th className='pl-3 text-start border-x py-2 text-lg'>Disk Space</th>
-                                        <th className='pl-3 text-start border-x py-2 text-lg'>Bandwidth</th>
-                                        <th className='pl-3 text-start border-x py-2 text-lg'>Price</th>
-                                        <th className='pl-3 text-start py-2 text-lg'></th>
+                                        <th className='px-2 text-start py-2 text-sm md:text-lg'>Plan Name</th>
+                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Speed</th>
+                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Memory</th>
+                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Disk Space</th>
+                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Bandwidth</th>
+                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Price</th>
+                                        <th className='px-2 text-start py-2 text-sm md:text-lg'></th>
                                     </tr>
                                     {
                                         tabelData?.map((items, idx) => (
                                             <tr key={idx} className='even:bg-slate-200 even:bg-opacity-70'>
-                                                <td className='pl-3 py-2'>{items.plan_name}</td>
-                                                <td className='pl-3 border-x py-2'>{items.speed}</td>
-                                                <td className='pl-3 border-x py-2'>{items.memory}</td>
-                                                <td className='pl-3 border-x py-2'>{items.disk_space}</td>
-                                                <td className='pl-3 border-x py-2'>{items.bandwidth}</td>
-                                                <td className='pl-3 border-x py-2'>{items.price}</td>
-                                                <td className='pl-3 p-2'><button className='bg-green-500 py-2 w-full text-white rounded-md hover:bg-green-700 duration-200'>Order now</button></td>
+                                                <td className='px-2 py-2 text-sm md:text-base '>{items.plan_name}</td>
+                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.speed}</td>
+                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.memory}</td>
+                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.disk_space}</td>
+                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.bandwidth}</td>
+                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.price}</td>
+                                                <td className='px-2 p-2'><button className='bg-green-500 py-2 text-sm md:text-base px-2 w-full whitespace-nowrap text-white rounded-md hover:bg-green-700 duration-200'>Order now</button></td>
                                             </tr>
                                         ))
                                     }

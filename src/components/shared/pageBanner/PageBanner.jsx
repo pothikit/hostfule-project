@@ -8,7 +8,7 @@ const PageBanner = ({ animationfile, pageTitle, className, animationName, animat
             <div className="container mx-auto">
                 <div className='flex items-center flex-col-reverse md:flex-row justify-center pb-10 md:pb-0 gap-3'>
                     <div className='flex-1' data-aos={animationName ? animationName : "fade-right"} >
-                        <h2 className='text-black text-2xl md:text-4xl lg:text-7xl font-bold lg:leading-snug'>{pageTitle}</h2>
+                        <h2 className='text-black text-2xl md:text-4xl lg:text-7xl font-bold lg:leading-snug w-3/4 mx-auto text-center md:w-full'>{pageTitle}</h2>
                     </div>
                     <div className="flex-1" data-aos={animationName ? animationName : "fade-left"} >
                         <div className={`ml-auto`}>

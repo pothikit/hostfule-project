@@ -12,7 +12,6 @@ function Faq() {
             return setOpen(null)
         }
         setOpen(id)
-
     }
     return (
 

@@ -1,13 +1,22 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import data from '../../data.json'
 import { BiSolidDownArrow } from "react-icons/bi"
 function DomainSeach() {
     let alldomain = data.domainExtention;
-    let extensions = data.domainExtention.slice(0, 6);
+    // let extensions = data.domainExtention.slice(0, 6);
     const [domainInput, setDomainInput] = useState("");
     const [isSelectDisable, setIsSelectDisable] = useState(false)
-    // const [extension, setExtansion] = useState(false)
     const [select, setSelect] = useState("");
+    const [extention, setExtansion] = useState([])
+
+    // const [extension, setExtansion] = useState(false)
+    // fetching data for domain extention
+    useEffect(() => {
+        fetch("multipledata.json")
+            .then(res => res.json())
+            .then(data => setExtansion(data.domainExtention))
+    }, [])
+
     const handleDoaminInput = (e) => {
         e.preventDefault();
         if (e.target.value.includes(".")) {
@@ -56,11 +65,11 @@ function DomainSeach() {
                             {
                                 // extension ? <span className='text-xl text-black text-center mt-10'>You should provide a valid extansion</span> : <span></span>
                             }
-                            <div className="extensions mt-8 md:max-w-[80%] mx-auto">
-                                <ul className='grid grid-cols-3 sm:grid-cols-6 gap-7'>
+                            <div className="extensions mt-8 mx-auto p-2">
+                                <ul className='grid grid-cols-3 sm:grid-cols-6 gap-6 sm:gap-8 md:gap-14 w-full'>
                                     {
-                                        extensions.map((exetension) => (
-                                            <li key={exetension.id} className='text-lg font-semibold gap-2 items-start flex justify-center'><span>{exetension.extension}</span><span className='text-xs font-semibold text-slate-700'>{exetension.price}</span></li>
+                                        extention?.slice(0, 6).map((exetension) => (
+                                            <li key={exetension.id} className='text-lg font-semibold gap-2 items-start flex justify-center'><span>{exetension.extension}</span><span className='text-xs font-semibold text-slate-700 hidden'>{exetension.price}</span></li>
                                         ))
                                     }
                                 </ul>

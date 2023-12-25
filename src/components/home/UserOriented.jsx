@@ -1,10 +1,16 @@
-import React from 'react'
-import data from '../../data.json'
+import React, { useEffect, useState } from 'react'
 import whmcs from "../../asstes/whmcs.png"
 import cpanel from "../../asstes/cpanel.png"
 
 function UserOriented() {
-    let UserOriData = data.UserOriented;
+    const [userOriented, setUserOriented] = useState([])
+
+    useEffect(() => {
+        fetch("multipledata.json")
+            .then(res => res.json())
+            .then(data => setUserOriented(data?.multipledata))
+    }, [])
+    console.log(userOriented)
     return (
         <section className='py-20'>
             <div className="container mx-auto px-2">
@@ -14,7 +20,7 @@ function UserOriented() {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-20'>
                     {
-                        UserOriData.map((item) => (
+                        userOriented?.map((item) => (
                             <div className='flex gap-5' key={item.id}>
                                 <div className='mt-2'>
                                     <img className='' src={item.url} alt={item.title} />

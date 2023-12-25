@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import director from "../../asstes/direction.png";
-import data from '../../data.json';
+// import data from '../../data.json';
 import PricingCard from '../home/exclusive/PricingCard';
 import { useState } from 'react';
 import architect from "../../asstes/architect.png"
@@ -15,21 +15,26 @@ import sharedHostingAnimation from "../../asstes/sharedAnimation"
 import PageBanner from '../shared/pageBanner/PageBanner';
 import "./shared.css"
 function SharedHosting() {
-    const cardData = data.exclusive;
-    const firstThreeData = cardData.slice(0, 3);
-    const secondthree = cardData.slice(3, 6);
+    // const cardData = data.exclusive;
+    const [cardData, setCardData] = useState([])
+    useEffect(() => {
+        fetch("multipledata.json")
+            .then(res => res.json())
+            .then(data => setCardData(data.exclusive))
+    }, [])
+
+
+    const firstThreeData = cardData?.slice(0, 3);
+    const secondthree = cardData?.slice(3, 6);
     const [toggle, setToggle] = useState(true);
     const toggleHandler = () => {
         setToggle(!toggle)
     }
-    useEffect(() => {
 
-    }, [])
 
     return (
         <main className=''>
-            <PageBanner animationfile={sharedHostingAnimation} pageTitle={["Shared", <span className='text-primary'> H</span>, "osting With Premium Speed"]}></PageBanner>
-
+            <PageBanner animationfile={sharedHostingAnimation} pageTitle={["Shared", <span key={1} className='text-primary'> H</span>, "osting With Premium Speed"]}></PageBanner>
             {/* next section */}
             <section className='py-28 bg-white' id='packeg'>
                 <div className="container mx-auto px-2">
@@ -50,7 +55,7 @@ function SharedHosting() {
                         </div>
                     </div>
                     {/* pricing cards */}
-                    <div className={`tab-content grid-cols-1 lg:grid-cols-3 mt-14 gap-12 xl:max-w-[80%] mx-auto ${toggle ? "grid" : "hidden"}`} id='mini-package' data-aos="fade-up">
+                    <div className={`tab-content grid-cols-1 lg:grid-cols-3 mt-14 gap-12 xl:max-w-[80%] mx-auto ${toggle ? "grid" : "hidden"}`} id='mini-package'>
                         {
                             firstThreeData.map((cardItem) => (
                                 <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>
