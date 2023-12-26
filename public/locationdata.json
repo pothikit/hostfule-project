@@ -8,6 +8,7 @@
                 {
                     "name": "cordoba",
                     "cityImg": "../../asstes/location/argentina/cordoba.png",
+                    "cityBg": "../../asstes/location/argentina/cordobaBg.jpg",
                     "details": [
                         {
                             "id": "HF-500",
@@ -56,6 +57,7 @@
                 {
                     "name": "buenos aires",
                     "cityImg": "../../asstes/location/argentina/buenos.png",
+                    "cityBg": "../../asstes/location/argentina/buenosbg.jpg",
                     "details": [
                         {
                             "id": "HF-503",
@@ -82,8 +84,9 @@
             "countryFlag": "../../asstes/location/azerbaijan/Azerbaijan.png",
             "city": [
                 {
-                    "name": "cordoba",
-                    "cityImg": "../../asstes/location/azerbaijan/Baku.png",
+                    "name": "Baku",
+                    "cityImg": "../../asstes/location/azerbaijan/baku.jpg",
+                    "cityBg": "../../asstes/location/azerbaijan/bakubg.png",
                     "details": [
                         {
                             "id": "HF-504",
@@ -110,7 +113,8 @@
             "city": [
                 {
                     "name": "Brisbane",
-                    "cityImg": "../../asstes/location/australia/brisbane.png",
+                    "cityImg": "../../asstes/location/australia/brisbane.jpg",
+                    "cityBg": "../../asstes/location/australia/brisbanebg.jpg",
                     "details": [
                         {
                             "id": "HF-505",
@@ -159,6 +163,7 @@
                 {
                     "name": "sydney",
                     "cityImg": "../../asstes/location/australia/sydney.png",
+                    "cityBg": "../../asstes/location/australia/sydneybg.png",
                     "details": [
                         {
                             "id": "HF-508",
@@ -427,6 +432,7 @@
                 {
                     "name": "melbourne",
                     "cityImg": "../../asstes/location/australia/melbourne.png",
+                    "cityBg": "../../asstes/location/australia/melbournebg.jpg",
                     "details": [
                         {
                             "id": "HF-526",
