@@ -162,8 +162,8 @@
                 },
                 {
                     "name": "sydney",
-                    "cityImg": "../../asstes/location/australia/sydney.png",
-                    "cityBg": "../../asstes/location/australia/sydneybg.png",
+                    "cityImg": "../../asstes/location/australia/sydney.jpg",
+                    "cityBg": "../../asstes/location/australia/sydneybg.jpg",
                     "details": [
                         {
                             "id": "HF-508",
@@ -494,7 +494,8 @@
                 },
                 {
                     "name": "perth",
-                    "cityImg": "../../asstes/location/australia/perth.png",
+                    "cityImg": "../../asstes/location/australia/perth.jpeg",
+                    "cityBg": "../../asstes/location/australia/perthbg.jpg",
                     "details": [
                         {
                             "id": "HF-530",
@@ -578,7 +579,8 @@
             "city": [
                 {
                     "name": "tirana",
-                    "cityImg": "../../asstes/location/albania/tirana,.png",
+                    "cityImg": "../../asstes/location/albania/tirana.jpg",
+                    "cityBg": "../../asstes/location/albania/tiranabg.jpg",
                     "details": [
                         {
                             "id": "HF-535",
@@ -666,7 +668,8 @@
             "city": [
                 {
                     "name": "vienna",
-                    "cityImg": "../../asstes/location/austria/vienna.png",
+                    "cityImg": "../../asstes/location/austria/vienna.jpg",
+                    "cityBg": "../../asstes/location/austria/viennabg.jpg",
                     "details": [
                         {
                             "id": "HF-540",
@@ -844,7 +847,8 @@
             "city": [
                 {
                     "name": "dhaka",
-                    "cityImg": "../../asstes/location/bangladesh/dhaka.png",
+                    "cityImg": "../../asstes/location/bangladesh/dhaka.jpg",
+                    "cityBg": "../../asstes/location/bangladesh/dhakabg.jpg",
                     "details": [
                         {
                             "id": "HF-551",
@@ -917,7 +921,8 @@
             "city": [
                 {
                     "name": "fortaleza",
-                    "cityImg": "../../asstes/location/brazil/fortaleza.png",
+                    "cityImg": "../../asstes/location/brazil/fortaleza.jpg",
+                    "cityBg": "../../asstes/location/brazil/fortalezabg.jpg",
                     "details": [
                         {
                             "id": "HF-555",
@@ -969,6 +974,7 @@
                 {
                     "name": "rio de janeiro",
                     "cityImg": "../../asstes/location/brazil/rio de janeiro.png",
+                    "cityBg": "../../asstes/location/brazil/riodejaneirobg.jpg",
                     "details": [
                         {
                             "id": "HF-558",
@@ -1019,7 +1025,8 @@
                 },
                 {
                     "name": "são paulo",
-                    "cityImg": "../../asstes/location/brazil/sao paulo.png",
+                    "cityImg": "../../asstes/location/brazil/saopaulo.jpg",
+                    "cityBg": "../../asstes/location/brazil/saopaulobg.jpg",
                     "details": [
                         {
                             "id": "HF-561",
@@ -1167,7 +1174,8 @@
             "city": [
                 {
                     "name": "novi travnik",
-                    "cityImg": "../../asstes/location/B&H/noviTravnik.png",
+                    "cityImg": "../../asstes/location/B&H/noviTravnik.jpg",
+                    "cityBg": "../../asstes/location/B&H/noviTravnikbg.jpg",
                     "details": [
                         {
                             "id": "HF-570",
@@ -12770,7 +12778,7 @@
                             "fairUse": "1 Gbps",
                             "oldPrice": "70.99",
                             "newPrice": "59.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1279",
                             "brand": "../../asstes/intel.png",
@@ -12785,7 +12793,7 @@
                             "fairUse": "1 Gbps",
                             "oldPrice": "",
                             "newPrice": "100.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1280",
                             "brand": "../../asstes/intel.png",
@@ -12800,7 +12808,7 @@
                             "fairUse": "1 Gbps",
                             "oldPrice": "",
                             "newPrice": "119.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1280",
                             "brand": "../../asstes/intel.png",
@@ -12815,7 +12823,7 @@
                             "fairUse": "1 Gbps",
                             "oldPrice": "",
                             "newPrice": "189.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1281",
                             "brand": "../../asstes/intel.png",
@@ -12830,7 +12838,7 @@
                             "fairUse": "1 Gbps",
                             "oldPrice": "",
                             "newPrice": "209.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1282",
                             "brand": "../../asstes/intel.png",
@@ -12845,7 +12853,7 @@
                             "fairUse": "1 Gbps",
                             "oldPrice": "",
                             "newPrice": "489.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1283",
                             "brand": "../../asstes/intel.png",
@@ -12860,7 +12868,7 @@
                             "fairUse": "",
                             "oldPrice": "",
                             "newPrice": "99.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1284",
                             "brand": "../../asstes/intel.png",
@@ -12875,7 +12883,7 @@
                             "fairUse": "",
                             "oldPrice": "",
                             "newPrice": "109.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1285",
                             "brand": "../../asstes/intel.png",
@@ -12890,7 +12898,7 @@
                             "fairUse": "",
                             "oldPrice": "",
                             "newPrice": "135.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1286",
                             "brand": "../../asstes/intel.png",
@@ -12905,7 +12913,7 @@
                             "fairUse": "",
                             "oldPrice": "",
                             "newPrice": "140.99"
-                        } ,
+                        },
                         {
                             "id": "HF-1287",
                             "brand": "../../asstes/intel.png",
@@ -12920,7 +12928,7 @@
                             "fairUse": "",
                             "oldPrice": "",
                             "newPrice": "339.00"
-                        } ,
+                        },
                         {
                             "id": "HF-1288",
                             "brand": "../../asstes/intel.png",
