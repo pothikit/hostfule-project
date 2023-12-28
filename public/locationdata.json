@@ -1308,7 +1308,8 @@
             "city": [
                 {
                     "name": "brussels",
-                    "cityImg": "../../asstes/location/belgium/brussels.png",
+                    "cityImg": "../../asstes/location/belgium/brussels.jpg",
+                    "cityBg": "../../asstes/location/belgium/brusselsbg.jpg",
                     "details": [
                         {
                             "id": "HF-578",
@@ -1472,6 +1473,7 @@
                 {
                     "name": "sofia",
                     "cityImg": "../../asstes/location/bulgaria/sofia.png",
+                    "cityBg": "../../asstes/location/bulgaria/sofiabg.jpg",
                     "details": [
                         {
                             "id": "HF-586",
@@ -1620,6 +1622,7 @@
                 {
                     "name": "zagreb",
                     "cityImg": "../../asstes/location/croatia/zagreb.png",
+                    "cityBg": "../../asstes/location/croatia/zagrebbg.jpg",
                     "details": [
                         {
                             "id": "HF-595",
@@ -1678,6 +1681,7 @@
                 {
                     "name": "nicosia",
                     "cityImg": "../../asstes/location/cyprus/nicosia.png",
+                    "cityBg": "../../asstes/location/cyprus/nicosiabg.jpg",
                     "details": [
                         {
                             "id": "HF-598",
@@ -1736,6 +1740,7 @@
                 {
                     "name": "santiago",
                     "cityImg": "../../asstes/location/chile/santiago.png",
+                    "cityBg": "../../asstes/location/chile/santiagobg.jpg",
                     "details": [
                         {
                             "id": "HF-601",
@@ -1809,6 +1814,7 @@
                 {
                     "name": "montreal",
                     "cityImg": "../../asstes/location/canada/montreal.png",
+                    "cityBg": "../../asstes/location/canada/montrealbg.JPG",
                     "details": [
                         {
                             "id": "HF-605",
@@ -2025,6 +2031,7 @@
                 {
                     "name": "toronto",
                     "cityImg": "../../asstes/location/canada/toronto.png",
+                    "cityBg": "../../asstes/location/canada/torontobg.jpg",
                     "details": [
                         {
                             "id": "HF-619",
@@ -2136,6 +2143,7 @@
                 {
                     "name": "vancouver",
                     "cityImg": "../../asstes/location/canada/vancouver.png",
+                    "cityBg": "../../asstes/location/canada/vancouverbg.jpg",
                     "details": [
                         {
                             "id": "HF-626",
@@ -2254,6 +2262,7 @@
                 {
                     "name": "san jose",
                     "cityImg": "../../asstes/location/costa rica/san-Jose.png",
+                    "cityBg": "../../asstes/location/costa rica/sanJosebg.jpg",
                     "details": [
                         {
                             "id": "HF-633",
@@ -2357,6 +2366,7 @@
                 {
                     "name": "bogota",
                     "cityImg": "../../asstes/location/colombia/bogota.png",
+                    "cityBg": "../../asstes/location/colombia/bogotabg.jpg",
                     "details": [
                         {
                             "id": "HF-639",
@@ -2535,6 +2545,7 @@
                 {
                     "name": "prague",
                     "cityImg": "../../asstes/location/czech republic/prague.png",
+                    "cityBg": "../../asstes/location/czech republic/praguebg.jpg",
                     "details": [
                         {
                             "id": "HF-650",
@@ -2713,6 +2724,7 @@
                 {
                     "name": "hong kong",
                     "cityImg": "../../asstes/location/china/hongKong.png",
+                    "cityBg": "../../asstes/location/china/hongKongbg.jpg",
                     "details": [
                         {
                             "id": "HF-661",
@@ -2921,6 +2933,7 @@
                 {
                     "name": "copenhagen",
                     "cityImg": "../../asstes/location/denmark/copenhagen.png",
+                    "cityBg": "../../asstes/location/denmark/copenhagen.png",
                     "details": [
                         {
                             "id": "HF-674",
@@ -3065,6 +3078,7 @@
             "id": 20,
             "countryName": "egypt",
             "countryFlag": "../../asstes/location/egypt/egypt.png",
+            "countryBg": "../../asstes/location/egypt/cairobg.jpg",
             "city": [
                 {
                     "name": "cairo",
@@ -3097,6 +3111,7 @@
                 {
                     "name": "quito",
                     "cityImg": "../../asstes/location/ecuador/quito.png",
+                    "cityBg": "../../asstes/location/ecuador/cairobg.jpg",
                     "details": [
                         {
                             "id": "HF-684",
@@ -3155,6 +3170,7 @@
                 {
                     "name": "paris",
                     "cityImg": "../../asstes/location/france/paris.png",
+                    "cityBg": "../../asstes/location/france/parisbg.jpg",
                     "details": [
                         {
                             "id": "HF-687",
@@ -3303,6 +3319,7 @@
                 {
                     "name": "helsinki",
                     "cityImg": "../../asstes/location/finland/helsinki.png",
+                    "cityBg": "../../asstes/location/finland/helsinkibg.jpg",
                     "details": [
                         {
                             "id": "HF-696",
@@ -14126,7 +14143,7 @@
                             "fairUse": "",
                             "oldPrice": "",
                             "newPrice": "249.00"
-                        },
+                        },  
                         {
                             "id": "HF-1365",
                             "brand": "../../asstes/intel.png",

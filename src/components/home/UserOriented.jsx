@@ -10,7 +10,7 @@ function UserOriented() {
             .then(res => res.json())
             .then(data => setUserOriented(data?.multipledata))
     }, [])
-    console.log(userOriented)
+    // console.log(userOriented)
     return (
         <section className='py-20'>
             <div className="container mx-auto px-2">
