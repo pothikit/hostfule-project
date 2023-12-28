@@ -10539,6 +10539,7 @@
                 {
                     "name": "ashburn",
                     "cityImg": "../../asstes/location/united states/ashburn.png",
+                    "cityBg": "../../asstes/location/united states/ashburnbg.jpg",
                     "details": [
                         {
                             "id": "HF-1135",
@@ -10635,6 +10636,7 @@
                 {
                     "name": "boston",
                     "cityImg": "../../asstes/location/united states/boston.png",
+                    "cityBg": "../../asstes/location/united states/boston.png",
                     "details": [
                         {
                             "id": "HF-1141",
@@ -10686,6 +10688,7 @@
                 {
                     "name": "redding",
                     "cityImg": "../../asstes/location/united states/redding.png",
+                    "cityBg": "../../asstes/location/united states/reddingbg.jpg",
                     "details": [
                         {
                             "id": "HF-1144",
@@ -10737,6 +10740,7 @@
                 {
                     "name": "buffalo",
                     "cityImg": "../../asstes/location/united states/buffalo.png",
+                    "cityBg": "../../asstes/location/united states/buffalobg.jpg",
                     "details": [
                         {
                             "id": "HF-1147",
@@ -10803,6 +10807,7 @@
                 {
                     "name": "detroit",
                     "cityImg": "../../asstes/location/united states/detroit.png",
+                    "cityBg": "../../asstes/location/united states/detroitbg.jpg",
                     "details": [
                         {
                             "id": "HF-1151",
@@ -10869,6 +10874,7 @@
                 {
                     "name": "denver",
                     "cityImg": "../../asstes/location/united states/denver.png",
+                    "cityBg": "../../asstes/location/united states/denverbg.jpg",
                     "details": [
                         {
                             "id": "HF-1156",
@@ -10980,6 +10986,7 @@
                 {
                     "name": "dallas",
                     "cityImg": "../../asstes/location/united states/dallas.png",
+                    "cityBg": "../../asstes/location/united states/dallasbg.jpg",
                     "details": [
                         {
                             "id": "HF-1163",
@@ -11541,6 +11548,7 @@
                 {
                     "name": "charlotte",
                     "cityImg": "../../asstes/location/united states/charlotte.png",
+                    "cityBg": "../../asstes/location/united states/charlottebg.jpg",
                     "details": [
                         {
                             "id": "HF-1199",
@@ -11682,6 +11690,7 @@
                 {
                     "name": "houston",
                     "cityImg": "../../asstes/location/united states/houston.png",
+                    "cityBg": "../../asstes/location/united states/houstonbg.jpg",
                     "details": [
                         {
                             "id": "HF-1209",
@@ -11748,6 +11757,7 @@
                 {
                     "name": "edison",
                     "cityImg": "../../asstes/location/united states/edison.png",
+                    "cityBg": "../../asstes/location/united states/edisonbg.jpg",
                     "details": [
                         {
                             "id": "HF-1213",
@@ -11829,6 +11839,7 @@
                 {
                     "name": "santa clara",
                     "cityImg": "../../asstes/location/united states/santaClara.png",
+                    "cityBg": "../../asstes/location/united states/santaClarabg.jpg",
                     "details": [
                         {
                             "id": "HF-1217",
@@ -11880,6 +11891,7 @@
                 {
                     "name": "san jose",
                     "cityImg": "../../asstes/location/united states/sanJose.png",
+                    "cityBg": "../../asstes/location/united states/sanJosebg.jpg",
                     "details": [
                         {
                             "id": "HF-1220",
@@ -11946,6 +11958,7 @@
                 {
                     "name": "tampa",
                     "cityImg": "../../asstes/location/united states/tampa.png",
+                    "cityBg": "../../asstes/location/united states/tampabg.jpg",
                     "details": [
                         {
                             "id": "HF-1224",
@@ -12012,6 +12025,7 @@
                 {
                     "name": "McLean",
                     "cityImg": "../../asstes/location/united states/mcLean.png",
+                    "cityBg": "../../asstes/location/united states/mcLeanbg.jpg",
                     "details": [
                         {
                             "id": "HF-1227",
@@ -12078,6 +12092,7 @@
                 {
                     "name": "los angeles",
                     "cityImg": "../../asstes/location/united states/losAngeles.png",
+                    "cityBg": "../../asstes/location/united states/losAngelesbg.jpg",
                     "details": [
                         {
                             "id": "HF-1231",
@@ -12534,6 +12549,7 @@
                 {
                     "name": "st louis",
                     "cityImg": "../../asstes/location/united states/stLouis.png",
+                    "cityBg": "../../asstes/location/united states/stLouisbg.jpg",
                     "details": [
                         {
                             "id": "HF-1261",
@@ -12630,6 +12646,7 @@
                 {
                     "name": "miami",
                     "cityImg": "../../asstes/location/united states/miami.png",
+                    "cityBg": "../../asstes/location/united states/miamibg.jpg",
                     "details": [
                         {
                             "id": "HF-1268",
@@ -13071,6 +13088,7 @@
                 {
                     "name": "chicago",
                     "cityImg": "../../asstes/location/united states/chicago.png",
+                    "cityBg": "../../asstes/location/united states/chicagobg.jpg",
                     "details": [
                         {
                             "id": "HF-1296",
@@ -13317,6 +13335,7 @@
                 {
                     "name": "san francisco",
                     "cityImg": "../../asstes/location/united states/sanFrancisco.png",
+                    "cityBg": "../../asstes/location/united states/sanFranciscobg.jpg",
                     "details": [
                         {
                             "id": "HF-1312",
@@ -13443,6 +13462,7 @@
                 {
                     "name": "atlanta",
                     "cityImg": "../../asstes/location/united states/atlanta.png",
+                    "cityBg": "../../asstes/location/united states/atlantabg.jpg",
                     "details": [
                         {
                             "id": "HF-1320",
@@ -13584,6 +13604,7 @@
                 {
                     "name": "washington",
                     "cityImg": "../../asstes/location/united states/washington.png",
+                    "cityBg": "../../asstes/location/united states/washingtonbg.jpg",
                     "details": [
                         {
                             "id": "HF-1329",
@@ -13725,6 +13746,7 @@
                 {
                     "name": "new york",
                     "cityImg": "../../asstes/location/united states/newYork.png",
+                    "cityBg": "../../asstes/location/united states/newYorkbg.jpg",
                     "details": [
                         {
                             "id": "HF-1338",
