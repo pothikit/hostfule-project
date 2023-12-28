@@ -74,7 +74,7 @@ const ManagedServer = () => {
                         <div className='flex justify-evenly'>
                             <div className='flex items-center gap-2 py-2'>
                                 <span><FaChalkboardTeacher size={30} /></span>
-                                <h2 className='text-xl md:text-xl'>Full <mark>Co</mark>ntrol Panel</h2>
+                                <h2 className='text-xl md:text-xl'>Full Control Panel</h2>
                             </div>
                             {/* horizontal border */}
                             <div className='border-r-4 py-2 border-slate-500'></div>
@@ -96,15 +96,15 @@ const ManagedServer = () => {
             </section>
             <section className='bg-[#F6F6F6] py-20'>
                 <div className="container mx-auto px-2">
-                    <h1 className='text-xl md:text-2xl lg:text-4xl font-bold text-center'>Managed VPS hosting</h1>
+                    <h1 className='text-xl md:text-2xl lg:text-4xl font-bold'>Managed VPS hosting</h1>
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-5 md:gap-10 items-center">
                         <div className='md:col-span-3' data-aos="fade-right">
                             <p className='text-justify sm:font-extralight md:leading-8 mt-0 md:mt-20 md:text-lg'>
                                 Effectively managing a Virtual Private Server (VPS) requires a skillful balance of strategic planning and technical proficiency. Whether you're a seasoned administrator or new to the realm of VPS, this comprehensive guide equips you with essential insights for a seamless and secure virtual environment. Begin by selecting a reliable VPS provider such as AWS, DigitalOcean, or Linode, focusing on performance, reliability, and customer support. Once acquired, initiate the VPS setup with SSH Key Authentication, regular system updates, and firewall configuration for heightened security. Tailor your VPS environment by installing critical software components like web servers (e.g., Nginx or Apache), database servers (e.g., MySQL or PostgreSQL), and version control tools (e.g., Git) for efficient development workflows. Ongoing monitoring of resource usage, log analysis, and strategic optimization techniques ensure your VPS operates at peak performance, allowing you to navigate the intricacies of VPS management with confidence and expertise.
                             </p>
                         </div>
-                        <div className='text-center md:col-span-2' data-aos="fade-left">
-                            <img src={manageVps} alt="manageVps" className='w-full md:w-2/3 ' />
+                        <div className='md:col-span-2' data-aos="fade-left">
+                            <img src={manageVps} alt="manageVps" className='w-full md:w-2/3 mx-auto' />
                         </div>
                     </div>
                 </div>

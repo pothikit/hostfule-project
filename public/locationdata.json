@@ -3513,6 +3513,7 @@
                 {
                     "name": "dusseldorf",
                     "cityImg": "../../asstes/location/germany/dusseldorf.png",
+                    "cityBg": "../../asstes/location/germany/dusseldorfbg.jpg",
                     "details": [
                         {
                             "id": "HF-708",
@@ -3796,6 +3797,7 @@
                 {
                     "name": "guatemala city",
                     "cityImg": "../../asstes/location/guatemala/guatemalaCity.png",
+                    "cityBg": "../../asstes/location/guatemala/guatemalaCitybg.jpg",
                     "details": [
                         {
                             "id": "HF-726",
@@ -3854,6 +3856,7 @@
                 {
                     "name": "athens",
                     "cityImg": "../../asstes/location/greece/athens.png",
+                    "cityBg": "../../asstes/location/greece/athensbg.jpg",
                     "details": [
                         {
                             "id": "HF-729",
@@ -3957,6 +3960,7 @@
                 {
                     "name": "budapest",
                     "cityImg": "../../asstes/location/hungary/budapest.png",
+                    "cityBg": "../../asstes/location/hungary/budapestbg.jpg",
                     "details": [
                         {
                             "id": "HF-735",
@@ -4195,6 +4199,7 @@
                 {
                     "name": "reykjavik",
                     "cityImg": "../../asstes/location/iceland/reykjavik.png",
+                    "cityBg": "../../asstes/location/iceland/Reykjavikbg.jpg",
                     "details": [
                         {
                             "id": "HF-750",
@@ -4268,6 +4273,7 @@
                 {
                     "name": "new delhi",
                     "cityImg": "../../asstes/location/india/newDelhi.jpg",
+                    "cityBg": "../../asstes/location/india/newDelhibg.jpg",
                     "details": [
                         {
                             "id": "HF-754",
@@ -4319,6 +4325,7 @@
                 {
                     "name": "mumbai",
                     "cityImg": "../../asstes/location/india/mumbai.jpg",
+                    "cityBg": "../../asstes/location/india/mumbaibg.jpg",
                     "details": [
                         {
                             "id": "HF-757",
@@ -4362,6 +4369,7 @@
                 {
                     "name": "dublin",
                     "cityImg": "../../asstes/location/ireland/dublin.png",
+                    "cityBg": "../../asstes/location/ireland/dublinbg.jpg",
                     "details": [
                         {
                             "id": "HF-759",
@@ -4510,6 +4518,7 @@
                 {
                     "name": "tel aviv",
                     "cityImg": "../../asstes/location/israel/telAviv.png",
+                    "cityBg": "../../asstes/location/israel/telAvivbg.jpg",
                     "details": [
                         {
                             "id": "HF-768",
@@ -4613,6 +4622,7 @@
                 {
                     "name": "florence",
                     "cityImg": "../../asstes/location/italy/florence.png",
+                    "cityBg": "../../asstes/location/italy/florencebg.jpg",
                     "details": [
                         {
                             "id": "HF-774",
@@ -4694,6 +4704,7 @@
                 {
                     "name": "milan",
                     "cityImg": "../../asstes/location/italy/milan.png",
+                    "cityBg": "../../asstes/location/italy/milanbg.jpg",
                     "details": [
                         {
                             "id": "HF-779",
@@ -4835,6 +4846,7 @@
                 {
                     "name": "rome",
                     "cityImg": "../../asstes/location/italy/rome.png",
+                    "cityBg": "../../asstes/location/italy/romebg.jpg",
                     "details": [
                         {
                             "id": "HF-788",
@@ -4983,6 +4995,7 @@
                 {
                     "name": "nagano",
                     "cityImg": "../../asstes/location/japan/nagano.png",
+                    "cityBg": "../../asstes/location/japan/naganobg.jpg",
                     "details": [
                         {
                             "id": "HF-797",
@@ -5034,6 +5047,7 @@
                 {
                     "name": "tokyo",
                     "cityImg": "../../asstes/location/japan/tokyo.png",
+                    "cityBg": "../../asstes/location/japan/tokyobg.jpg",
                     "details": [
                         {
                             "id": "HF-800",
@@ -5317,6 +5331,7 @@
                 {
                     "name": "nairobi",
                     "cityImg": "../../asstes/location/kenya/nairobi.png",
+                    "cityBg": "../../asstes/location/kenya/nairobibg.jpg",
                     "details": [
                         {
                             "id": "HF-818",
@@ -5390,6 +5405,7 @@
                 {
                     "name": "vilnius",
                     "cityImg": "../../asstes/location/lithuania/vilnius.png",
+                    "cityBg": "../../asstes/location/lithuania/vilniusbg.jpg",
                     "details": [
                         {
                             "id": "HF-822",
@@ -5673,6 +5689,7 @@
                 {
                     "name": "riga",
                     "cityImg": "../../asstes/location/latvia/riga.png",
+                    "cityBg": "../../asstes/location/latvia/rigabg.jpg",
                     "details": [
                         {
                             "id": "HF-840",
@@ -5806,6 +5823,7 @@
                 {
                     "name": "tripoli",
                     "cityImg": "../../asstes/location/libya/tripoli.png",
+                    "cityBg": "../../asstes/location/libya/tripolibg.jpg",
                     "details": [
                         {
                             "id": "HF-848",
@@ -5834,6 +5852,7 @@
                 {
                     "name": "kuala lumpur",
                     "cityImg": "../../asstes/location/malaysia/kualaLumpur.png",
+                    "cityBg": "../../asstes/location/malaysia/kualampurbg.jpg",
                     "details": [
                         {
                             "id": "HF-849",
@@ -14143,7 +14162,7 @@
                             "fairUse": "",
                             "oldPrice": "",
                             "newPrice": "249.00"
-                        },  
+                        },
                         {
                             "id": "HF-1365",
                             "brand": "../../asstes/intel.png",
