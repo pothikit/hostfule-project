@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { BiSolidDownArrow } from "react-icons/bi";
-import { FaEnvelope } from "react-icons/fa";
+// import { FaEnvelope } from "react-icons/fa";
 
 export const Navbar = ({ setBar, bar }) => {
     const [dropdown, setDropdown] = useState(null);
@@ -191,14 +191,13 @@ export const Navbar = ({ setBar, bar }) => {
             <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={(e) => handleNav(e, 5)}>
                 {/* about us */}
                 <div className="flex items-center gap-2 cursor-pointer">
-                    <Link className='group-hover:text-primary text-lg font-normal'>About us</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                    <Link to="/about-us" className='group-hover:text-primary text-lg font-normal'>About us</Link>
+                    {/* <span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span> */}
                 </div>
                 {/* about us */}
-                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 5 ? "block" : "hidden"}`}>
+                {/* <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 5 ? "block" : "hidden"}`}>
                     <ul className='flex shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
-                            {/* Shared Hosting */}
-                            {/* <h4 className='text-base text-left px-10 whitespace-nowrap'></h4> */}
                             <ul className='flex flex-col space-y-3 whitespace-nowrap drop-mega px-5 py-2'>
                                 <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Our Company</Link></li>
                                 <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>About Our Services</Link></li>
@@ -208,7 +207,7 @@ export const Navbar = ({ setBar, bar }) => {
                         </li>
 
                     </ul>
-                </div>
+                </div> */}
             </li>
         </ul>
     )

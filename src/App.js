@@ -16,6 +16,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import EmailHosting from "./components/emailHosting/EmailHosting";
 import LocationDatatabel from "./components/dedicatedServer/locationDatatable/LocationDatatabel";
+import AboutUs from "./components/aboutUs/AboutUs";
 
 function App() {
   // for aos animation
@@ -39,6 +40,7 @@ function App() {
         <Route path="/unmanaged-vps" element={<UnmanagedServer />} />
         <Route path="/managed-vps" element={<ManagedServer />} />
         <Route path="/email-hosting" element={<EmailHosting />} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer></Footer>
