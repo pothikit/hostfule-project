@@ -6031,6 +6031,7 @@
                 {
                     "name": "guadalajara",
                     "cityImg": "../../asstes/location/mexico/guadalajara.png",
+                    "cityBg": "../../asstes/location/mexico/guadalajarabg.jpg",
                     "details": [
                         {
                             "id": "HF-860",
@@ -6082,6 +6083,7 @@
                 {
                     "name": "mexico city",
                     "cityImg": "../../asstes/location/mexico/mexicoCity.png",
+                    "cityBg": "../../asstes/location/mexico/mexicoCitybg.jpg",
                     "details": [
                         {
                             "id": "HF-863",
@@ -6155,6 +6157,7 @@
                 {
                     "name": "chisinau",
                     "cityImg": "../../asstes/location/moldova/chisinau.png",
+                    "cityBg": "../../asstes/location/moldova/chisinaubg.jpg",
                     "details": [
                         {
                             "id": "HF-867",
@@ -6243,6 +6246,7 @@
                 {
                     "name": "casablanca",
                     "cityImg": "../../asstes/location/morocco/casablanca.png",
+                    "cityBg": "../../asstes/location/morocco/casablancabg.jpg",
                     "details": [
                         {
                             "id": "HF-872",
@@ -6339,6 +6343,7 @@
                 {
                     "name": "fez",
                     "cityImg": "../../asstes/location/morocco/fez.png",
+                    "cityBg": "../../asstes/location/morocco/fezbg.jpg",
                     "details": [
                         {
                             "id": "HF-878",
@@ -6442,6 +6447,7 @@
                 {
                     "name": "amsterdam",
                     "cityImg": "../../asstes/location/netherlands/amsterdam.png",
+                    "cityBg": "../../asstes/location/netherlands/amsterdambg.JPG",
                     "details": [
                         {
                             "id": "HF-884",
@@ -6785,6 +6791,7 @@
                 {
                     "name": "auckland",
                     "cityImg": "../../asstes/location/new zealand/auckland.png",
+                    "cityBg": "../../asstes/location/new zealand/aucklandbg.jpg",
                     "details": [
                         {
                             "id": "HF-906",
