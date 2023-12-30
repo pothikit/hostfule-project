@@ -6031,6 +6031,7 @@
                 {
                     "name": "guadalajara",
                     "cityImg": "../../asstes/location/mexico/guadalajara.png",
+                    "cityBg": "../../asstes/location/mexico/guadalajarabg.jpg",
                     "details": [
                         {
                             "id": "HF-860",
@@ -6082,6 +6083,7 @@
                 {
                     "name": "mexico city",
                     "cityImg": "../../asstes/location/mexico/mexicoCity.png",
+                    "cityBg": "../../asstes/location/mexico/mexicoCitybg.jpg",
                     "details": [
                         {
                             "id": "HF-863",
@@ -6155,6 +6157,7 @@
                 {
                     "name": "chisinau",
                     "cityImg": "../../asstes/location/moldova/chisinau.png",
+                    "cityBg": "../../asstes/location/moldova/chisinaubg.jpg",
                     "details": [
                         {
                             "id": "HF-867",
@@ -6243,6 +6246,7 @@
                 {
                     "name": "casablanca",
                     "cityImg": "../../asstes/location/morocco/casablanca.png",
+                    "cityBg": "../../asstes/location/morocco/casablancabg.jpg",
                     "details": [
                         {
                             "id": "HF-872",
@@ -6339,6 +6343,7 @@
                 {
                     "name": "fez",
                     "cityImg": "../../asstes/location/morocco/fez.png",
+                    "cityBg": "../../asstes/location/morocco/fezbg.jpg",
                     "details": [
                         {
                             "id": "HF-878",
@@ -6442,6 +6447,7 @@
                 {
                     "name": "amsterdam",
                     "cityImg": "../../asstes/location/netherlands/amsterdam.png",
+                    "cityBg": "../../asstes/location/netherlands/amsterdambg.jpg",
                     "details": [
                         {
                             "id": "HF-884",
@@ -6785,6 +6791,7 @@
                 {
                     "name": "auckland",
                     "cityImg": "../../asstes/location/new zealand/auckland.png",
+                    "cityBg": "../../asstes/location/new zealand/aucklandbg.jpg",
                     "details": [
                         {
                             "id": "HF-906",
@@ -6828,6 +6835,7 @@
                 {
                     "name": "lagos",
                     "cityImg": "../../asstes/location/nigeria/lagos.png",
+                    "cityBg": "../../asstes/location/nigeria/lagosbg.jpg",
                     "details": [
                         {
                             "id": "HF-907",
@@ -6961,6 +6969,7 @@
                 {
                     "name": "oslo",
                     "cityImg": "../../asstes/location/norway/oslo.png",
+                    "cityBg": "../../asstes/location/norway/oslobg.jpg",
                     "details": [
                         {
                             "id": "HF-915",
@@ -7244,6 +7253,7 @@
                 {
                     "name": "asuncion",
                     "cityImg": "../../asstes/location/paraguay/asuncion.png",
+                    "cityBg": "../../asstes/location/paraguay/asuncionbg.png",
                     "details": [
                         {
                             "id": "HF-933",
@@ -7302,6 +7312,7 @@
                 {
                     "name": "karachi",
                     "cityImg": "../../asstes/location/pakistan/karachi.png",
+                    "cityBg": "../../asstes/location/pakistan/karachibg.jpg",
                     "details": [
                         {
                             "id": "HF-936",
@@ -7330,6 +7341,7 @@
                 {
                     "name": "panama city",
                     "cityImg": "../../asstes/location/panama/panamaCity.png",
+                    "cityBg": "../../asstes/location/panama/panamaCitybg.jpg",
                     "details": [
                         {
                             "id": "HF-937",
@@ -7388,6 +7400,7 @@
                 {
                     "name": "manila",
                     "cityImg": "../../asstes/location/philippines/manila.png",
+                    "cityBg": "../../asstes/location/philippines/manilabg.jpg",
                     "details": [
                         {
                             "id": "HF-940",
@@ -7431,6 +7444,7 @@
                 {
                     "name": "warsaw",
                     "cityImg": "../../asstes/location/poland/warsaw.png",
+                    "cityBg": "../../asstes/location/poland/warsawbg.png",
                     "details": [
                         {
                             "id": "HF-942",
@@ -7624,6 +7638,7 @@
                 {
                     "name": "lisbon",
                     "cityImg": "../../asstes/location/portugal/lisbon.png",
+                    "cityBg": "../../asstes/location/portugal/lisbonbg.jpg",
                     "details": [
                         {
                             "id": "HF-954",
@@ -7840,6 +7855,7 @@
                 {
                     "name": "porto",
                     "cityImg": "../../asstes/location/portugal/porto.png",
+                    "cityBg": "../../asstes/location/portugal/portobg.jpg",
                     "details": [
                         {
                             "id": "HF-968",
@@ -7913,6 +7929,7 @@
                 {
                     "name": "doha",
                     "cityImg": "../../asstes/location/qatar/doha.png",
+                    "cityBg": "../../asstes/location/qatar/dohabg.jpg",
                     "details": [
                         {
                             "id": "HF-972",
@@ -7941,6 +7958,7 @@
                 {
                     "name": "belgrade",
                     "cityImg": "../../asstes/location/serbia/belgrade.png",
+                    "cityBg": "../../asstes/location/serbia/belgradebg.jpg",
                     "details": [
                         {
                             "id": "HF-973",
@@ -8089,6 +8107,7 @@
                 {
                     "name": "cape town",
                     "cityImg": "../../asstes/location/south africa/capeTown.png",
+                    "cityBg": "../../asstes/location/south africa/capeTownbg.jpg",
                     "details": [
                         {
                             "id": "HF-982",
@@ -8147,6 +8166,7 @@
                 {
                     "name": "seoul",
                     "cityImg": "../../asstes/location/south korea/seoul.png",
+                    "cityBg": "../../asstes/location/south korea/seoulbg.jpg",
                     "details": [
                         {
                             "id": "HF-985",
@@ -8250,6 +8270,7 @@
                 {
                     "name": "sevilla",
                     "cityImg": "../../asstes/location/spain/sevilla.png",
+                    "cityBg": "../../asstes/location/spain/sevillabg.jpg",
                     "details": [
                         {
                             "id": "HF-991",
@@ -8286,6 +8307,7 @@
                 {
                     "name": "barcelona",
                     "cityImg": "../../asstes/location/spain/barcelona.png",
+                    "cityBg": "../../asstes/location/spain/barcelonabg.jpg",
                     "details": [
                         {
                             "id": "HF-993",
@@ -8479,6 +8501,7 @@
                 {
                     "name": "bratislava",
                     "cityImg": "../../asstes/location/slovakia/bratislava.png",
+                    "cityBg": "../../asstes/location/slovakia/bratislavabg.jpg",
                     "details": [
                         {
                             "id": "HF-1005",
@@ -8687,6 +8710,7 @@
                 {
                     "name": "singapore city",
                     "cityImg": "../../asstes/location/singapore/singaporeCity.png",
+                    "cityBg": "../../asstes/location/singapore/singaporeCitybg.jpg",
                     "details": [
                         {
                             "id": "HF-1018",
@@ -8865,6 +8889,7 @@
                 {
                     "name": "stockholm",
                     "cityImg": "../../asstes/location/sweden/stockholm.png",
+                    "cityBg": "../../asstes/location/sweden/stockholmbg.jpg",
                     "details": [
                         {
                             "id": "HF-1029",
@@ -9058,6 +9083,7 @@
                 {
                     "name": "zurich",
                     "cityImg": "../../asstes/location/switzerland/zurich.png",
+                    "cityBg": "../../asstes/location/switzerland/zurichbg.jpg",
                     "details": [
                         {
                             "id": "HF-1041",
@@ -9281,6 +9307,7 @@
                 {
                     "name": "istanbul",
                     "cityImg": "../../asstes/location/turkey/istanbul.png",
+                    "cityBg": "../../asstes/location/turkey/istanbulbg.jpg",
                     "details": [
                         {
                             "id": "HF-1055",
@@ -9519,6 +9546,7 @@
                 {
                     "name": "bangkok",
                     "cityImg": "../../asstes/location/thailand/bangkok.png",
+                    "cityBg": "../../asstes/location/thailand/bangkokbg.jpg",
                     "details": [
                         {
                             "id": "HF-1070",
@@ -9652,6 +9680,7 @@
                 {
                     "name": "kyiv",
                     "cityImg": "../../asstes/location/ukraine/kyiv.png",
+                    "cityBg": "../../asstes/location/ukraine/kyivbg.jpg",
                     "details": [
                         {
                             "id": "HF-1078",
@@ -9755,6 +9784,7 @@
                 {
                     "name": "dubai",
                     "cityImg": "../../asstes/location/united arab emirates/dubai.png",
+                    "cityBg": "../../asstes/location/united arab emirates/dubaibg.jpg",
                     "details": [
                         {
                             "id": "HF-1084",
@@ -9903,6 +9933,7 @@
                 {
                     "name": "london",
                     "cityImg": "../../asstes/location/united kingdom/london.png",
+                    "cityBg": "../../asstes/location/united kingdom/londonbg.jpg",
                     "details": [
                         {
                             "id": "HF-1093",
@@ -10268,7 +10299,8 @@
                 },
                 {
                     "name": "edinburgh",
-                    "cityImg": "../../asstes/location/united kingdom/london.png",
+                    "cityImg": "../../asstes/location/united kingdom/edinburgh.png",
+                    "cityBg": "../../asstes/location/united kingdom/edinburghbg.jpg",
                     "details": [
                         {
                             "id": "HF-1117",
@@ -10410,6 +10442,7 @@
                 {
                     "name": "manchester",
                     "cityImg": "../../asstes/location/united kingdom/manchester.png",
+                    "cityBg": "../../asstes/location/united kingdom/manchesterbg.jpg",
                     "details": [
                         {
                             "id": "HF-1126",
@@ -14079,6 +14112,7 @@
                 {
                     "name": "hanoi",
                     "cityImg": "../../asstes/location/vietnam/hanoi.png",
+                    "cityBg": "../../asstes/location/vietnam/hanoibg.jpg",
                     "details": [
                         {
                             "id": "HF-1358",
