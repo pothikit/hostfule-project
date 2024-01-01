@@ -106,11 +106,16 @@ function AboutUs() {
                 <div className="container mx-auto">
                     <h1 className="text-center text-slate-700 text-2xl md:text-[40px] mb-10 font-semibold">Payment Gatway</h1>
                     <div className='payment-option grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-10'>
-                        <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
-                            <img src={bkash} alt="bkash" />
-                        </div>
+                        {
+                            payment?.map((items, idx) => (
+                                <div key={idx} className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
+                                    <img src={items?.bank_logo} alt={items?.bank_name} />
+                                </div>
+                            ))
+                        }
 
-                        <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
+
+                        {/* <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
                             <img src={nagad} alt="nagad" />
                         </div>
 
@@ -136,7 +141,7 @@ function AboutUs() {
 
                         <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
                             <img src={estern} alt="estern" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
