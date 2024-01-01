@@ -120,8 +120,8 @@ const ManagedServer = () => {
                                     <div className='flex items-center justify-center pb-5 text-slate-400'>
                                         <TbSettingsSearch size={150} />
                                     </div>
-                                    <h2 className='font-bold text-lg md:text-xl'>Domains</h2>
-                                    <p className='leading-loose'>Our domain manager makes it easy to track, update, transfer, purchase, and administer all of your domains.</p>
+                                    <h2 className='font-bold text-lg md:text-xl'>High Performance</h2>
+                                    <p className='leading-loose'>Our Managed VPS services are optimized for speed and performance. With dedicated resources, clients can enjoy fast loading times and a responsive online presence, contributing to a positive user experience.</p>
                                 </div>
                                 {/* <div className='w-20 h-20 bg-slate-400 rotate-90 z-50'></div> */}
                             </div>
@@ -130,8 +130,8 @@ const ManagedServer = () => {
                                     <div className='flex items-center justify-center pb-5 text-slate-400'>
                                         <PiHandHeartBold size={150} />
                                     </div>
-                                    <h2 className='font-bold text-lg md:text-xl'>Domains</h2>
-                                    <p className='leading-loose'>Our domain manager makes it easy to track, update, transfer, purchase, and administer all of your domains.</p>
+                                    <h2 className='font-bold text-lg md:text-xl'>User-Friendly Control Panel</h2>
+                                    <p className='leading-loose'>We provide an intuitive control panel that allows clients to manage their VPS easily. From deploying applications to monitoring performance, the user-friendly interface puts control at clients' fingertips.</p>
                                 </div>
                                 {/* <div className='w-20 h-20 bg-slate-400 rotate-90 z-50'></div> */}
                             </div>
@@ -140,8 +140,8 @@ const ManagedServer = () => {
                                     <div className='flex items-center justify-center pb-5 text-slate-400'>
                                         <FaHandshakeSimple size={150} />
                                     </div>
-                                    <h2 className='font-bold text-lg md:text-xl'>Domains</h2>
-                                    <p className='leading-loose'>Our domain manager makes it easy to track, update, transfer, purchase, and administer all of your domains.</p>
+                                    <h2 className='font-bold text-lg md:text-xl'>24/7 Technical Support</h2>
+                                    <p className='leading-loose'>Our support team is available around the clock, ready to assist clients with any challenges they may encounter.</p>
                                 </div>
                                 {/* <div className='w-20 h-20 bg-slate-400 rotate-90 z-50'></div> */}
                             </div>
@@ -150,8 +150,8 @@ const ManagedServer = () => {
                                     <div className='flex items-center justify-center pb-5 text-slate-400'>
                                         <IoBookSharp size={150} />
                                     </div>
-                                    <h2 className='font-bold text-lg md:text-xl'>Domains</h2>
-                                    <p className='leading-loose'>Our domain manager makes it easy to track, update, transfer, purchase, and administer all of your domains.</p>
+                                    <h2 className='font-bold text-lg md:text-xl'>Enhanced Security Measures</h2>
+                                    <p className='leading-loose'>Our employs robust security measures, including regular updates, firewalls, and proactive monitoring, to safeguard clients' data and ensure a secure hosting environment.</p>
                                 </div>
                                 {/* <div className='w-20 h-20 bg-slate-400 rotate-90 z-50'></div> */}
                             </div>
