@@ -1,18 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import PageBanner from '../shared/pageBanner/PageBanner'
 import aboutAnimation from "../../asstes/aboutAnimation.json"
 import webserver from "../../asstes/webserver.jpg"
 import Testimonial from './Testimonila'
-import bkash from "../../asstes/bkash.png"
-import nagad from "../../asstes/nagad.png"
-import rocket from "../../asstes/rocket.png"
-import wise from "../../asstes/wise.png"
-import brac from "../../asstes/brac.png"
-import dutch from "../../asstes/dutch.png"
-import city from "../../asstes/city.png"
-import estern from "../../asstes/estern.png";
+import Swal from 'sweetalert2'
+import "./about.css"
+// import { FaRegCopy } from "react-icons/fa";
 
 function AboutUs() {
+    // const accountNumberef = useRef(null)
     const [payment, setPayment] = useState([])
     useEffect(() => {
         fetch("paymentData.json")
@@ -20,8 +16,31 @@ function AboutUs() {
             .then(data => setPayment(data.payment))
     }, [])
 
+    // const handleCopy = () => {
+    //     if (accountNumberef.current) {
+    //         accountNumberef.current.select();
+    //         console.log(accountNumberef)
+    //     }
+    // }
 
-
+    const handlePayment = (items) => {
+        Swal.fire({
+            title: items.bank_name,
+            html: `
+            <div class="qrCode w-full p-2">
+                <img src='${items.qrCode}'/>
+                <h3 class="font-bold mt-5">Account No: <input value=${items?.account_number} readonly class="border p-1 outline-0 text-xl"/>
+              
+                </h3>
+            </div>
+        `,
+            imageUrl: items.bank_logo,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Ok"
+        });
+    }
+    // <span onClick="(handleCopy)" class="text-2xl relative right-10">&#10063;</span>
     return (
         <main>
             <section className='bg-slate-200'>
@@ -105,12 +124,13 @@ function AboutUs() {
             <section className='py-20 bg-slate-50'>
                 <div className="container mx-auto">
                     <h1 className="text-center text-slate-700 text-2xl md:text-[40px] mb-10 font-semibold">Payment Gatway</h1>
+                    <p className='text-xl text-slate-700 mb-3'>Click to view payment details</p>
                     <div className='payment-option grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-10'>
                         {
                             payment?.map((items, idx) => (
-                                <div key={idx} className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
+                                <button onClick={() => handlePayment(items)} key={idx} className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
                                     <img src={items?.bank_logo} alt={items?.bank_name} />
-                                </div>
+                                </button>
                             ))
                         }
 

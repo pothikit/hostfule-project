@@ -4,49 +4,65 @@
             "id": "FH-500",
             "bank_name": "Bkash",
             "bank_logo": "../../paymentLogo/bkash.png",
-            "account_number": "0123456789"
+            "qrCode": "../../paymentLogo/qrcode.png",
+            "account_number": "0123456789",
+            "description": ""
         },
         {
             "id": "FH-501",
-            "bank_name": "Bkash",
+            "bank_name": "Brac",
             "bank_logo": "../../paymentLogo/brac.png",
-            "account_number": "0123456789"
+            "qrCode": "../../paymentLogo/qrcode.png",
+            "account_number": "0123456789",
+            "description": ""
         },
         {
             "id": "FH-502",
-            "bank_name": "Bkash",
+            "bank_name": "City",
             "bank_logo": "../../paymentLogo/city.png",
-            "account_number": "0123456789"
+            "qrCode": "../../paymentLogo/qrcode.png",
+            "account_number": "0123456789",
+            "description": ""
         },
         {
             "id": "FH-503",
-            "bank_name": "Bkash",
+            "bank_name": "Dutch Bangla",
             "bank_logo": "../../paymentLogo/dutch.png",
-            "account_number": "0123456789"
+            "qrCode": "../../paymentLogo/qrcode.png",
+            "account_number": "0123456789",
+            "description": ""
         },
         {
             "id": "FH-504",
-            "bank_name": "Bkash",
+            "bank_name": "Estern Bank",
             "bank_logo": "../../paymentLogo/estern.png",
-            "account_number": "0123456789"
+            "qrCode": "../../paymentLogo/qrcode.png",
+            "account_number": "0123456789",
+            "description": ""
         },
         {
             "id": "FH-505",
-            "bank_name": "Bkash",
+            "bank_name": "Nagad",
             "bank_logo": "../../paymentLogo/nagad.png",
-            "account_number": "0123456789"
+            "qrCode": "../../paymentLogo/qrcode.png",
+            "account_number": "0123456789",
+            "description": ""
         },
         {
             "id": "FH-506",
-            "bank_name": "Bkash",
+            "bank_name": "Rocket",
             "bank_logo": "../../paymentLogo/rocket.png",
-            "account_number": "0123456789"
+            "qrCode": "../../paymentLogo/qrcode.png",
+            "account_number": "0123456789",
+            "description": ""
         },
         {
             "id": "FH-507",
-            "bank_name": "Bkash",
+            "bank_name": "Wise",
             "bank_logo": "../../paymentLogo/wise.png",
-            "account_number": "0123456789"
+            "qrCode": "../../paymentLogo/qrcode.png",
+            "account_number": "0123456789",
+            "description": ""
         }
     ]
 }
