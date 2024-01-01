@@ -13,6 +13,7 @@ import { IoBookSharp } from "react-icons/io5";
 
 const ManagedServer = () => {
     const [cardData, setCardData] = useState([])
+
     useEffect(() => {
         fetch("multipledata.json")
             .then(res => res.json())
@@ -24,7 +25,6 @@ const ManagedServer = () => {
     const toggleHandler = () => {
         setToggle(!toggle)
     }
-
     return (
         <main>
             <section className='bg-slate-200'>

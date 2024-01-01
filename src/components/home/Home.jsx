@@ -4,10 +4,10 @@ import DomainSeach from './domainSeach'
 import Threcard from './Threcard'
 import Exclusive from './exclusive/Exclusive'
 import WhyChoseUsSupport from './WhyChoseUsSupport'
-import Testimonial from './Testimonial'
 import UserOriented from './UserOriented'
 import MapGlobal from './MapGlobal'
 import Faq from './faqAccordion/Faq'
+import "./home.css";
 
 function Home() {
     return (
@@ -20,7 +20,6 @@ function Home() {
             <UserOriented></UserOriented>
             <MapGlobal></MapGlobal>
             <Faq></Faq>
-            <Testimonial></Testimonial>
         </main>
     )
 }

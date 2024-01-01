@@ -1,0 +1,52 @@
+{
+    "payment": [
+        {
+            "id": "FH-500",
+            "bank_name": "Bkash",
+            "bank_logo": "../../paymentLogo/bkash.png",
+            "account_number": "0123456789"
+        },
+        {
+            "id": "FH-501",
+            "bank_name": "Bkash",
+            "bank_logo": "../../paymentLogo/brac.png",
+            "account_number": "0123456789"
+        },
+        {
+            "id": "FH-502",
+            "bank_name": "Bkash",
+            "bank_logo": "../../paymentLogo/city.png",
+            "account_number": "0123456789"
+        },
+        {
+            "id": "FH-503",
+            "bank_name": "Bkash",
+            "bank_logo": "../../paymentLogo/dutch.png",
+            "account_number": "0123456789"
+        },
+        {
+            "id": "FH-504",
+            "bank_name": "Bkash",
+            "bank_logo": "../../paymentLogo/estern.png",
+            "account_number": "0123456789"
+        },
+        {
+            "id": "FH-505",
+            "bank_name": "Bkash",
+            "bank_logo": "../../paymentLogo/nagad.png",
+            "account_number": "0123456789"
+        },
+        {
+            "id": "FH-506",
+            "bank_name": "Bkash",
+            "bank_logo": "../../paymentLogo/rocket.png",
+            "account_number": "0123456789"
+        },
+        {
+            "id": "FH-507",
+            "bank_name": "Bkash",
+            "bank_logo": "../../paymentLogo/wise.png",
+            "account_number": "0123456789"
+        }
+    ]
+}
