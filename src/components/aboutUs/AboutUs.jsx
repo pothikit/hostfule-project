@@ -5,18 +5,14 @@ import webserver from "../../asstes/webserver.jpg"
 import Testimonial from './Testimonila'
 import Swal from 'sweetalert2'
 import "./about.css"
-// import { FaRegCopy } from "react-icons/fa";
-
 
 function AboutUs() {
-    // const accountNumberef = useRef(null)
     const [payment, setPayment] = useState([])
     useEffect(() => {
         fetch("paymentData.json")
             .then(res => res.json())
             .then(data => setPayment(data.payment))
     }, [])
-
     const handlePayment = (items) => {
         Swal.fire({
             html: `
@@ -44,7 +40,8 @@ function AboutUs() {
             imageUrl: items.bank_logo,
             confirmButtonColor: "#3085d6",
             cancelButtonColor: "#d33",
-            confirmButtonText: "Ok"
+            confirmButtonText: "Cancel",
+            showCloseButton: true
         });
     }
     // <span onClick="(handleCopy)" class="text-2xl relative right-10">&#10063;</span>
@@ -128,6 +125,20 @@ function AboutUs() {
                     </div>
                 </div>
             </section>
+            <section className='py-20 px-1'>
+                <div className="container mx-auto">
+
+                    <h1 className="text-center text-slate-700 text-2xl md:text-[40px] mb-10 font-semibold">Our Team</h1>
+                    <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-3 md:grid-cols-4 md:gap-5'>
+                        <div className='py-3 bg-slate-400 rounded-md'>
+                            <img src="" alt="" />
+                        </div>
+                        <div className='py-3 bg-slate-400 rounded-md'></div>
+                        <div className='py-3 bg-slate-400 rounded-md'></div>
+                        <div className='py-3 bg-slate-400 rounded-md'></div>
+                    </div>
+                </div>
+            </section>
             <section className='py-20 bg-slate-50'>
                 <div className="container mx-auto">
                     <h1 className="text-center text-slate-700 text-2xl md:text-[40px] mb-10 font-semibold">Payment Gatway</h1>
@@ -135,14 +146,11 @@ function AboutUs() {
                     <div className='payment-option grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-10'>
                         {
                             payment?.map((items, idx) => (
-                                <button onClick={() => handlePayment(items)} key={idx} className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
-                                    <img src={items?.bank_logo} alt={items?.bank_name} />
+                                <button onClick={() => handlePayment(items)} key={idx} className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-10 cursor-pointer rounded-lg">
+                                    <img src={items?.bank_logo} alt={items?.bank_name} className='md:w-1/2' />
                                 </button>
                             ))
                         }
-
-
-
                     </div>
                 </div>
             </section>
