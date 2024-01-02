@@ -6,7 +6,13 @@
             "bank_logo": "../../paymentLogo/bkash.png",
             "qrCode": "../../paymentLogo/qrcode.png",
             "account_number": "0123456789",
-            "description": ""
+            "desc1": "Go to your BKASH mobile menu by dialing 247# or go to BKASH app. ",
+            "desc2": "Click on “Send Money.” ",
+            "desc3": "Enter this number as recipient number: 01XXXXXXXXX ",
+            "desc4": "Enter your amount: XXX (BDT)",
+            "desc5": "Enter your BKASH Mobile Menu PIN now to confirm. ",
+            "desc6": "If everything is OK, you will get a confirmation message from BKASH. "
+           
         },
         {
             "id": "FH-501",
@@ -14,7 +20,7 @@
             "bank_logo": "../../paymentLogo/brac.png",
             "qrCode": "../../paymentLogo/qrcode.png",
             "account_number": "0123456789",
-            "description": ""
+            "description": []
         },
         {
             "id": "FH-502",
