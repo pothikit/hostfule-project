@@ -24,8 +24,8 @@ function AboutUs() {
                     </div>
                  </div>
                  <div>
-                    <h3>Rules:</h3>
-                    <ul class="flex flex-col gap-3">
+                    <h3 class="text-left font-bold text-2xl">Rules:</h3>
+                    <ul class="flex flex-col gap-3 items-start font-semibold mt-3">
                       <li>${items?.desc1}</li>
                       <li>${items?.desc2}</li>
                       <li>${items?.desc3}</li>
