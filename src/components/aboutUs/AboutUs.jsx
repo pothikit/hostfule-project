@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import PageBanner from '../shared/pageBanner/PageBanner'
 import aboutAnimation from "../../asstes/aboutAnimation.json"
 import webserver from "../../asstes/webserver.jpg"
@@ -6,6 +6,7 @@ import Testimonial from './Testimonila'
 import Swal from 'sweetalert2'
 import "./about.css"
 // import { FaRegCopy } from "react-icons/fa";
+
 
 function AboutUs() {
     // const accountNumberef = useRef(null)
@@ -16,24 +17,16 @@ function AboutUs() {
             .then(data => setPayment(data.payment))
     }, [])
 
-    // const handleCopy = () => {
-    //     if (accountNumberef.current) {
-    //         accountNumberef.current.select();
-    //         console.log(accountNumberef)
-    //     }
-    // }
-
     const handlePayment = (items) => {
         Swal.fire({
-            title: items.bank_name,
             html: `
-            <div class="qrCode w-full p-2">
-                <img src='${items.qrCode}'/>
+            <div class="qrCode flex justify-evenly flex-col sm:flex-row w-full p-2">
+                <div class=""><img src='${items.qrCode}' class=""/></div>
                 <h3 class="font-bold mt-5">Account No: <input value=${items?.account_number} readonly class="border p-1 outline-0 text-xl"/>
-              
                 </h3>
             </div>
         `,
+            width: "750px",
             imageUrl: items.bank_logo,
             confirmButtonColor: "#3085d6",
             cancelButtonColor: "#d33",
@@ -45,13 +38,13 @@ function AboutUs() {
         <main>
             <section className='bg-slate-200'>
                 <div className="container mx-auto">
-                    <PageBanner animationfile={aboutAnimation} animationPadding={"p-2 lg:p-10"} pageTitle={["About ", <span key={1} className='text-primary'>H</span>, "ostFlu Web Services"]}></PageBanner>
+                    <PageBanner animationfile={aboutAnimation} animationPadding={"p-2 lg:p-10"} pageTitle={["About ", <span key={1} className='text-primary'>H</span>, "ostFlu ", <br className='hidden md:block'></br>, "Web Services"]}></PageBanner>
                 </div>
             </section>
             <section className='py-20 px-2'>
                 <div className='container mx-auto'>
                     <div>
-                        <img src={webserver} alt="web server" className='md:max-w-[400px] rounded-md float-left mr-6 mb-6' />
+                        <img src={webserver} alt="web server" className='md:max-w-[600px] rounded-md float-left mr-6 mb-6' />
                         <p className='text-slate-600 md:text-lg'>Founded in 2018, HostFlu has quickly established itself as a leading provider of web services. A subsidiary of Fluresta, HostFlu is the brainchild of Ashiqur Rahman, a seasoned professional with a decade of experience in the industry.
                         </p>
                         <p className='text-slate-600 md:text-lg'>
@@ -135,33 +128,7 @@ function AboutUs() {
                         }
 
 
-                        {/* <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
-                            <img src={nagad} alt="nagad" />
-                        </div>
 
-                        <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
-                            <img src={rocket} alt="rocket" />
-                        </div>
-
-                        <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
-                            <img src={wise} alt="wise" />
-                        </div>
-
-                        <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
-                            <img src={brac} alt="brac" />
-                        </div>
-
-                        <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
-                            <img src={dutch} alt="dutch" />
-                        </div>
-
-                        <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
-                            <img src={city} alt="city" />
-                        </div>
-
-                        <div className="gatway bg-white flex border items-center justify-center p-2 sm:p-10 lg:px-20 cursor-pointer rounded-lg">
-                            <img src={estern} alt="estern" />
-                        </div> */}
                     </div>
                 </div>
             </section>

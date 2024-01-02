@@ -17,7 +17,6 @@ import AOS from 'aos';
 import EmailHosting from "./components/emailHosting/EmailHosting";
 import LocationDatatabel from "./components/dedicatedServer/locationDatatable/LocationDatatabel";
 import AboutUs from "./components/aboutUs/AboutUs";
-
 function App() {
   // for aos animation
   React.useEffect(() => {
