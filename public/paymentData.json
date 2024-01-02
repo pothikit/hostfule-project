@@ -6,7 +6,12 @@
             "bank_logo": "../../paymentLogo/bkash.png",
             "qrCode": "../../paymentLogo/qrcode.png",
             "account_number": "0123456789",
-            "description": ""
+            "desc1": "",
+            "desc2": "",
+            "desc3": "",
+            "desc4": "",
+            "desc5": "",
+            "desc6": ""
         },
         {
             "id": "FH-501",
@@ -14,7 +19,7 @@
             "bank_logo": "../../paymentLogo/brac.png",
             "qrCode": "../../paymentLogo/qrcode.png",
             "account_number": "0123456789",
-            "description": ""
+            "description": []
         },
         {
             "id": "FH-502",
@@ -30,7 +35,7 @@
             "bank_logo": "../../paymentLogo/dutch.png",
             "qrCode": "../../paymentLogo/qrcode.png",
             "account_number": "0123456789",
-            "description": ""
+            "description": []
         },
         {
             "id": "FH-504",
@@ -38,7 +43,7 @@
             "bank_logo": "../../paymentLogo/estern.png",
             "qrCode": "../../paymentLogo/qrcode.png",
             "account_number": "0123456789",
-            "description": ""
+            "description": []
         },
         {
             "id": "FH-505",
@@ -46,7 +51,7 @@
             "bank_logo": "../../paymentLogo/nagad.png",
             "qrCode": "../../paymentLogo/qrcode.png",
             "account_number": "0123456789",
-            "description": ""
+            "description": []
         },
         {
             "id": "FH-506",
@@ -54,7 +59,7 @@
             "bank_logo": "../../paymentLogo/rocket.png",
             "qrCode": "../../paymentLogo/qrcode.png",
             "account_number": "0123456789",
-            "description": ""
+            "description": []
         },
         {
             "id": "FH-507",
@@ -62,7 +67,7 @@
             "bank_logo": "../../paymentLogo/wise.png",
             "qrCode": "../../paymentLogo/qrcode.png",
             "account_number": "0123456789",
-            "description": ""
+            "description": []
         }
     ]
 }

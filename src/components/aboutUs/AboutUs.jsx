@@ -20,10 +20,24 @@ function AboutUs() {
     const handlePayment = (items) => {
         Swal.fire({
             html: `
-            <div class="qrCode flex justify-evenly flex-col sm:flex-row w-full p-2">
-                <div class=""><img src='${items.qrCode}' class=""/></div>
-                <h3 class="font-bold mt-5">Account No: <input value=${items?.account_number} readonly class="border p-1 outline-0 text-xl"/>
-                </h3>
+           <div>
+                <div class="qrCode flex justify-evenly flex-col sm:flex-row w-full p-2">
+                    <div class=""><img src='${items.qrCode}' class=""/></div>
+                    <div class="flex justify-start flex-col items-start gap-4">
+                         <h3 class="font-bold mt-5">Account No: </h3><input value=${items?.account_number} readonly class="border p-1 outline-0 text-xl"/>
+                    </div>
+                 </div>
+                 <div>
+                    <h3>Rules:</h3>
+                    <ul class="flex flex-col gap-3">
+                      <li>${items?.desc1}</li>
+                      <li>${items?.desc2}</li>
+                      <li>${items?.desc3}</li>
+                      <li>${items?.desc4}</li>
+                      <li>${items?.desc5}</li>
+                      <li>${items?.desc6}</li>
+                    </ul>
+                 </div>
             </div>
         `,
             width: "750px",
