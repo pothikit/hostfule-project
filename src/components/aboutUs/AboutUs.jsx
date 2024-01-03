@@ -138,13 +138,13 @@ function AboutUs() {
             <section className='py-20 px-1'>
                 <div className="container mx-auto">
                     <h1 className="text-center text-slate-700 text-2xl md:text-[40px] mb-20 font-semibold">Our Team</h1>
-                    <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-8 md:grid-cols-4 md:gap-10 overflow-hidden'>
+                    <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4 lg:gap-10 overflow-hidden px-4'>
                         {
                             allteam?.map((items, idx) => (
                                 <div key={idx} className='py-3 bg-slate-400 rounded-md relative group overflow-hidden'>
                                     <img src={items?.image} alt={items?.name} />
                                     <div className='absolute -bottom-full group-hover:bottom-0 duration-300 px-2 text-white h-full w-full bg-black flex flex-col justify-evenly bg-opacity-50 rounded-md'>
-                                        <p className='text-white font-bold px-3 text-xl'>{items?.proverbs}</p>
+                                        <p className='text-white font-bold px-3 text-xl text-center'>{items?.proverbs}</p>
                                         <ul className='px-2 flex justify-evenly gap-2 file flex-wrap'>
                                             <li className='hover:rotate-[360deg] duration-300 p-3'><a target='_blank' className='hover:text-blue-400 duration-200' rel='noreferrer' href={items?.fbUrl}>
                                                 <FaFacebook size={25} /></a>

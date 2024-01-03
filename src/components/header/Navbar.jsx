@@ -191,7 +191,7 @@ export const Navbar = ({ setBar, bar }) => {
             <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={(e) => handleNav(e, 5)}>
                 {/* about us */}
                 <div className="flex items-center gap-2 cursor-pointer">
-                    <Link to="/about-us" className='group-hover:text-primary text-lg font-normal'>About us</Link>
+                    <Link to="/about-us" className='group-hover:text-primary text-lg font-normal' onClick={handleHideDrpdown}>About us</Link>
                     {/* <span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span> */}
                 </div>
                 {/* about us */}
