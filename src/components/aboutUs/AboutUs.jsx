@@ -143,8 +143,9 @@ function AboutUs() {
                             allteam?.map((items, idx) => (
                                 <div key={idx} className='py-3 bg-slate-400 rounded-md relative group overflow-hidden'>
                                     <img src={items?.image} alt={items?.name} />
-                                    <div className='absolute -bottom-full group-hover:bottom-0 duration-300 px-2 text-white h-full w-full bg-black flex flex-col justify-end bg-opacity-50 rounded-md'>
-                                        <ul className='px-2 flex justify-evenly gap-2 file mb-10 flex-wrap'>
+                                    <div className='absolute -bottom-full group-hover:bottom-0 duration-300 px-2 text-white h-full w-full bg-black flex flex-col justify-evenly bg-opacity-50 rounded-md'>
+                                        <p className='text-white font-bold px-3 text-xl'>{items?.proverbs}</p>
+                                        <ul className='px-2 flex justify-evenly gap-2 file flex-wrap'>
                                             <li className='hover:rotate-[360deg] duration-300 p-3'><a target='_blank' className='hover:text-blue-400 duration-200' rel='noreferrer' href={items?.fbUrl}>
                                                 <FaFacebook size={25} /></a>
                                             </li>

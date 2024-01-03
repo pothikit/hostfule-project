@@ -114,7 +114,8 @@
             "fbUrl": "https://www.facebook.com/ashiqur90",
             "linkedinUrl": "",
             "whatsApp": "+8801719375526",
-            "gitHub": "https://github.com/pothikit"
+            "gitHub": "https://github.com/pothikit",
+            "proverbs": ""
         },
         {
             "name": "Sumon Chandra Paul",
@@ -124,7 +125,8 @@
             "fbUrl": "https://www.facebook.com/sumonpaul55",
             "linkedinUrl": "https://www.linkedin.com/in/sumonpaul5",
             "whatsApp": "+8801628883217",
-            "gitHub": "https://github.com/sumonpaul55"
+            "gitHub": "https://github.com/sumonpaul55",
+            "proverbs": "Code is poetry, write it with elegance and precision."
         },
         {
             "name": "Tanbirul Islam Zihad",
@@ -134,7 +136,8 @@
             "fbUrl": "https://www.facebook.com/tanbirul.islamzihad",
             "linkedinUrl": "",
             "whatsApp": "+88013422442",
-            "gitHub": "https://github.com/sumonpaul55"
+            "gitHub": "",
+            "proverbs": "Pen is mighter than the swort"
         },
         {
             "name": "Umme Salma",
@@ -144,7 +147,8 @@
             "fbUrl": "",
             "linkedinUrl": "",
             "whatsApp": "",
-            "gitHub": ""
+            "gitHub": "",
+            "proverbs": "Try and fail but don't fail to try"
         }
     ]
 }
