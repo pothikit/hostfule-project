@@ -12,7 +12,6 @@
             "desc4": "Enter your amount: XXX (BDT)",
             "desc5": "Enter your BKASH Mobile Menu PIN now to confirm. ",
             "desc6": "If everything is OK, you will get a confirmation message from BKASH. "
-           
         },
         {
             "id": "FH-501",
@@ -26,7 +25,6 @@
             "desc4": "",
             "desc5": "",
             "desc6": ""
-           
         },
         {
             "id": "FH-502",
@@ -66,7 +64,6 @@
             "desc4": "Eastern Bank Ltd.",
             "desc5": "",
             "desc6": ""
-          
         },
         {
             "id": "FH-505",
@@ -106,6 +103,48 @@
             "desc4": "Verify your identity then confirm and track",
             "desc5": "Your recipient will receive the money in their account once the transfer is complete",
             "desc6": "If everything is OK, you will get a confirmation message from Wise"
+        }
+    ],
+    "team": [
+        {
+            "name": "Ashiqur Rahman",
+            "designation": "CEO",
+            "organization": "fluresta.com",
+            "image": "../../team/ashiqur.jpg",
+            "fbUrl": "https://www.facebook.com/ashiqur90",
+            "linkedinUrl": "",
+            "whatsApp": "+8801719375526",
+            "gitHub": "https://github.com/pothikit"
+        },
+        {
+            "name": "Sumon Chandra Paul",
+            "designation": "Web Developer",
+            "organization": "fluresta.com",
+            "image": "../../team/sumonpaul.png",
+            "fbUrl": "https://www.facebook.com/sumonpaul55",
+            "linkedinUrl": "https://www.linkedin.com/in/sumonpaul5",
+            "whatsApp": "+8801628883217",
+            "gitHub": "https://github.com/sumonpaul55"
+        },
+        {
+            "name": "Tanbirul Islam Zihad",
+            "designation": "Content Writer",
+            "organization": "fluresta.com",
+            "image": "../../team/zihad.jpg",
+            "fbUrl": "https://www.facebook.com/tanbirul.islamzihad",
+            "linkedinUrl": "",
+            "whatsApp": "+88013422442",
+            "gitHub": "https://github.com/sumonpaul55"
+        },
+        {
+            "name": "Umme Salma",
+            "designation": "HR",
+            "organization": "fluresta.com",
+            "image": "../../team/ummesalma.png",
+            "fbUrl": "",
+            "linkedinUrl": "",
+            "whatsApp": "",
+            "gitHub": ""
         }
     ]
 }
