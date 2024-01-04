@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react'
 import termsAnimation from "../../asstes/termsAnimation.json"
 import PageBanner from '../shared/pageBanner/PageBanner'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import termsandService from "../../asstes/termsandService.jpg"
 import 'react-tabs/style/react-tabs.css';
 function TermsOfService() {
     const [tabNumber, setTabNumber] = useState(0);
     const [termsData, setTermsData] = useState([])
+
     useEffect(() => {
         fetch("termsandConditions.json")
             .then(res => res.json())
@@ -15,15 +17,23 @@ function TermsOfService() {
     const handleTab = (newTabNumber) => {
         setTabNumber(newTabNumber);
     };
+    const termsTab = document.querySelector("#termsTab ul")?.childNodes;
     const handleNext = () => {
-        const newTabNumber = (tabNumber + 1) % 2; // Assuming you have 2 tabs
+        const newTabNumber = (tabNumber + 1); // Assuming you have 2 tabs
         setTabNumber(newTabNumber);
+        if (tabNumber > termsTab.length - 2) {
+            setTabNumber(0)
+        }
     };
     const handlePrev = () => {
-        const newTabNumber = (tabNumber - 1 + 2) % 2; // Assuming you have 2 tabs
+        const newTabNumber = (tabNumber - 1); // Assuming you have 2 tabs
         setTabNumber(newTabNumber);
+        if (tabNumber < 1) {
+            setTabNumber(termsTab.length - 1)
+        }
     };
-    console.log(tabNumber)
+
+    // console.log(tabNumber, "from outside")
     return (
         <main>
             <section className=''>
@@ -33,8 +43,7 @@ function TermsOfService() {
             </section>
             <section className='py-20'>
                 <div className="container mx-auto">
-                    <div className='rounded-md border p-3 md:p-10'>
-
+                    <div className='rounded-md border p-3 md:p-100' id='termsTab'>
                         <h3 className='text-xl md:text-3xl lg:text-4xl text-slate-700 mb-14 font-semibold text-center'>Terms of Our Services</h3>
                         <Tabs selectedIndex={tabNumber} onSelect={handleTab} className="flex gap-10 flex-col md:flex-row">
                             <TabList className="flex md:flex-col md:w-3/12 flex-wrap gap-4 md:gap-7 md:border-r px-7">
@@ -58,10 +67,13 @@ function TermsOfService() {
                                     <button className='px-10 py-2 bg-slate-500 text-white rounded-full' onClick={handleNext}>next</button>
                                 </div>
                             </div>
-
-
                         </Tabs>
                     </div>
+                </div>
+            </section>
+            <section className='py-32 bg-slate-50'>
+                <div className="container mx-auto">
+                    <img src={termsandService} className='w-full rounded-lg' alt="" />
                 </div>
             </section>
         </main>
