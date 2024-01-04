@@ -14,7 +14,6 @@ function TermsOfService() {
 
     const handleTab = (newTabNumber) => {
         setTabNumber(newTabNumber);
-        console.log(newTabNumber)
     };
     const handleNext = () => {
         const newTabNumber = (tabNumber + 1) % 2; // Assuming you have 2 tabs
@@ -24,6 +23,7 @@ function TermsOfService() {
         const newTabNumber = (tabNumber - 1 + 2) % 2; // Assuming you have 2 tabs
         setTabNumber(newTabNumber);
     };
+    console.log(tabNumber)
     return (
         <main>
             <section className=''>
@@ -34,27 +34,33 @@ function TermsOfService() {
             <section className='py-20'>
                 <div className="container mx-auto">
                     <div className='rounded-md border p-3 md:p-10'>
-                        {
-                            termsData?.map((items, idx) => (
-                                <Tabs key={idx} className="flex gap-10" selectedIndex={tabNumber} onSelect={handleTab}>
-                                    <TabList className="flex flex-col w-2/12 gap-10 border-r px-7">
-                                        <Tab className="border-none cursor-pointer text-lg font-semibold">{items?.headings}</Tab>
-                                    </TabList>
-                                    <div>
-                                        <h3 className='text-xl md:text-3xl lg:text-4xl text-slate-700 mb-10 font-semibold'>Terms of Our Services</h3>
-                                        <TabPanel>
+
+                        <h3 className='text-xl md:text-3xl lg:text-4xl text-slate-700 mb-14 font-semibold text-center'>Terms of Our Services</h3>
+                        <Tabs selectedIndex={tabNumber} onSelect={handleTab} className="flex gap-10 flex-col md:flex-row">
+                            <TabList className="flex md:flex-col md:w-3/12 flex-wrap gap-4 md:gap-7 md:border-r px-7">
+                                {
+                                    termsData?.map((items, idx) => (
+                                        <Tab key={idx} className="border-none cursor-pointer text-lg lg:whitespace-nowrap outline-none">{items?.headings}</Tab>
+                                    ))
+                                }
+                            </TabList>
+                            <div>
+                                {
+                                    termsData?.map((items, idx) => (
+                                        <TabPanel key={idx}>
                                             <h3 className='text-xl font-semibold mb-6'>{idx + 1}. {items?.headings}</h3>
                                             <p className='text-slate-700 leading-8 text-lg'>{items?.explain}</p>
                                         </TabPanel>
-                                        <div className='mt-6 flex gap-10'>
-                                            <button className='px-3 md:px-10 py-2 bg-slate-500 text-white rounded-full' onClick={handlePrev}>prev</button>
-                                            <button className='px-3 md:px-10 py-2 bg-slate-500 text-white rounded-full' onClick={handleNext}>next</button>
-                                        </div>
-                                    </div>
-                                </Tabs>
-                            ))
-                        }
+                                    ))
+                                }
+                                <div className='mt-6 flex gap-10'>
+                                    <button className='px-10 py-2 bg-slate-500 text-white rounded-full' onClick={handlePrev}>prev</button>
+                                    <button className='px-10 py-2 bg-slate-500 text-white rounded-full' onClick={handleNext}>next</button>
+                                </div>
+                            </div>
 
+
+                        </Tabs>
                     </div>
                 </div>
             </section>
