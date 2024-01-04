@@ -33,8 +33,8 @@ function AboutUs() {
                     </div>
                  </div>
                  <div>
-                    <h3 class="text-left font-bold text-2xl">Rules:</h3>
-                    <ul class="flex flex-col gap-3 items-start font-semibold mt-3">
+                    <h3 class="text-left font-bold text-2xl mt-4">${items?.rule}</h3>
+                    <ul class="flex flex-col gap-3 items-start font-semibold mt-5">
                       <li class="text-left">${items?.desc1}</li>
                       <li class="text-left">${items?.desc2}</li>
                       <li class="text-left">${items?.desc3}</li>
@@ -138,14 +138,14 @@ function AboutUs() {
             <section className='py-20 px-1'>
                 <div className="container mx-auto">
                     <h1 className="text-center text-slate-700 text-2xl md:text-[40px] mb-20 font-semibold">Our Team</h1>
-                    <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4 lg:gap-10 overflow-hidden px-4'>
+                    <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4 lg:gap-10 overflow-hidden px-4 py-10'>
                         {
                             allteam?.map((items, idx) => (
-                                <div key={idx} className='py-3 bg-slate-400 rounded-md relative group overflow-hidden'>
-                                    <img src={items?.image} alt={items?.name} />
-                                    <div className='absolute -bottom-full group-hover:bottom-0 duration-300 px-2 text-white h-full w-full bg-black flex flex-col justify-evenly bg-opacity-50 rounded-md'>
-                                        <p className='text-white font-bold px-3 text-xl text-center'>{items?.proverbs}</p>
-                                        <ul className='px-2 flex justify-evenly gap-2 file flex-wrap'>
+                                <div key={idx} className='py-1 bg-slate-300 px-1 rounded-md relative group overflow-hidden'>
+                                    <img src={items?.image} alt={items?.name} className='rounded-md' />
+                                    <div className='absolute left-0 -bottom-full group-hover:bottom-0 duration-300 px-2 text-white h-full w-full bg-black flex flex-col justify-end bg-opacity-50 rounded-md'>
+                                        {/* <p className='text-white font-bold px-3 text-xl text-center'>{items?.proverbs}</p> */}
+                                        <ul className='px-2 flex justify-evenly gap-2 file flex-wrap mb-7'>
                                             <li className='hover:rotate-[360deg] duration-300 p-3'><a target='_blank' className='hover:text-blue-400 duration-200' rel='noreferrer' href={items?.fbUrl}>
                                                 <FaFacebook size={25} /></a>
                                             </li>
@@ -166,6 +166,9 @@ function AboutUs() {
                                             <h4 className='text-primary font-semibold'>{items?.designation}</h4>
                                             <h4 className='font-semibold'>{items?.organization}</h4>
                                         </div>
+                                    </div>
+                                    <div className='absolute bottom-0 left-0 px-4 w-full py-3 group-hover:-bottom-full text-white bg-black bg-opacity-50 duration-700'>
+                                        <h3 className="text-2xl font-bold">{items.name}</h3>
                                     </div>
                                 </div>
                             ))

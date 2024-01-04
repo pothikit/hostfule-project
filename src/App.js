@@ -17,6 +17,7 @@ import AOS from 'aos';
 import EmailHosting from "./components/emailHosting/EmailHosting";
 import LocationDatatabel from "./components/dedicatedServer/locationDatatable/LocationDatatabel";
 import AboutUs from "./components/aboutUs/AboutUs";
+import TermsOfService from "./components/termsOfService/TermsOfService";
 function App() {
   // for aos animation
   React.useEffect(() => {
@@ -40,6 +41,7 @@ function App() {
         <Route path="/managed-vps" element={<ManagedServer />} />
         <Route path="/email-hosting" element={<EmailHosting />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/termsOfService" element={<TermsOfService />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer></Footer>
