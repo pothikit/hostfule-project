@@ -18,7 +18,16 @@ import EmailHosting from "./components/emailHosting/EmailHosting";
 import LocationDatatabel from "./components/dedicatedServer/locationDatatable/LocationDatatabel";
 import AboutUs from "./components/aboutUs/AboutUs";
 import TermsOfService from "./components/termsOfService/TermsOfService";
-import NorthAmerica from "./components/northAmerica/NorthAmerica";
+import NorthAmerica from "./components/serverCountrywise/northAmerica/NorthAmerica";
+import Europe from "./components/serverCountrywise/europe/Europe";
+import SouthAmerica from './components/serverCountrywise/SouthAmerica';
+import Asia from "./components/serverCountrywise/Asia";
+import Africa from "./components/serverCountrywise/Africa";
+import NetherLand from "./components/serverCountrywise/NetherLand";
+import Canada from "./components/serverCountrywise/Canada";
+import UnitedState from "./components/serverCountrywise/UnitedState";
+import Germany from "./components/serverCountrywise/Germany";
+import UnitedKingdom from "./components/serverCountrywise/UnitedKingdom";
 function App() {
   // for aos animation
   React.useEffect(() => {
@@ -44,6 +53,15 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/termsOfService" element={<TermsOfService />} />
         <Route path="/north-america" element={<NorthAmerica />} />
+        <Route path="/europe" element={<Europe />} />
+        <Route path="/south-america" element={<SouthAmerica />} />
+        <Route path="/asia" element={<Asia />} />
+        <Route path="/africa" element={<Africa />} />
+        <Route path="/netherland" element={<NetherLand />} />
+        <Route path="/canada" element={<Canada />} />
+        <Route path="/united-state" element={<UnitedState />} />
+        <Route path="/germany" element={<Germany />} />
+        <Route path="/united-kingdom" element={<UnitedKingdom />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer></Footer>

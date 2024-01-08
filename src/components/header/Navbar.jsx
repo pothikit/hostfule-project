@@ -80,10 +80,10 @@ export const Navbar = ({ setBar, bar }) => {
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>By Region</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
                                 <li className='font-normal'><Link to={`/north-america`} className='hover:text-primary capitalize'>North America</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Europe</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>South America</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Asia</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Africa</Link></li>
+                                <li className='font-normal'><Link to={`/europe`} className='hover:text-primary capitalize'>Europe</Link></li>
+                                <li className='font-normal'><Link to={`/south-america`} className='hover:text-primary capitalize'>South America</Link></li>
+                                <li className='font-normal'><Link to={`/asia`} className='hover:text-primary capitalize'>Asia</Link></li>
+                                <li className='font-normal'><Link to={`/africa`} className='hover:text-primary capitalize'>Africa</Link></li>
                             </ul>
                         </li>
                         {/* by option hosting */}
@@ -103,18 +103,18 @@ export const Navbar = ({ setBar, bar }) => {
                             <h4 className='text-base text-left px-10 whitespace-nowrap sm:mt-10 md:mt-0'>Popular Locations</h4>
                             <ul className='flex gap-5 sm:flex-nowrap flex-wrap whitespace-nowrap drop-mega'>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10 flex-1 lg:flex-auto'>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Paris</Link></li>
+                                    <li className='font-normal'><Link to={`/dedicated-servers/paris-france`} className='hover:text-primary capitalize'>Paris</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>France</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Netherlands</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Montreal</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Canada</Link></li>
+                                    <li className='font-normal'><Link to={`/netherland`} className='hover:text-primary capitalize'>Netherlands</Link></li>
+                                    <li className='font-normal'><Link to={`/dedicated-servers/montreal-canada`} className='hover:text-primary capitalize'>Montreal</Link></li>
+                                    <li className='font-normal'><Link to={`/canada`} className='hover:text-primary capitalize'>Canada</Link></li>
                                 </ul>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10 flex-1 lg:flex-auto'>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Los Angeles</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>United-States</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>London</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>United Kingdom</Link></li>
-                                    <li className='font-normal'><Link className='hover:text-primary capitalize'>Germany</Link></li>
+                                    <li className='font-normal'><Link to={`/dedicated-servers/los%20angeles-united%20states`} className='hover:text-primary capitalize'>Los Angeles</Link></li>
+                                    <li className='font-normal'><Link to={`/united-state`} className='hover:text-primary capitalize'>United-States</Link></li>
+                                    <li className='font-normal'><Link to={`/dedicated-servers/london-united%20kingdom`} className='hover:text-primary capitalize'>London</Link></li>
+                                    <li className='font-normal'><Link to={`/united-kingdom`} className='hover:text-primary capitalize'>United Kingdom</Link></li>
+                                    <li className='font-normal'><Link to={`/germany`} className='hover:text-primary capitalize'>Germany</Link></li>
                                 </ul>
                             </ul>
                         </li>

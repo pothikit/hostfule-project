@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-// import cityImg from "../../../asstes/location/argentina/cordobaBg.jpg"
+
 const LocationDatatabel = () => {
     const [locationData, setLocationData] = useState([])
     const { location } = useParams();
@@ -18,7 +18,6 @@ const LocationDatatabel = () => {
     }, [])
     const specificCountry = locationData?.find(countries => countries.countryName === country)
     const allCities = specificCountry?.city?.filter(cities => cities.name === city)
-
     const cityBgImg = allCities?.map(items => items.cityBg)[0]
     // console.log(cityImg)
     return (
