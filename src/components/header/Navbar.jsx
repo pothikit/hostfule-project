@@ -79,7 +79,7 @@ export const Navbar = ({ setBar, bar }) => {
                             {/* By Region */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>By Region</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>North America</Link></li>
+                                <li className='font-normal'><Link to={`/north-america`} className='hover:text-primary capitalize'>North America</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Europe</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>South America</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Asia</Link></li>
