@@ -70,7 +70,8 @@ export const Navbar = ({ setBar, bar }) => {
             <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={(e) => handleNav(e, 2)}>
                 {/* Dedicated */}
                 <div className="flex items-center gap-2 cursor-pointer">
-                    <Link className='group-hover:text-primary text-lg font-normal' to="/dedicated-server">Dedicated Servers</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
+                    <Link className='group-hover:text-primary text-lg font-normal mr-2' to="/dedicated-server" onClick={handleHideDrpdown}>Dedicated Servers</Link>
+                    <span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
                 <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 2 ? "block" : "hidden"}`}>
@@ -79,11 +80,11 @@ export const Navbar = ({ setBar, bar }) => {
                             {/* By Region */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>By Region</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega sm:border-r px-10'>
-                                <li className='font-normal'><Link to={`/north-america`} className='hover:text-primary capitalize'>North America</Link></li>
-                                <li className='font-normal'><Link to={`/europe`} className='hover:text-primary capitalize'>Europe</Link></li>
-                                <li className='font-normal'><Link to={`/south-america`} className='hover:text-primary capitalize'>South America</Link></li>
-                                <li className='font-normal'><Link to={`/asia`} className='hover:text-primary capitalize'>Asia</Link></li>
-                                <li className='font-normal'><Link to={`/africa`} className='hover:text-primary capitalize'>Africa</Link></li>
+                                <li className='font-normal'><Link to={`/north-america`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>North America</Link></li>
+                                <li className='font-normal'><Link to={`/europe`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Europe</Link></li>
+                                <li className='font-normal'><Link to={`/south-america`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>South America</Link></li>
+                                <li className='font-normal'><Link to={`/asia`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Asia</Link></li>
+                                <li className='font-normal'><Link to={`/africa`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Africa</Link></li>
                             </ul>
                         </li>
                         {/* by option hosting */}
@@ -103,18 +104,18 @@ export const Navbar = ({ setBar, bar }) => {
                             <h4 className='text-base text-left px-10 whitespace-nowrap sm:mt-10 md:mt-0'>Popular Locations</h4>
                             <ul className='flex gap-5 sm:flex-nowrap flex-wrap whitespace-nowrap drop-mega'>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega border-r px-10 flex-1 lg:flex-auto'>
-                                    <li className='font-normal'><Link to={`/dedicated-servers/paris-france`} className='hover:text-primary capitalize'>Paris</Link></li>
+                                    <li className='font-normal'><Link to={`/dedicated-servers/paris-france`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Paris</Link></li>
                                     <li className='font-normal'><Link className='hover:text-primary capitalize'>France</Link></li>
-                                    <li className='font-normal'><Link to={`/netherland`} className='hover:text-primary capitalize'>Netherlands</Link></li>
-                                    <li className='font-normal'><Link to={`/dedicated-servers/montreal-canada`} className='hover:text-primary capitalize'>Montreal</Link></li>
-                                    <li className='font-normal'><Link to={`/canada`} className='hover:text-primary capitalize'>Canada</Link></li>
+                                    <li className='font-normal'><Link to={`/netherland`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Netherlands</Link></li>
+                                    <li className='font-normal'><Link to={`/dedicated-servers/montreal-canada`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Montreal</Link></li>
+                                    <li className='font-normal'><Link to={`/canada`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Canada</Link></li>
                                 </ul>
                                 <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega px-10 flex-1 lg:flex-auto'>
-                                    <li className='font-normal'><Link to={`/dedicated-servers/los%20angeles-united%20states`} className='hover:text-primary capitalize'>Los Angeles</Link></li>
-                                    <li className='font-normal'><Link to={`/united-state`} className='hover:text-primary capitalize'>United-States</Link></li>
-                                    <li className='font-normal'><Link to={`/dedicated-servers/london-united%20kingdom`} className='hover:text-primary capitalize'>London</Link></li>
-                                    <li className='font-normal'><Link to={`/united-kingdom`} className='hover:text-primary capitalize'>United Kingdom</Link></li>
-                                    <li className='font-normal'><Link to={`/germany`} className='hover:text-primary capitalize'>Germany</Link></li>
+                                    <li className='font-normal'><Link to={`/dedicated-servers/los%20angeles-united%20states`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Los Angeles</Link></li>
+                                    <li className='font-normal'><Link to={`/united-state`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>United-States</Link></li>
+                                    <li className='font-normal'><Link to={`/dedicated-servers/london-united%20kingdom`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>London</Link></li>
+                                    <li className='font-normal'><Link to={`/united-kingdom`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>United Kingdom</Link></li>
+                                    <li className='font-normal'><Link to={`/germany`} className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Germany</Link></li>
                                 </ul>
                             </ul>
                         </li>
@@ -134,10 +135,10 @@ export const Navbar = ({ setBar, bar }) => {
                             {/* Shared Hosting */}
                             {/* <h4 className='text-base text-left px-5 py-2 whitespace-nowrap'>Registration</h4> */}
                             <ul className='flex flex-col space-y-3 whitespace-nowrap drop-mega px-5'>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>domain registration</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Domain Pricing</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Domain Transfer</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Privacy Protection</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>domain registration</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Domain Pricing</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Domain Transfer</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Privacy Protection</Link></li>
                             </ul>
                         </li>
                         {/* domain service hosting */}
@@ -166,10 +167,10 @@ export const Navbar = ({ setBar, bar }) => {
                             {/*   Exclusive Services */}
                             {/* <h4 className='text-base text-left px-10 whitespace-nowrap'>Exclusive Services</h4> */}
                             <ul className='flex flex-col space-y-3 py-2 whitespace-nowrap drop-mega px-5'>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>SSL Certificate</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Remote assistant</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Wordpress Customization</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize'>Wordpress migration</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>SSL Certificate</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Remote assistant</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Wordpress Customization</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Wordpress migration</Link></li>
                             </ul>
                         </li>
                         {/* Reseller hosting */}
