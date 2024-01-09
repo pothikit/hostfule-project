@@ -185,7 +185,6 @@ export const Navbar = ({ setBar, bar }) => {
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>wordpress migration</Link></li>
                             </ul>
                         </li> */}
-
                     </ul>
                 </div>
             </li>

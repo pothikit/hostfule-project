@@ -28,6 +28,7 @@ import Canada from "./components/serverCountrywise/Canada";
 import UnitedState from "./components/serverCountrywise/UnitedState";
 import Germany from "./components/serverCountrywise/Germany";
 import UnitedKingdom from "./components/serverCountrywise/UnitedKingdom";
+import PrivacyPolicy from "./components/privacyPolicy/PrivacyPolicy";
 function App() {
   // for aos animation
   React.useEffect(() => {
@@ -62,6 +63,7 @@ function App() {
         <Route path="/united-state" element={<UnitedState />} />
         <Route path="/germany" element={<Germany />} />
         <Route path="/united-kingdom" element={<UnitedKingdom />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer></Footer>
