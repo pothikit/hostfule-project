@@ -15,7 +15,7 @@ function PrivacyPolicy() {
                         <h2 className='font-bold text-xl'>Privacy Policy</h2>
                         <h2 className='mt-2 text-xl '>Last Updated: 18/11/2023</h2>
                         <div className='space-y-3 mt-8 md:text-xl'>
-                            <p><strong>1. Introduction</strong>
+                            <p><strong>1. Introduction: </strong>
                                 Welcome to HostFlu! Our Privacy Policy is here to provide you with information about how we collect, use, and disclose information that we may obtain through our website, products, and services. By utilizing the services provided by HostFlu, you are agreeing to the terms specified in this Privacy Policy.
                             </p>
                             <p>
@@ -60,11 +60,11 @@ function PrivacyPolicy() {
                             <p><strong>10. Retention of Personal Data </strong> HostFlu retains your personal information only for as long as necessary for the purposes outlined in this Privacy Policy. We may keep your information longer for legal and regulatory compliance or to resolve disputes.</p>
                             <p><strong>11. Analytics and Performance </strong> HostFlu uses analytics tools to gather information about the performance and usage of our website and services. This includes aggregated data that helps us understand user behaviour and improve our offerings. These analytics may be conducted using third-party services, and the collected data is used in accordance with this Privacy Policy.</p>
                             <p><strong>12 . Marketing Preferences </strong> You can control your marketing preferences. We may use your contact information for promotional activities, but you have the right to opt out of these communications. Your preferences can be updated through your account settings or by reaching out to us at support@hostflu.com.</p>
-                            <p><strong>14. Data Subject Rights </strong> You have certain rights regarding your personal information, including the right to access, correct, or delete your data. If you wish to exercise these rights or have questions about your data, please get in touch with us at support@hostflu.com.</p>
+                            <p><strong>14. Data Subject Rights </strong> You have certain rights regarding your personal information, including the right to access, correct, or delete your data. If you wish to exercise these rights or have questions about your data, please get in touch with us at ashiqur281@gmail.com.</p>
                             <p><strong>15 . Incident Response and Notification </strong> In the event of a data breach or security incident, HostFlu has established incident response procedures. We will promptly investigate and take appropriate measures, including notifying affected individuals and authorities if required by law.</p>
                             <p><strong>16. Data Transfer Mechanisms </strong> If your personal information is transferred to entities outside your jurisdiction, we will ensure that adequate safeguards are in place, such as Standard Contractual Clauses or other legal mechanisms to protect your data.</p>
                             <p><strong>17 . User Contributions </strong> If you contribute content to HostFlu, such as reviews, comments, or forum posts, please be aware that this information may be publicly visible. Exercise caution when sharing personal information in such contributions.</p>
-                            <p><strong>18 . Accessibility </strong> HostFlu is committed to making our services accessible to all users. If you have accessibility concerns or need assistance, please get in touch with us at support@hostflu.com. </p>
+                            <p><strong>18 . Accessibility </strong> HostFlu is committed to making our services accessible to all users. If you have accessibility concerns or need assistance, please get in touch with us at ashiqur281@gmail.com. </p>
                             <p><strong>19. Contact Us </strong> If you have questions or concerns regarding this Privacy Policy, please get in touch with us at support@hostflu.com.  </p>
                         </div>
                     </div>
