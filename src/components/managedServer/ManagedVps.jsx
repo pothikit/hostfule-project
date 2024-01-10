@@ -28,7 +28,7 @@ const ManagedServer = () => {
     return (
         <main>
             <section className='bg-slate-200'>
-                <PageBanner animationfile={managedvpsAnimation} pageTitle={["Hassle-Free anaged VPS ", <span className='text-primary' key={1}>H</span>, "osting"]} animationName="" animationPadding="p-32"></PageBanner>
+                <PageBanner animationfile={managedvpsAnimation} animationHeight={"sm:h-[500px]"} pageTitle={["Hassle-Free anaged VPS ", <span className='text-primary' key={1}>H</span>, "osting"]} animationName=""></PageBanner>
             </section>
             <section className='px-1 py-28 bg-slate-50' id='packeg'>
                 <div>
@@ -71,20 +71,20 @@ const ManagedServer = () => {
             <section className='bg-slate-200 py-20 px-1'>
                 <div className="container mx-auto">
                     <div className='max-w-[900px] mx-auto'>
-                        <div className='flex justify-evenly'>
+                        <div className='flex justify-evenly flex-wrap'>
                             <div className='flex items-center gap-2 py-2'>
                                 <span><FaChalkboardTeacher size={30} /></span>
                                 <h2 className='text-xl md:text-xl'>Full Control Panel</h2>
                             </div>
                             {/* horizontal border */}
-                            <div className='border-r-4 py-2 border-slate-500'></div>
+                            <div className='border-r-4 py-2 sm:border-slate-500'></div>
 
                             <div className='flex items-center gap-2 py-2'>
                                 <span><FaCheck size={30} /></span>
                                 <h2 className='text-xl md:text-xl'>99.99% Uptime</h2>
                             </div>
                             {/* horizontal border */}
-                            <div className='border-r-4 py-2 border-slate-500'></div>
+                            <div className='border-r-4 py-2 sm:border-slate-500'></div>
 
                             <div className='flex items-center gap-2 py-2'>
                                 <span><FaUsersCog size={30} /></span>

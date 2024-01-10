@@ -34,8 +34,9 @@ function SharedHosting() {
 
     return (
         <main className=''>
-            <PageBanner animationfile={sharedHostingAnimation} pageTitle={["Shared", <span key={1} className='text-primary'> H</span>, "osting With Premium Speed"]}></PageBanner>
-            {/* next section */}
+            <section>
+                <PageBanner animationfile={sharedHostingAnimation} animationHeight={"sm:h-[500px]"} pageTitle={["Shared", <span key={1} className='text-primary'> H</span>, "osting With Premium Speed"]}></PageBanner>
+            </section> {/* next section */}
             <section className='py-28 bg-white' id='packeg'>
                 <div className="container mx-auto px-2">
                     <div className="text-center">

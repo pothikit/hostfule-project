@@ -41,7 +41,7 @@ function DomainSeach() {
     //     }
     // }
     return (
-        <section className='py-20 bg-slate-300 md:bg-none mb-20'>
+        <div className='py-20 md:bg-none mb-20'>
             <div className="container mx-auto">
                 <div className="domain md:bg-slate-300 rounded-lg px-1">
                     <div className='md:py-20 xl:max-w-[80%] mx-auto'>
@@ -81,7 +81,7 @@ function DomainSeach() {
                 </div>
             </div >
 
-        </section >
+        </div >
     )
 }
 
