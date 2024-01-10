@@ -15,6 +15,48 @@
             "desc6": "If everything is OK, you will get a confirmation message from BKASH. "
         },
         {
+            "id": "FH-505",
+            "bank_name": "Nagad",
+            "bank_logo": "../../paymentLogo/nagad.png",
+            "qrCode": "../../paymentLogo/nagadqr.png",
+            "account_number": "+8801719375526",
+            "rule": "Rules",
+            "desc1": "Go to your NAGAD mobile menu by dialing *167# or go to NAGAD app. ",
+            "desc2": "Click on “Send Money.” ",
+            "desc3": "Enter this number as recipient number: +8801719375526 ",
+            "desc4": "Enter your amount: XXX (BDT)",
+            "desc5": "Enter your NAGAD Mobile Menu PIN now to confirm. ",
+            "desc6": "If everything is OK, you will get a confirmation message from NAGAD"
+        },
+        {
+            "id": "FH-506",
+            "bank_name": "Rocket",
+            "bank_logo": "../../paymentLogo/rocket.png",
+            "qrCode": "../../paymentLogo/rocketqr.jpg",
+            "account_number": "+8801719375526",
+            "rule": "Rules",
+            "desc1": "Go to your ROCKET mobile menu by dialing *322# or go to ROCKET app.",
+            "desc2": "Click on “Send Money.” ",
+            "desc3": "Enter this number as recipient number: +8801719375526",
+            "desc4": "Enter your amount: XXX (BDT)",
+            "desc5": "Enter your ROCKET Mobile Menu PIN now to confirm. ",
+            "desc6": "If everything is OK, you will get a confirmation message from ROCKET"
+        },
+        {
+            "id": "FH-503",
+            "bank_name": "Dutch Bangla Bank",
+            "bank_logo": "../../paymentLogo/dutch.png",
+            "qrCode": "../../paymentLogo/dutchbanglaqr.png",
+            "account_number": "1561510125434",
+            "rule": "Details",
+            "desc1": "Account Holder Name: Md Ashiqur Rahman",
+            "desc2": "A/C No:1561510125434",
+            "desc3": "Branch:Mymensingh",
+            "desc4": "",
+            "desc5": "",
+            "desc6": ""
+        },
+        {
             "id": "FH-501",
             "bank_name": "Brac Bank",
             "bank_logo": "../../paymentLogo/brac.png",
@@ -43,20 +85,6 @@
             "desc6": ""
         },
         {
-            "id": "FH-503",
-            "bank_name": "Dutch Bangla Bank",
-            "bank_logo": "../../paymentLogo/dutch.png",
-            "qrCode": "../../paymentLogo/dutchbanglaqr.png",
-            "account_number": "1561510125434",
-            "rule": "Details",
-            "desc1": "Account Holder Name: Md Ashiqur Rahman",
-            "desc2": "A/C No:1561510125434",
-            "desc3": "Branch:Mymensingh",
-            "desc4": "",
-            "desc5": "",
-            "desc6": ""
-        },
-        {
             "id": "FH-504",
             "bank_name": "Estern Bank",
             "bank_logo": "../../paymentLogo/estern.png",
@@ -69,34 +97,6 @@
             "desc4": "Eastern Bank Ltd.",
             "desc5": "",
             "desc6": ""
-        },
-        {
-            "id": "FH-505",
-            "bank_name": "Nagad",
-            "bank_logo": "../../paymentLogo/nagad.png",
-            "qrCode": "../../paymentLogo/nagadqr.png",
-            "account_number": "+8801719375526",
-            "rule": "Rules",
-            "desc1": "Go to your NAGAD mobile menu by dialing *167# or go to NAGAD app. ",
-            "desc2": "Click on “Send Money.” ",
-            "desc3": "Enter this number as recipient number: +8801719375526 ",
-            "desc4": "Enter your amount: XXX (BDT)",
-            "desc5": "Enter your NAGAD Mobile Menu PIN now to confirm. ",
-            "desc6": "If everything is OK, you will get a confirmation message from NAGAD"
-        },
-        {
-            "id": "FH-506",
-            "bank_name": "Rocket",
-            "bank_logo": "../../paymentLogo/rocket.png",
-            "qrCode": "../../paymentLogo/rocketqr.jpg",
-            "account_number": "+8801719375526",
-            "rule": "Rules",
-            "desc1": "Go to your ROCKET mobile menu by dialing *322# or go to ROCKET app.",
-            "desc2": "Click on “Send Money.” ",
-            "desc3": "Enter this number as recipient number: +8801719375526",
-            "desc4": "Enter your amount: XXX (BDT)",
-            "desc5": "Enter your ROCKET Mobile Menu PIN now to confirm. ",
-            "desc6": "If everything is OK, you will get a confirmation message from ROCKET"
         },
         {
             "id": "FH-507",

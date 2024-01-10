@@ -135,10 +135,10 @@ export const Navbar = ({ setBar, bar }) => {
                             {/* Shared Hosting */}
                             {/* <h4 className='text-base text-left px-5 py-2 whitespace-nowrap'>Registration</h4> */}
                             <ul className='flex flex-col space-y-3 whitespace-nowrap drop-mega px-5'>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>domain registration</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Domain Pricing</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Domain Transfer</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Privacy Protection</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/domain-registration" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>domain registration</Link></li>
+                                {/* <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Domain Pricing</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Domain Transfer</Link></li> */}
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/privacy-protection" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Privacy Protection</Link></li>
                             </ul>
                         </li>
                         {/* domain service hosting */}
@@ -167,10 +167,10 @@ export const Navbar = ({ setBar, bar }) => {
                             {/*   Exclusive Services */}
                             {/* <h4 className='text-base text-left px-10 whitespace-nowrap'>Exclusive Services</h4> */}
                             <ul className='flex flex-col space-y-3 py-2 whitespace-nowrap drop-mega px-5'>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>SSL Certificate</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Remote assistant</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Wordpress Customization</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Wordpress migration</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/ssl-certificate" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>SSL Certificate</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/remote-assistant" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Remote assistant</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/wordpress-customization" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Wordpress Customization</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/wordpress-migration" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Wordpress migration</Link></li>
                             </ul>
                         </li>
                         {/* Reseller hosting */}

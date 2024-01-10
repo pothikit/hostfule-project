@@ -9,7 +9,7 @@ function PrivacyPolicy() {
                     <PageBanner animationfile={privacyAnimation} animationHeight={"h-[200px]"}></PageBanner>
                 </div>
             </section>
-            <section className='py-10 bg-slate-200'>
+            <section className='py-10 bg-slate-200 px-1'>
                 <div className="container mx-auto">
                     <div>
                         <h2 className='font-bold text-xl'>Privacy Policy</h2>
