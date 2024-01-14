@@ -66,7 +66,7 @@ function DomainSeach() {
                                 // extension ? <span className='text-xl text-black text-center mt-10'>You should provide a valid extansion</span> : <span></span>
                             }
                             <div className="extensions mt-8 mx-auto p-2">
-                                <ul className='grid grid-cols-3 sm:grid-cols-6 gap-6 sm:gap-8 md:gap-14 w-full'>
+                                <ul className='grid grid-cols-6 gap-6 sm:gap-8 md:gap-14 w-full'>
                                     {
                                         extention?.slice(0, 6).map((exetension) => (
                                             <li key={exetension.id} className='text-lg font-semibold gap-2 items-start flex justify-center'><span>{exetension.extension}</span><span className='text-xs font-semibold text-slate-700 hidden'>{exetension.price}</span></li>
