@@ -59,7 +59,7 @@ function DomainSeach() {
                                             ))}
                                         </select><span className='text-gray-400 cursor-pointer text-sm -ml-5 pointer-events-none'><BiSolidDownArrow /></span>
                                     </div>
-                                    <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-2 md:py-5 bg-slate-400 hover:bg-slate-600 rounded-lg text-white px-2 md:px-10 text-sm md:text-base' />
+                                    <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-1 sm:py-2 md:py-5 bg-slate-400 hover:bg-slate-600 rounded-lg text-white sm:px-1 md:px-10 text-sm md:text-base whitespace-normal' />
                                 </div>
                             </form>
                             {

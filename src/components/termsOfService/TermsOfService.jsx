@@ -4,6 +4,7 @@ import PageBanner from '../shared/pageBanner/PageBanner'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import termsandService from "../../asstes/termsandService.jpg"
 import 'react-tabs/style/react-tabs.css';
+import "./termsofService.css"
 function TermsOfService() {
     const [tabNumber, setTabNumber] = useState(0);
     const [termsData, setTermsData] = useState([])
@@ -46,7 +47,7 @@ function TermsOfService() {
                     <div className='rounded-md border p-3 md:p-100' id='termsTab'>
                         <h3 className='text-xl md:text-3xl lg:text-4xl text-slate-700 mb-14 font-semibold text-center'>Terms of Our Services</h3>
                         <Tabs selectedIndex={tabNumber} onSelect={handleTab} className="flex gap-10 flex-col md:flex-row">
-                            <TabList className="flex md:flex-col md:w-3/12 flex-wrap gap-4 md:gap-7 md:border-r px-7">
+                            <TabList className="flex md:flex-col md:w-3/12 flex-wrap gap-4 md:gap-7 md:border-r px-2 md:px-7">
                                 {
                                     termsData?.map((items, idx) => (
                                         <Tab key={idx} className="border-none cursor-pointer text-lg lg:whitespace-nowrap outline-none">{items?.headings}</Tab>
