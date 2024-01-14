@@ -25,7 +25,7 @@ function Footer() {
     return (
         <>
             <div className="container mx-auto -mt-20">
-                <div className='bg-slate-50 z-10 relative bottom-[-120px] p-6 rounded-2xl border border-[#cccccc61]'>
+                <div className='bg-slate-50 z-10 relative bottom-[-120px] p-2 sm:p-6 rounded-2xl border border-[#cccccc61]'>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-10 items-center">
                         <div className='flex items-center justify-center'>
                             {/* <img src={supportImg} alt="Our Support" className='w-full mx-auto' /> */}

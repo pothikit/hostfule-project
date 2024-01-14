@@ -178,7 +178,7 @@ function AboutUs() {
                     </div>
                 </div>
             </section>
-            <section className='py-20 bg-slate-50'>
+            <section className='py-20 bg-slate-50 px-1'>
                 <div className="container mx-auto">
                     <h1 className="text-center text-slate-700 text-2xl md:text-[40px] mb-10 font-semibold">Payment Gatway</h1>
                     <p className='text-xl text-slate-700 mb-3'>Click to view payment details</p>
