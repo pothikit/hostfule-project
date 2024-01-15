@@ -127,15 +127,15 @@ function Footer() {
                                     <span className='text-xl'><MdOutlineVerifiedUser /></span>
                                     <h3 className='font-semibold'>Follow Our Social Media</h3>
                                 </div>
-                                <div className='payment-option grid grid-cols-4 gap-3'>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={bkash} alt="bkash" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={nagad} alt="nagad" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={rocket} alt="rocket" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={wise} alt="wise" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={brac} alt="brac" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={dutch} alt="dutch" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={city} alt="city" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img src={estern} alt="estern" /></div>
+                                <div className='payment-option grid grid-cols-2 sm:grid-cols-4 gap-3'>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={bkash} alt="bkash" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={nagad} alt="nagad" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={rocket} alt="rocket" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={wise} alt="wise" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={brac} alt="brac" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={dutch} alt="dutch" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={city} alt="city" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={estern} alt="estern" /></div>
                                 </div>
                             </div>
                             <div className="newsletter">
@@ -143,7 +143,7 @@ function Footer() {
                                 <p className='text-white leading-7 w-[70%] my-5'>By subscribing with your mail, you will accept our privacy policy.</p>
                                 <form action="" className='flex bg-white p-2 justify-between items-center rounded-lg'>
                                     <input required type="text" className='flex-1 text-gray-400 outline-none p-2' placeholder='Enter Your Email Address' />
-                                    <input type="submit" value="SUBSCRIBE" className='px-4 py-2 bg-gradient-to-r from-primary to-secondary hover:bg-primary md:ml-4 rounded-lg text-white cursor-pointer' />
+                                    <input type="submit" value="SUBSCRIBE" className='px-1 sm:px-4 py-2 bg-gradient-to-r from-primary to-secondary hover:bg-primary md:ml-4 rounded-lg text-white cursor-pointer' />
                                 </form>
                             </div>
                             <div className="social space-y-5">

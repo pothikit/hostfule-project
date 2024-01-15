@@ -50,8 +50,8 @@ function DomainSeach() {
                             <form method="post" action="https://my.hostflu.com/cart.php?a=add&domain=register" className='bg-white flex justify-between items-center pl-1 md:pl-3 md:py-2 rounded-xl mx-0 lg:mx-52'>
                                 <input type="text" defaultValue={DomainNameWithExtension} className='text-black hidden' name='query' />
                                 <input type="text" placeholder='Type your domain adreaddress' className='p-4 sm:flex-1 w-1/2 sm:w-auto text-sm sm:text-base outline-none font-semibold focus:border rounded-lg' name="" id='domainName' required onChange={handleDoaminInput} />
-                                <div className='px-2 space-x-3 flex items-center'>
-                                    <div className='cursor-pointer flex items-center mr-4'>
+                                <div className='px-2 sm:space-x-3 flex items-center'>
+                                    <div className='cursor-pointer flex items-center mr-1 sm:mr-4'>
                                         <select name="extension" id="extensionSelect" className='outline-0 md:text-lg px-2 md:px-5 text-gray-600 font-semibold cursor-pointer bg-transparent appearance-none' disabled={isSelectDisable} onChange={handleSelect}>
                                             <option value="All" defaultValue>All</option>
                                             {alldomain.map((domain) => (
@@ -74,8 +74,6 @@ function DomainSeach() {
                                     }
                                 </ul>
                             </div>
-                        </div>
-                        <div>
                         </div>
                     </div>
                 </div>
