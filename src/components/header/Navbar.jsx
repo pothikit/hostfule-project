@@ -138,7 +138,7 @@ export const Navbar = ({ setBar, bar }) => {
                                 <li onClick={handleHideDrpdown} className='font-normal'><Link to="/domain-registration" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>domain registration</Link></li>
                                 {/* <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Domain Pricing</Link></li>
                                 <li onClick={handleHideDrpdown} className='font-normal'><Link className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Domain Transfer</Link></li> */}
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/privacy-protection" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Privacy Protection</Link></li>
+                                <li onClick={handleHideDrpdown} className='font-normal'><a href="https://my.hostflu.com/cart.php?a=add&domain=register" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Domain List</a></li>
                             </ul>
                         </li>
                         {/* domain service hosting */}

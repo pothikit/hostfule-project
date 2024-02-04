@@ -56,7 +56,7 @@ const UnmanagedServer = () => {
     return (
         <main className=''>
             <section className='bg-slate-200'>
-                <PageBanner animationfile={unManagedAnimation} pageTitle={["Shared", <span className='text-primary'> H</span>, "osting With Premium Speed"]} animationPadding="md:p-32"></PageBanner>
+                <PageBanner animationfile={unManagedAnimation} pageTitle={["Shared", <span key={1} className='text-primary'> H</span>, "osting With Premium Speed"]} animationPadding="md:p-32"></PageBanner>
             </section>
             <div className="container mx-auto">
 
@@ -138,30 +138,34 @@ const UnmanagedServer = () => {
                                 </div>
                             </div>
                             {/* lsit from here */}
-                            <div class="rounded-md min-w-full overflow-x-auto border mt-20">
+                            <div className="rounded-md min-w-full overflow-x-auto border mt-20">
                                 <table className='w-full bg-even-slate-200 divide-y'>
-                                    <tr className='w-full rounded-md'>
-                                        <th className='px-2 text-start py-2 text-sm md:text-lg'>Plan Name</th>
-                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Speed</th>
-                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Memory</th>
-                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Disk Space</th>
-                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Bandwidth</th>
-                                        <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Price</th>
-                                        <th className='px-2 text-start py-2 text-sm md:text-lg'></th>
-                                    </tr>
-                                    {
-                                        tabelData?.map((items, idx) => (
-                                            <tr key={idx} className='even:bg-slate-200 even:bg-opacity-70'>
-                                                <td className='px-2 py-2 text-sm md:text-base '>{items.plan_name}</td>
-                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.speed}</td>
-                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.memory}</td>
-                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.disk_space}</td>
-                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.bandwidth}</td>
-                                                <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.price}</td>
-                                                <td className='px-2 p-2'><button className='bg-green-500 py-2 text-sm md:text-base px-2 w-full whitespace-nowrap text-white rounded-md hover:bg-green-700 duration-200'>Order now</button></td>
-                                            </tr>
-                                        ))
-                                    }
+                                    <thead>
+                                        <tr className='w-full rounded-md'>
+                                            <th className='px-2 text-start py-2 text-sm md:text-lg'>Plan Name</th>
+                                            <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Speed</th>
+                                            <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Memory</th>
+                                            <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Disk Space</th>
+                                            <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Bandwidth</th>
+                                            <th className='px-2 text-start border-x py-2 text-sm md:text-lg'>Price</th>
+                                            <th className='px-2 text-start py-2 text-sm md:text-lg'></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {
+                                            tabelData?.map((items, idx) => (
+                                                <tr key={idx} className='even:bg-slate-200 even:bg-opacity-70'>
+                                                    <td className='px-2 py-2 text-sm md:text-base '>{items.plan_name}</td>
+                                                    <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.speed}</td>
+                                                    <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.memory}</td>
+                                                    <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.disk_space}</td>
+                                                    <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.bandwidth}</td>
+                                                    <td className='px-2 border-x py-2 text-sm md:text-base whitespace-nowrap'>{items.price}</td>
+                                                    <td className='px-2 p-2'><button className='bg-green-500 py-2 text-sm md:text-base px-2 w-full whitespace-nowrap text-white rounded-md hover:bg-green-700 duration-200'>Order now</button></td>
+                                                </tr>
+                                            ))
+                                        }
+                                    </tbody>
                                 </table>
                             </div>
                             {/* available Operating system */}
