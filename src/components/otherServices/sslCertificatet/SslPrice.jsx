@@ -1,14 +1,13 @@
 import React from 'react'
-
 const SslPrice = () => {
     return (
         <section className='py-20'>
             <div className="container mx-auto">
-                <h2 class="text-2xl md:text-4xl capitalize text-primary text-center font-semibold mb-14">Price</h2>
+                <h2 className="text-2xl md:text-4xl capitalize text-primary text-center font-semibold mb-14">Price</h2>
                 <div>
                     <table className='w-full'>
                         <thead>
-                            <tr className='font-semibold'>
+                            <tr className='font-semibold bg-opacity-60 bg-slate-200'>
                                 <td className='border p-2 text-center'>SSL Certificate Name</td>
                                 <td className='border p-2 text-center'>For 1 Year</td>
                                 <td className='border p-2 text-center'>For 2 Years</td>
@@ -17,7 +16,7 @@ const SslPrice = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr className='border bg-opacity-60 bg-slate-200'>
+                            <tr className='border'>
                                 <td className='border p-2 text-center'>Sectigo Positive SSL, Domain Validation Single domain</td>
                                 <td className='border p-2 text-center'>900</td>
                                 <td className='border p-2 text-center'>1750</td>

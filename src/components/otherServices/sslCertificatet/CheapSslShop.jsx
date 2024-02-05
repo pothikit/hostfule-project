@@ -5,9 +5,9 @@ import { ImCoinDollar } from "react-icons/im";
 
 const CheapSslShop = () => {
     return (
-        <section className='py-32 bg-slate-200 mb-32 text-white'>
+        <section className='py-32 bg-slate-200 mb-32 text-white px-1 md:px-0'>
             <div className="container mx-auto">
-                <h2 class="text-2xl md:text-4xl capitalize font-semibold mb-10 text-slate-600">Why cheapSSLShop?</h2>
+                <h2 className="text-2xl md:text-4xl capitalize font-semibold mb-10 text-slate-600">Why cheapSSLShop?</h2>
                 <div className='space-y-4 text-slate-600'>
                     <p className='md:text-xl'>Fastest, Trusted & cheapest SSL Provider</p>
                     <p className='md:text-md'>We dedicatedly strive to offer our client the best deals on ssl certificate from trustworthy CAS through hasle free services.</p>

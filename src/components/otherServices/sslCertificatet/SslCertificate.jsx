@@ -7,8 +7,8 @@ import SslPrice from './SslPrice';
 import CheapSslShop from './CheapSslShop';
 function SslCertificate() {
     return (
-        <main className="px-2 md:px-0">
-            <PageBanner animationfile={sslAnimation} pageTitle={[<span className="text-primary">SSL</span>, " Certificate"]} animationHeight="h-[400px]"></PageBanner>
+        <main className="px-1 md:px-0">
+            <PageBanner animationfile={sslAnimation} pageTitle={[<span key={1} className="text-primary">SSL</span>, " Certificate"]} animationHeight="h-[400px]"></PageBanner>
             <section className="py-20">
                 <div className="container mx-auto">
                     <div className="grid lg:grid-cols-2 gap-7 items-center">
@@ -17,11 +17,9 @@ function SslCertificate() {
                         </div>
                         <div>
                             <div>
-                                <p className="md:text-xl md:leading-normal">Sectigo SSL (formerly Comodo CA) is the largest commercial trust provider in the World. Experiences and well-trained employees helping individuals and corporate customers to protect websites, online applications, and emails.
-
-                                    Sectigo SSL certificates are popular all around the World and they are well-presented in all segment of market and type of SSL certificates like Domain vetted, Business and Extended Validation, Multi-Domain, Wildcard, SMIME and Code Signing certs.
-
-                                    SSL is the cheapest SSL certificate which is fast and of a high quality. It is a 256-bit certificate and has great browser compatibility. It is possible to get it working within just fine minutes and easy to set up.</p>
+                                <p className="md:text-xl md:leading-normal">
+                                    HostFlu, a company specializing in SSL certificates, celebrates its third anniversary in the field of online security. SSL certificates are essential in creating secure links between web servers and users’ browsers, defending against potential dangers like data manipulation and unauthorized interception. HostFlu has adapted to the evolving landscape of cybersecurity, offering robust and up-to-date security solutions. They have expertise in navigating the Public Key Infrastructure (PKI), which ensures encryption and decryption of information with utmost security. HostFlu offers various types of SSL certificates tailored to meet the unique security needs and business requirements of each client. They also adopt a proactive approach to certificate management, ensuring timely renewal and mitigating potential risks. With three years of experience, HostFlu is dedicated to staying ahead in the cybersecurity landscape and providing a secure digital future for businesses and users.
+                                </p>
                             </div>
                         </div>
                     </div>

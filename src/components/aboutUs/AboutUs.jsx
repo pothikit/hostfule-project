@@ -27,7 +27,7 @@ function AboutUs() {
             html: `
            <div>
                 <div class="qrCode flex justify-between flex-col sm:flex-row w-full p-2">
-                    <div class=""><img src='${items.qrCode}' class=""/></div>
+                    <div><img src='${items.qrCode}'/></div>
                     <div class="flex justify-start flex-col items-start gap-4">
                          <h3 class="font-bold mt-5">Account No: </h3><input value=${items?.account_number} readonly class="border p-1 outline-0 text-xl"/>
                     </div>

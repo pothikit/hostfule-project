@@ -46,7 +46,7 @@ function Exclusive() {
                     </div>
                 </div>
             </div>
-        </section >
+        </section>
     )
 }
 
