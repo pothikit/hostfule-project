@@ -30,7 +30,6 @@ import Germany from "./components/serverCountrywise/Germany";
 import UnitedKingdom from "./components/serverCountrywise/UnitedKingdom";
 import PrivacyPolicy from "./components/privacyPolicy/PrivacyPolicy";
 import DomainRegistration from "./components/domains/domainRegistration/DomainRegistration";
-import PrivacyProtection from "./components/domains/privacyProtection/PrivacyProtection";
 import SslCertificate from "./components/otherServices/sslCertificatet/SslCertificate";
 import RemoteAssistant from "./components/otherServices/remoteAssistant/RemoteAssistant";
 import WrodpressCustomization from "./components/otherServices/wordpressCustomization/WrodpressCustomization";
@@ -71,7 +70,7 @@ function App() {
         <Route path="/united-kingdom" element={<UnitedKingdom />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/domain-registration" element={<DomainRegistration />} />
-        <Route path="/privacy-protection" element={<PrivacyProtection />} />
+        {/* <Route path="/privacy-protection" element={<PrivacyProtection />} /> */}
         <Route path="/ssl-certificate" element={<SslCertificate />} />
         <Route path="/remote-assistant" element={<RemoteAssistant />} />
         <Route path="/wordpress-customization" element={<WrodpressCustomization />} />
