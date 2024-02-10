@@ -58,7 +58,7 @@ function AboutUs() {
         <main>
             <section className='bg-slate-200'>
                 <div className="container mx-auto">
-                    <PageBanner animationfile={aboutAnimation} animationHeight="sm:h-[400px]" animationPadding={"p-2 lg:p-10"} pageTitle={["About ", <span key={1} className='text-primary'>H</span>, "ostFlu ", <br className='hidden md:block'></br>, "Web Services"]}></PageBanner>
+                    <PageBanner animationfile={aboutAnimation} animationHeight="sm:h-[400px]" animationPadding={"p-2 lg:p-10"} pageTitle={["About ", <span key={56454} className='text-primary'>H</span>, "ostFlu ", <br key={1} className='hidden md:block'></br>, "Web Services"]}></PageBanner>
                 </div>
             </section>
             <section className='py-20 px-2'>

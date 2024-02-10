@@ -9,7 +9,7 @@ function DomainRegistration() {
     return (
         <main>
             <section className='bg-slate-100'>
-                <PageBanner animationfile={domainregistration} animationPadding="p-5" animationHeight={"sm:h-[500px]"} pageTitle={["Register ", <span className='text-primary'> D</span>, "omain for your Business"]}></PageBanner>
+                <PageBanner animationfile={domainregistration} animationPadding="p-5" animationHeight={"sm:h-[500px]"} pageTitle={["Register ", <span key={1} className='text-primary'> D</span>, "omain for your Business"]}></PageBanner>
             </section>
             <section>
                 <DomainSeach></DomainSeach>

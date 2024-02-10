@@ -7,13 +7,13 @@ import SslPrice from './SslPrice';
 import CheapSslShop from './CheapSslShop';
 function SslCertificate() {
     return (
-        <main className="px-1 md:px-0">
-            <PageBanner animationfile={sslAnimation} pageTitle={[<span key={1} className="text-primary">SSL</span>, " Certificate"]} animationHeight="h-[400px]"></PageBanner>
-            <section className="py-20">
+        <main className="">
+            <PageBanner animationfile={sslAnimation} pageTitle={[<span key={1} className="text-primary">SSL</span>, "Certificate"]} animationHeight="h-[400px]"></PageBanner>
+            <section className="py-20 px-2 sm:px-0">
                 <div className="container mx-auto">
                     <div className="grid lg:grid-cols-2 gap-7 items-center">
                         <div>
-                            <img src={ssl} alt="ssl certificate" className="w-full rounded-md border p-2 sm:p-5 md:p-8 lg:p-10" />
+                            <img src={ssl} alt="ssl certificate" className="w-full rounded-md border border-slate-100 p-2 sm:p-5 md:p-8 lg:p-10" />
                         </div>
                         <div>
                             <div>

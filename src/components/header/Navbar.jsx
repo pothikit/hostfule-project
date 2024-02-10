@@ -40,7 +40,7 @@ export const Navbar = ({ setBar, bar }) => {
                     <Link className='md:group-hover:text-primary text-lg font-normal'>Web Hosting</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
-                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 1 ? "block" : "hidden"}`}>
+                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[20%] p-4 ${dropdown === 1 ? "block" : "hidden"}`}>
                     <ul className='flex flex-col sm:flex-row shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
@@ -129,7 +129,7 @@ export const Navbar = ({ setBar, bar }) => {
                     <Link className='group-hover:text-primary text-lg font-normal'>Domain</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
-                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 3 ? "block" : "hidden"}`}>
+                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[20%] p-4 ${dropdown === 3 ? "block" : "hidden"}`}>
                     <ul className='flex flex-wrap sm:flex-nowrap shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/* Shared Hosting */}
@@ -161,14 +161,14 @@ export const Navbar = ({ setBar, bar }) => {
                     <Link className='group-hover:text-primary text-lg font-normal'>Other Services</Link><span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span>
                 </div>
                 {/* web-hosting dropdown */}
-                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[40%] p-4 ${dropdown === 4 ? "block" : "hidden"}`}>
+                <div className={`drop-down static md:absolute md:group-hover:block pt-0 md:pt-6 top-6 md:-translate-x-[20%] p-4 ${dropdown === 4 ? "block" : "hidden"}`}>
                     <ul className='flex flex-wrap sm:flex-nowrap shadow-sm shadow-gray-100 items-start rounded bg-white p-4 pt-2'>
                         <li className='space-y-5'>
                             {/*   Exclusive Services */}
                             {/* <h4 className='text-base text-left px-10 whitespace-nowrap'>Exclusive Services</h4> */}
                             <ul className='flex flex-col space-y-3 py-2 whitespace-nowrap drop-mega px-5'>
                                 <li onClick={handleHideDrpdown} className='font-normal'><Link to="/ssl-certificate" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>SSL Certificate</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/remote-assistant" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Remote assistant</Link></li>
+                                {/* <li onClick={handleHideDrpdown} className='font-normal'><Link to="/remote-assistant" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Remote assistant</Link></li> */}
                                 <li onClick={handleHideDrpdown} className='font-normal'><Link to="/wordpress-customization" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Wordpress Customization</Link></li>
                                 <li onClick={handleHideDrpdown} className='font-normal'><Link to="/wordpress-migration" className='hover:text-primary capitalize' onClick={handleHideDrpdown}>Wordpress migration</Link></li>
                             </ul>

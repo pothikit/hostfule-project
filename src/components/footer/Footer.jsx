@@ -83,11 +83,11 @@ function Footer() {
                                 <h3 className='text-xl border-b pb-4 text-white'>Web Hosting</h3>
                             </div>
                             <ul className='list-disc list-inside space-y-4 text-white'>
-                                <li>Web Hosting</li>
-                                <li>Wordpress Hosting</li>
-                                <li>VPS Hosting</li>
-                                <li>Managed VPS Hosting</li>
-                                <li>Dedicated Hosting</li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Web Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Wordpress Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>VPS Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Managed VPS Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Dedicated Hosting</Link></li>
                             </ul>
                         </div>
                         {/* col main div end */}
@@ -97,11 +97,12 @@ function Footer() {
                                 <h3 className='text-xl border-b pb-4 text-white'>Cloud Server</h3>
                             </div>
                             <ul className='list-disc list-inside space-y-4 text-white'>
-                                <li>Web Hosting</li>
-                                <li>Wordpress Hosting</li>
-                                <li>VPS Hosting</li>
-                                <li>Managed VPS Hosting</li>
-                                <li>Dedicated Hosting</li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Web Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Wordpress Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>VPS Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Managed VPS Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Dedicated Hosting</Link></li>
+
                             </ul>
                         </div>
                         {/* col main div end */}
@@ -111,11 +112,12 @@ function Footer() {
                                 <h3 className='text-xl border-b pb-4 text-white'>Domain</h3>
                             </div>
                             <ul className='list-disc list-inside space-y-4 text-white'>
-                                <li>Web Hosting</li>
-                                <li>Wordpress Hosting</li>
-                                <li>VPS Hosting</li>
-                                <li>Managed VPS Hosting</li>
-                                <li>Dedicated Hosting</li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Web Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Wordpress Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>VPS Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Managed VPS Hosting</Link></li>
+                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Dedicated Hosting</Link></li>
+
                             </ul>
                         </div>
                         {/* col main div end */}
