@@ -92,7 +92,7 @@ export const Navbar = ({ setBar, bar }) => {
                             {/*   By Options */}
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>By Options</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega md:border-r px-10'>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>1 Gbps Bandwidth</Link></li>
+                                <li className='font-normal'><Link to={`/dedicated-server/1gbps-bandwidth`} className='hover:text-primary capitalize'>1 Gbps Bandwidth</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Unmetered Bandwidth</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>10Gbps Bandwidth</Link></li>
                                 <li className='font-normal'><Link className='hover:text-primary capitalize'>Dedicated GPU</Link></li>

@@ -34,6 +34,7 @@ import SslCertificate from "./components/otherServices/sslCertificatet/SslCertif
 import RemoteAssistant from "./components/otherServices/remoteAssistant/RemoteAssistant";
 import WrodpressCustomization from "./components/otherServices/wordpressCustomization/WrodpressCustomization";
 import WrodpressMigration from "./components/otherServices/wordpressMigration/WrodpressMigration";
+import ByOneGbBandWith from "./components/byOptions/ByOneGbBandWith";
 function App() {
   // for aos animation
   React.useEffect(() => {
@@ -67,6 +68,7 @@ function App() {
         <Route path="/canada" element={<Canada />} />
         <Route path="/united-state" element={<UnitedState />} />
         <Route path="/germany" element={<Germany />} />
+        <Route path="/dedicated-server/1gbps-bandwidth" element={<ByOneGbBandWith />} />
         <Route path="/united-kingdom" element={<UnitedKingdom />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/domain-registration" element={<DomainRegistration />} />

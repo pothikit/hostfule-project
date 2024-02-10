@@ -1,6 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
-import "./dedicated.css"
 import ServerLocation from './ServerLocation';
 import { Controls, Player } from '@lottiefiles/react-lottie-player';
 import bannerImgAnimation from "../../asstes/dedicated-server-banner.json"

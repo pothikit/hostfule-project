@@ -8,7 +8,6 @@ const LocationDatatabel = () => {
     const { location } = useParams();
     const city = location.split("-")[0];
     const country = location.split("-")[1];
-
     useEffect(() => {
         fetch("../locationdata.json")
             .then(res => res.json())
