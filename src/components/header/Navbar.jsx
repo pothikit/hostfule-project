@@ -23,14 +23,6 @@ export const Navbar = ({ setBar, bar }) => {
     const handleHideDrpdown = () => {
         setBar(!bar)
     }
-    // const handlePackage = (pack) => {
-    //     setTimeout(() => {
-    //         const anchor = document.querySelector('#mini-package')
-    //         anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    //     }, 500)
-    //     // highlight packges
-    //     setHiglight(pack);
-    // }
     return (
         <ul className='flex flex-col md:flex-row gap-1 lg:gap-14 md:items-center space-y-5 md:space-y-0'>
             {/* webhosting with dorpdown */}
@@ -93,10 +85,10 @@ export const Navbar = ({ setBar, bar }) => {
                             <h4 className='text-base text-left px-10 whitespace-nowrap'>By Options</h4>
                             <ul className='flex flex-col space-y-2 whitespace-nowrap drop-mega md:border-r px-10'>
                                 <li className='font-normal'><Link to={`/dedicated-server/1gbps-bandwidth`} className='hover:text-primary capitalize'>1 Gbps Bandwidth</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Unmetered Bandwidth</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>10Gbps Bandwidth</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>Dedicated GPU</Link></li>
-                                <li className='font-normal'><Link className='hover:text-primary capitalize'>IPv6</Link></li>
+                                <li className='font-normal'><Link to={`/dedicated-server/unmetered-bandwidth`} className='hover:text-primary capitalize'>Unmetered Bandwidth</Link></li>
+                                <li className='font-normal'><Link to={`/dedicated-server/ten-Gbps`} className='hover:text-primary capitalize'>10Gbps Bandwidth</Link></li>
+                                {/* <li className='font-normal'><Link className='hover:text-primary capitalize'>Dedicated GPU</Link></li>
+                                <li className='font-normal'><Link className='hover:text-primary capitalize'>IPv6</Link></li> */}
                             </ul>
                         </li>
                         <li className='space-y-5 mb-3 sm:w-full md:w-auto w-full'>

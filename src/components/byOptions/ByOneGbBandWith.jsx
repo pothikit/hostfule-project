@@ -14,16 +14,17 @@ const ByOneGbBandWith = () => {
                 setLoadin(true)
             })
     }, [])
+    // find cities from all data
     let cities = []
     for (let i = 0; i <= country?.length; i++) {
         country[i]?.city?.map(items => cities.push(items))
     }
+    // find all details from all data
     let detail = []
     for (let i = 0; i <= cities?.length; i++) {
         cities[i]?.details?.map(details => detail.push(details))
     }
     const ongbpsSpeed = detail?.filter(items => (items.networkSpeed === "1 Gbps"))
-
     const handleDisplayData = () => {
         setDisplayData(displayData + 100)
     }
@@ -37,13 +38,9 @@ const ByOneGbBandWith = () => {
                     <div className=''>
                         {
                             ongbpsSpeed?.slice(0, displayData).map((speedDataTabel, idx) => (
-                                <>
-                                    <DetailsbyOptions loading={loading} key={idx} tableData={speedDataTabel}></DetailsbyOptions>
-                                    <div>{idx + 1}</div>
-                                </>
+                                <DetailsbyOptions loading={loading} key={idx} tableData={speedDataTabel}></DetailsbyOptions>
                             ))
                         }
-
                     </div>
                     <div className='text-center my-10'>
                         {

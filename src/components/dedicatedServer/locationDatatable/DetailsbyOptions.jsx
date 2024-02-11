@@ -7,7 +7,7 @@ const DetailsbyOptions = ({ tableData: details, loading }) => {
         return <Loading></Loading>
     }
     return (
-        <div className='shadow-lg border flex xl:px-6 mt-3 rounded-md flex-col xl:flex-row p-2 xl:p-0 flex-start xl:items-center items-start'>
+        <div className='shadow-lg border flex xl:px-6 mt-4 rounded-md flex-col xl:flex-row p-2 xl:p-0 flex-start xl:items-center items-start'>
             <div className='whitespace-nowrap ml-5 xl:ml-0 py-3 xl:max-w-[150px]'><span className='inline xl:hidden'>Server Id :</span> {details.id}</div>
             <div className='grid grid-cols-1 xl:grid-cols-6 gap-3 items-center xl:py-2 xl:p-0 font-semibold w-full'>
                 <div className='flex items-start flex-row-reverse xl:flex-row justify-end xl:justify-start text-start gap-3 ml-5 xl:ml-0 xl:pl-10 xl:items-center'>

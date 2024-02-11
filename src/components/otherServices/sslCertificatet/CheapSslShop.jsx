@@ -16,22 +16,22 @@ const CheapSslShop = () => {
                     <div className="bg-white text-black rounded-md p-2 sm:p-4 md:p-8 lg:p-10 shadow-2xl">
                         <div className='space-y-6'>
                             <span className=''><BsFillRocketTakeoffFill size={70} className='text-slate-500' /></span>
-                            <h4 className='font-semibold text-md sm:text-lg md:text-xl lg:text-2xl'>Fastest Process</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex iure praesentium animi placeat, ipsum doloribus nam rerum quas deserunt culpa totam velit est reiciendis molestiae earum debitis ullam. Eaque dolores, necessitatibus, sapiente ex blanditiis magni architecto sed perferendis ut alias numquam nobis corporis ullam consequuntur cum veniam, amet odit.</p>
+                            <h4 className='font-semibold text-md sm:text-lg md:text-xl lg:text-2xl'>Security</h4>
+                            <p>Our SSL certificates use the most powerful encryption available to keep your data safe. We understand that in the digital age, security is paramount, and we are committed to providing our customers with the peace of mind that their data is protected.</p>
                         </div>
                     </div>
                     <div className="bg-white text-black rounded-md p-2 sm:p-4 md:p-8 lg:p-10 shadow-2xl">
                         <div className='space-y-6'>
                             <span className=''><FaThumbsUp size={70} className='text-slate-500' /></span>
-                            <h4 className='font-semibold text-md sm:text-lg md:text-xl lg:text-2xl'>Fastest Process</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex iure praesentium animi placeat, ipsum doloribus nam rerum quas deserunt culpa totam velit est reiciendis molestiae earum debitis ullam. Eaque dolores, necessitatibus, sapiente ex blanditiis magni architecto sed perferendis ut alias numquam nobis corporis ullam consequuntur cum veniam, amet odit.</p>
+                            <h4 className='font-semibold text-md sm:text-lg md:text-xl lg:text-2xl'>Reliability</h4>
+                            <p>With HostFlu, you can count on consistent, reliable performance. Our SSL certificates are designed to work seamlessly with your website, ensuring that your online operations run smoothly.</p>
                         </div>
                     </div>
                     <div className="bg-white text-black rounded-md p-2 sm:p-4 md:p-8 lg:p-10 shadow-2xl">
                         <div className='space-y-6'>
                             <span className=''><ImCoinDollar size={70} className='text-slate-500' /></span>
-                            <h4 className='font-semibold text-md sm:text-lg md:text-xl lg:text-2xl'>Fastest Process</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ex iure praesentium animi placeat, ipsum doloribus nam rerum quas deserunt culpa totam velit est reiciendis molestiae earum debitis ullam. Eaque dolores, necessitatibus, sapiente ex blanditiis magni architecto sed perferendis ut alias numquam nobis corporis ullam consequuntur cum veniam, amet odit.</p>
+                            <h4 className='font-semibold text-md sm:text-lg md:text-xl lg:text-2xl'>Customer Service</h4>
+                            <p>At HostFlu, we believe in putting our customers first. Our team of experts is always available to assist with any questions or concerns you may have about our SSL certificates.</p>
                         </div>
                     </div>
                 </div>

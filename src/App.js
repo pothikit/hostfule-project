@@ -35,6 +35,8 @@ import RemoteAssistant from "./components/otherServices/remoteAssistant/RemoteAs
 import WrodpressCustomization from "./components/otherServices/wordpressCustomization/WrodpressCustomization";
 import WrodpressMigration from "./components/otherServices/wordpressMigration/WrodpressMigration";
 import ByOneGbBandWith from "./components/byOptions/ByOneGbBandWith";
+import ByUnmetered from "./components/byOptions/ByUnmetered";
+import ByTenGbps from "./components/byOptions/ByTenGbps";
 function App() {
   // for aos animation
   React.useEffect(() => {
@@ -69,6 +71,8 @@ function App() {
         <Route path="/united-state" element={<UnitedState />} />
         <Route path="/germany" element={<Germany />} />
         <Route path="/dedicated-server/1gbps-bandwidth" element={<ByOneGbBandWith />} />
+        <Route path="/dedicated-server/unmetered-bandwidth" element={<ByUnmetered />} />
+        <Route path="/dedicated-server/ten-Gbps" element={<ByTenGbps />} />
         <Route path="/united-kingdom" element={<UnitedKingdom />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/domain-registration" element={<DomainRegistration />} />
