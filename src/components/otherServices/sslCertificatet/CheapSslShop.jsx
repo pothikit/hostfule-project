@@ -1,7 +1,7 @@
 import React from 'react'
-import { BsFillRocketTakeoffFill } from "react-icons/bs";
-import { FaThumbsUp } from "react-icons/fa6";
-import { ImCoinDollar } from "react-icons/im";
+import { FaThumbsUp, FaUserGroup } from "react-icons/fa6";
+import { MdOutlineSecurity } from "react-icons/md";
+
 
 const CheapSslShop = () => {
     return (
@@ -15,7 +15,7 @@ const CheapSslShop = () => {
                 <div className='grid md:grid-cols-3 gap-7 mt-20'>
                     <div className="bg-white text-black rounded-md p-2 sm:p-4 md:p-8 lg:p-10 shadow-2xl">
                         <div className='space-y-6'>
-                            <span className=''><BsFillRocketTakeoffFill size={70} className='text-slate-500' /></span>
+                            <span className=''><MdOutlineSecurity size={70} className='text-slate-500' /></span>
                             <h4 className='font-semibold text-md sm:text-lg md:text-xl lg:text-2xl'>Security</h4>
                             <p>Our SSL certificates use the most powerful encryption available to keep your data safe. We understand that in the digital age, security is paramount, and we are committed to providing our customers with the peace of mind that their data is protected.</p>
                         </div>
@@ -29,7 +29,7 @@ const CheapSslShop = () => {
                     </div>
                     <div className="bg-white text-black rounded-md p-2 sm:p-4 md:p-8 lg:p-10 shadow-2xl">
                         <div className='space-y-6'>
-                            <span className=''><ImCoinDollar size={70} className='text-slate-500' /></span>
+                            <span className=''><FaUserGroup size={70} className='text-slate-500' /></span>
                             <h4 className='font-semibold text-md sm:text-lg md:text-xl lg:text-2xl'>Customer Service</h4>
                             <p>At HostFlu, we believe in putting our customers first. Our team of experts is always available to assist with any questions or concerns you may have about our SSL certificates.</p>
                         </div>
