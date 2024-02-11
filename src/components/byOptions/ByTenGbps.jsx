@@ -33,22 +33,29 @@ const ByTenGbps = () => {
         return <div className='py-20'><Loading></Loading></div>
     }
     return (
-        <section>
-            <div className="container mx-auto">
-                <div className=''>
-                    {
-                        tenGbps?.slice(0, displayData).map((speedDataTabel, idx) => (
-                            <DetailsbyOptions loading={loading} key={idx} tableData={speedDataTabel}></DetailsbyOptions>
-                        ))
-                    }
+        <>
+            <section className='py-10 bg-slate-400'>
+                <div className="container mx-auto ">
+                    <h1 className='font-bold text-white text-2xl md:text-4xl lg:text-5xl text-center'>Server 10 Gbps speed</h1>
                 </div>
-                <div className='text-center my-10'>
-                    {
-                        displayData < tenGbps.length && <button className='py-2 px-4 hover:bg-opacity-80 rounded-lg md:px-6 bg-primary rounded-mg text-white' onClick={handleDisplayData}>Load more</button>
-                    }
+            </section>
+            <section>
+                <div className="container mx-auto">
+                    <div className=''>
+                        {
+                            tenGbps?.slice(0, displayData).map((speedDataTabel, idx) => (
+                                <DetailsbyOptions loading={loading} key={idx} tableData={speedDataTabel}></DetailsbyOptions>
+                            ))
+                        }
+                    </div>
+                    <div className='text-center my-10'>
+                        {
+                            displayData < tenGbps.length && <button className='py-2 px-4 hover:bg-opacity-80 rounded-lg md:px-6 bg-primary rounded-mg text-white' onClick={handleDisplayData}>Load more</button>
+                        }
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </>
     )
 }
 
