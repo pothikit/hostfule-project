@@ -14,6 +14,7 @@ import litespeed from "../../asstes/litespeed.jpg"
 import sharedHostingAnimation from "../../asstes/sharedAnimation"
 import PageBanner from '../shared/pageBanner/PageBanner';
 import "./shared.css"
+import PageHelmet from '../shared/PageHelmet';
 function SharedHosting() {
     // const cardData = data.exclusive;
     const [cardData, setCardData] = useState([])
@@ -34,7 +35,7 @@ function SharedHosting() {
 
     return (
         <>
-
+            <PageHelmet pageTitle="Shared Hosting"></PageHelmet>
             <main className=''>
                 <section>
                     <PageBanner animationfile={sharedHostingAnimation} animationHeight={"sm:h-[500px]"} pageTitle={["Shared", <span key={1} className='text-primary'> H</span>, "osting With Premium Speed"]}></PageBanner>

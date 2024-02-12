@@ -9,20 +9,26 @@ import MapGlobal from './MapGlobal'
 import Faq from './faqAccordion/Faq'
 import "./home.css";
 import Testimonial from '../aboutUs/Testimonila'
+import { Helmet } from 'react-helmet-async'
 
 function Home() {
     return (
-        <main className=''>
-            <Hero></Hero>
-            <DomainSeach></DomainSeach>
-            <Threcard></Threcard>
-            <Exclusive></Exclusive>
-            <WhyChoseUsSupport></WhyChoseUsSupport>
-            <UserOriented></UserOriented>
-            <MapGlobal></MapGlobal>
-            <Faq></Faq>
-            <Testimonial></Testimonial>
-        </main>
+        <>
+            <Helmet>
+                <title>Hostflu || Fast & Secure Service</title>
+            </Helmet>
+            <main className=''>
+                <Hero></Hero>
+                <DomainSeach></DomainSeach>
+                <Threcard></Threcard>
+                <Exclusive></Exclusive>
+                <WhyChoseUsSupport></WhyChoseUsSupport>
+                <UserOriented></UserOriented>
+                <MapGlobal></MapGlobal>
+                <Faq></Faq>
+                <Testimonial></Testimonial>
+            </main>
+        </>
     )
 }
 

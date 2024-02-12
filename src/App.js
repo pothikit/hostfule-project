@@ -37,6 +37,7 @@ import WrodpressMigration from "./components/otherServices/wordpressMigration/Wr
 import ByOneGbBandWith from "./components/byOptions/ByOneGbBandWith";
 import ByUnmetered from "./components/byOptions/ByUnmetered";
 import ByTenGbps from "./components/byOptions/ByTenGbps";
+import { HelmetProvider } from "react-helmet-async";
 function App() {
   // for aos animation
   React.useEffect(() => {
@@ -48,41 +49,43 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Header></Header>
-      <Routes>
-        {/* login page       */}
-        <Route path="/" element={<Home />} />
-        <Route path="login" element={<Login />} />
-        <Route path="/shared-hosting" element={<SharedHosting />} />
-        <Route path="/dedicated-server" element={<DedicatedServer />} />
-        <Route path="/dedicated-servers/:location" element={<LocationDatatabel />} />
-        <Route path="/reseller-hosting" element={<ResellerHosting />} />
-        <Route path="/unmanaged-vps" element={<UnmanagedServer />} />
-        <Route path="/managed-vps" element={<ManagedServer />} />
-        <Route path="/email-hosting" element={<EmailHosting />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/termsOfService" element={<TermsOfService />} />
-        <Route path="/north-america" element={<NorthAmerica />} />
-        <Route path="/europe" element={<Europe />} />
-        <Route path="/south-america" element={<SouthAmerica />} />
-        <Route path="/asia" element={<Asia />} />
-        <Route path="/africa" element={<Africa />} />
-        <Route path="/netherland" element={<NetherLand />} />
-        <Route path="/canada" element={<Canada />} />
-        <Route path="/united-state" element={<UnitedState />} />
-        <Route path="/germany" element={<Germany />} />
-        <Route path="/dedicated-server/1gbps-bandwidth" element={<ByOneGbBandWith />} />
-        <Route path="/dedicated-server/unmetered-bandwidth" element={<ByUnmetered />} />
-        <Route path="/dedicated-server/ten-Gbps" element={<ByTenGbps />} />
-        <Route path="/united-kingdom" element={<UnitedKingdom />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/domain-registration" element={<DomainRegistration />} />
-        {/* <Route path="/privacy-protection" element={<PrivacyProtection />} /> */}
-        <Route path="/ssl-certificate" element={<SslCertificate />} />
-        <Route path="/remote-assistant" element={<RemoteAssistant />} />
-        <Route path="/wordpress-customization" element={<WrodpressCustomization />} />
-        <Route path="/wordpress-migration" element={<WrodpressMigration />} />
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
+      <HelmetProvider>
+        <Routes>
+          {/* login page       */}
+          <Route path="/" element={<Home />} />
+          <Route path="login" element={<Login />} />
+          <Route path="/shared-hosting" element={<SharedHosting />} />
+          <Route path="/dedicated-server" element={<DedicatedServer />} />
+          <Route path="/dedicated-servers/:location" element={<LocationDatatabel />} />
+          <Route path="/reseller-hosting" element={<ResellerHosting />} />
+          <Route path="/unmanaged-vps" element={<UnmanagedServer />} />
+          <Route path="/managed-vps" element={<ManagedServer />} />
+          <Route path="/email-hosting" element={<EmailHosting />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/termsOfService" element={<TermsOfService />} />
+          <Route path="/north-america" element={<NorthAmerica />} />
+          <Route path="/europe" element={<Europe />} />
+          <Route path="/south-america" element={<SouthAmerica />} />
+          <Route path="/asia" element={<Asia />} />
+          <Route path="/africa" element={<Africa />} />
+          <Route path="/netherland" element={<NetherLand />} />
+          <Route path="/canada" element={<Canada />} />
+          <Route path="/united-state" element={<UnitedState />} />
+          <Route path="/germany" element={<Germany />} />
+          <Route path="/dedicated-server/1gbps-bandwidth" element={<ByOneGbBandWith />} />
+          <Route path="/dedicated-server/unmetered-bandwidth" element={<ByUnmetered />} />
+          <Route path="/dedicated-server/ten-Gbps" element={<ByTenGbps />} />
+          <Route path="/united-kingdom" element={<UnitedKingdom />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/domain-registration" element={<DomainRegistration />} />
+          {/* <Route path="/privacy-protection" element={<PrivacyProtection />} /> */}
+          <Route path="/ssl-certificate" element={<SslCertificate />} />
+          <Route path="/remote-assistant" element={<RemoteAssistant />} />
+          <Route path="/wordpress-customization" element={<WrodpressCustomization />} />
+          <Route path="/wordpress-migration" element={<WrodpressMigration />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </HelmetProvider>
       <Footer></Footer>
     </BrowserRouter>
 

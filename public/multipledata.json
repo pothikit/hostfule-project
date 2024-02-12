@@ -184,55 +184,55 @@
             "id": 1,
             "icon": "../../asstes/serviceLogo/User.png",
             "title": "User Panel",
-            "description": "Our User Panel is designed to provide a seamless experience, offering intuitive navigation and easy access to all features. It empowers users to manage their services with ease and efficiency."
+            "description": "There will be WHMCS as billing software from where you will get your required services and cPanel for hosting."
         },
         {
             "id": 2,
             "icon": "../../asstes/serviceLogo/moneyback.png",
             "title": "Money Back Guarantee",
-            "description": "We stand by the quality of our services, which is why we offer a Money Back Guarantee. If you’re not satisfied with our service, we’ll refund your money, no questions asked."
+            "description": "If you don't like our service within 30 days, we'll refund your money back, without any question."
         },
         {
             "id": 3,
             "icon": "../../asstes/serviceLogo/ssl.png",
             "title": "Free SSL",
-            "description": "We provides free Secure Sockets Layer (SSL) certificates, ensuring secure, encrypted communications between a website and its users. This service, offered at no cost, enhances website security without additional expenses, making HostFlu a preferred choice for website owners."
+            "description": "All domains and subdomains will have free SSL service."
         },
         {
             "id": 4,
             "icon": "../../asstes/serviceLogo/migration.png",
             "title": "Free Migration",
-            "description": "HostFlu excels in offering top-notch free migration services, ensuring a seamless transition for your digital assets. Our dedicated team handles the entire process meticulously, making HostFlu the go-to choice for hassle-free and cost-effective migration solutions." 
+            "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
         },
         {
             "id": 5,
             "icon": "../../asstes/serviceLogo/update.png",
-            "title": "99.99% Update",
-            "description": "99.99% Uptime is a service level agreement (SLA) offered by us, promising that the hosted systems will be available 99.99% of the time."
+            "title": "99.99% Update Time",
+            "description": "Our servers have 99.99% uptime because we are committed to providing you with the highest level of service."
         },
         {
             "id": 6,
             "icon": "../../asstes/serviceLogo/affordable.png",
             "title": "Affordable Price",
-            "description": "We offer services at affordable prices, making it an excellent choice for businesses seeking cost-effective solutions without compromising on quality."
+            "description": "We provide shared hosting, vps, dedicated server, email hosting at very low cost which is essential for an entrepreneur."
         },
         {
             "id": 7,
             "icon": "../../asstes/serviceLogo/cloud.png",
             "title": "Cloud Backup",
-            "description": "We provide Cloud Backup services, ensuring that your data is securely backed up and can be easily retrieved. This offers peace of mind and data protection for businesses."
+            "description": "We have multiple cloud locations that ensure secure backup of your data."
         },
         {
             "id": 8,
             "icon": "../../asstes/serviceLogo/serverSecurity.png",
             "title": "Server Security",
-            "description": "Server security is a critical aspect of managing web infrastructure, involving the protection of servers from threats and unauthorized access. HostFlu provides robust server security services, ensuring the integrity and safety of your data while minimizing potential vulnerabilities."
+            "description": "We use firewall for server security which makes our servce more secure."
         },
         {
             "id": 9,
             "icon": "../../asstes/serviceLogo/support.png",
             "title": "24/7/365 Support",
-            "description": "We pride ourselves on our commitment to our customers by providing top-notch support around the clock. We are available around the clock, every day of the year, to help you with any aspect of your hosting experience."
+            "description": "We work when work. Whenever that happens to be."
         }
     ],
     "UserOriented": [

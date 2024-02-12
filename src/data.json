@@ -56,7 +56,7 @@
             "id": 1,
             "type": "Starter",
             "price": "$25.00 USD/yr",
-            "discount": "Save 75% with 12/mo term",
+            "condition": "30 days money back guarantee",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
@@ -64,14 +64,15 @@
                 "50 GB Monthly Bandwidth",
                 "1 Website",
                 "cPanel",
-                "WP Toolkit"
-            ]
+                "Softaculous Apps Installer"
+            ],
+            "product_link": "https://my.hostflu.com/index.php/store/shared-hosting/starter"
         },
         {
             "id": 2,
             "type": "Professional",
             "price": "$40.00 USD/yr",
-            "discount": "Save 75% with 12/mo term",
+            "condition": "30 days money back guarantee",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
@@ -79,14 +80,15 @@
                 "125 GB Monthly Bandwidth",
                 "2 Website",
                 "cPanel",
-                "WP Toolkit"
-            ]
+                "Softaculous Apps Installer"
+            ],
+            "product_link": "https://my.hostflu.com/index.php/store/shared-hosting/professional"
         },
         {
             "id": 3,
             "type": "Business",
             "price": "$65.00 USD/yr",
-            "discount": "Save 10% with 12/mo term",
+            "condition": "30 days money back guarantee",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
@@ -94,14 +96,15 @@
                 "250 GB Monthly Bandwidth",
                 "5 Website",
                 "cPanel",
-                "WP Toolkit"
-            ]
+                "Softaculous Apps Installer"
+            ],
+            "product_link": "https://my.hostflu.com/index.php/store/shared-hosting/business"
         },
         {
             "id": 4,
             "type": "Stellar Hosting",
             "price": "$43.23/yr",
-            "discount": "Save 69% with 12/mo term",
+            "condition": "Save 69% with 12/mo term",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
@@ -115,7 +118,7 @@
             "id": 5,
             "type": "Hosting Stellar",
             "price": "$32.59/yr",
-            "discount": "Save 42% with 12/mo term",
+            "condition": "Save 42% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
@@ -129,7 +132,7 @@
             "id": 6,
             "type": "Virtual Servers",
             "price": "$25.59/yr",
-            "discount": "Save 30% with 12/mo term",
+            "condition": "Save 30% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
@@ -143,7 +146,7 @@
             "id": 7,
             "type": "Dedicated Servers",
             "price": "$65.59/yr",
-            "discount": "Save 50% with 12/mo term",
+            "condition": "Save 50% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
@@ -158,7 +161,7 @@
             "id": 8,
             "type": "Web Hosting",
             "price": "$75.59/yr",
-            "discount": "Save 25% with 12/mo term",
+            "condition": "Save 25% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
@@ -173,7 +176,7 @@
             "id": 9,
             "type": "Stellar",
             "price": "$74.59/yr",
-            "discount": "Save 96% with 12/mo term",
+            "condition": "Save 96% with 12/mo term",
             "serviceName": "HOSTING SHARED",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
@@ -183,62 +186,6 @@
                 "TLDs On Offer",
                 "something"
             ]
-        }
-    ],
-    "choseService": [
-        {
-            "id": 1,
-            "icon": "../../asstes/serviceLogo/User.png",
-            "title": "User Panel",
-            "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
-        },
-        {
-            "id": 2,
-            "icon": "../../asstes/serviceLogo/moneyback.png",
-            "title": "Money Back Guarantee",
-            "description": "We work when work. Whenever that happens to be."
-        },
-        {
-            "id": 3,
-            "icon": "../../asstes/serviceLogo/ssl.png",
-            "title": "Free SSL",
-            "description": "If you're not happy, we'll refund your hosting fees in the first"
-        },
-        {
-            "id": 4,
-            "icon": "../../asstes/serviceLogo/migration.png",
-            "title": "Free Migration",
-            "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
-        },
-        {
-            "id": 5,
-            "icon": "../../asstes/serviceLogo/update.png",
-            "title": "99.99% Update",
-            "description": "We work when work. Whenever that happens to be."
-        },
-        {
-            "id": 6,
-            "icon": "../../asstes/serviceLogo/affordable.png",
-            "title": "Affordable Price",
-            "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
-        },
-        {
-            "id": 7,
-            "icon": "../../asstes/serviceLogo/cloud.png",
-            "title": "Cloud Backup",
-            "description": "If you're not happy, we'll refund your hosting fees in the first 30days."
-        },
-        {
-            "id": 8,
-            "icon": "../../asstes/serviceLogo/serverSecurity.png",
-            "title": "Server Security",
-            "description": "We work when work. Whenever that happens to be."
-        },
-        {
-            "id": 9,
-            "icon": "../../asstes/serviceLogo/support.png",
-            "title": "24/7/365 Support",
-            "description": "We work when work. Whenever that happens to be."
         }
     ],
     "UserOriented": [
@@ -288,7 +235,7 @@
         {
             "id": 2,
             "question": "What types of hosting services do you offer?",
-            "answer": "We offer a range of hosting services, including shared hosting, VPS (Virtual Private Server) hosting, dedicated server hosting, and cloud hosting. Each type caters to different needs and budgets."
+            "answer": "We offer a range of hosting services, including Shared hosting, VPS (Virtual Private Server) , Dedicated Server. Each type caters to different needs and budgets."
         },
         {
             "id": 3,

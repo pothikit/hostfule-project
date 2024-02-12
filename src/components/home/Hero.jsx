@@ -20,15 +20,15 @@ function Hero() {
                             <ul className='space-y-5'>
                                 <li className='flex gap-5'>
                                     <span className='text-2xl'><BsFillCheckSquareFill className='text-primary' /></span>
-                                    <span>Cloud Backup</span>
+                                    <span>Cloud Linux</span>
                                 </li>
                                 <li className='flex gap-5'>
                                     <span className='text-2xl'><BsFillCheckSquareFill className='text-primary' /></span>
-                                    <span>Server Security</span>
+                                    <span>Lite Speed</span>
                                 </li>
                                 <li className='flex gap-5'>
                                     <span className='text-2xl'><BsFillCheckSquareFill className='text-primary' /></span>
-                                    <span>Affordable Price</span>
+                                    <span>Free SSL</span>
                                 </li>
                             </ul>
                             <div className="buttons mt-10 space-x-5">

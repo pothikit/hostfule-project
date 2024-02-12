@@ -11,7 +11,7 @@ function PricingCard({ cardData }) {
                         <div className='text-white'>
                             <span className="type text-xl uppercase">{cardData.type}</span>
                             <h2 className='text-4xl font-semibold my-4'>{cardData.price}</h2>
-                            <span className='text-xl'>{cardData.discount}</span>
+                            <span className='md:text-lg'>{cardData?.condition}</span>
                         </div>
                     </div>
                     <div className="card-body text-center p-8">
@@ -23,7 +23,7 @@ function PricingCard({ cardData }) {
                             }
                         </ul>
                     </div>
-                    <button className='px-10 py-3 bg-gradient-to-t from-primary to-secondary rounded-lg shadow-lg mt-5 text-white'>Buy Now</button>
+                    <a href={cardData?.product_link} className='px-10 py-3 bg-gradient-to-t from-primary to-secondary rounded-lg shadow-lg mt-5 text-white'>Buy Now</a>
                 </div>
             }
         </>
