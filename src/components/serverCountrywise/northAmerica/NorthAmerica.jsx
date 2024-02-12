@@ -2,6 +2,8 @@ import { Controls, Player } from '@lottiefiles/react-lottie-player'
 import React, { useEffect, useState } from 'react'
 import bannerImgAnimation from "../../../asstes/unmanageserver.json"
 import CommonDisplayCountryServer from '../CommonDisplayCountryServer'
+import PageHelmet from '../../shared/PageHelmet'
+import PageBanner from '../../shared/pageBanner/PageBanner'
 function NorthAmerica() {
 
     const [loading, setLoading] = useState(true)
@@ -20,22 +22,15 @@ function NorthAmerica() {
             })
     }, [])
     return (
-        <main>
-            <section className='bg-slate-100 '>
-                <div className="dedicated-banner container mx-auto">
-                    <div className='pb-10 flex items-center flex-row-reverse justify-evenly'>
-                        <div className='ml-auto md:pr-32'>
-                            <Player autoplay className={``}
-                                loop
-                                src={bannerImgAnimation}>
-                                <Controls buttons={['play', 'repeat', 'debug']} />
-                            </Player>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <CommonDisplayCountryServer loading={loading} serverLocation={serverLocation}></CommonDisplayCountryServer>
-        </main>
+        <>
+            <PageHelmet pageTitle="North America"></PageHelmet>
+            <main>
+                <section className='bg-slate-100 '>
+                    <PageBanner animationfile={bannerImgAnimation} animationHeight="h-[450px]"></PageBanner>
+                </section>
+                <CommonDisplayCountryServer loading={loading} serverLocation={serverLocation}></CommonDisplayCountryServer>
+            </main>
+        </>
     )
 }
 

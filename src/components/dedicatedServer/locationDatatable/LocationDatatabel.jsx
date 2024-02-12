@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import PageHelmet from '../../shared/PageHelmet';
 
 const LocationDatatabel = () => {
     const [locationData, setLocationData] = useState([])
@@ -21,6 +22,7 @@ const LocationDatatabel = () => {
     // console.log(cityImg)
     return (
         <>
+            <PageHelmet pageTitle={`${country}-${city}`}></PageHelmet>
             <section className={`min-h-[40vh] relative`}>
                 <img src={cityBgImg} alt="" className='w-full h-[42vh] blur-[1px] z-0' />
                 {/* <div className='absolute h-full w-full top-0 left-0opacity-60 blur-2xl'></div> */}
