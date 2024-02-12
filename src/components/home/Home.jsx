@@ -8,6 +8,7 @@ import UserOriented from './UserOriented'
 import MapGlobal from './MapGlobal'
 import Faq from './faqAccordion/Faq'
 import "./home.css";
+import Testimonial from '../aboutUs/Testimonila'
 
 function Home() {
     return (
@@ -20,6 +21,7 @@ function Home() {
             <UserOriented></UserOriented>
             <MapGlobal></MapGlobal>
             <Faq></Faq>
+            <Testimonial></Testimonial>
         </main>
     )
 }

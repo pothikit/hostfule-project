@@ -54,44 +54,47 @@
     "exclusive": [
         {
             "id": 1,
-            "type": "Stellar",
-            "price": "$34.59/yr",
+            "type": "Starter",
+            "price": "$25.00 USD/yr",
             "discount": "Save 75% with 12/mo term",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
-                "20 GB SSD",
-                "3 Websites",
-                " Free CDN BETA",
-                "TLDs On Offer"
+                "2 GB SSD Storage",
+                "50 GB Monthly Bandwidth",
+                "1 Website",
+                "cPanel",
+                "WP Toolkit"
             ]
         },
         {
             "id": 2,
-            "type": "Reseller Hosting",
-            "price": "$23.59/yr",
+            "type": "Professional",
+            "price": "$40.00 USD/yr",
             "discount": "Save 75% with 12/mo term",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
-                "40 GB SSD",
-                "30 Websites",
-                " Free CDN BETA",
-                "TLDs On Offer"
+                "5 GB SSD Storage",
+                "125 GB Monthly Bandwidth",
+                "2 Website",
+                "cPanel",
+                "WP Toolkit"
             ]
         },
         {
             "id": 3,
-            "type": "Hosting Hosting",
-            "price": "$26.43/yr",
+            "type": "Business",
+            "price": "$65.00 USD/yr",
             "discount": "Save 10% with 12/mo term",
             "serviceName": "SHARED HOSTING",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
-                "35 GB SSD",
-                "25 Websites",
-                "Not Free CDN BETA",
-                "TLDs On Offer"
+                "10 GB SSD Storage",
+                "250 GB Monthly Bandwidth",
+                "5 Website",
+                "cPanel",
+                "WP Toolkit"
             ]
         },
         {
@@ -147,7 +150,8 @@
                 "02 GB SSD",
                 "64 Websites",
                 "Not Free CDN BETA",
-                "TLDs On Offer"
+                "TLDs On Offer",
+                "something"
             ]
         },
         {
@@ -161,7 +165,8 @@
                 "16 GB SSD",
                 "69 Websites",
                 "Not Free CDN BETA",
-                "TLDs On Offer"
+                "TLDs On Offer",
+                "something"
             ]
         },
         {
@@ -175,7 +180,8 @@
                 "49 GB SSD",
                 "43 Websites",
                 "Not Free CDN BETA",
-                "TLDs On Offer"
+                "TLDs On Offer",
+                "something"
             ]
         }
     ],

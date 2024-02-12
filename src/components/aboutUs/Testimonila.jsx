@@ -1,5 +1,4 @@
 import React from "react";
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -36,7 +35,7 @@ export default function Testimonial() {
         ]
     };
     return (
-        <section className="py-20">
+        <section className="py-20 testimonial">
             <div className="container mx-auto text-center px-12 sm:px-8">
                 <div className="section-top">
                     <h1 className="text-center text-primary text-2xl md:text-[40px] mb-10 font-semibold">What Customers Say About Us</h1>

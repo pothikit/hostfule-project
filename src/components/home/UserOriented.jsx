@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import whmcs from "../../asstes/whmcs.png"
 import cpanel from "../../asstes/cpanel.png"
-
+import Slider from 'react-slick'
+// import required modules
 function UserOriented() {
     const [userOriented, setUserOriented] = useState([])
 
@@ -10,7 +11,35 @@ function UserOriented() {
             .then(res => res.json())
             .then(data => setUserOriented(data?.multipledata))
     }, [])
-    // console.log(userOriented)
+    // slider settings
+    const settings = {
+        infinite: true,
+        arrow: true,
+        dots: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    };
     return (
         <section className='py-20'>
             <div className="container mx-auto px-2">
@@ -33,9 +62,16 @@ function UserOriented() {
                         ))
                     }
                 </div>
-                <div className="twoImg grid grid-cols-1 md:grid-cols-2 py-20 gap-10">
-                    <div className='flex justify-center lg:justify-end lg:py-20 items-start'><img src={whmcs} className='md:w-9/12 h-full md:h-[130%]' alt="WhmCS" /></div>
-                    <div className='flex lg:justify-start justify-center lg:py-20 items-start'><img src={cpanel} className='md:w-9/12 h-full md:h-[130%]' alt="cpanel" /></div>
+                <div className="">
+                    <Slider {...settings} className=''>
+                        <div className='pointer-events-none p-3'>
+                            <img src={whmcs} className='h-full' alt="WhmCS" />
+                        </div>
+                        <div className='pointer-events-none p-3'>
+                            <img src={cpanel} className='h-full' alt="WhmCS" />
+                        </div>
+                    </Slider>
+
                 </div>
             </div>
         </section>

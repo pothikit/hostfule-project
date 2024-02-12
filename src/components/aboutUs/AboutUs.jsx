@@ -7,7 +7,6 @@ import Swal from 'sweetalert2'
 import "./about.css"
 import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
-
 function AboutUs() {
     const [payment, setPayment] = useState([])
     const [allteam, setAllTeam] = useState([])
@@ -173,8 +172,6 @@ function AboutUs() {
                                 </div>
                             ))
                         }
-
-
                     </div>
                 </div>
             </section>
