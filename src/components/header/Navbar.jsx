@@ -39,7 +39,7 @@ export const Navbar = ({ setBar, bar }) => {
 
                             <ul className='flex flex-col whitespace-nowrap drop-mega px-5 py-2 space-y-3'>
                                 <li className='font-normal'><Link to="/shared-hosting" onClick={handleHideDrpdown} className='whitespace-nowrap hover:text-primary'>Shared Hosting</Link></li>
-                                <li onClick={handleHideDrpdown} className='font-normal'><Link to="/managed-vps" className='hover:text-primary'>Managed VPS</Link></li>
+                                {/* <li onClick={handleHideDrpdown} className='font-normal'><Link to="/managed-vps" className='hover:text-primary'>Managed VPS</Link></li> */}
                                 <li onClick={handleHideDrpdown} className='font-normal'><Link to="/unmanaged-vps" className='hover:text-primary'>Unmanaged VPS</Link></li>
                                 <li onClick={handleHideDrpdown} className='font-normal'><Link to="/email-hosting" className='hover:text-primary'>E-mail Hosting</Link></li>
                                 {/* <li className='font-normal'><Link to="" className='hover:text-primary'>Business</Link></li> */}

@@ -208,13 +208,13 @@
             "id": 5,
             "icon": "../../asstes/serviceLogo/update.png",
             "title": "99.99% Update Time",
-            "description": "Our servers have 99.99% uptime because we are committed to providing you with the highest level of service."
+            "description": "Our servers have 99.99% uptime because we are committed to providing you with the highest level of service"
         },
         {
             "id": 6,
             "icon": "../../asstes/serviceLogo/affordable.png",
             "title": "Affordable Price",
-            "description": "We provide shared hosting, vps, dedicated server, email hosting at very low cost which is essential for an entrepreneur."
+            "description": "We provide shared hosting, VPS, dedicated server, email hosting at very low cost which is essential for an entrepreneur"
         },
         {
             "id": 7,
@@ -232,7 +232,7 @@
             "id": 9,
             "icon": "../../asstes/serviceLogo/support.png",
             "title": "24/7/365 Support",
-            "description": "We work when work. Whenever that happens to be."
+            "description": "Contact via live chat or phone call to get fast service, you can also open ticket from customer panel if you want."
         }
     ],
     "UserOriented": [

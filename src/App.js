@@ -11,7 +11,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import DedicatedServer from "./components/dedicatedServer/DedicatedServer";
 import ResellerHosting from "./components/sharedHosting/ResellerHosting";
 import UnmanagedServer from "./components/unmanagedServer/UnmanagedServer";
-import ManagedServer from "./components/managedServer/ManagedVps";
+// import ManagedServer from "./components/managedServer/ManagedVps";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import EmailHosting from "./components/emailHosting/EmailHosting";
@@ -59,7 +59,7 @@ function App() {
           <Route path="/dedicated-servers/:location" element={<LocationDatatabel />} />
           <Route path="/reseller-hosting" element={<ResellerHosting />} />
           <Route path="/unmanaged-vps" element={<UnmanagedServer />} />
-          <Route path="/managed-vps" element={<ManagedServer />} />
+          {/* <Route path="/managed-vps" element={<ManagedServer />} /> */}
           <Route path="/email-hosting" element={<EmailHosting />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/termsOfService" element={<TermsOfService />} />

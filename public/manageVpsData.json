@@ -2,113 +2,131 @@
     "rangeSlider": [
         {
             "id": 1,
-            "cpu_core": 4,
-            "ip_address": "1 Public IP",
-            "ram": "8 GB",
+            "cpu_core": 1,
+            "ip_address": "1 IPv4",
+            "ram": "1 GB",
             "bandwidth": "1 TB",
-            "ssd_space": "256 GB SSD",
-            "price": "$50",
-            "thread": "12"
+            "ssd_space": "30 GB SSD Disk",
+            "price": "$10.00",
+            "thread": "1",
+            "action_link": "https://my.hostflu.com/index.php/store/vps/vps-1gb"
         },
         {
             "id": 2,
-            "cpu_core": 6,
-            "ip_address": "1 Public IP",
-            "ram": "16 GB",
+            "cpu_core": 2,
+            "ip_address": "1 IPv4",
+            "ram": "2 GB",
             "bandwidth": "2 TB",
-            "ssd_space": "512 GB SSD",
-            "price": "$80",
-            "thread": "12"
+            "ssd_space": "60 GB SSD",
+            "price": "$20.00",
+            "thread": "2",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=8"
         },
         {
             "id": 3,
-            "cpu_core": 8,
-            "ip_address": "1 Public IP",
-            "ram": "32 GB",
-            "bandwidth": "3 TB",
-            "ssd_space": "1 TB HDD",
-            "price": "$120",
-            "thread": "12"
+            "cpu_core": 4,
+            "ip_address": "1 IPv4",
+            "ram": "4 GB",
+            "bandwidth": "4 TB",
+            "ssd_space": "120 GB SSD",
+            "price": "$40.00",
+            "thread": "4",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=9"
         },
         {
             "id": 4,
-            "cpu_core": 12,
+            "cpu_core": 8,
             "ip_address": "1 Public IP",
-            "ram": "64 GB",
-            "bandwidth": "5 TB",
-            "ssd_space": "2 TB SSD",
-            "price": "$200",
-            "thread": "12"
+            "ram": "8 GB",
+            "bandwidth": "8 TB",
+            "ssd_space": "240 GB SSD",
+            "price": "$80.00",
+            "thread": "8",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=10"
         },
         {
             "id": 5,
             "cpu_core": 16,
             "ip_address": "1 Public IP",
-            "ram": "128 MB",
-            "bandwidth": "10 TB",
-            "ssd_space": "4 TB HDD",
-            "price": "$350",
-            "thread": "12"
+            "ram": "16 GB",
+            "bandwidth": "16 TB",
+            "ssd_space": "480 GB SSD",
+            "price": "$160.00",
+            "thread": "16",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=11"
         },
         {
             "id": 6,
-            "cpu_core": 24,
+            "cpu_core": 32,
             "ip_address": "1 Public IP",
-            "ram": "256 GB",
-            "bandwidth": "20 TB",
-            "ssd_space": "8 TB SSD",
-            "price": "$600",
-            "thread": "12"
+            "ram": "32 GB",
+            "bandwidth": "32 TB",
+            "ssd_space": "960 GB SSD",
+            "price": "$320.00",
+            "thread": "32",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=12"
         }
     ],
     "tabelData": [
         {
-            "plan_name": "Basic",
-            "speed": "100 Mbps",
-            "memory": "8 GB",
-            "disk_space": "100 GB",
-            "bandwidth": "Unlimited",
-            "price": "$29.99"
+            "id": 1,
+            "plan_name": "1 Gb RAM VPS",
+            "core": "1 / 1",
+            "storage": "30 GB SSD",
+            "ip": "1 IPv4",
+            "bandwidth": "1 TB",
+            "price": "$10.00",
+            "action_link": "https://my.hostflu.com/index.php/store/vps/vps-1gb"
         },
         {
-            "plan_name": "Standard",
-            "speed": "250 Mbps",
-            "memory": "16 GB",
-            "disk_space": "250 GB",
-            "bandwidth": "Unlimited",
-            "price": "$49.99"
+            "id": 2,
+            "plan_name": "2 Gb RAM VPS",
+            "core": "2 / 2",
+            "storage": "60 GB SSD",
+            "ip": "1 IPv4",
+            "bandwidth": "2 TB",
+            "price": "$20.00",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=8"
         },
         {
-            "plan_name": "Premium",
-            "speed": "500 Mbps",
-            "memory": "32 GB",
-            "disk_space": "500 GB",
-            "bandwidth": "Unlimited",
-            "price": "$79.99"
+            "id": 3,
+            "plan_name": "4 Gb RAM VPS",
+            "core": "4 / 4",
+            "storage": "60 GB SSD",
+            "ip": "1 IPv4",
+            "bandwidth": "4 TB",
+            "price": "$40.00",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=9"
         },
         {
-            "plan_name": "Pro",
-            "speed": "1 Gbps",
-            "memory": "64 GB",
-            "disk_space": "1 TB",
-            "bandwidth": "Unlimited",
-            "price": "$99.99"
+            "id": 4,
+            "plan_name": "8 Gb RAM VPS",
+            "core": "8 / 8",
+            "storage": "120 GB SSD",
+            "ip": "1 IPv4",
+            "bandwidth": "8 TB",
+            "price": "$80.00",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=10"
         },
         {
-            "plan_name": "Business",
-            "speed": "2 Gbps",
-            "memory": "128 GB",
-            "disk_space": "2 TB",
-            "bandwidth": "Unlimited",
-            "price": "$149.99"
+            "id": 5,
+            "plan_name": "16 Gb RAM VPS",
+            "core": "16 / 16",
+            "storage": "240 GB SSD",
+            "ip": "1 IPv4",
+            "bandwidth": "16 TB",
+            "price": "$160.00",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=11"
         },
         {
-            "plan_name": "Enterprise",
-            "speed": "10 Gbps",
-            "memory": "256 GB",
-            "disk_space": "10 TB",
-            "bandwidth": "Unlimited",
-            "price": "$299.99"
+            "id": 6,
+            "plan_name": "32 Gb RAM VPS",
+            "core": "32 / 32",
+            "storage": "960 GB SSD",
+            "ip": "1 IPv4",
+            "bandwidth": "32 TB",
+            "price": "$320.00",
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=12"
         }
     ],
     "operating_system": {

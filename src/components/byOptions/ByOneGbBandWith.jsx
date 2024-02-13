@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import DetailsbyOptions from '../dedicatedServer/locationDatatable/DetailsbyOptions'
 import Loading from './../shared/loading/Loading';
+import PageHelmet from './../shared/PageHelmet';
 
 const ByOneGbBandWith = () => {
     const [country, setCountry] = useState([])
@@ -32,24 +33,27 @@ const ByOneGbBandWith = () => {
         return <div className='py-20'><Loading></Loading></div>
     }
     return (
-        <main>
-            <section>
-                <div className="container mx-auto">
-                    <div className=''>
-                        {
-                            ongbpsSpeed?.slice(0, displayData).map((speedDataTabel, idx) => (
-                                <DetailsbyOptions loading={loading} key={idx} tableData={speedDataTabel}></DetailsbyOptions>
-                            ))
-                        }
+        <>
+            <PageHelmet pageTitle="1 gbps bandwidth"></PageHelmet>
+            <main>
+                <section>
+                    <div className="container mx-auto">
+                        <div className=''>
+                            {
+                                ongbpsSpeed?.slice(0, displayData).map((speedDataTabel, idx) => (
+                                    <DetailsbyOptions loading={loading} key={idx} tableData={speedDataTabel}></DetailsbyOptions>
+                                ))
+                            }
+                        </div>
+                        <div className='text-center my-10'>
+                            {
+                                displayData < ongbpsSpeed.length && <button className='py-2 px-4 hover:bg-opacity-80 rounded-lg md:px-6 bg-primary rounded-mg text-white' onClick={handleDisplayData}>Load more</button>
+                            }
+                        </div>
                     </div>
-                    <div className='text-center my-10'>
-                        {
-                            displayData < ongbpsSpeed.length && <button className='py-2 px-4 hover:bg-opacity-80 rounded-lg md:px-6 bg-primary rounded-mg text-white' onClick={handleDisplayData}>Load more</button>
-                        }
-                    </div>
-                </div>
-            </section>
-        </main>
+                </section>
+            </main>
+        </>
     )
 }
 

@@ -13,9 +13,7 @@ function Hero() {
                                 {/* <span className='block'></span> */}
                                 <span>Our Reliable Hosting</span>
                             </h1>
-                            <p className='text-base text-black my-6 max-w-xl'>From our easy-to-use tools, to our free website migration, to our<br />
-                                unmatched Guru Crew Support, we provide everything you
-                                need to create a successful website.</p>
+                            <p className='text-base text-black my-6 max-w-xl'>Experience seamless website performance and unbeatable uptime, backed by our cutting-edge hosting infrastructure with our domain hosting services.</p>
                             {/* list item hero */}
                             <ul className='space-y-5'>
                                 <li className='flex gap-5'>

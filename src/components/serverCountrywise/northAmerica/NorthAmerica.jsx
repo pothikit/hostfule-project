@@ -1,4 +1,4 @@
-import { Controls, Player } from '@lottiefiles/react-lottie-player'
+// import { Controls, Player } from '@lottiefiles/react-lottie-player'
 import React, { useEffect, useState } from 'react'
 import bannerImgAnimation from "../../../asstes/unmanageserver.json"
 import CommonDisplayCountryServer from '../CommonDisplayCountryServer'

@@ -2,6 +2,7 @@ import { Controls, Player } from "@lottiefiles/react-lottie-player"
 import { useEffect, useState } from "react"
 import bannerImgAnimation from "../../asstes/aboutAnimation.json"
 import CommonDisplayCountryServer from "./CommonDisplayCountryServer"
+import PageHelmet from "../shared/PageHelmet"
 function Africa() {
     const [loading, setLoading] = useState(true)
     const [serverLocation, setServerLocation] = useState([])
@@ -23,22 +24,25 @@ function Africa() {
         // setSearchData(serverLocation)
     }, [])
     return (
-        <main>
-            <section className='bg-slate-100 '>
-                <div className="dedicated-banner container mx-auto">
-                    <div className='pb-10 flex items-center flex-row-reverse justify-evenly'>
-                        <div className='ml-auto md:pr-32'>
-                            <Player autoplay className={``}
-                                loop
-                                src={bannerImgAnimation}>
-                                <Controls buttons={['play', 'repeat', 'debug']} />
-                            </Player>
+        <>
+            <PageHelmet pageTitle="Africa"></PageHelmet>
+            <main>
+                <section className='bg-slate-100 '>
+                    <div className="dedicated-banner container mx-auto">
+                        <div className='pb-10 flex items-center flex-row-reverse justify-evenly'>
+                            <div className='ml-auto md:pr-32'>
+                                <Player autoplay className={``}
+                                    loop
+                                    src={bannerImgAnimation}>
+                                    <Controls buttons={['play', 'repeat', 'debug']} />
+                                </Player>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <CommonDisplayCountryServer loading={loading} serverLocation={serverLocation}></CommonDisplayCountryServer>
-        </main>
+                </section>
+                <CommonDisplayCountryServer loading={loading} serverLocation={serverLocation}></CommonDisplayCountryServer>
+            </main>
+        </>
     )
 }
 

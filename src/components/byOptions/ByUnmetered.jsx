@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 // import DetailsbyOptions from '../dedicatedServer/locationDatatable/DetailsbyOptions'
 import Loading from './../shared/loading/Loading';
 import DetailsbyOptions from '../dedicatedServer/locationDatatable/DetailsbyOptions';
+import PageHelmet from '../shared/PageHelmet';
 
 const ByUnmetered = () => {
     const [country, setCountry] = useState([])
@@ -33,22 +34,32 @@ const ByUnmetered = () => {
         return <div className='py-20'><Loading></Loading></div>
     }
     return (
-        <section>
-            <div className="container mx-auto">
-                <div className=''>
-                    {
-                        unMetered?.slice(0, displayData).map((speedDataTabel, idx) => (
-                            <DetailsbyOptions loading={loading} key={idx} tableData={speedDataTabel}></DetailsbyOptions>
-                        ))
-                    }
-                </div>
-                <div className='text-center my-10'>
-                    {
-                        displayData < unMetered.length && <button className='py-2 px-4 hover:bg-opacity-80 rounded-lg md:px-6 bg-primary rounded-mg text-white' onClick={handleDisplayData}>Load more</button>
-                    }
-                </div>
-            </div>
-        </section>
+        <>
+            <PageHelmet pageTitle="Unmetered Bandwidth"></PageHelmet>
+            <main>
+                <section className='sticky top-16'>
+                    <div className="container mx-auto py-6 rounded-lg mt-2 bg-slate-600">
+                        <h1 className='font-bold text-white text-2xl md:text-4xl lg:text-5xl text-center'>Unmetered Bandwidth</h1>
+                    </div>
+                </section>
+                <section>
+                    <div className="container mx-auto">
+                        <div className=''>
+                            {
+                                unMetered?.slice(0, displayData).map((speedDataTabel, idx) => (
+                                    <DetailsbyOptions loading={loading} key={idx} tableData={speedDataTabel}></DetailsbyOptions>
+                                ))
+                            }
+                        </div>
+                        <div className='text-center my-10'>
+                            {
+                                displayData < unMetered.length && <button className='py-2 px-4 hover:bg-opacity-80 rounded-lg md:px-6 bg-primary rounded-mg text-white' onClick={handleDisplayData}>Load more</button>
+                            }
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </>
     )
 }
 
