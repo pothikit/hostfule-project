@@ -38,8 +38,8 @@ const ByUnmetered = () => {
             <PageHelmet pageTitle="Unmetered Bandwidth"></PageHelmet>
             <main>
                 <section className='sticky top-16'>
-                    <div className="container mx-auto py-6 rounded-lg mt-2 bg-slate-600">
-                        <h1 className='font-bold text-white text-2xl md:text-4xl lg:text-5xl text-center'>Unmetered Bandwidth</h1>
+                    <div className="container mx-auto sm:py-3 bg-opacity-90 sm:rounded-lg mt-2 bg-primary">
+                        <h1 className='font-bold text-white text-xl md:text-2xl lg:text-3xl text-center'>Unmetered Bandwidth</h1>
                     </div>
                 </section>
                 <section>

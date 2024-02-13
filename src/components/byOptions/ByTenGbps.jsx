@@ -37,9 +37,9 @@ const ByTenGbps = () => {
         <>
             <PageHelmet pageTitle="10 Gbps Bandwidth"></PageHelmet>
             <main>
-                <section className='py-7 bg-slate-600'>
-                    <div className="container mx-auto ">
-                        <h1 className='font-bold text-white text-2xl md:text-4xl lg:text-5xl text-center'>Server 10 Gbps speed</h1>
+                <section className='sticky top-16'>
+                    <div className="container mx-auto sm:py-3 bg-opacity-90 sm:rounded-lg mt-2 bg-primary">
+                        <h1 className='font-bold text-white text-xl md:text-2xl lg:text-3xl text-center'>10 Gbps Bandwidth</h1>
                     </div>
                 </section>
                 <section>
