@@ -334,5 +334,115 @@
             "question": "What is the uptime guarantee for your hosting service?",
             "answer": "- We provide a 99.9% uptime guarantee, ensuring that your website remains accessible to users around the clock. In the rare event of downtime, we work diligently to resolve issues quickly."
         }
+    ],
+    "email_hosting": [
+        {
+            "id": 1,
+            "type": "Mini StartUp",
+            "price": "$20.00 / M",
+            "serviceName": "POP3/IMAP/SMTP",
+            "description": "We take daily mail cloud backup so you don't have to worry about losing your data.",
+            "features": [
+                "30 Email Accounts",
+                "2 Email Domain",
+                "Web-Based Email",
+                "Advanced SPAM Protection",
+                "Daily Offsite Backups",
+                "Inbox Delivery at the Industry Norm",
+                "Baseline Security Standard",
+                "20 GB Email Storage"
+            ],
+            "action_link": "https://my.hostflu.com/index.php/store/email-hosting/mini-startup"
+        },
+        {
+            "id": 2,
+            "type": "Basic Office Email",
+            "price": "$98.00 / M",
+            "serviceName": "POP3/IMAP/SMTP",
+            "description": "We take daily mail cloud backup so you don't have to worry about losing your data.",
+            "features": [
+                "100 Email Accounts",
+                "5 Email Domain",
+                "Web-Based Email",
+                "Advanced SPAM Protection",
+                "Daily Offsite Backups",
+                "Inbox Delivery at the Industry Norm",
+                "Baseline Security Standard",
+                "100 GB Email Storage"
+            ],
+            "action_link": ""
+        },
+        {
+            "id": 3,
+            "type": "Premium Business Email",
+            "price": "$499.00 / M",
+            "serviceName": "POP3/IMAP/SMTP",
+            "description": "We take daily mail cloud backup so you don't have to worry about losing your data.",
+            "features": [
+                "Unlimited Email Accounts",
+                "Unlimited Email Domain",
+                "Web-Based Email",
+                "Advanced SPAM Protection",
+                "Daily Offsite Backups",
+                "100% Inbox Deliverability",
+                "Baseline Security Standard",
+                "5 TB Email Storage"
+            ],
+            "action_link": ""
+        },
+        {
+            "id": 4,
+            "type": "Mini StartUp",
+            "price": "$238.00 / Yr",
+            "serviceName": "POP3/IMAP/SMTP",
+            "description": "We take daily mail cloud backup so you don't have to worry about losing your data.",
+            "features": [
+                "30 Email Accounts",
+                "2 Email Domain",
+                "Web-Based Email",
+                "Advanced SPAM Protection",
+                "Daily Offsite Backups",
+                "Inbox Delivery at the Industry Norm",
+                "Baseline Security Standard",
+                "20 GB Email Storage"
+            ],
+            "action_link": "https://my.hostflu.com/index.php/store/email-hosting/mini-startup"
+        },
+        {
+            "id": 5,
+            "type": "Basic Office Email",
+            "price": "$1174.00 / Yr",
+            "serviceName": "POP3/IMAP/SMTP",
+            "description": "We take daily mail cloud backup so you don't have to worry about losing your data.",
+            "features": [
+                "100 Email Accounts",
+                "5 Email Domain",
+                "Web-Based Email",
+                "Advanced SPAM Protection",
+                "Daily Offsite Backups",
+                "Inbox Delivery at the Industry Norm",
+                "Baseline Security Standard",
+                "100 GB Email Storage"
+            ],
+            "action_link": ""
+        },
+        {
+            "id": 6,
+            "type": "Premium Business Email",
+            "price": "$6022.00 / Yr",
+            "serviceName": "POP3/IMAP/SMTP",
+            "description": "We take daily mail cloud backup so you don't have to worry about losing your data.",
+            "features": [
+                "Unlimited Email Accounts",
+                "Unlimited Email Domain",
+                "Web-Based Email",
+                "Advanced SPAM Protection",
+                "Daily Offsite Backups",
+                "100% Inbox Deliverability",
+                "Baseline Security Standard",
+                "5 TB Email Storage"
+            ],
+            "action_link": ""
+        }
     ]
 }

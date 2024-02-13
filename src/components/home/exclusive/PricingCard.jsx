@@ -23,7 +23,7 @@ function PricingCard({ cardData }) {
                             }
                         </ul>
                     </div>
-                    <a href={cardData?.product_link} className='px-10 py-3 bg-gradient-to-t from-primary to-secondary rounded-lg shadow-lg mt-5 text-white'>Buy Now</a>
+                    <a href={cardData?.action_link} className='px-10 py-3 bg-gradient-to-t from-primary to-secondary rounded-lg shadow-lg mt-5 text-white'>Buy Now</a>
                 </div>
             }
         </>
