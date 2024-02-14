@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import PageBanner from '../shared/pageBanner/PageBanner'
 import aboutAnimation from "../../asstes/aboutAnimation.json"
-import webserver from "../../asstes/webserver.jpg"
+import about1 from "../../asstes/about1.jpg"
+import mision from "../../asstes/vision.jpg"
+import vision from "../../asstes/mission.jpg"
 import Testimonial from './Testimonila'
 import Swal from 'sweetalert2'
 import "./about.css"
@@ -34,13 +36,13 @@ function AboutUs() {
                  </div>
                  <div>
                     <h3 class="text-left font-bold text-2xl mt-4">${items?.rule}</h3>
-                    <ul class="flex flex-col gap-3 items-start font-semibold mt-5">
-                      <li class="text-left">${items?.desc1}</li>
-                      <li class="text-left">${items?.desc2}</li>
-                      <li class="text-left">${items?.desc3}</li>
-                      <li class="text-left">${items?.desc4}</li>
-                      <li class="text-left">${items?.desc5}</li>
-                      <li class="text-left">${items?.desc6}</li>
+                    <ul class="flex flex-col gap-3 items-start mt-5 list-disc list-inside">
+                      <li class="text-left">${items ? items?.desc1 : null}</li>
+                      <li class="text-left">${items ? items?.desc2 : null}</li>
+                      <li class="text-left">${items ? items?.desc3 : null}</li>
+                      <li class="text-left">${items ? items?.desc4 : null}</li>
+                      <li class="text-left">${items ? items?.desc5 : null}</li>
+                      <li class="text-left">${items ? items?.desc6 : null}</li>
                     </ul>
                  </div>
             </div>
@@ -66,75 +68,35 @@ function AboutUs() {
                 <section className='py-20 px-2'>
                     <div className='container mx-auto'>
                         <div>
-                            <img src={webserver} alt="web server" className='md:max-w-[600px] rounded-md float-left mr-6 mb-6' />
-                            <p className='text-slate-600 md:text-lg'>Founded in 2018, HostFlu has quickly established itself as a leading provider of web services. A subsidiary of Fluresta, HostFlu is the brainchild of Ashiqur Rahman, a seasoned professional with a decade of experience in the industry.
-                            </p>
-                            <p className='text-slate-600 md:text-lg'>
-                                <span>Leadership and Vision: </span>
-                                Ashiqur Rahman, the founder and CEO, serves as the backbone of HostFlu. His broad experience and profound industry comprehension have been vital in shaping the company's vision and strategy. His leadership has been instrumental in guiding HostFlu towards its goal of providing first-rate web services.
-                            </p>
-                            <p className='text-slate-600 md:text-lg'>
-                                <span>Services Offered: </span>
-                                HostFlu provides an extensive range of services designed to cater to the varied requirements of its clientele. These include:
-                            </p>
-                            <p className='text-slate-600 md:text-lg'>
-                                <span>Web Hosting: </span>
-                                HostFlu provides reliable and secure web hosting services, ensuring that websites are accessible around the clock.
-                            </p>
-                            <p className='text-slate-600 md:text-lg'>
-                                <span>Managed VPS: </span>
-                                HostFlu offers managed VPS services for clients requiring more control and flexibility. Clients can experience the advantages of a private server without the burden of handling its management.
-                            </p>
-                            <p className='text-slate-600 md:text-lg'>
-                                <span>Unmanaged VPS: </span>
-                                For tech-savvy clients who prefer to have complete control over their servers, HostFlu provides unmanaged VPS services. </p>
-                            <p className='text-slate-600 md:text-lg'>
-                                <span>Email Hosting: </span>
-                                Our email hosting service ensures businesses can communicate effectively with their customers and stakeholders.
-                            </p>
-                            <p className='text-slate-600 md:text-lg'>
-                                <span>Dedicated Server: </span>
-                                We offer dedicated servers to ensure optimal performance for businesses with high-traffic websites.
-                            </p>
-                            <p className='text-slate-600 md:text-lg'>
-                                <span>Domain Registration: </span>We help businesses establish their online presence by providing domain registration services.
-                            </p>
-
-                            <div className='mt-8'>
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span>Privacy Protection: </span>Understanding the importance of privacy, we offer privacy protection services to safeguard our clients' personal information.
-                                </p>import PageHelmet from './../shared/PageHelmet';
-
-
-
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span>SSL Certificate: </span>We offer SSL certificates to safeguard sensitive information and facilitate secure transactions. </p>
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span>WordPress Customization: </span>Recognizing the popularity of WordPress, we offer WordPress customization services to help businesses create unique and engaging websites. </p>
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span>Remote Assistance: </span>
-                                    We provide remote assistance to ensure that clients can seamlessly navigate their digital journey.
-                                </p>
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span>WordPress Migration: </span>  For businesses looking to switch to WordPress, HostFlu offers WordPress migration services.
-                                </p>
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span> Customer Support: </span> We are proud of our exceptional customer service, available 24/7 to assist clients with questions or issues. This commitment to customer service sets HostFlu apart from its competitors.
-                                </p>
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span>Security: </span>  Recognizing the significance of security in the contemporary digital landscape, we implement state-of-the-art security protocols to protect client data and ensure the steadfast integrity of our websites.</p>
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span>Scalability: </span>
-                                    Our services are designed to grow with your business. Whether you're a small business just starting or a large corporation with high traffic volumes, HostFlu has a solution to meet your needs.
-                                </p>
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span>Affordability: </span>
-                                    Despite offering premium services, we strive to keep our prices competitive. This renders it an appealing option for businesses of varying sizes.
-                                </p>
-                                <p className='text-slate-600 md:text-lg'>
-                                    <span>Innovation: </span> We are always looking for ways to improve our services. Staying abreast of the most recent trends and technologies in the web services industry, the company ensures that its clients receive optimal solutions.
-                                </p>
+                            <div className='flex flex-col justify-center md:flex-row gap-5 items-center py-5'>
+                                <div className='md:flex-1'>
+                                    <img src={about1} alt="web server" className='w-full mx-auto rounded-md ' />
+                                </div>
+                                <div className='md:flex-1 md:text-lg'>
+                                    <p>The journey of our company started in 2018 by the hands of Mr. Ashiqur Rahman, which was originally called Titanhost. Later, in 2023, we changed the name to HostFlu. We operate our operations from Mymensingh city, and we have many clients in and outside the country who are satisfied with our services. Our skilled staff are always committed to ensuring the highest level of service to our clients at all times with their utmost knowledge, skills, and experience. We are committed to providing you with the service you need with honesty and trustworthiness in a very short time, which will build a good relationship between you and us. We have a skilled and dedicated support team to monitor all your issues round the clock who will understand and solve your problems seriously.</p>
+                                </div>
                             </div>
+                            <div className='flex flex-col justify-center md:flex-row gap-5 items-center py-5'>
+                                <div className='md:flex-1 md:text-lg'>
+                                    <b className='mb-2'>Vision</b>
+                                    <p> We know that new technologies, which are more efficient and long-lasting than the previous technologies, are constantly coming into the world of information technology. Therefore, to provide the highest quality service to our clients, we continuously keep an eye on the latest technology through research, which ensures the highest level of service to our clients, and over time, that puts us ahead of others. With our dedication to innovation, we strive to anticipate your needs and exceed your expectations, ensuring that our services remain unmatched in the industry.</p>
+                                </div>
+                                <div className='md:flex-1'>
+                                    <img src={vision} alt="web server" className='max-w-[500px] mx-auto rounded-md ' />
+                                </div>
+                            </div>
+                            <div className='flex flex-col justify-center md:flex-row gap-5 items-center py-5'>
+                                <div className='md:flex-1'>
+                                    <img src={mision} alt="web server" className='max-w-[450px] mx-auto rounded-md ' />
+                                </div>
+                                <div className='md:flex-1 md:text-lg'>
+                                    <b className='mb-2'>Mission</b>
+                                    <p> Through the use of information technology, we want to create more employment in the country. Our main objective is to reach the young generation with our services like domain registration, web hosting, WordPress customization, WordPress migration, content development, international payment gateway consultation, etc. Our dreams are not just about ourselves, our dreams are about a country because we know without information technology human being cann`t develop their country.</p>
+                                </div>
+
+                            </div>
+
+
                         </div>
                     </div>
                 </section>
@@ -144,7 +106,7 @@ function AboutUs() {
                         <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4 lg:gap-10 overflow-hidden px-4 py-10'>
                             {
                                 allteam?.map((items, idx) => (
-                                    <div key={idx} className='py-1 bg-slate-300 px-1 rounded-md relative group overflow-hidden'>
+                                    <div key={idx} className='p-[2px] bg-slate-300 rounded-md relative group overflow-hidden'>
                                         <img src={items?.image} alt={items?.name} className='rounded-md' />
                                         <div className='absolute left-0 -bottom-full group-hover:bottom-0 duration-300 px-2 text-white h-full w-full bg-black flex flex-col justify-end bg-opacity-50 rounded-md'>
                                             {/* <p className='text-white font-bold px-3 text-xl text-center'>{items?.proverbs}</p> */}
@@ -165,13 +127,13 @@ function AboutUs() {
                                                 </li>
                                             </ul>
                                             <div className='pb-5 text-center'>
-                                                <h3 className="text-2xl font-bold">{items.name}</h3>
+                                                <h3 className="text-xl font-bold">{items.name}</h3>
                                                 <h4 className='text-primary font-semibold'>{items?.designation}</h4>
                                                 <h4 className='font-semibold'>{items?.organization}</h4>
                                             </div>
                                         </div>
                                         <div className='absolute bottom-0 left-0 px-4 w-full py-3 group-hover:-bottom-full text-white bg-black bg-opacity-50 duration-700'>
-                                            <h3 className="text-2xl font-bold">{items.name}</h3>
+                                            <h3 className="text-xl font-bold">{items.name}</h3>
                                         </div>
                                     </div>
                                 ))
