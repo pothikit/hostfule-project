@@ -9,7 +9,7 @@ function Hero() {
                     <div className='lg:col-span-2'>
                         <div className="hero-title">
                             <h1 className='text-2xl sm:text-4xl lg:text-6xl flex flex-col gap-5 font-bold spca'>
-                                <span className='block text-primary'>Your Digital Presence , </span>
+                                <span className='block text-primary'>Your Digital Presence, </span>
                                 {/* <span className='block'></span> */}
                                 <span>Our Reliable Hosting</span>
                             </h1>

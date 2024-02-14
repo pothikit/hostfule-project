@@ -26,10 +26,10 @@ background-clip: text;
     color: white;
 }
     /* support */
-.support-bg{
+/* .support-bg{
     background: rgb(255,68,68);
     background: linear-gradient(50deg, rgba(255,68,68,1) 13%, #FF7D1B  60%, rgba(255,255,255,1) 80%, #FF7D1B  100%);
-    }
+    } */
 
 
  /* faq accordion */
@@ -77,11 +77,10 @@ background-clip: text;
 }
 
 
-@media screen and (max-width:768px) {
-        /* support */
+/* @media screen and (max-width:768px) {
 .support-bg{
     background: rgb(255,68,68);
     background: linear-gradient(50deg, rgba(255,68,68,1) 34%, #FF7D1B 46%, rgba(255,255,255,1) 66%, #FF7D1B 100%);
     }
     
-}
+} */

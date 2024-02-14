@@ -154,10 +154,10 @@ function Threcard() {
                     <div className="container mx-auto px-2">
                         <img src={bgImg} alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-25 z-0" />
                         <div className='content z-10 text-white container mx-auto md:px-20'>
-                            <p className=''>Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our customers' specific needs in mind.
-                                Fluresta has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our cuific needs in mind.Fluresta
+                            <p className=''>Hostflu has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our customers' specific needs in mind.
+                                Hostflu has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our cuific needs in mind.Hostflu
                                 has a hosting plan for everyone. Whether you are a beginner or an expert, ourh our customers' specific needs in mind.</p>
-                            <h1 className='font-semibold text-4xl mt-10'>Which Type of Hosting is Right for You?</h1>
+                            <h1 className='font-semibold text-4xl mt-10'>Which Type of Services is Right for You?</h1>
                         </div>
                     </div>
                 </div>

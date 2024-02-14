@@ -17,9 +17,10 @@ import estern from "../../asstes/estern.png";
 // import supportImg from "../../asstes/our-support.jpg";
 import { RxAvatar } from "react-icons/rx"
 import { Controls, Player } from '@lottiefiles/react-lottie-player'
-// import mouthSpech from "../../asstes/mouthspech.png"
 import supportAnimation from "../../asstes/support.json"
 import { Link } from 'react-router-dom'
+import { FaEnvelope, FaLocationPin, FaPhone, FaWhatsapp, FaFacebookMessenger } from 'react-icons/fa6'
+import { TiWorld } from "react-icons/ti";
 
 function Footer() {
     return (
@@ -38,7 +39,7 @@ function Footer() {
                             </Player>
                         </div>
                         <div className='md:col-span-2'>
-                            <h2 className='text-2xl md:text-4xl font-medium mb-8 capitalize'>We are here to help you </h2>
+                            <h2 className='text-xl md:text-3xl font-medium mb-8 capitalize'>We are here to help you </h2>
                             <p className='text-justify text-base md:text-xl'>Customer satisfaction is our main goal with sincerity. Our skilled team is ready 24 hours 365 days to provide any help regarding service, you feel free to report the problem to us. You can take service by message email, or phone call, or you can open a ticket by reporting your problem in your customer portal. If you want, you can come to our office and get new service directly or get support regarding your running service. In addition to taking our services, we invite you for a cup of coffee in our office.</p>
                             <div className="butttons flex flex-col sm:flex-row gap-3 md:gap-5 lg:gap-12 mt-10">
                                 <button className='flex items-center gap-1 p-2 border rounded-md hover:bg-slate-400 duration-300 group bg-slate-200'>
@@ -70,7 +71,7 @@ function Footer() {
                         {/* col maind div */}
                         <div>
                             <div className="col-title mb-8">
-                                <img src={logo} alt="Hostflu" className='pb-5' />
+                                <Link to="/"><img src={logo} alt="Hostflu" className='pb-5' /></Link>
                                 <hr className='w-[55%] -m-1' />
                             </div>
                             <p className='text-gray-100 leading-7 font-extralight'>
@@ -83,45 +84,75 @@ function Footer() {
                             <div className="col-title mb-8">
                                 <h3 className='text-xl border-b pb-4 text-white'>Web Hosting</h3>
                             </div>
-                            <ul className='list-disc list-inside space-y-4 text-white'>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Web Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Wordpress Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>VPS Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Managed VPS Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Dedicated Hosting</Link></li>
+                            <ul className='list-disc list-inside space-y-3 text-white'>
+                                <li><Link to="/shared-hosting" className='hover:text-slate-800 duration-300'>Web Hosting</Link></li>
+                                <li><Link to="/unmanaged-vps" className='hover:text-slate-800 duration-300'>Unmanaged VPS</Link></li>
+                                <li><Link to="/dedicated-server" className='hover:text-slate-800 duration-300'>dedicated server</Link></li>
+                                <li><Link to="/domain-registration" className='hover:text-slate-800 duration-300'>Domain Registration</Link></li>
+                                <li><Link to="/wordpress-customization" className='hover:text-slate-800 duration-300'>Wordpress Ccustomization</Link></li>
+                                <li><Link to="/email-hosting" className='hover:text-slate-800 duration-300'>Email Hosting</Link></li>
                             </ul>
                         </div>
                         {/* col main div end */}
                         {/* col main div start */}
                         <div>
                             <div className="col-title mb-8">
-                                <h3 className='text-xl border-b pb-4 text-white'>Cloud Server</h3>
+                                <h3 className='text-xl border-b pb-4 text-white'>Urgent Links</h3>
                             </div>
-                            <ul className='list-disc list-inside space-y-4 text-white'>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Web Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Wordpress Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>VPS Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Managed VPS Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Dedicated Hosting</Link></li>
+                            <ul className='list-disc list-inside space-y-3 text-white'>
+                                <li><Link to="/about-us" className='hover:text-slate-800 duration-300'>About Us</Link></li>
+                                <li><Link to="/privacy-policy" className='hover:text-slate-800 duration-300'>Privacy Policy</Link></li>
+                                <li><Link to="/termsOfService" className='hover:text-slate-800 duration-300'>Terms & Conditions</Link></li>
+
 
                             </ul>
                         </div>
                         {/* col main div end */}
+
                         {/* col main div start */}
                         <div>
                             <div className="col-title mb-8">
-                                <h3 className='text-xl border-b pb-4 text-white'>Domain</h3>
+                                <h3 className='text-xl border-b pb-4 text-white'>Contact Us</h3>
                             </div>
-                            <ul className='list-disc list-inside space-y-4 text-white'>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Web Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Wordpress Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>VPS Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Managed VPS Hosting</Link></li>
-                                <li><Link to="#" className='hover:text-slate-800 duration-300'>Dedicated Hosting</Link></li>
+                            <ul className='space-y-3 text-white'>
+                                <li>
+                                    <a href="tel:+8801719375526" className=' hover:text-slate-800 flex gap-2 duration-300'>
+                                        <span><FaPhone size={20} /></span>01719375526
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="mailto:+8801719375526" className=' hover:text-slate-800 flex gap-2 duration-300'>
+                                        <span><FaEnvelope size={20} /></span>support@hostflu.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/message/FG6M47PVSBBOF1" rel='noreferrer' target='_blank' className=' hover:text-slate-800 flex gap-2 duration-300'>
+                                        <span><FaWhatsapp size={20} /></span>Whats App
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://m.me/198137493375467" rel='noreferrer' target='_blank' className=' hover:text-slate-800 flex gap-2 duration-300'>
+                                        <span><FaFacebookMessenger size={20} /></span>Messanger
+                                    </a>
+                                </li>
+                                <li className='flex gap-2'>
+                                    <span><FaLocationPin size={20} /></span>
+                                    <div>
+                                        <address>87 / Shahara Dupa Khala More</address>
+                                        <address>Mymensingh - 2200</address>
+                                    </div>
+                                </li>
+                                <li>
+                                    <Link to="/view-map" className=' hover:text-slate-800 flex gap-2 duration-300'>
+                                        <span><TiWorld size={20} /></span>  Google Map
+                                    </Link>
+                                </li>
 
                             </ul>
                         </div>
                         {/* col main div end */}
+
                     </div>
                     <div className="footer-bottom py-20">
                         <div className="grid gird-cols-1 md:grid-cols-3  gap-20">
