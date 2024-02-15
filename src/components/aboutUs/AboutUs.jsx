@@ -143,9 +143,9 @@ function AboutUs() {
                 </section>
                 <section className='py-20 bg-slate-50 px-1'>
                     <div className="container mx-auto">
-                        <h1 className="text-center text-slate-700 text-2xl md:text-[40px] mb-10 font-semibold">Payment Gatway</h1>
-                        <p className='text-xl text-slate-700 mb-3'>Click to view payment details</p>
-                        <div className='payment-option grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-10'>
+                        <h1 className="text-center text-slate-700 text-2xl md:text-[40px] mb-5 font-semibold">Payment Gatway</h1>
+                        <p className='text-xl text-slate-700 text-center mb-3'>Click to view payment details</p>
+                        <div className='payment-option grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-10 mt-10'>
                             {
                                 payment?.map((items, idx) => (
                                     <button onClick={() => handlePayment(items)} key={idx} className="gatway bg-white flex border items-center justify-center p-2 sm:p-5 cursor-pointer rounded-lg">

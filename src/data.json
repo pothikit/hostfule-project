@@ -55,92 +55,110 @@
         {
             "id": 1,
             "type": "Starter",
-            "price": "$25.00 USD/yr",
+            "price": "$20.00 USD/yr",
             "condition": "30 days money back guarantee",
-            "serviceName": "SHARED HOSTING",
+            "serviceName": "BASE ON CLOUD LINUX",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
-                "2 GB SSD Storage",
-                "50 GB Monthly Bandwidth",
-                "1 Website",
-                "cPanel",
-                "Softaculous Apps Installer"
+                "2 GB RAM",
+                "2 CPU Core",
+                "2 Thread",
+                "60 GB SSD Disk",
+                "8 TB Bandwidth",
+                "1 IPv4",
+                "Root access"
             ],
-            "product_link": "https://my.hostflu.com/index.php/store/shared-hosting/starter"
+            "action_link": "#"
         },
         {
             "id": 2,
             "type": "Professional",
             "price": "$40.00 USD/yr",
             "condition": "30 days money back guarantee",
-            "serviceName": "SHARED HOSTING",
+            "serviceName": "BASE ON CLOUD LINUX",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
-                "5 GB SSD Storage",
-                "125 GB Monthly Bandwidth",
-                "2 Website",
-                "cPanel",
-                "Softaculous Apps Installer"
+                "4 GB RAM",
+                "4 CPU Core",
+                "4 Thread",
+                "120 GB SSD Disk",
+                "4 TB Bandwidth",
+                "1 IPv4",
+                "Root access"
             ],
-            "product_link": "https://my.hostflu.com/index.php/store/shared-hosting/professional"
+            "action_link": "#"
         },
         {
             "id": 3,
-            "type": "Business",
-            "price": "$65.00 USD/yr",
+            "type": "Starter",
+            "price": "$20.00 USD/yr",
             "condition": "30 days money back guarantee",
-            "serviceName": "SHARED HOSTING",
+            "serviceName": "BASE ON CLOUD LINUX",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
-                "10 GB SSD Storage",
-                "250 GB Monthly Bandwidth",
-                "5 Website",
-                "cPanel",
-                "Softaculous Apps Installer"
+                "2 GB RAM",
+                "2 CPU Core",
+                "2 Thread",
+                "60 GB SSD Disk",
+                "8 TB Bandwidth",
+                "1 IPv4",
+                "Root access"
             ],
-            "product_link": "https://my.hostflu.com/index.php/store/shared-hosting/business"
+            "action_link": "#"
         },
         {
             "id": 4,
-            "type": "Stellar Hosting",
-            "price": "$43.23/yr",
-            "condition": "Save 69% with 12/mo term",
-            "serviceName": "SHARED HOSTING",
+            "type": "Starter",
+            "price": "$20.00 USD/yr",
+            "condition": "30 days money back guarantee",
+            "serviceName": "BASE ON CLOUD LINUX",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
-                "31 GB SSD",
-                "68 Websites",
-                "Not Free CDN BETA",
-                "TLDs On Offer"
-            ]
+                "2 GB RAM",
+                "2 CPU Core",
+                "2 Thread",
+                "60 GB SSD Disk",
+                "8 TB Bandwidth",
+                "1 IPv4",
+                "Root access"
+            ],
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=4"
         },
         {
             "id": 5,
-            "type": "Hosting Stellar",
-            "price": "$32.59/yr",
-            "condition": "Save 42% with 12/mo term",
-            "serviceName": "HOSTING SHARED",
+            "type": "Professional",
+            "price": "$40.00 USD/yr",
+            "condition": "30 days money back guarantee",
+            "serviceName": "BASE ON CLOUD LINUX",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
-                "68 GB SSD",
-                "13 Websites",
-                "Not Free CDN BETA",
-                "TLDs On Offer"
-            ]
+                "4 GB RAM",
+                "4 CPU Core",
+                "4 Thread",
+                "120 GB SSD Disk",
+                "4 TB Bandwidth",
+                "1 IPv4",
+                "Root access"
+            ],
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=5"
         },
         {
             "id": 6,
-            "type": "Virtual Servers",
-            "price": "$25.59/yr",
-            "condition": "Save 30% with 12/mo term",
-            "serviceName": "HOSTING SHARED",
+            "type": "Starter",
+            "price": "$20.00 USD/yr",
+            "condition": "30 days money back guarantee",
+            "serviceName": "BASE ON CLOUD LINUX",
             "description": "Great for those who are just getting started with their website and are looking to stay within on a budget.",
             "features": [
-                "102 GB SSD",
-                "68 Websites",
-                "Not Free CDN BETA",
-                "TLDs On Offer"
-            ]
+                "2 GB RAM",
+                "2 CPU Core",
+                "2 Thread",
+                "60 GB SSD Disk",
+                "8 TB Bandwidth",
+                "1 IPv4",
+                "Root access"
+            ],
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=4"
         },
         {
             "id": 7,

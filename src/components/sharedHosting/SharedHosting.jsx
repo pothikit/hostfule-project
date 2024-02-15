@@ -21,7 +21,7 @@ function SharedHosting() {
     useEffect(() => {
         fetch("multipledata.json")
             .then(res => res.json())
-            .then(data => setCardData(data.exclusive))
+            .then(data => setCardData(data.sharedHosting))
     }, [])
 
 

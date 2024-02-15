@@ -150,13 +150,11 @@ function Threcard() {
             </div>
             {/* container */}
             <section className='three-card-bottom mt-40'>
-                <div className="bg-gradient-to-r from-primary to-secondary relative bg-card-bottom py-24 lg:px-40 text-center -z-10">
-                    <div className="container mx-auto px-2">
-                        <img src={bgImg} alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-25 z-0" />
+                <div className="bg-gradient-to-r from-primary to-secondary relative bg-card-bottom py-40 md:py-24 lg:px-40 text-center -z-10">
+                    <div className="container mx-auto">
+                        <img src={bgImg} alt="Background" className="absolute inset-0 w-full h-full mx-auto object-cover opacity-25 z-0" />
                         <div className='content z-10 text-white container mx-auto md:px-20'>
-                            <p className=''>Hostflu has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our customers' specific needs in mind.
-                                Hostflu has a hosting plan for everyone. Whether you are a beginner or an expert, our plans are created with our cuific needs in mind.Hostflu
-                                has a hosting plan for everyone. Whether you are a beginner or an expert, ourh our customers' specific needs in mind.</p>
+                            <p className=''>We provide shared hosting, VPS, email hosting, and dedicated server services at affordable prices you can easily come to our office directly or contact us through our official social media by following the method given on the website.</p>
                             <h1 className='font-semibold text-4xl mt-10'>Which Type of Services is Right for You?</h1>
                         </div>
                     </div>

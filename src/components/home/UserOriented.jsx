@@ -14,7 +14,7 @@ function UserOriented() {
     // slider settings
     const settings = {
         infinite: true,
-        arrow: true,
+        arrow: false,
         dots: true,
         speed: 500,
         slidesToShow: 2,
@@ -62,16 +62,15 @@ function UserOriented() {
                         ))
                     }
                 </div>
-                <div className="">
+                <div className="panel-slider">
                     <Slider {...settings} className=''>
                         <div className='pointer-events-none p-3'>
                             <img src={whmcs} className='h-full' alt="WhmCS" />
                         </div>
                         <div className='pointer-events-none p-3'>
-                            <img src={cpanel} className='h-full' alt="WhmCS" />
+                            <img src={cpanel} className='h-full' alt="cpanel" />
                         </div>
                     </Slider>
-
                 </div>
             </div>
         </section>

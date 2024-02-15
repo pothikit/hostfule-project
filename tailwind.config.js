@@ -8,6 +8,9 @@ module.exports = {
         secondary: "#FFA301",
       }
     },
+    // screens: {
+    //   "xm": "420px"
+    // }
   },
   plugins: [],
 }

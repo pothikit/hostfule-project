@@ -35,7 +35,7 @@ export const Header = () => {
                 </div>
             </header>
             {/* navbar */}
-            <nav className='border-b border-primary shadow border-opacity-20 py-3 sticky top-[-2px] bg-white z-50'>
+            <nav className='border-b border-primary shadow border-opacity-20 py-3 sticky top-0 sm:top-[-2px] bg-white z-50'>
                 <div className="relative">
                     <div className="container mx-auto px-2">
                         <div className="navigation-menu flex justify-between items-center py-1">

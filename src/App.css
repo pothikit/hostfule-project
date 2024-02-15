@@ -2,3 +2,10 @@
     font-family: 'Hanuman', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;}
+
+
+
+    .buyNowBtn:hover{
+        opacity: .8;
+        transition: .3s;
+    }

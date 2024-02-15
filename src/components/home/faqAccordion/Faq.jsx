@@ -17,7 +17,7 @@ function Faq() {
 
         <section className='p-1 py-20'>
             <div className="container mx-auto px-2">
-                <h1 className="text-center faq-top text-4xl mb-16 font-semibold text-primary">Frequently asked questions</h1>
+                <h1 className="text-center text-primary text-xl sm:text-2xl md:text-[40px] mb-10 font-semibold">Frequently asked questions</h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-20'>
                     <div>
                         {

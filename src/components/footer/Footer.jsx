@@ -65,14 +65,14 @@ function Footer() {
             </div> */}
 
             {/* footer top our support section */}
-            <footer className='pt-52'>
+            <footer className='pt-52 px-1'>
                 <div className="container mx-auto px-2">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-20 gap-20 lg:gap-20">
                         {/* col maind div */}
                         <div>
                             <div className="col-title mb-8">
                                 <Link to="/"><img src={logo} alt="Hostflu" className='pb-5' /></Link>
-                                <hr className='w-[55%] -m-1' />
+                                <hr className='sm:w-[55%] -m-1' />
                             </div>
                             <p className='text-gray-100 leading-7 font-extralight'>
                                 HostFlu and Fluresta are sister concerns. We have been providing mail server deployment services, Wordpress Customization along with domain hosting services for a long time. We are happy to serve the customers in the country and outside the country.
@@ -103,8 +103,6 @@ function Footer() {
                                 <li><Link to="/about-us" className='hover:text-slate-800 duration-300'>About Us</Link></li>
                                 <li><Link to="/privacy-policy" className='hover:text-slate-800 duration-300'>Privacy Policy</Link></li>
                                 <li><Link to="/termsOfService" className='hover:text-slate-800 duration-300'>Terms & Conditions</Link></li>
-
-
                             </ul>
                         </div>
                         {/* col main div end */}
@@ -120,7 +118,6 @@ function Footer() {
                                         <span><FaPhone size={20} /></span>01719375526
                                     </a>
                                 </li>
-
                                 <li>
                                     <a href="mailto:+8801719375526" className=' hover:text-slate-800 flex gap-2 duration-300'>
                                         <span><FaEnvelope size={20} /></span>support@hostflu.com
@@ -152,7 +149,6 @@ function Footer() {
                             </ul>
                         </div>
                         {/* col main div end */}
-
                     </div>
                     <div className="footer-bottom py-20">
                         <div className="grid gird-cols-1 md:grid-cols-3  gap-20">
@@ -162,14 +158,14 @@ function Footer() {
                                     <h3 className='font-semibold'>Follow Our Social Media</h3>
                                 </div>
                                 <div className='payment-option grid grid-cols-2 lg:grid-cols-4 gap-3'>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={bkash} alt="bkash" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={nagad} alt="nagad" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={rocket} alt="rocket" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={wise} alt="wise" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={brac} alt="brac" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={dutch} alt="dutch" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={city} alt="city" /></div>
-                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='' src={estern} alt="estern" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='w-[60%] sm:w-full' src={bkash} alt="bkash" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='w-[60%] sm:w-full' src={nagad} alt="nagad" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='w-[60%] sm:w-full' src={rocket} alt="rocket" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='w-[60%] sm:w-full' src={wise} alt="wise" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='w-[60%] sm:w-full' src={brac} alt="brac" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='w-[60%] sm:w-full' src={dutch} alt="dutch" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='w-[60%] sm:w-full' src={city} alt="city" /></div>
+                                    <div className="gatway bg-white flex border items-center justify-center py-2 px-4 rounded-lg"><img className='w-[60%] sm:w-full' src={estern} alt="estern" /></div>
                                 </div>
                             </div>
                             <div className="newsletter">
@@ -194,7 +190,6 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-
                 </div>
                 {/* container */}
                 <div className="copyright py-2 text-white bg-primary">

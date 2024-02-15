@@ -6,7 +6,7 @@ function PricingCard({ cardData }) {
     return (
         <>
             {
-                <div className="card shadow-lg pb-16 rounded-xl text-center hover:shadow-xl duration-300" id='mini'>
+                <div className="card shadow-lg pb-12 rounded-xl text-center hover:shadow-xl duration-300" id='mini'>
                     <div className="card-head p-7 rounded-t-xl rounded-b-[40px] shadow-xl ">
                         <div className='text-white'>
                             <span className="type text-xl uppercase">{cardData.type}</span>
@@ -23,7 +23,7 @@ function PricingCard({ cardData }) {
                             }
                         </ul>
                     </div>
-                    <a href={cardData?.action_link} className='px-10 py-3 bg-gradient-to-t from-primary to-secondary rounded-lg shadow-lg mt-5 text-white'>Buy Now</a>
+                    <a href={cardData?.action_link} className='px-10 py-3 buyNowBtn bg-gradient-to-t from-primary to-secondary hover:bg-slate-400 rounded-lg shadow-lg mt-5 text-white'>Buy Now</a>
                 </div>
             }
         </>

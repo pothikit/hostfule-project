@@ -41,7 +41,7 @@ function DomainSeach() {
     //     }
     // }
     return (
-        <div className='py-20 md:bg-none mb-20'>
+        <div className='py-10 sm:py-20 md:bg-none mb-20'>
             <div className="container mx-auto">
                 <div className="domain md:bg-slate-300 rounded-lg px-1">
                     <div className='md:py-20 xl:max-w-[80%] mx-auto'>
@@ -62,9 +62,7 @@ function DomainSeach() {
                                     <input type="submit" value="SEARCH DOMAIN" className='cursor-pointer py-1 sm:py-2 md:py-5 bg-slate-400 hover:bg-slate-600 rounded-lg text-white sm:px-1 md:px-10 text-sm md:text-base whitespace-normal' />
                                 </div>
                             </form>
-                            {
-                                // extension ? <span className='text-xl text-black text-center mt-10'>You should provide a valid extansion</span> : <span></span>
-                            }
+
                             <div className="extensions mt-8 mx-auto p-2">
                                 <ul className='grid grid-cols-6 gap-6 sm:gap-8 md:gap-14 w-full'>
                                     {
