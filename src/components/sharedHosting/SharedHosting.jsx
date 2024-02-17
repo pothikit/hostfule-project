@@ -25,8 +25,8 @@ function SharedHosting() {
     }, [])
 
 
-    const firstThreeData = cardData?.slice(0, 3);
-    const secondthree = cardData?.slice(3, 6);
+    const monthly = cardData?.slice(0, 3);
+    const annually = cardData?.slice(3, 6);
     const [toggle, setToggle] = useState(true);
     const toggleHandler = () => {
         setToggle(!toggle)
@@ -61,14 +61,14 @@ function SharedHosting() {
                         {/* pricing cards */}
                         <div className={`tab-content grid-cols-1 lg:grid-cols-3 mt-14 gap-12 xl:max-w-[80%] mx-auto ${toggle ? "grid" : "hidden"}`} id='mini-package'>
                             {
-                                firstThreeData.map((cardItem) => (
+                                annually?.map((cardItem) => (
                                     <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>
                                 ))
                             }
                         </div>
                         <div className={`tab-content grid-cols-1 lg:grid-cols-3 mt-14 gap-12 xl:max-w-[80%] mx-auto ${toggle ? "hidden" : "grid"}`}>
                             {
-                                secondthree.map((cardItem) => (
+                                monthly?.map((cardItem) => (
                                     <PricingCard cardData={cardItem} key={cardItem.id}></PricingCard>
                                 ))
                             }

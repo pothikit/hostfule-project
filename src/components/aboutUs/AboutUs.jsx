@@ -93,10 +93,7 @@ function AboutUs() {
                                     <b className='mb-2'>Mission</b>
                                     <p> Through the use of information technology, we want to create more employment in the country. Our main objective is to reach the young generation with our services like domain registration, web hosting, WordPress customization, WordPress migration, content development, international payment gateway consultation, etc. Our dreams are not just about ourselves, our dreams are about a country because we know without information technology human being cann`t develop their country.</p>
                                 </div>
-
                             </div>
-
-
                         </div>
                     </div>
                 </section>

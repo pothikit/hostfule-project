@@ -1,8 +1,30 @@
 import React from 'react'
 import '../home.css'
 import { BsFillCheckSquareFill } from 'react-icons/bs'
+import Swal from 'sweetalert2'
 function PricingCard({ cardData }) {
-
+    const handlePopup = () => {
+        Swal.fire({
+            title: "Please Attention",
+            text: "Are you interested in buying a monthly package ? Please contact the administrator for further assistance.",
+            html: `
+           <div>
+           <h4>Interested in buying a monthly package? Please contact the administrator for further assistance.</h4>
+           <div class="flex flex-col gap-3 font-semibold mt-5">
+           <a href="https://wa.me/message/FG6M47PVSBBOF1" rel='noreferrer' target='_blank' class=' hover:text-slate-800 flex gap-2 duration-300'>
+           <span><FaWhatsapp size={20} /></span>Whats App </a>
+           <a href="https://m.me/198137493375467" rel='noreferrer' target='_blank' class=' hover:text-slate-800 flex gap-2 duration-300'>
+           <span><FaFacebookMessenger size={20} /></span>Messanger
+       </a>
+       <a href="tel:+8801719375526" class=' hover:text-slate-800 flex gap-2 duration-300'>
+       <span><FaPhone size={20} /></span>+8801719375526
+   </a>
+           </div>
+           </div>
+                `,
+            icon: "question"
+        });
+    }
     return (
         <>
             {
@@ -23,8 +45,11 @@ function PricingCard({ cardData }) {
                             }
                         </ul>
                     </div>
-                    <a href={cardData?.action_link} className='px-10 py-3 buyNowBtn bg-gradient-to-t from-primary to-secondary hover:bg-slate-400 rounded-lg shadow-lg mt-5 text-white'>Buy Now</a>
-                </div>
+                    {cardData.action_link === "popup" ?
+                        <button onClick={handlePopup} className='px-10 py-3 buyNowBtn bg-gradient-to-t from-primary to-secondary hover:bg-slate-400 rounded-lg shadow-lg mt-5 text-white'>Buy Now</button>
+                        : <a href={cardData?.action_link} className='px-10 py-3 buyNowBtn bg-gradient-to-t from-primary to-secondary hover:bg-slate-400 rounded-lg shadow-lg mt-5 text-white'>Buy Now</a>
+                    }
+                </div >
             }
         </>
 

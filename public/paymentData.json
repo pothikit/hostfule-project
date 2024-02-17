@@ -1,7 +1,7 @@
 {
     "payment": [
         {
-            "id": "FH-500",
+            "id": "1",
             "bank_name": "Bkash",
             "bank_logo": "../../paymentLogo/bkash.png",
             "qrCode": "../../paymentLogo/bkashqr.jpg",
@@ -15,7 +15,7 @@
             "desc6": "If everything is OK, you will get a confirmation message from BKASH. "
         },
         {
-            "id": "FH-505",
+            "id": "2",
             "bank_name": "Nagad",
             "bank_logo": "../../paymentLogo/nagad.png",
             "qrCode": "../../paymentLogo/nagadqr.png",
@@ -29,7 +29,7 @@
             "desc6": "If everything is OK, you will get a confirmation message from NAGAD"
         },
         {
-            "id": "FH-506",
+            "id": "3",
             "bank_name": "Rocket",
             "bank_logo": "../../paymentLogo/rocket.png",
             "qrCode": "../../paymentLogo/rocketqr.jpg",
@@ -43,49 +43,49 @@
             "desc6": "If everything is OK, you will get a confirmation message from ROCKET"
         },
         {
-            "id": "FH-503",
+            "id": "4",
             "bank_name": "Dutch Bangla Bank",
             "bank_logo": "../../paymentLogo/dutch.png",
             "qrCode": "../../paymentLogo/dutchbanglaqr.png",
             "account_number": "1561510125434",
             "rule": "Details",
-            "desc1": "Account Holder Name: Md Ashiqur Rahman",
-            "desc2": "A/C No:1561510125434",
-            "desc3": "Branch:Mymensingh",
-            "desc4": "",
-            "desc5": "",
-            "desc6": ""
+            "desc1": "Account Holder Name : Md Ashiqur Rahman",
+            "desc2": "A/C No : 1561510125434",
+            "desc3": "Branch : Mymensingh",
+            "desc4": "Routing No : 090611759",
+            "desc5": "SWIFT Code : DBBLBDDH",
+            "desc6": "Dutch-Bangla Bank"
         },
         {
-            "id": "FH-501",
+            "id": "5",
             "bank_name": "Brac Bank",
             "bank_logo": "../../paymentLogo/brac.png",
             "qrCode": "../../paymentLogo/bracqr.png",
             "account_number": "4101103585472001",
             "rule": "Details",
-            "desc1": "Account Holder Name: Md Ashiqur Rahman",
-            "desc2": "A/C No:4101103585472001",
-            "desc3": "Branch:Mymensingh",
-            "desc4": "",
-            "desc5": "",
-            "desc6": ""
+            "desc1": "Account Holder Name : Md Ashiqur Rahman",
+            "desc2": "A/C No : 4101103585472001",
+            "desc3": "Branch : Mymensingh",
+            "desc4": "Routing No : 090611759",
+            "desc5": "SWIFT Code : DBBLBDDH",
+            "desc6": "Brac Bank"
         },
         {
-            "id": "FH-502",
+            "id": "6",
             "bank_name": "The City Bank",
             "bank_logo": "../../paymentLogo/city.png",
             "qrCode": "../../paymentLogo/cityqr.png",
             "account_number": "2202763480001",
             "rule": "Details",
             "desc1": "Account Holder Name: Md Ashiqur Rahman",
-            "desc2": "A/C No:2202763480001",
-            "desc3": "Branch: Agent Banking",
-            "desc4": "",
-            "desc5": "",
-            "desc6": ""
+            "desc2": "A/C No : 2202763480001",
+            "desc3": "Branch : Agent Banking",
+            "desc4": "Routing No : 225611753",
+            "desc5": "SWIFT Code : CIBLBDDH",
+            "desc6": "The City Bank"
         },
         {
-            "id": "FH-504",
+            "id": "7",
             "bank_name": "Estern Bank",
             "bank_logo": "../../paymentLogo/estern.png",
             "qrCode": "../../paymentLogo/esternbankqr.png",
@@ -99,7 +99,7 @@
             "desc6": ""
         },
         {
-            "id": "FH-507",
+            "id": "8",
             "bank_name": "Wise",
             "bank_logo": "../../paymentLogo/wise.png",
             "qrCode": "../../paymentLogo/wiseqr.jpg",
