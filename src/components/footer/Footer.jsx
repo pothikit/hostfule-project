@@ -106,7 +106,7 @@ function Footer() {
                             <ul className='list-disc list-inside space-y-3 text-white'>
                                 <li><Link to="/about-us" className='hover:text-slate-800 duration-300'>About Us</Link></li>
                                 <li><Link to="/privacy-policy" className='hover:text-slate-800 duration-300'>Privacy Policy</Link></li>
-                                <li><Link to="/termsOfService" className='hover:text-slate-800 duration-300'>Terms & Conditions</Link></li>
+                                <li><Link to="/termsOfService" className='hover:text-slate-800 duration-300'>Terms of Service</Link></li>
                             </ul>
                         </div>
                         {/* col main div end */}
@@ -200,12 +200,12 @@ function Footer() {
                     <div className="container mx-auto px-2">
                         <div className="flex items-center justify-between">
                             <span>Copyright © HostFlu 2023</span>
-                            <ul className='flex items-center'>
+                            {/* <ul className='flex items-center'>
                                 <li className='border-r border-gray-300 px-1 md:px-3 text-sm md:text-base'><Link to="/termsOfService">Terms of Service</Link></li>
                                 <li className='px-2 md:px-4 text-sm md:text-base'>
                                     <Link to="/privacy-policy">Privacy Policy</Link>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>

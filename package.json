@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "3": "^2.1.0",
+    "@emailjs/browser": "^4.1.0",
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

@@ -5,7 +5,6 @@ import { BiSolidDownArrow } from "react-icons/bi";
 
 export const Navbar = ({ setBar, bar }) => {
     const [dropdown, setDropdown] = useState(null);
-    // const [higlight, setHiglight] = useState("")
     const handleNav = (e, navNo) => {
         e.stopPropagation();
         if (dropdown === navNo) {
@@ -14,7 +13,6 @@ export const Navbar = ({ setBar, bar }) => {
         else {
             setDropdown(navNo)
         }
-
         if (window.innerWidth > 768) {
             setDropdown(null)
         };
@@ -200,6 +198,13 @@ export const Navbar = ({ setBar, bar }) => {
 
                     </ul>
                 </div> */}
+            </li>
+            <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={(e) => handleNav(e, 6)}>
+                {/* about us */}
+                <div className="flex items-center gap-2 cursor-pointer">
+                    <Link to="/contact-us" className='group-hover:text-primary text-lg font-normal' onClick={handleHideDrpdown}>Contact us</Link>
+                    {/* <span className='text-[9px] opacity-75'><BiSolidDownArrow className='group-hover:rotate-180 duration-200 dorp-arrow dorp-arrow' /></span> */}
+                </div>
             </li>
         </ul>
     )

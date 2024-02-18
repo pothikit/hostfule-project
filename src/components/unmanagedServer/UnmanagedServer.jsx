@@ -58,7 +58,7 @@ const UnmanagedServer = () => {
             <PageHelmet pageTitle="Unmanaged VPS"></PageHelmet>
             <main className=''>
                 <section className='bg-slate-200'>
-                    <PageBanner animationfile={unManagedAnimation} animationHeight="sm:h-[600px]" pageTitle={["Shared", <span key={1} className='text-primary'> H</span>, "osting With Premium Speed"]} animationPadding="md:p-32"></PageBanner>
+                    <PageBanner animationfile={unManagedAnimation} animationHeight="sm:h-[600px]" pageTitle={["UnManaged", <span key={1} className='text-primary'> V</span>, "PS"]} animationPadding="md:p-32"></PageBanner>
                 </section>
                 <div className="container mx-auto">
                     <section className='pb-10'>

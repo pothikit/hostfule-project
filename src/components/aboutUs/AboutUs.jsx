@@ -78,7 +78,7 @@ function AboutUs() {
                             </div>
                             <div className='flex flex-col justify-center md:flex-row gap-5 items-center py-5'>
                                 <div className='md:flex-1 md:text-lg'>
-                                    <b className='mb-2'>Vision</b>
+                                    <b className='mb-2'>Vision-</b>
                                     <p> We know that new technologies, which are more efficient and long-lasting than the previous technologies, are constantly coming into the world of information technology. Therefore, to provide the highest quality service to our clients, we continuously keep an eye on the latest technology through research, which ensures the highest level of service to our clients, and over time, that puts us ahead of others. With our dedication to innovation, we strive to anticipate your needs and exceed your expectations, ensuring that our services remain unmatched in the industry.</p>
                                 </div>
                                 <div className='md:flex-1'>
@@ -90,7 +90,7 @@ function AboutUs() {
                                     <img src={mision} alt="web server" className='max-w-[450px] mx-auto rounded-md ' />
                                 </div>
                                 <div className='md:flex-1 md:text-lg'>
-                                    <b className='mb-2'>Mission</b>
+                                    <b className='mb-2'>Mission-</b>
                                     <p> Through the use of information technology, we want to create more employment in the country. Our main objective is to reach the young generation with our services like domain registration, web hosting, WordPress customization, WordPress migration, content development, international payment gateway consultation, etc. Our dreams are not just about ourselves, our dreams are about a country because we know without information technology human being cann`t develop their country.</p>
                                 </div>
                             </div>

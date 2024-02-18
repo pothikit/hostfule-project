@@ -414,5 +414,55 @@
             ],
             "action_link": ""
         }
+    ],
+    "unManagedVps": [
+        {
+            "id": 1,
+            "type": "2 GB VPS",
+            "price": "$238.00 / Yr",
+            "serviceName": "Kernel-based Virtual Machine",
+            "description": "We offer a 7-day money-back guarantee for all Virtual Private Servers.",
+            "features": [
+                "2 GB VPS",
+                " 2 CPU Core",
+                "2 Thread",
+                "60 GB SSD Disk",
+                "2 TB Bandwidth",
+                "1 IPv4"
+            ],
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=8"
+        },
+        {
+            "id": 2,
+            "type": "4 GB VPS",
+            "price": "$478.00 / Yr",
+            "serviceName": "Kernel-based Virtual Machine",
+            "description": "We offer a 7-day money-back guarantee for all Virtual Private Servers.",
+            "features": [
+                "4 GB VPS",
+                "4 CPU Core",
+                "4 Thread",
+                "120 GB SSD Disk",
+                "4 TB Bandwidth",
+                "1 IPv4"
+            ],
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=9"
+        },
+        {
+            "id": 2,
+            "type": "8 GB VPS",
+            "price": "$638.00 / Yr",
+            "serviceName": "Kernel-based Virtual Machine",
+            "description": "We offer a 7-day money-back guarantee for all Virtual Private Servers.",
+            "features": [
+                "8 GB VPS",
+                "8 CPU Core",
+                "8 Thread",
+                "240 GB SSD Disk",
+                "8 TB Bandwidth",
+                "1 IPv4"
+            ],
+            "action_link": "https://my.hostflu.com/cart.php?a=confproduct&i=10"
+        }
     ]
 }

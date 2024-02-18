@@ -39,6 +39,7 @@ import ByUnmetered from "./components/byOptions/ByUnmetered";
 import ByTenGbps from "./components/byOptions/ByTenGbps";
 import { HelmetProvider } from "react-helmet-async";
 import ViewLocationMap from "./components/googleMap/ViewLocationMap";
+import ContactUs from "./components/contactUs/ContactUs";
 function App() {
   // for aos animation
   React.useEffect(() => {
@@ -85,6 +86,7 @@ function App() {
           <Route path="/wordpress-customization" element={<WrodpressCustomization />} />
           <Route path="/wordpress-migration" element={<WrodpressMigration />} />
           <Route path="/view-map" element={<ViewLocationMap />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </HelmetProvider>
