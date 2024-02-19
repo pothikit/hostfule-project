@@ -6,13 +6,7 @@ const ContactUs = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        // const form = e.target;
-        // const contactInfo = {
-        //     name: form.name.value,
-        //     email: form.email.value,
-        //     message: form.message.value
-        // }
-        // console.log(formData.current)
+
         emailjs.sendForm('service_ebpnsge', 'template_v5q4i9s', formData.current, {
             publicKey: 'JJ2lWw0m6ENhakgfh',
         })

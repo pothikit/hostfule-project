@@ -41,7 +41,7 @@ function UserOriented() {
         ]
     };
     return (
-        <section className='py-20'>
+        <section className='py-20 hidden sm:block'>
             <div className="container mx-auto px-2">
                 <div className="section-top text-center mb-20">
                     <h1 className='text-2xl md:text-[2.5rem] font-semibold text-center text-primary mb-9'>User Oriented Control Panel</h1>
