@@ -19,7 +19,7 @@ const ContactUs = () => {
                     // console.log('SUCCESS!');
                     Swal.fire({
                         icon: "success",
-                        title: "Thank you! We will reach you.",
+                        title: `Thank you <span class="text-primary">${e.target.name.value}</span>! We will reach you.`,
                         showConfirmButton: false,
                         timer: 1500
                     });
