@@ -21,7 +21,12 @@ const ContactUs = () => {
                         icon: "success",
                         title: `Thank you <span class="text-primary">${e.target.name.value}</span>! We will reach you.`,
                         showConfirmButton: false,
-                        timer: 1500
+                        timer: 3000
+                    });
+                    Swal.fire({
+                        title: `Thank you <span class="text-primary">${e.target.name.value}</span>!`,
+                        text: `Successfully Sent your messgae We will reach you as soon as possible.`,
+                        icon: "success"
                     });
                     e.target.reset();
                 },
