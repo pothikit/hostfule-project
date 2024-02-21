@@ -20,9 +20,9 @@ import { Controls, Player } from '@lottiefiles/react-lottie-player'
 import supportAnimation from "../../asstes/support.json"
 import { Link } from 'react-router-dom'
 import { FaEnvelope, FaLocationPin, FaPhone, FaWhatsapp, FaFacebookMessenger, } from 'react-icons/fa6'
-import { GrBusinessService } from "react-icons/gr";
+// import { GrBusinessService } from "react-icons/gr";
 
-
+import { FaServicestack } from "react-icons/fa";
 
 import { TiWorld } from "react-icons/ti";
 
@@ -50,7 +50,7 @@ function Footer() {
                                     <span className='text-gray-600 p-1 rounded-full bg-slate-200 group-hover:bg-slate-400 duration-300 group-hover:text-white text-2xl'><RxAvatar /></span><span className='group-hover:text-white duration-300'>Client Protal</span>
                                 </button>
                                 <a href='https://my.hostflu.com/index.php/store/shared-hosting' target='_blank' rel='noreferrer' className='flex items-center gap-1 p-2 border rounded-md hover:bg-slate-400 duration-300 group bg-slate-200'>
-                                    <span className='text-gray-600 bg-slate-200 p-1 rounded-full group-hover:bg-slate-400 duration-300 group-hover:text-white text-2xl'><GrBusinessService /></span><span className='group-hover:text-white duration-300'>Know More Service</span>
+                                    <span className='text-gray-600 bg-slate-200 p-1 rounded-full group-hover:bg-slate-400 duration-300 group-hover:text-white text-2xl'><FaServicestack /></span><span className='group-hover:text-white duration-300'>Know More Service</span>
                                 </a>
                                 {/* <button className='flex items-center gap-1 p-2 border rounded-md hover:bg-slate-400 duration-300 group bg-slate-200'>
                                     <span className='text-gray-600 p-1 rounded-full group-hover:bg-slate-400 bg-slate-200 duration-300 group-hover:text-white text-2xl'><RxAvatar /></span><span className='group-hover:text-white duration-300'>Dashboard Login</span>
