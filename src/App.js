@@ -40,7 +40,7 @@ import ByTenGbps from "./components/byOptions/ByTenGbps";
 import { HelmetProvider } from "react-helmet-async";
 import ViewLocationMap from "./components/googleMap/ViewLocationMap";
 import ContactUs from "./components/contactUs/ContactUs";
-import { MessengerCustomerChat } from 'react-messenger-customer-chat';
+import FacebookCustomMsg from "./components/FacebookCustomMsg/FacebookCusmotMsg";
 function App() {
   // for aos animation
   React.useEffect(() => {
@@ -48,15 +48,6 @@ function App() {
       duration: "2000"
     });
   }, [])
-
-  // eslint-disable-next-line valid-typeof
-  typeof window !== 'undefiend' && (
-    <MessengerCustomerChat
-      pageId="<PAGE_ID>"
-      appId="<APP_ID>"
-      htmlRef="chatContainer"
-    />
-  );
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -99,8 +90,8 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
-        <div id="chatContainer" className='fixed bottom-5 right-5'>
-        </div>
+        {/* facebook custom chate */}
+        <FacebookCustomMsg />
       </HelmetProvider>
       <Footer></Footer>
     </BrowserRouter>

@@ -12,7 +12,6 @@ import Testimonial from '../aboutUs/Testimonila'
 import { Helmet } from 'react-helmet-async'
 
 function Home() {
-
     return (
         <>
             <Helmet>
@@ -28,7 +27,6 @@ function Home() {
                 <MapGlobal></MapGlobal>
                 <Faq></Faq>
                 <Testimonial></Testimonial>
-
             </main>
         </>
     )
