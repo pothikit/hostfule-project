@@ -22,7 +22,7 @@ export const Navbar = ({ setBar, bar }) => {
         setBar(!bar)
     }
     return (
-        <ul className='flex flex-col md:flex-row gap-1 lg:gap-14 md:items-center space-y-5 md:space-y-0'>
+        <ul className='flex flex-col lg:flex-row gap-1 lg:gap-14 lg:items-center space-y-5 lg:space-y-0'>
             {/* webhosting with dorpdown */}
             <li className='flex flex-col md:flex-row items-start md:items-center gap-2 font-bold text-base group relative' onClick={(e) => handleNav(e, 1)}>
                 {/* webhosting */}
